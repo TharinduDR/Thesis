@@ -1,0 +1,72 @@
+\documentclass[12pt,a4paper,twoside,openright]{report}
+\usepackage{thesis}
+
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage{booktabs}  % See: http://texdoc.net/texmf-dist/doc/latex/booktabs/booktabs.pdf
+\usepackage{todonotes} % Used for inserting comments inline or in the margins.
+
+%%% Add any other packages you need to use here.
+\usepackage{float}
+
+% Tango imports the listings package and defines a style for syntax
+% highlighting. We also need to tell listings which programming
+% languages to load.
+\include{tango}
+\lstloadlanguages{Python,[LaTeX]TeX}
+
+\makeatletter
+\@addtoreset{chapter}{part}
+
+%%% Set up the title page of the thesis.
+
+\setuphyperref{Deep learning based Semantic Textual Similarity Metric for Applications in machine translation domain} {Tharindu Ranasinghe}
+
+\begin{document}
+
+%%% \thesistitle ends the preamble.
+% Thesis title, author and name.
+\thesistitle{Deep learning based Semantic Textual Similarity for Applications in Machine Translation Domain} {Tharindu Ranasinghe} {2021}
+
+%%% End of preamble.
+
+% Thesis abstract.
+\include{abstract}
+
+% Acknowledgements.
+\include{ack}
+
+% Automatically generated tables.
+\include{contents}
+\include{tables}
+\include{figures}
+\include{listings}
+
+\pagenumbering{arabic}\setcounter{page}{1}
+\pagestyle{fancy}
+
+
+% Your own thesis chapters go here.
+\part{Semantic Textual Similarity}
+\include{chapters/semantic_textual_similarity/introduction}
+\include{chapters/semantic_textual_similarity/state_of_the_art}
+\include{chapters/semantic_textual_similarity/sentence_encoders}
+\include{chapters/semantic_textual_similarity/siamese_neural_networks}
+\include{chapters/semantic_textual_similarity/transformers}
+
+\part{Applications - Translation Memories}
+\include{chapters/translation_memories/introduction}
+\include{chapters/translation_memories/sentence_encoders}
+
+\part{Applications - Translation Quality Estimation}
+\include{chapters/translation_quality_estimation/introduction}
+\include{chapters/translation_quality_estimation/transquest}
+
+
+% Bibliography.
+\include{bib}
+
+% Appendix.
+\appendix
+
+\end{document}

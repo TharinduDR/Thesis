@@ -1,0 +1,38 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  18 AUG 2020 12:31
+entering extended mode
+**./bib.tex
+(bib.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18>
+! Undefined control sequence.
+l.4 \singlespace
+                {\bibliography{refs/semantic_textual_similarity/introduction,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\bibdata{refs/semantic_textual_similarity/introduction,refs/semantic_textual_si
+milarity/state_of_the_art,refs/semantic_textual_similarity/siamese_neural_netwo
+rks,refs/semantic_textual_similarity/sentence_encoders,refs/semantic_textual_si
+milarity/transformers,refs/translation_memories/introduction,refs/translation_m
+emories/sentence_encoders,refs/translation_quality_estimation/introduction,refs
+/translation_quality_estimation/transquest}
+No file bib.bbl.
+)
+! Emergency stop.
+<*> ./bib.tex
+             
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 20 strings out of 480790
+ 542 string characters out of 2897770
+ 238890 words of memory out of 3000000
+ 16131 multiletter control sequences out of 15000+200000
+ 532338 words of font info for 24 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 12i,0n,15p,138b,17s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,104 @@
+\begin{thebibliography}{10}
+
+\bibitem{cer-etal-2017-semeval}
+Daniel Cer, Mona Diab, Eneko Agirre, I{\~n}igo Lopez-Gazpio, and Lucia Specia.
+\newblock {S}em{E}val-2017 task 1: Semantic textual similarity multilingual and
+  crosslingual focused evaluation.
+\newblock In {\em Proceedings of the 11th International Workshop on Semantic
+  Evaluation ({S}em{E}val-2017)}, pages 1--14, Vancouver, Canada, August 2017.
+  Association for Computational Linguistics.
+
+\bibitem{marelli-etal-2014-semeval}
+Marco Marelli, Luisa Bentivogli, Marco Baroni, Raffaella Bernardi, Stefano
+  Menini, and Roberto Zamparelli.
+\newblock {S}em{E}val-2014 task 1: Evaluation of compositional distributional
+  semantic models on full sentences through semantic relatedness and textual
+  entailment.
+\newblock In {\em Proceedings of the 8th International Workshop on Semantic
+  Evaluation ({S}em{E}val 2014)}, pages 1--8, Dublin, Ireland, August 2014.
+  Association for Computational Linguistics.
+
+\bibitem{rashtchian-etal-2010-collecting}
+Cyrus Rashtchian, Peter Young, Micah Hodosh, and Julia Hockenmaier.
+\newblock Collecting image annotations using {A}mazon{'}s mechanical turk.
+\newblock In {\em Proceedings of the {NAACL} {HLT} 2010 Workshop on Creating
+  Speech and Language Data with {A}mazon{'}s Mechanical Turk}, pages 139--147,
+  Los Angeles, June 2010. Association for Computational Linguistics.
+
+\bibitem{agirre-etal-2012-semeval}
+Eneko Agirre, Daniel Cer, Mona Diab, and Aitor Gonzalez-Agirre.
+\newblock {S}em{E}val-2012 task 6: A pilot on semantic textual similarity.
+\newblock In {\em *{SEM} 2012: The First Joint Conference on Lexical and
+  Computational Semantics {--} Volume 1: Proceedings of the main conference and
+  the shared task, and Volume 2: Proceedings of the Sixth International
+  Workshop on Semantic Evaluation ({S}em{E}val 2012)}, pages 385--393,
+  Montr{\'e}al, Canada, 7-8 June 2012. Association for Computational
+  Linguistics.
+
+\bibitem{ranasinghe-etal-2019-enhancing}
+Tharindu Ranasinghe, Constantin Orasan, and Ruslan Mitkov.
+\newblock Enhancing unsupervised sentence similarity methods with deep
+  contextualised word representations.
+\newblock In {\em Proceedings of the International Conference on Recent
+  Advances in Natural Language Processing (RANLP 2019)}, pages 994--1003,
+  Varna, Bulgaria, September 2019. INCOMA Ltd.
+
+\bibitem{conneau-EtAl:2017:EMNLP2017}
+Alexis Conneau, Douwe Kiela, Holger Schwenk, Lo\"{i}c Barrault, and Antoine
+  Bordes.
+\newblock Supervised learning of universal sentence representations from
+  natural language inference data.
+\newblock In {\em Proceedings of the 2017 Conference on Empirical Methods in
+  Natural Language Processing}, pages 670--680, Copenhagen, Denmark, September
+  2017. Association for Computational Linguistics.
+
+\bibitem{ranasinghe-etal-2019-semantic}
+Tharindu Ranasinghe, Constantin Orasan, and Ruslan Mitkov.
+\newblock Semantic textual similarity with {S}iamese neural networks.
+\newblock In {\em Proceedings of the International Conference on Recent
+  Advances in Natural Language Processing (RANLP 2019)}, pages 1004--1011,
+  Varna, Bulgaria, September 2019. INCOMA Ltd.
+
+\bibitem{devlin-etal-2019-bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock {BERT}: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock In {\em Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers)}, pages 4171--4186,
+  Minneapolis, Minnesota, June 2019. Association for Computational Linguistics.
+
+\bibitem{Arthern1979}
+Peter~J. Arthern.
+\newblock Machine translation and computerized terminology systems: A
+  translator’s viewpoint.
+\newblock {\em Translating and the Computer, Proceedings of a Seminar, London
+  14th November 1978. Amsterdam: North-Holland Publishing Company}, pages
+  77--108, 1979.
+
+\bibitem{ranasinghe-etal-2020-intelligent}
+Tharindu Ranasinghe, Constantin Orasan, and Ruslan Mitkov.
+\newblock Intelligent translation memory matching and retrieval with sentence
+  encoders.
+\newblock In {\em Proceedings of the 22nd Annual Conference of the European
+  Association for Machine Translation}, pages 175--184, Lisboa, Portugal,
+  November 2020. European Association for Machine Translation.
+
+\bibitem{kepler-etal-2019-openkiwi}
+Fabio Kepler, Jonay Tr{\'e}nous, Marcos Treviso, Miguel Vera, and Andr{\'e}
+  F.~T. Martins.
+\newblock {O}pen{K}iwi: An open source framework for quality estimation.
+\newblock In {\em Proceedings of the 57th Annual Meeting of the Association for
+  Computational Linguistics: System Demonstrations}, pages 117--122, Florence,
+  Italy, July 2019. Association for Computational Linguistics.
+
+\bibitem{conneau-etal-2020-unsupervised}
+Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume
+  Wenzek, Francisco Guzm{\'a}n, Edouard Grave, Myle Ott, Luke Zettlemoyer, and
+  Veselin Stoyanov.
+\newblock Unsupervised cross-lingual representation learning at scale.
+\newblock In {\em Proceedings of the 58th Annual Meeting of the Association for
+  Computational Linguistics}, pages 8440--8451, Online, July 2020. Association
+  for Computational Linguistics.
+
+\end{thebibliography}
