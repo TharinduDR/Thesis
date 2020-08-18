@@ -1,13 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{cer-etal-2017-semeval}
-Daniel Cer, Mona Diab, Eneko Agirre, I{\~n}igo Lopez-Gazpio, and Lucia Specia.
-\newblock {S}em{E}val-2017 task 1: Semantic textual similarity multilingual and
-  crosslingual focused evaluation.
-\newblock In {\em Proceedings of the 11th International Workshop on Semantic
-  Evaluation ({S}em{E}val-2017)}, pages 1--14, Vancouver, Canada, August 2017.
-  Association for Computational Linguistics.
-
 \bibitem{marelli-etal-2014-semeval}
 Marco Marelli, Luisa Bentivogli, Marco Baroni, Raffaella Bernardi, Stefano
   Menini, and Roberto Zamparelli.
@@ -34,6 +26,14 @@ Eneko Agirre, Daniel Cer, Mona Diab, and Aitor Gonzalez-Agirre.
   Workshop on Semantic Evaluation ({S}em{E}val 2012)}, pages 385--393,
   Montr{\'e}al, Canada, 7-8 June 2012. Association for Computational
   Linguistics.
+
+\bibitem{cer-etal-2017-semeval}
+Daniel Cer, Mona Diab, Eneko Agirre, I{\~n}igo Lopez-Gazpio, and Lucia Specia.
+\newblock {S}em{E}val-2017 task 1: Semantic textual similarity multilingual and
+  crosslingual focused evaluation.
+\newblock In {\em Proceedings of the 11th International Workshop on Semantic
+  Evaluation ({S}em{E}val-2017)}, pages 1--14, Vancouver, Canada, August 2017.
+  Association for Computational Linguistics.
 
 \bibitem{ranasinghe-etal-2019-enhancing}
 Tharindu Ranasinghe, Constantin Orasan, and Ruslan Mitkov.

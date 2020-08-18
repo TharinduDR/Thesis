@@ -2,7 +2,7 @@
 
 
 \section{What is Semantic Textual Similarity?}
-\cite{cer-etal-2017-semeval} 
+
 \section{Related Work}
 
 \section{Datasets}
@@ -10,10 +10,46 @@ We experimented with several datasets throughout the experiments in the Semantic
 
 \subsection{English Datasets}
 \begin{enumerate}
-  \item \textbf{SICK dataset} - The SICK data contains 9927 sentence pairs with a 5,000/4,927 training/test split which were employed in the SemEval 2014 Task1: Evaluation of Compositional Distributional Semantic Models on Full Sentences through Semantic Relatedness and Textual Entailment \cite{marelli-etal-2014-semeval}. The dataset has two types of annotations: Semantic Relatedness and Textual Entailment. We only use Semantic Relatedness annotations in our research. SICK was built starting from two existing datasets: the 8K ImageFlickr data set \footnote{The 8K ImageFlickr data set is available at \url{http://hockenmaier.cs.illinois.edu/8k-pictures.html}} \cite{rashtchian-etal-2010-collecting} and the SemEval-2012 STS MSR-Video Descriptions dataset \footnote{The SemEval-2012 STS MSR-Video Descriptions dataset is available at \url{https://www.cs.york.ac.uk/semeval-2012/task6/index.html}} \cite{agirre-etal-2012-semeval}. The 8K ImageFlickr dataset is a dataset of images, where each image is associated with five descriptions. To derive SICK sentence pairs the organisers randomly selected 750 images and sampled two descriptions from each of them. The SemEval2012 STS MSR-Video Descriptions data set is a collection of sentence pairs sampled from the short video snippets which compose the Microsoft Research Video Description Corpus \footnote{The Microsoft Research Video Description Corpus is available to download at \url{https://research.microsoft.com/en-us/downloads/38cf15fd-b8df-477e-a4e4-a4680caa75af/}}. A subset of 750 sentence pairs were randomly chosen from this data set to be used in SICK. 
+  \item \textbf{SICK dataset} \footnote{The SICK dataset is available to download at \url{https://wiki.cimec.unitn.it/tiki-index.php?page=CLIC}} - The SICK data contains 9927 sentence pairs with a 5,000/4,927 training/test split which were employed in the SemEval 2014 Task1: Evaluation of Compositional Distributional Semantic Models on Full Sentences through Semantic Relatedness and Textual Entailment \cite{marelli-etal-2014-semeval}. The dataset has two types of annotations: Semantic Relatedness and Textual Entailment. We only use Semantic Relatedness annotations in our research. SICK was built starting from two existing datasets: the 8K ImageFlickr data set \footnote{The 8K ImageFlickr data set is available at \url{http://hockenmaier.cs.illinois.edu/8k-pictures.html}} \cite{rashtchian-etal-2010-collecting} and the SemEval-2012 STS MSR-Video Descriptions dataset \footnote{The SemEval-2012 STS MSR-Video Descriptions dataset is available at \url{https://www.cs.york.ac.uk/semeval-2012/task6/index.html}} \cite{agirre-etal-2012-semeval}. The 8K ImageFlickr dataset is a dataset of images, where each image is associated with five descriptions. To derive SICK sentence pairs the organisers randomly selected 750 images and sampled two descriptions from each of them. The SemEval2012 STS MSR-Video Descriptions data set is a collection of sentence pairs sampled from the short video snippets which compose the Microsoft Research Video Description Corpus \footnote{The Microsoft Research Video Description Corpus is available to download at \url{https://research.microsoft.com/en-us/downloads/38cf15fd-b8df-477e-a4e4-a4680caa75af/}}. A subset of 750 sentence pairs have been randomly chosen from this data set to be used in SICK. 
   
-  In order to generate SICK data from the 1,500 sentence pairs taken from the source data sets, a 3-step process was applied to each sentence composing the pair, namely (i) normalisation, (ii) expansion and (iii) pairing \cite{marelli-etal-2014-semeval}. In normalisation 
+  In order to generate SICK data from the 1,500 sentence pairs taken from the source data sets, a 3-step process has been applied to each sentence composing the pair, namely \textit{(i) normalisation, (ii) expansion and (iii) pairing} \cite{marelli-etal-2014-semeval}. The \textit{normalisation} step has been carried out on the original sentences to exclude or simplify instances that contained lexical, syntactic or semantic phenomena such as named entities, dates, numbers, multiword expressions etc. In the \textit{expansion} step syntactic and lexical transformations with predictable effects have been applied to each normalized sentence, in
+  order to obtain \textit{(i)} a sentence with a similar meaning, \textit{(ii)} a sentence with a logically contradictory or at least highly contrasting meaning, and \textit{(iii)} a sentence that contains most of the same lexical items, but has a different meaning. Finally, in the \textit{pairing} step each normalised sentence in the pair has been combined with all the sentences resulting from the expansion phase and with the other normalised sentence in the pair. Furthermore, a number of pairs composed of completely unrelated sentences have been added to the data set by randomly taking two sentences from two different pairs \cite{marelli-etal-2014-semeval}. 
   
+  Each pair in the SICK dataset has been annotated to mark the degree to which the two sentence meanings are related (on a 5-point scale). The ratings 
+  have been collected through a large crowdsourcing study, where each pair 
+  has been evaluated by 10 different annotators. Once all the annotations were collected, the relatedness gold score has been computed for each pair as the average of the ten ratings assigned by the annotators \cite{marelli-etal-2014-semeval}. Table \ref{tab:sickdata} shows examples of sentence pairs with different degrees of semantic relatedness; gold relatedness scores are expressed on a 5-point rating scale.
+  
+  \begin{table}[ht!]
+  	\centering 	
+  	\begin{tabularx}{\textwidth}{l|c} 
+  		\hline
+  		\multicolumn{1}{c|}{\textbf{Sentence Pair}} & 
+  		\multicolumn{1}{c}{\textbf{Relatedness}}  \\
+  		\hline
+  		\makecell[l]
+  		{1. A little girl is looking at a woman in costume. \\ 
+  		 2. A young girl is looking at a woman in costume.} & 4.7  \\
+  		\hline
+  			\makecell[l]
+  		{1. Nobody is pouring ingredients into a pot. \\ 
+  			2. Someone is pouring ingredients into a pot. } & 3.5  \\
+  		\hline
+  		\makecell[l]
+  		{1. Someone is pouring ingredients into a pot. \\ 
+  		 2. A man is removing vegetables from a pot. } & 2.8  \\
+  		\hline
+  		\makecell[l]
+  		{1. A man is jumping into an empty pool. \\ 
+  		 2. There is no biker jumping in the air. } & 1.6  \\
+  		\hline               
+  	\end{tabularx}
+  	\caption[Example sentence pairs from the SICK dataset]{Example sentence pairs from the SICK dataset with their gold relatedness scores (on a 5-point rating scale).}
+  	\label{tab:sickdata}
+  \end{table}
+
+ \item \textbf{STS 2017 English Dataset} \footnote{The STS 2017 English Dataset is available to download at \url{http://ixa2.si.ehu.es/stswiki/}} STS 2017 English Dataset was employed in SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation which is the most recent STS task in SemEval \cite{cer-etal-2017-semeval}.
+  
+ \item \textbf{Quora Question Pairs} \footnote{The Quora Question Pairs Dataset is available to download at \url{http://qim.fs.quoracdn.net/quora_duplicate_questions.tsv}}
  
   
 \end{enumerate}

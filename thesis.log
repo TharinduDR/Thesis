@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  18 AUG 2020 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  18 AUG 2020 20:11
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -585,28 +585,44 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \c@@todonotes@numberoftodonotes=\count290
 )
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen269
+\c@nlinenum=\count291
+\TeXr@lab=\toks48
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen270
+\TX@old@table=\dimen271
+\TX@old@col=\dimen272
+\TX@target=\dimen273
+\TX@delta=\dimen274
+\TX@cols=\count292
+\TX@ftn=\toks49
+)
 \@input{tango.aux}
 \openout2 = `tango.aux'.
 
 (tango.tex
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count291
+\lst@mode=\count293
 \lst@gtempboxa=\box62
-\lst@token=\toks48
-\lst@length=\count292
-\lst@currlwidth=\dimen269
-\lst@column=\count293
-\lst@pos=\count294
-\lst@lostspace=\dimen270
-\lst@width=\dimen271
-\lst@newlines=\count295
-\lst@lineno=\count296
-\lst@maxwidth=\dimen272
+\lst@token=\toks50
+\lst@length=\count294
+\lst@currlwidth=\dimen275
+\lst@column=\count295
+\lst@pos=\count296
+\lst@lostspace=\dimen276
+\lst@width=\dimen277
+\lst@newlines=\count297
+\lst@lineno=\count298
+\lst@maxwidth=\dimen278
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count297
-\lst@skipnumbers=\count298
+\c@lstnumber=\count299
+\lst@skipnumbers=\count300
 \lst@framebox=\box63
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
@@ -667,9 +683,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen273
-\Hy@linkcounter=\count299
-\Hy@pagecounter=\count300
+\@linkdim=\dimen279
+\Hy@linkcounter=\count301
+\Hy@pagecounter=\count302
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -681,7 +697,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count301
+\Hy@SavedSpaceFactor=\count303
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
 Package hyperref Info: Hyper index ON on input line 4472.
@@ -689,9 +705,9 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count302
+\c@Hy@tempcnt=\count304
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen274
+\XeTeXLinkMargin=\dimen280
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
@@ -700,9 +716,9 @@ sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count303
-\Field@Width=\dimen275
-\Fld@charsize=\dimen276
+\Fld@menulength=\count305
+\Field@Width=\dimen281
+\Fld@charsize=\dimen282
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -716,9 +732,9 @@ LaTeX Info: Redefining \pageref on input line 6421.
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/atbegshi\atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count304
-\c@Item=\count305
-\c@Hfootnote=\count306
+\Hy@abspage=\count306
+\c@Item=\count307
+\c@Hfootnote=\count308
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -728,8 +744,8 @@ File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count307
-\c@bookmark@seq@number=\count308
+\Fld@listcount=\count309
+\c@bookmark@seq@number=\count310
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
 check.sty
@@ -746,19 +762,19 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 23.
+(hyperref)                setting the option has no effect on input line 25.
 
-Package hyperref Info: Option `unicode' set `false' on input line 23.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 23.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 23.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 23.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 23.
-Package hyperref Info: Option `colorlinks' set `true' on input line 23.
+Package hyperref Info: Option `unicode' set `false' on input line 25.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 25.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 25.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 25.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 25.
+Package hyperref Info: Option `colorlinks' set `true' on input line 25.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfm
 ode.def
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count309
+\l__kernel_color_stack_int=\count311
 \l__pdf_internal_box=\box64
 ) (thesis.aux (abstract.aux) (ack.aux) (contents.aux) (tables.aux)
 (figures.aux) (listings.aux)
@@ -773,37 +789,37 @@ File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 (chapters/translation_quality_estimation/transquest.aux) (bib.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count310
-\scratchdimen=\dimen277
+\scratchcounter=\count312
+\scratchdimen=\dimen283
 \scratchbox=\box65
-\nofMPsegments=\count311
-\nofMParguments=\count312
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count313
-\MPscratchDim=\dimen278
-\MPnumerator=\count314
-\makeMPintoPDFobject=\count315
-\everyMPtoPDFconversion=\toks50
+\nofMPsegments=\count313
+\nofMParguments=\count314
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count315
+\MPscratchDim=\dimen284
+\MPnumerator=\count316
+\makeMPintoPDFobject=\count317
+\everyMPtoPDFconversion=\toks52
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
 se.sty
@@ -811,9 +827,9 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 ) ABD: EveryShipout initializing macros
-\c@lstlisting=\count316
+\c@lstlisting=\count318
 \AtBeginShipoutBox=\box66
-Package hyperref Info: Link coloring ON on input line 25.
+Package hyperref Info: Link coloring ON on input line 27.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -825,11 +841,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 estring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count317
+\c@section@level=\count319
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
  (thesis.out) (thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
@@ -957,7 +973,7 @@ Overfull \hbox (1.19734pt too wide) in paragraph at lines 13--14
 
 
 
-])
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
@@ -965,11 +981,16 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [4]
+Underfull \hbox (badness 10000) in alignment at lines 45--45
+[][] 
+ []
+
+[5]) [6]
 \openout2 = `chapters/semantic_textual_similarity/state_of_the_art.aux'.
 
  (chapters/semantic_textual_similarity/state_of_the_art.tex
 Chapter 2.
-) [5
+) [7
 
 
 
@@ -977,18 +998,18 @@ Chapter 2.
 ]
 \openout2 = `chapters/semantic_textual_similarity/sentence_encoders.aux'.
 
- (chapters/semantic_textual_similarity/sentence_encoders.tex [6
+ (chapters/semantic_textual_similarity/sentence_encoders.tex [8
 
 
 
 
 ]
 Chapter 3.
-) [7]
+) [9]
 \openout2 = `chapters/semantic_textual_similarity/siamese_neural_networks.aux'.
 
  (chapters/semantic_textual_similarity/siamese_neural_networks.tex
-[8
+[10
 
 
 
@@ -1000,21 +1021,21 @@ Overfull \hbox (4.2879pt too wide) in paragraph at lines 7--7
 []\OT1/cmr/bx/n/17.28 MAGRU: Im-prov-ing Siamese Neu-ral Net-
  []
 
-) [9]
+) [11]
 \openout2 = `chapters/semantic_textual_similarity/transformers.aux'.
 
- (chapters/semantic_textual_similarity/transformers.tex [10
+ (chapters/semantic_textual_similarity/transformers.tex [12
 
 
 
 
 ]
 Chapter 5.
-) [11] [12
+) [13] [14
 
 
 
-] [13] [14]
+] [15] [16]
 \openout2 = `chapters/translation_memories/introduction.aux'.
 
  (chapters/translation_memories/introduction.texpdfTeX warning (ext4): destinat
@@ -1046,7 +1067,7 @@ tifier (name{section.1.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.9 \section{STS for Translation Memories}
-                                          ) [15
+                                          ) [17
 
 
 
@@ -1054,7 +1075,7 @@ l.9 \section{STS for Translation Memories}
 \openout2 = `chapters/translation_memories/sentence_encoders.aux'.
 
 
-(chapters/translation_memories/sentence_encoders.tex [16
+(chapters/translation_memories/sentence_encoders.tex [18
 
 
 
@@ -1081,11 +1102,11 @@ ifier (name{section.2.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.8 \section{Results and Evaluation}
-                                    ) [17] [18
+                                    ) [19] [20
 
 
 
-] [19] [20]
+] [21] [22]
 \openout2 = `chapters/translation_quality_estimation/introduction.aux'.
 
 
@@ -1118,7 +1139,7 @@ tifier (name{section.1.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.9 ...ion{STS for Translation Quality Estimation}
-                                                  ) [21
+                                                  ) [23
 
 
 
@@ -1126,7 +1147,7 @@ l.9 ...ion{STS for Translation Quality Estimation}
 \openout2 = `chapters/translation_quality_estimation/transquest.aux'.
 
 
-(chapters/translation_quality_estimation/transquest.tex [22
+(chapters/translation_quality_estimation/transquest.tex [24
 
 
 
@@ -1153,21 +1174,18 @@ ifier (name{section.2.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.7 \section{Results and Evaluation}
-                                    ) [23]
+                                    ) [25]
 \openout2 = `bib.aux'.
 
- (bib.tex (thesis.bbl [24
+ (bib.tex (thesis.bbl [26
 
 
 
 
-]
-Underfull \vbox (badness 1509) has occurred while \output is active []
-
- [25]
-[26] [27])) [28]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
+] [27]
+[28] [29])) [30]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  (thesis.aux (abstract.aux) (ack.aux) (contents.aux)
 (tables.aux) (figures.aux) (listings.aux)
 (chapters/semantic_textual_similarity/introduction.aux)
@@ -1179,20 +1197,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
 (chapters/translation_memories/sentence_encoders.aux)
 (chapters/translation_quality_estimation/introduction.aux)
 (chapters/translation_quality_estimation/transquest.aux) (bib.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 68393A4EB7BA186E1EBA0DF53AAC33A7;4060.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 19483 strings out of 480790
- 371588 string characters out of 2897770
- 701910 words of memory out of 3000000
- 34843 multiletter control sequences out of 15000+200000
+ 19689 strings out of 480790
+ 373908 string characters out of 2897770
+ 706722 words of memory out of 3000000
+ 35035 multiletter control sequences out of 15000+200000
  543029 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,83p,1727b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,17n,83p,1847b,448s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmcsc10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/pub
@@ -1203,9 +1221,9 @@ KTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ASUS/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ASUS/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/ASUS/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (43 pages, 217414 bytes).
+Output written on thesis.pdf (45 pages, 228675 bytes).
 PDF statistics:
- 603 PDF objects out of 1000 (max. 8388607)
- 105 named destinations out of 1000 (max. 500000)
+ 631 PDF objects out of 1000 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
  597 words of extra memory for PDF output out of 10000 (max. 10000000)
 
