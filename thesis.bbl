@@ -35,6 +35,48 @@ Daniel Cer, Mona Diab, Eneko Agirre, I{\~n}igo Lopez-Gazpio, and Lucia Specia.
   Evaluation ({S}em{E}val-2017)}, pages 1--14, Vancouver, Canada, August 2017.
   Association for Computational Linguistics.
 
+\bibitem{agirre-etal-2013-sem}
+Eneko Agirre, Daniel Cer, Mona Diab, Aitor Gonzalez-Agirre, and Weiwei Guo.
+\newblock *{SEM} 2013 shared task: Semantic textual similarity.
+\newblock In {\em Second Joint Conference on Lexical and Computational
+  Semantics (*{SEM}), Volume 1: Proceedings of the Main Conference and the
+  Shared Task: Semantic Textual Similarity}, pages 32--43, Atlanta, Georgia,
+  USA, June 2013. Association for Computational Linguistics.
+
+\bibitem{agirre-etal-2014-semeval}
+Eneko Agirre, Carmen Banea, Claire Cardie, Daniel Cer, Mona Diab, Aitor
+  Gonzalez-Agirre, Weiwei Guo, Rada Mihalcea, German Rigau, and Janyce Wiebe.
+\newblock {S}em{E}val-2014 task 10: Multilingual semantic textual similarity.
+\newblock In {\em Proceedings of the 8th International Workshop on Semantic
+  Evaluation ({S}em{E}val 2014)}, pages 81--91, Dublin, Ireland, August 2014.
+  Association for Computational Linguistics.
+
+\bibitem{agirre-etal-2015-semeval}
+Eneko Agirre, Carmen Banea, Claire Cardie, Daniel Cer, Mona Diab, Aitor
+  Gonzalez-Agirre, Weiwei Guo, I{\~n}igo Lopez-Gazpio, Montse Maritxalar, Rada
+  Mihalcea, German Rigau, Larraitz Uria, and Janyce Wiebe.
+\newblock {S}em{E}val-2015 task 2: Semantic textual similarity, {E}nglish,
+  {S}panish and pilot on interpretability.
+\newblock In {\em Proceedings of the 9th International Workshop on Semantic
+  Evaluation ({S}em{E}val 2015)}, pages 252--263, Denver, Colorado, June 2015.
+  Association for Computational Linguistics.
+
+\bibitem{agirre-etal-2016-semeval}
+Eneko Agirre, Carmen Banea, Daniel Cer, Mona Diab, Aitor Gonzalez-Agirre, Rada
+  Mihalcea, German Rigau, and Janyce Wiebe.
+\newblock {S}em{E}val-2016 task 1: Semantic textual similarity, monolingual and
+  cross-lingual evaluation.
+\newblock In {\em Proceedings of the 10th International Workshop on Semantic
+  Evaluation ({S}em{E}val-2016)}, pages 497--511, San Diego, California, June
+  2016. Association for Computational Linguistics.
+
+\bibitem{bowman-etal-2015-large}
+Samuel~R. Bowman, Gabor Angeli, Christopher Potts, and Christopher~D. Manning.
+\newblock A large annotated corpus for learning natural language inference.
+\newblock In {\em Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing}, pages 632--642, Lisbon, Portugal, September
+  2015. Association for Computational Linguistics.
+
 \bibitem{ranasinghe-etal-2019-enhancing}
 Tharindu Ranasinghe, Constantin Orasan, and Ruslan Mitkov.
 \newblock Enhancing unsupervised sentence similarity methods with deep

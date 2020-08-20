@@ -6,7 +6,7 @@
 \section{Related Work}
 
 \section{Datasets}
-We experimented with several datasets throughout the experiments in the Semantic Textual Similarity Section. In order to maintain the versatility of our methods we experimented with several English datasets as well as several non English datasets and several datasets from different domains which we will introduce in this section.
+We experimented with several datasets throughout the experiments in the Semantic Textual Similarity Section. In order to maintain the versatility of our methods we experimented with several English datasets as well as several non English datasets and several datasets from different domains which we will introduce in this section. All of the datasets which are described here re publicly available and can be considered as STS benchmarks. 
 
 \subsection{English Datasets}
 \begin{enumerate}
@@ -17,11 +17,11 @@ We experimented with several datasets throughout the experiments in the Semantic
   
   Each pair in the SICK dataset has been annotated to mark the degree to which the two sentence meanings are related (on a 5-point scale). The ratings 
   have been collected through a large crowdsourcing study, where each pair 
-  has been evaluated by 10 different annotators. Once all the annotations were collected, the relatedness gold score has been computed for each pair as the average of the ten ratings assigned by the annotators \cite{marelli-etal-2014-semeval}. Table \ref{tab:sickdata} shows examples of sentence pairs with different degrees of semantic relatedness; gold relatedness scores are expressed on a 5-point rating scale.
+  has been evaluated by 10 different annotators. Once all the annotations were collected, the relatedness gold score has been computed for each pair as the average of the ten ratings assigned by the annotators \cite{marelli-etal-2014-semeval}. Table \ref{tab:sickdata} shows examples of sentence pairs with different degrees of semantic relatedness; gold relatedness scores are expressed on a 5-point rating scale. Given a test sentence pair the machine learning models require to predict a value between 0-5 which reflects the relatedness of the given sentence pair. 
   
   \begin{table}[ht!]
   	\centering 	
-  	\begin{tabularx}{\textwidth}{l|c} 
+  	\begin{tabular}{l|c} 
   		\hline
   		\multicolumn{1}{c|}{\textbf{Sentence Pair}} & 
   		\multicolumn{1}{c}{\textbf{Relatedness}}  \\
@@ -42,16 +42,116 @@ We experimented with several datasets throughout the experiments in the Semantic
   		{1. A man is jumping into an empty pool. \\ 
   		 2. There is no biker jumping in the air. } & 1.6  \\
   		\hline               
-  	\end{tabularx}
+  	\end{tabular}
   	\caption[Example sentence pairs from the SICK dataset]{Example sentence pairs from the SICK dataset with their gold relatedness scores (on a 5-point rating scale).}
   	\label{tab:sickdata}
   \end{table}
 
- \item \textbf{STS 2017 English Dataset} \footnote{The STS 2017 English Dataset is available to download at \url{http://ixa2.si.ehu.es/stswiki/}} STS 2017 English Dataset was employed in SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation which is the most recent STS task in SemEval \cite{cer-etal-2017-semeval}.
+ \item \textbf{STS 2017 English Dataset} \footnote{The STS 2017 English Dataset is available to download at \url{http://ixa2.si.ehu.es/stswiki/}} STS 2017 English Dataset was employed in SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation which is the most recent STS task in SemEval \cite{cer-etal-2017-semeval}. As the training data for the competition, participants were encouraged to make use of all existing data sets from prior STS evaluations including all previously released trial, training and evaluation data from SemEval 2012 - 2016 \cite{agirre-etal-2012-semeval,agirre-etal-2013-sem,agirre-etal-2014-semeval,agirre-etal-2015-semeval,agirre-etal-2016-semeval}. Once combined we had 8277 sentence pairs for training. 
+ 
+ On the other hand, a fresh test set of 250 sentence pairs was provided by SemEval-2017 STS Task organisers \cite{cer-etal-2017-semeval}. The Stanford Natural Language Inference (SNLI) corpus \cite{bowman-etal-2015-large} was the primary data source for this test set. Similar to the SICK dataset, Each pair in the STS 2017 English Test set has been annotated to mark the degree to which the two sentence meanings are related (on a 5-point scale). The ratings have been collected through crowdsourcing on Amazon Mechanical Turk\footnote{Amazon Mechanical Turk is a crowdsourcing website for businesses to hire remotely located \textit{crowd workers} to perform discrete on-demand tasks. It is available at \url{https://www.mturk.com/}}. Five annotations have been collected per pair and gold score has been computed for each pair as the average of the five ratings assigned by the annotators. However, unlike the SICK dataset, the organisers has a clear explanations for the score ranges. Table \ref{tab:sts2017data} shows some example sentence pairs from the dataset with the gold labels and their explanations. Similar to the SICK dataset, the machine learning models require to predict a value between 0-5 which reflects the similarity of the given sentence pair.
+ 
+ 
+   \begin{table}[ht!]
+ 	\centering 	
+ 	\begin{tabular}{l|c} 
+ 		\hline
+ 		\multicolumn{1}{c|}{\textbf{Sentence Pair}} & 
+ 		\multicolumn{1}{c}{\textbf{Relatedness}}  \\
+ 		\hline
+ 		\makecell[l]
+ 		{\textit{The two sentences are completely equivalent}  \\ \textit{as they mean the same thing.} \\
+ 			1. The bird is bathing in the sink. \\ 
+ 			2. Birdie is washing itself in the water basin.} & 5  \\
+ 		\hline
+ 		\makecell[l]
+ 		{\textit{The two sentences are completely equivalent}  \\ \textit{as they mean the same thing.} \\
+ 			1. The bird is bathing in the sink. \\ 
+ 			2. Birdie is washing itself in the water basin.} & 4  \\
+ 		\hline
+ 		\makecell[l]
+ 		{\textit{The two sentences are roughly equivalent, but }  \\ \textit{some important information differs/missing.} \\
+ 			1. John said he is considered a witness but not \\ a suspect. \\ 
+ 			2. “He is not a suspect anymore.” John said.} & 3  \\
+ 		\hline
+ 		\makecell[l]
+ 		{\textit{The two sentences are not equivalent, but share } \\
+ 			\textit{some details.} \\
+ 			1. They flew out of the nest in groups. \\ 
+ 			2. They flew into the nest together.} & 2  \\
+ 		\hline
+ 		\makecell[l]
+ 		{\textit{The two sentences are not equivalent, but are } \\
+ 			\textit{on the same topic.} \\
+ 			1. The woman is playing the violin. \\ 
+ 			2. The young lady enjoys listening to the guitar.} & 1  \\
+ 		\hline
+ 		\makecell[l]
+ 		{\textit{The two sentences are completely dissimilar} \\
+ 			1. The black dog is running through the snow. \\ 
+ 			2. A race car driver is driving his car through \\ the mud.} & 0  \\
+ 		\hline
+ 	
+ 	\end{tabular}
+ 	\caption[Example sentence pairs from the STS2017 English dataset]{Example sentence pairs from the STS2017 English dataset with their gold relatedness scores (on a 5-point rating scale) and explanations.}
+ 	\label{tab:sts2017data}
+ \end{table} 
   
- \item \textbf{Quora Question Pairs} \footnote{The Quora Question Pairs Dataset is available to download at \url{http://qim.fs.quoracdn.net/quora_duplicate_questions.tsv}}
+ \item \textbf{Quora Question Pairs} \footnote{The Quora Question Pairs Dataset is available to download at \url{http://qim.fs.quoracdn.net/quora_duplicate_questions.tsv}} The Quora Question Pairs dataset is a big dataset which was first released for a Kaggle Competition\footnote{Kaggle is an online community of data scientists and machine learning practitioners that hosts machine learning competitions. The Quora Question Pairs competition is available on \url{https://www.kaggle.com/c/quora-question-pairs}}. Quora is a question-and-answer website where questions are asked, answered, followed, and edited by internet users, either factually or in the form of opinions. If a particular new question has been asked before, users merge the new question to the original question flagging it as a duplicate. The organisers used this functionality to create the dataset and did not use a separate annotation process. Their original sampling method has returned an imbalanced dataset with many more true examples of duplicate pairs than non-duplicates. Therefore, the organisers have supplemented the dataset with negative examples. One source of negative examples 
+ have been pairs of \textit{related question} which, although pertaining to similar topics, are not truly semantically equivalent. 
+ 
+ The dataset has 400,000 question pairs and we used 4:1 split on that to separate it into a training set and a test set resulting 320,000 questions pairs in the training set and  80,000 sentence pairs in the testing set. The machine learning models need to predict a value between 0 and 1 that reflects whether it is a duplicate question pair or not. 1 indicates that a certain question pair is a duplicate and 0 indicates it is not a duplicate. 
+ 
+ 
+ 
+    \begin{table}[ht!]
+ 	\centering 	
+ 	\begin{tabular}{l|c} 
+ 		\hline
+ 		\multicolumn{1}{c|}{\textbf{Question Pair}} & 
+ 		\multicolumn{1}{c}{\textbf{\detokenize{is-duplicate}}}  \\
+ 		\hline
+ 		\makecell[l]
+ 		{	1. What are natural numbers? \\ 
+ 			2. What is a least natural number?} & 0  \\
+ 		\hline
+ 		\makecell[l]
+ 		{	1. Which Pizzas are most popularly ordered \\ in Dominos menu? \\ 
+ 			2. How many calories does a Dominos Pizza have?} & 0  \\
+ 		\hline
+ 		\makecell[l]
+ 		{   1. How do you start a bakery? \\ 
+ 			2. How can one start a bakery business?} & 1  \\
+ 		\hline
+ 		\makecell[l]
+ 		{	1. Should I learn Python or Java first? \\ 
+ 			2. If I had to choose between learning \\ Java and Python what should I choose \\ to learn first?} & 1  \\
+ 		\hline
+ 		
+ 	\end{tabular}
+ 	\caption[Example sentence pairs from the Quora Question Pairs dataset]{Example sentence pairs from the Quora Question Pairs dataset with their gold \detokenize{is-duplicate} value.}
+ 	\label{tab:quoradata}
+ \end{table}  
  
   
+This is different to the previous datasets since it is not artificially created and use day to day language. Since it has more than 300,000 training instances deep learning systems will benefit more when used on this dataset. 
+\end{enumerate}
+
+\subsection{Datasets on Other Languages}
+
+\begin{enumerate}
+\item{ \textbf{Spanish STS Dataset}} - 
+	
+\item{ \textbf{Arabic STS Dataset}}	
+\end{enumerate}
+
+
+\subsection{Datasets on Different Domains}
+
+\begin{enumerate}
+	\item{ \textbf{ STS Dataset}} - 
+	
+	\item{ \textbf{Arabic STS Dataset}}	
 \end{enumerate}
 
 \section{Applications}
