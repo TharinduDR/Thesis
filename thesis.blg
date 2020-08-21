@@ -53,44 +53,44 @@ Database file #6: refs/translation_memories/introduction.bib
 Database file #7: refs/translation_memories/sentence_encoders.bib
 Database file #8: refs/translation_quality_estimation/introduction.bib
 Database file #9: refs/translation_quality_estimation/transquest.bib
-You've used 17 entries,
+You've used 19 entries,
             1791 wiz_defined-function locations,
-            580 strings with 10240 characters,
-and the built_in function-call counts, 6948 in all, are:
-= -- 687
-> -- 312
+            596 strings with 10689 characters,
+and the built_in function-call counts, 7472 in all, are:
+= -- 727
+> -- 346
 < -- 17
-+ -- 110
-- -- 93
-* -- 482
-:= -- 973
-add.period$ -- 67
-call.type$ -- 17
-change.case$ -- 17
++ -- 122
+- -- 103
+* -- 534
+:= -- 1061
+add.period$ -- 73
+call.type$ -- 19
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 346
-empty$ -- 597
-format.name$ -- 93
-if$ -- 1668
+cite$ -- 19
+duplicate$ -- 364
+empty$ -- 643
+format.name$ -- 103
+if$ -- 1780
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 17
-newline$ -- 88
-num.names$ -- 17
-pop$ -- 83
+int.to.str$ -- 19
+missing$ -- 19
+newline$ -- 98
+num.names$ -- 19
+pop$ -- 85
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 226
+skip$ -- 232
 stack$ -- 0
-substring$ -- 517
-swap$ -- 162
+substring$ -- 553
+swap$ -- 164
 text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 67
-width$ -- 19
-write$ -- 221
+while$ -- 71
+width$ -- 21
+write$ -- 243

@@ -47,10 +47,56 @@ We experimented with several datasets throughout the experiments in the Semantic
   	\label{tab:sickdata}
   \end{table}
 
- \item \textbf{STS 2017 English Dataset} \footnote{The STS 2017 English Dataset is available to download at \url{http://ixa2.si.ehu.es/stswiki/}} STS 2017 English Dataset was employed in SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation which is the most recent STS task in SemEval \cite{cer-etal-2017-semeval}. As the training data for the competition, participants were encouraged to make use of all existing data sets from prior STS evaluations including all previously released trial, training and evaluation data from SemEval 2012 - 2016 \cite{agirre-etal-2012-semeval,agirre-etal-2013-sem,agirre-etal-2014-semeval,agirre-etal-2015-semeval,agirre-etal-2016-semeval}. Once combined we had 8277 sentence pairs for training. 
+ \item \textbf{STS 2017 English Dataset} \footnote{The STS 2017 English Dataset is available to download at \url{http://ixa2.si.ehu.es/stswiki/}} STS 2017 English Dataset was employed in SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation which is the most recent STS task in SemEval \cite{cer-etal-2017-semeval}. As the training data for the competition, participants were encouraged to make use of all existing data sets from prior STS evaluations including all previously released trial, training and evaluation data from SemEval 2012 - 2016 \cite{agirre-etal-2012-semeval,agirre-etal-2013-sem,agirre-etal-2014-semeval,agirre-etal-2015-semeval,agirre-etal-2016-semeval}. Once combined we had 8277 sentence pairs for training. More information about the datasets used to build the training set is available in Table \ref{tab:englishdata_info}.
  
  On the other hand, a fresh test set of 250 sentence pairs was provided by SemEval-2017 STS Task organisers \cite{cer-etal-2017-semeval}. The Stanford Natural Language Inference (SNLI) corpus \cite{bowman-etal-2015-large} was the primary data source for this test set. Similar to the SICK dataset, Each pair in the STS 2017 English Test set has been annotated to mark the degree to which the two sentence meanings are related (on a 5-point scale). The ratings have been collected through crowdsourcing on Amazon Mechanical Turk\footnote{Amazon Mechanical Turk is a crowdsourcing website for businesses to hire remotely located \textit{crowd workers} to perform discrete on-demand tasks. It is available at \url{https://www.mturk.com/}}. Five annotations have been collected per pair and gold score has been computed for each pair as the average of the five ratings assigned by the annotators. However, unlike the SICK dataset, the organisers has a clear explanations for the score ranges. Table \ref{tab:sts2017data} shows some example sentence pairs from the dataset with the gold labels and their explanations. Similar to the SICK dataset, the machine learning models require to predict a value between 0-5 which reflects the similarity of the given sentence pair.
  
+ \begin{table}[ht!]
+ 	\centering
+ 	\begin{tabular}{c|c|c|l}
+ 		\hline
+ 		\multicolumn{1}{c|}{\textbf{Year}} & 
+ 		\multicolumn{1}{c|}{\textbf{Dataset}} & 
+ 		\multicolumn{1}{c|}{\textbf{Pairs}} & 
+ 		\multicolumn{1}{c}{\textbf{Source}} \\
+ 		\hline
+ 		2012 \cite{agirre-etal-2012-semeval} & MSRpar & 1500 & newswire \\
+ 		2012 \cite{agirre-etal-2012-semeval} & MSRvid & 1500 & videos \\
+ 		2012 \cite{agirre-etal-2012-semeval} & OnWN & 750 & glosses \\
+ 		2012 \cite{agirre-etal-2012-semeval} & SMTnews & 750 & WMT eval. \\
+ 		2012 \cite{agirre-etal-2012-semeval} & SMTeuroparl & 750 & WMT eval. \\
+ 		\hline
+ 		2013 \cite{agirre-etal-2013-sem} & HDL & 750 & newswire \\
+ 		2013 \cite{agirre-etal-2013-sem} & FNWN & 189 & glosses \\
+ 		2013 \cite{agirre-etal-2013-sem} & OnWN & 561 & glosses \\
+ 		2013 \cite{agirre-etal-2013-sem} & SMT & 750 & MT eval. \\
+ 		\hline
+ 		2014 \cite{agirre-etal-2014-semeval} & HDL & 750 & newswire headlines \\
+ 		2014 \cite{agirre-etal-2014-semeval} & OnWN & 750 & glosses \\
+ 		2014 \cite{agirre-etal-2014-semeval} & Deft-forum & 450 & forum posts \\
+ 		2014 \cite{agirre-etal-2014-semeval} & Deft-news & 300 & news summary \\
+ 		2014 \cite{agirre-etal-2014-semeval} & Images & 750 & image descriptions \\
+ 		2014 \cite{agirre-etal-2014-semeval} & Tweet-news & 750 & tweet-news pairs \\
+ 		\hline
+ 		2015 \cite{agirre-etal-2015-semeval} & HDL & 750 & newswire headlines \\
+ 		2015 \cite{agirre-etal-2015-semeval} & Images & 750 & image descriptions \\
+ 		2015 \cite{agirre-etal-2015-semeval} & Ans.-student & 750 & student answers \\
+ 		2015 \cite{agirre-etal-2015-semeval} & Ans.-forum & 375 & Q\&A forum answers \\
+ 		2015 \cite{agirre-etal-2015-semeval} & Belief & 375 & committed belief \\
+ 		\hline
+ 		2016 \cite{agirre-etal-2016-semeval} & HDL & 249 & newswire headlines \\
+ 		2016 \cite{agirre-etal-2016-semeval} & Plagiarism & 230 & short-answer plag. \\
+ 		2016 \cite{agirre-etal-2016-semeval} & post-editing & 244 & MT postedits \\
+ 		2016 \cite{agirre-etal-2016-semeval} & Ans.-Ans. & 254 & Q\&A forum answers \\
+ 		2016 \cite{agirre-etal-2016-semeval} & Quest.-Quest. & 209 & Q\&A forum questions \\
+ 		\hline
+ 		2017 \cite{cer-etal-2017-semeval} & Trial & 23 & Mixed STS 2016 \\
+ 		\hline
+ 	\end{tabular}
+ 	\caption[Information about English STS 2017 training set]{Information about the datasets used to build the English STS 2017 training set. The \textbf{Year} column shows the year of the SemEval competition that the dataset got released. \textbf{Dataset} column expresses the acronym used describe a dataset in that year. \textbf{Pairs} is the number of sentence pairs in that particular dataset and \textbf{Source} shows the source of the sentence pairs. }
+ 	\label{tab:englishdata_info}
+ \end{table}
+
  
    \begin{table}[ht!]
  	\centering 	
@@ -102,8 +148,6 @@ We experimented with several datasets throughout the experiments in the Semantic
  
  The dataset has 400,000 question pairs and we used 4:1 split on that to separate it into a training set and a test set resulting 320,000 questions pairs in the training set and  80,000 sentence pairs in the testing set. The machine learning models need to predict a value between 0 and 1 that reflects whether it is a duplicate question pair or not. 1 indicates that a certain question pair is a duplicate and 0 indicates it is not a duplicate. 
  
- 
- 
     \begin{table}[ht!]
  	\centering 	
  	\begin{tabular}{l|c} 
@@ -129,7 +173,7 @@ We experimented with several datasets throughout the experiments in the Semantic
  		\hline
  		
  	\end{tabular}
- 	\caption[Example sentence pairs from the Quora Question Pairs dataset]{Example sentence pairs from the Quora Question Pairs dataset with their gold \detokenize{is-duplicate} value.}
+ 	\caption[Example question pairs from the Quora Question Pairs dataset]{Example question  pairs from the Quora Question Pairs dataset with their gold \detokenize{is-duplicate} value. \textbf{Question Pair} column shows the two questions and \textbf{is-duplicated} column denotes whether it is a duplicated pair or not.}
  	\label{tab:quoradata}
  \end{table}  
  
@@ -138,20 +182,141 @@ This is different to the previous datasets since it is not artificially created 
 \end{enumerate}
 
 \subsection{Datasets on Other Languages}
-
+In order to evaluate the potability of our STS methods we used several non-English datasets through out the experiments which we describe below.  
 \begin{enumerate}
-\item{ \textbf{Spanish STS Dataset}} - 
+\item{ \textbf{Spanish STS Dataset \footnote{The Spanish STS dataset can be downloaded at \url{http://alt.qcri.org/semeval2017/task1/index.php?id=data-and-tools}}}} - Spanish STS dataset that we used was employed for Spanish STS subtask in SemEval 2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation \cite{cer-etal-2017-semeval}. The training set has 1250 sentence pairs annotated with a relatedness score between 0 and 4. The training set combined several datasets from previous SemEval STS shared tasks also\cite{cer-etal-2017-semeval}. Table \ref{tab:spanishdata_info} shows more information about the trainin set. There were two sources for test set - Spanish news and Spanish Wikipedia dump having 500 and 250 sentence pairs respectively \cite{cer-etal-2017-semeval}. Both datasets were annotated with a relatedness score between 0 and 4. Table \ref{tab:spanishdata} shows few pairs of sentences with their similarity score.
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{c|c|c|l}
+		\hline
+		\multicolumn{1}{c|}{\textbf{Year}} & 
+		\multicolumn{1}{c|}{\textbf{Dataset}} & 
+		\multicolumn{1}{c|}{\textbf{Pairs}} & 
+		\multicolumn{1}{c}{\textbf{Source}} \\
+		\hline
+		2014 \cite{agirre-etal-2014-semeval} & Trial & 56 & NR \\
+		2014 \cite{agirre-etal-2014-semeval} & Wiki  & 324 & Spanish Wikipedia \\
+		2014 \cite{agirre-etal-2014-semeval} & News  & 480 & Newswire \\
+		2015 \cite{agirre-etal-2014-semeval} & Wiki & 251 & Spanish Wikipedia \\
+		2015 \cite{agirre-etal-2015-semeval} & News & 500 & Sewswire \\
+		2017 \cite{cer-etal-2017-semeval} & Trial & 23 & Mixed STS 2016 \\
+		\hline
+	\end{tabular}
+	\caption[Information about Spanish STS training set]{Information about the datasets used to build the Spanish STS training set. The \textbf{Year} column shows the year of the SemEval competition that the dataset got released. \textbf{Dataset} column expresses the acronym used describe a dataset in that year. \textbf{Pairs} is the number of sentence pairs in that particular dataset and \textbf{Source} shows the source of the sentence pairs. }
+	\label{tab:spanishdata_info}
+\end{table}
+
+
+\begin{table}[ht!]
+	\centering
+		\begin{tabular}{l|c}
+			\hline
+			\multicolumn{1}{c|}{\textbf{Sentence Pair}} & 
+			\multicolumn{1}{c}{\textbf{Similarity}}  \\
+			\hline
+			\makecell[l]{1. Amás, los misioneros apunten que los númberos \\ d'infectaos puen ser shasta dos o hasta cuatro veces \\ más grandess que los oficiales. \\
+				\textit{(Furthermore, missionaries point out that the numbers of } \\ \textit{infected can be up to two or up to four times larger than} \\ \textit{the official ones.)} \\ 
+				2. Los cadáveres de personas fallecidas pueden ser hasta \\ diez veces más contagiosos que los infectados vivos. \\ 
+			\textit{(The corpses of deceased people can be up to ten times } \\ \textit{more contagious than those infected alive.)}} & 0.6  \\
+%			\hline
+%			\makecell[l]{1. Desde Colombia, el presidente Juan Manuel Santos dijo \\ que conversó por teléfono con Humala sobre el tema y que \\ entregaría al detenido a las autoridades peruanas a más tardar \\ el viernes. \\ 
+%				\textit{(From Colombia, President Juan Manuel Santos said he spoke} \\ \textit{by phone with Humala about the matter and that he would hand} \\ \textit{over the detainee to the Peruvian authorities no later than Friday.)}\\
+%				2. El presidente de Colombia, Juan Manuel Santos, había \\ anunciado horas antes que Orellana, que se encuentra \\ detenido, será entregado a las autoridades peruanas sentre \\ hoy y mañanas. \\
+%			   \textit{(The president of Colombia, Juan Manuel Santos, had announced} \\ \textit{hours before that Orellana, who is in detention, will be handed over} \\ \textit{to the Peruvian authorities today and tomorrow.)}}  
+%			 & 3.2 \\
+			\hline
+			\makecell[l]{1. La policía abatió a un caníbal cuando devoraba a una  \\ mujer Matthew Williams, de 34 años, fue sorprendido en \\ la madrugada mordiendo el rostro de una joven a la que  \\ había invitado a su hotel. \\ 
+				\textit{(Police killed a cannibal while devouring a woman Matthew } \\ \textit{Williams, 34, was caught early in the morning biting the} \\ \textit{ face of a young woman he had invited to his hotel.)} \\
+				2. La policía de Gales del Sur mató a un caníbal cuando se \\ estaba comiendo la cara de una mujer de 22 años en la \\ habitación de un hotel. \\ 
+			\textit{(South Wales police killed a cannibal when he was eating the } \\ \textit{face of a 22-year-old woman in a hotel room.)} } & 2  \\
+			\hline
+			\makecell[l]{1. Ollanta Humala se reúne mañana con el Papa Francisco. \\
+				\textit{(Ollanta Humala meets tomorrow with Pope Francis.)} \\ 
+				2. El Papa Francisco mantuvo hoy una audiencia privada \\ con el presidente Ollanta Humala, en el Vaticano. \\
+			\textit{(Pope Francis held a private audience today with President} \\ \textit{Ollanta Humala, at the Vatican.)}} & 3  \\
+			\hline               
+		\end{tabular}
+	\caption[Example sentence pairs from the Spanish STS dataset]{Example sentence pairs from the Spanish STS dataset. \textbf{Sentence Pair} column shows the two sentences. We also included their translations in the table. The translations were done by a native Spanish speaker. \textbf{Similarity} column indicates the annotated similarity of the two sentences. }
+	\label{tab:spanishdata}
+\end{table}  
 	
-\item{ \textbf{Arabic STS Dataset}}	
+\item{ \textbf{Arabic STS Dataset \footnote{The Arabic STS dataset can be downloaded at \url{http://alt.qcri.org/semeval2017/task1/index.php?id=data-and-tools}}}} The Arabic STS dataset we selected was also used for the Arabic STS subtask in SemEval 2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation \cite{cer-etal-2017-semeval}. Unlike Spanish, no data from previous SemEval competitions were available since this was the first time an Arabic STS task was organised in SemEval. More information about the extracted sentences will be shown in the Table \ref{tab:arabicdata_info}. 
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{c|c|l}
+		\hline
+		\multicolumn{1}{c|}{\textbf{Dataset}} & 
+		\multicolumn{1}{c|}{\textbf{Pairs}} & 
+		\multicolumn{1}{c}{\textbf{Source}} \\
+		\hline
+		Trial & 23 & Mixed STS 2016 \\
+		MSRpar  & 510 & newswire \\
+		MSRvid  & 368 & videos \\
+		SMTeuroparl  & 203 & WMT eval. \\
+		\hline
+	\end{tabular}
+	\caption[Information about Arabic STS training set]{Information about the datasets used to build the Arabic STS training set. \textbf{Dataset} column expresses the acronym used describe the dataset. \textbf{Pairs} is the number of sentence pairs in that particular dataset and \textbf{Source} shows the source of the sentence pairs. }
+	\label{tab:arabicdata_info}
+\end{table}  
+
+To prepare the annotated instances, a subset of the English STS 2017 dataset has been selected and human translated into Arabic. Sentences have been translated independently from their pairs. Arabic translation has been provided by native Arabic speakers with strong English skills in Carnegie Mellon University in Qatar . Translators have been given an English sentence and its Arabic machine translation5 where they have performed post-editing to correct errors.  STS labels have been then transferred to the translated pairs. Therefore, annotation guidelines and the template will be similar to the English STS 2017 dataset. 1103 sentence pairs were available for training and 250 sentence pairs were available in the test set. Table \ref{tab:arabicdata} shows few pairs of sentences with their similarity score.  
+
+    \begin{table}[ht!]
+	\centering 	
+	\begin{tabular}{l|c} 
+		\hline
+		\multicolumn{1}{c|}{\textbf{Sentence Pair}} & 
+		\multicolumn{1}{c}{\textbf{\detokenize{Similarity}}}  \\
+		\hline
+		\makecell[l]
+		{	1. \< أحدهم يقلي لحما.  > \\ \textit{Someone is frying meat.}\ \\ 
+			2.  \< أحدهم يعزف البيانو.  > \\ \  \textit{Someone plays the piano.} } & 0.250
+		\\
+		\hline
+		\makecell[l]
+	{	1. \< أمرأة تظيف المكونات في الإناء.  > \\ \textit{
+			A woman cleaning ingredients in the bowl.}\ \\ 
+		2.  \< إمرأة تكسر ثلاثة بيضات في الإناء. > \\ \  \textit{
+			A woman breaks three eggs in a bowl.} } & 1.750
+	\\
+	\hline
+			\makecell[l]
+		{	1. \< طفلة تعزف القيثارة.  > \\ \textit{A Child is playing harp.}\ \\ 
+			2.  \< رجل يعزف القيثارة . > \\ \  \textit{A man plays the harp.} } & 2.250
+		\\
+		\hline
+			\makecell[l]
+		{	1. \< المرأة تقطع البصل الأخضر.  > \\ \textit{The woman chops green onions.}\ \\ 
+			2.  \< إمرأة تقشر بصلة. > \\ \  \textit{A woman peeling an onion.} } & 3.250
+		\\
+		\hline
+		\makecell[l]
+		{	1. \< رجل يرقص على صقف الغرفة.  > \\ \textit{A man dancing on the roof of the room.}\ \\ 
+			2.  \< رجل يرقص رأسا على عقب على السقف. > \\ \  \textit{A man is dancing upside down on the ceiling.} } & 4.600
+		\\
+		\hline
+		
+	\end{tabular}
+	\caption[Example question pairs from the Arabic STS dataset]{Example question  pairs from the Arabic STS dataset. \textbf{Sentence Pair} column shows the two sentences. We also included their translations in the table. The translations were done by a native Arabic speaker. \textbf{Similarity} column indicates the annotated similarity of the two sentences.}
+	\label{tab:arabicdata}
+\end{table}  
+
+
+
+	
 \end{enumerate}
 
 
 \subsection{Datasets on Different Domains}
 
 \begin{enumerate}
-	\item{ \textbf{ STS Dataset}} - 
+	\item{ \textbf{Bio-medical STS Dataset}} - 
+	\cite{10.1093/bioinformatics/btx238}
 	
-	\item{ \textbf{Arabic STS Dataset}}	
+	\item{ \textbf{Clinical STS Dataset}}
+	\cite{Wang2020}	
 \end{enumerate}
 
 \section{Applications}

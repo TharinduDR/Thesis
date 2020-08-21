@@ -77,6 +77,18 @@ Samuel~R. Bowman, Gabor Angeli, Christopher Potts, and Christopher~D. Manning.
   Natural Language Processing}, pages 632--642, Lisbon, Portugal, September
   2015. Association for Computational Linguistics.
 
+\bibitem{10.1093/bioinformatics/btx238}
+Gizem Soğancıoğlu, Hakime Öztürk, and Arzucan Özgür.
+\newblock {BIOSSES: a semantic sentence similarity estimation system for the
+  biomedical domain}.
+\newblock {\em Bioinformatics}, 33(14):i49--i58, 07 2017.
+
+\bibitem{Wang2020}
+Yanshan Wang, Naveed Afzal, Sunyang Fu, Liwei Wang, Feichen Shen, Majid
+  Rastegar-Mojarad, and Hongfang Liu.
+\newblock Medsts: a resource for clinical semantic textual similarity.
+\newblock {\em Language Resources and Evaluation}, 54(1):57--72, Mar 2020.
+
 \bibitem{ranasinghe-etal-2019-enhancing}
 Tharindu Ranasinghe, Constantin Orasan, and Ruslan Mitkov.
 \newblock Enhancing unsupervised sentence similarity methods with deep

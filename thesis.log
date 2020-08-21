@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  20 AUG 2020 19:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  21 AUG 2020 20:14
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -604,29 +604,125 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabtex.sty
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aconfig.sty
+LaTeX2e detected 
+\a@moduledate=\count293
+\a@maindate=\count294
+)
+Package: arabtex 2003/08/22  3.11 ArabTeX main module
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabaux.sty
+Package: arabaux 2003/05/21  3.11 auxiliary macros for ArabTeX
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\acmd.sty
+Package: acmd 2003/08/20  3.11 Arabic command processing 
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\afonts.sty
+Package: afonts 1995/11/16  3.04 define Naskh font 
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\afonts2.sty
+Package: afonts2 1998/10/19  3.10 define Naskh fonts for LaTeX2e
+))
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\ascan.sty
+Package: ascan 2003/08/22  3.11 standard ZDMG input encoding 
+
+(ArabTeX) scanner for code `arabtex' installed.
+(ArabTeX) input encoding set to ArabTeX standard conventions.)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aparse.sty
+Package: aparse 2003/05/26  3.11 get syllables 
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\awrite.sty
+Package: awrite 2003/06/05  3.11 build output word 
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\xarbsymb.sty
+Package: xarbsymb 1998/07/15  3.07 symbolic output encoding 
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabskel.sty
+Package: arabskel 2000/06/04  3.10 character skeleton definitions 
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\xarbskel.sty
+Package: xarbskel 1999/07/17  3.09 character skeleton definitions 
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aboxes.sty
+Package: aboxes 2003/05/28  3.11 build output boxes
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabtoks.sty
+Package: arabtoks 1999/07/17  3.09 ArabTeX CS token definitions 
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabchrs.sty
+Package: arabchrs 1998/07/11  3.07 letter token definitions 
+))
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aligs.sty
+Package: aligs 2003/05/26  3.11 compute ligatures
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aoutput.sty
+Package: aoutput 2000/06/04  3.10 build output lines
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\abidir.sty
+Package: abidir 2003/08/22  3.11 bidirectional linebreaking
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\atrans.sty
+Package: atrans 2003/06/14  3.11 generate the transliteration 
+
+(ArabTeX) ZDMG transliteration.)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alatex.sty
+Package: alatex 2003/05/04  3.11 ArabTeX extensions for LaTeX 
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\afoot.sty
+Package: afoot 2003/05/12  3.11 ArabTeX footnotes
+))
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\abjad.sty
+Package: abjad 2003/04/26  3.11 abjad numerals 
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\apatch.sty
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alists.sty
+Package: alists 2003/04/26  3.11 inverted list macros
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\asect.sty
+Package: asect 2003/04/26  3.11 section macros for Arabic
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\atabg.sty
+Package: atabg 1997/01/21  3.05 LaTeX tabbing macros for Arabic
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alocal.sty
+(ArabTeX) 3.11 local stub, 26.02.2006)
+Package: apatch 2006/07/02  3.11s last minute patches 
+)
+Arabic processor `ArabTeX' [20060702 patch level 3.11s (02.07.2006)]
+(ArabTeX) ... now be patient ... )
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\utf8.sty
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\utfcode.sty
+Package: utfcode 2002/03/07  3.10a Arabic+Hebrew segment of UTF-8
+\u@lb=\count324
+\u@lq=\count325
+)
+Package: utf8 2000/06/13  3.10 UTF-8 input encoding 
+
+(ArabTeX) scanner for code UTF-8 installed.)
 \@input{tango.aux}
 \openout2 = `tango.aux'.
 
 (tango.tex
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count293
-\lst@gtempboxa=\box62
-\lst@token=\toks50
-\lst@length=\count294
-\lst@currlwidth=\dimen275
-\lst@column=\count295
-\lst@pos=\count296
-\lst@lostspace=\dimen276
-\lst@width=\dimen277
-\lst@newlines=\count297
-\lst@lineno=\count298
-\lst@maxwidth=\dimen278
+\lst@mode=\count326
+\lst@gtempboxa=\box77
+\lst@token=\toks70
+\lst@length=\count327
+\lst@currlwidth=\dimen297
+\lst@column=\count328
+\lst@pos=\count329
+\lst@lostspace=\dimen298
+\lst@width=\dimen299
+\lst@newlines=\count330
+\lst@lineno=\count331
+\lst@maxwidth=\dimen300
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count299
-\lst@skipnumbers=\count300
-\lst@framebox=\box63
+\c@lstnumber=\count332
+\lst@skipnumbers=\count333
+\lst@framebox=\box78
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -641,6 +737,7 @@ File: lstlang2.sty 2020/03/24 1.8d listings language file
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
 File: lstlang3.sty 2020/03/24 1.8d listings language file
 )
+(ArabTeX) input encoding set to UTF-8 conventions
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
@@ -682,13 +779,17 @@ sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen279
-\Hy@linkcounter=\count301
-\Hy@pagecounter=\count302
+\@linkdim=\dimen301
+\Hy@linkcounter=\count334
+\Hy@pagecounter=\count335
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -700,7 +801,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count303
+\Hy@SavedSpaceFactor=\count336
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
 Package hyperref Info: Hyper index ON on input line 4472.
@@ -708,9 +809,9 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count304
+\c@Hy@tempcnt=\count337
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen280
+\XeTeXLinkMargin=\dimen302
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
@@ -719,9 +820,9 @@ sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count305
-\Field@Width=\dimen281
-\Fld@charsize=\dimen282
+\Fld@menulength=\count338
+\Field@Width=\dimen303
+\Fld@charsize=\dimen304
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -735,9 +836,9 @@ LaTeX Info: Redefining \pageref on input line 6421.
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/atbegshi\atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count306
-\c@Item=\count307
-\c@Hfootnote=\count308
+\Hy@abspage=\count339
+\c@Item=\count340
+\c@Hfootnote=\count341
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -746,9 +847,10 @@ File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/atveryend\atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
+Package atveryend Info: \a@enddocument detected (standard20110627).
 )
-\Fld@listcount=\count309
-\c@bookmark@seq@number=\count310
+\Fld@listcount=\count342
+\c@bookmark@seq@number=\count343
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
 check.sty
@@ -761,24 +863,24 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip70
+\Hy@SectionHShift=\skip72
 )
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 26.
+(hyperref)                setting the option has no effect on input line 28.
 
-Package hyperref Info: Option `unicode' set `false' on input line 26.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 26.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 26.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 26.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 26.
-Package hyperref Info: Option `colorlinks' set `true' on input line 26.
+Package hyperref Info: Option `unicode' set `false' on input line 28.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 28.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 28.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 28.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 28.
+Package hyperref Info: Option `colorlinks' set `true' on input line 28.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfm
 ode.def
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count311
-\l__pdf_internal_box=\box64
+\l__kernel_color_stack_int=\count344
+\l__pdf_internal_box=\box79
 ) (thesis.aux (abstract.aux) (ack.aux) (contents.aux) (tables.aux)
 (figures.aux) (listings.aux)
 (chapters/semantic_textual_similarity/introduction.aux)
@@ -792,37 +894,37 @@ File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 (chapters/translation_quality_estimation/transquest.aux) (bib.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count312
-\scratchdimen=\dimen283
-\scratchbox=\box65
-\nofMPsegments=\count313
-\nofMParguments=\count314
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count315
-\MPscratchDim=\dimen284
-\MPnumerator=\count316
-\makeMPintoPDFobject=\count317
-\everyMPtoPDFconversion=\toks52
+\scratchcounter=\count345
+\scratchdimen=\dimen305
+\scratchbox=\box80
+\nofMPsegments=\count346
+\nofMParguments=\count347
+\everyMPshowfont=\toks71
+\MPscratchCnt=\count348
+\MPscratchDim=\dimen306
+\MPnumerator=\count349
+\makeMPintoPDFobject=\count350
+\everyMPtoPDFconversion=\toks72
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
 se.sty
@@ -830,9 +932,9 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 ) ABD: EveryShipout initializing macros
-\c@lstlisting=\count318
-\AtBeginShipoutBox=\box66
-Package hyperref Info: Link coloring ON on input line 28.
+\c@lstlisting=\count351
+\AtBeginShipoutBox=\box81
+Package hyperref Info: Link coloring ON on input line 30.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -844,16 +946,24 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 estring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count319
+\c@section@level=\count352
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
  (thesis.out) (thesis.out)
-\@outlinefile=\write4
-\openout4 = `thesis.out'.
+\@outlinefile=\write6
+\openout6 = `thesis.out'.
 
- [1
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\apatch.sty
+\a@lines=\count353
+\a@Lwidth=\dimen307
+\a@displaywidth=\dimen308
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alocal.sty
+(ArabTeX) 3.11 local stub, 26.02.2006)
+(ArabTeX) version 3.11s (02.07.2006): second phase of patching) [1
 
 
 
@@ -907,8 +1017,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] (thesis.toc [7] [8])
-\tf@toc=\write5
-\openout5 = `thesis.toc'.
+\tf@toc=\write7
+\openout7 = `thesis.toc'.
 
 ) [9]
 \openout2 = `tables.aux'.
@@ -919,8 +1029,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] (thesis.lot)
-\tf@lot=\write6
-\openout6 = `thesis.lot'.
+\tf@lot=\write8
+\openout8 = `thesis.lot'.
 
 )
 [11]
@@ -932,8 +1042,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] (thesis.lof)
-\tf@lof=\write7
-\openout7 = `thesis.lof'.
+\tf@lof=\write9
+\openout9 = `thesis.lof'.
 
 ) [13]
 \openout2 = `listings.aux'.
@@ -944,8 +1054,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] (thesis.lol)
-\tf@lol=\write8
-\openout8 = `thesis.lol'.
+\tf@lol=\write10
+\openout10 = `thesis.lol'.
 
 )
 [15] [1
@@ -994,26 +1104,61 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1226) has occurred while \output is active []
 
  [7]
-Underfull \vbox (badness 1817) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-Underfull \vbox (badness 1939) has occurred while \output is active []
+Underfull \vbox (badness 1817) has occurred while \output is active []
 
- [9])
-[10]
+ [9]
+Underfull \hbox (badness 6510) in paragraph at lines 187--187
+[][][]\T1/cmr/m/n/10 The Span-ish STS dataset can be down-loaded at [][]$\T1/cm
+tt/m/n/10 http : / / alt . qcri . org /
+ []
+
+
+Underfull \vbox (badness 1796) has occurred while \output is active []
+
+ [10]
+Overfull \hbox (6.44243pt too wide) in paragraph at lines 213--240
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 4403) has occurred while \output is active []
+
+ [12]
+LaTeX Font Info:    Trying to load font information for U+xnsh on input line 27
+5.
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\uxnsh.fd
+File: uxnsh.fd  1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
+)
+LaTeX Font Info:    Font shape `U/xnsh/m/n' will be
+(Font)              scaled to size 17.28003pt on input line 275.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14])
+[15]
 \openout2 = `chapters/semantic_textual_similarity/state_of_the_art.aux'.
 
- (chapters/semantic_textual_similarity/state_of_the_art.tex
-Chapter 2.
-) [11
+ (chapters/semantic_textual_similarity/state_of_the_art.tex [16
 
 
 
 
 ]
+Chapter 2.
+) [17]
 \openout2 = `chapters/semantic_textual_similarity/sentence_encoders.aux'.
 
- (chapters/semantic_textual_similarity/sentence_encoders.tex [12
+ (chapters/semantic_textual_similarity/sentence_encoders.tex [18
 
 
 
@@ -1025,32 +1170,32 @@ Overfull \hbox (7.52519pt too wide) in paragraph at lines 7--7
 []\T1/cmr/bx/n/17.28 Exploring Sen-tence En-coders in En-glish STS 
  []
 
-) [13]
+) [19]
 \openout2 = `chapters/semantic_textual_similarity/siamese_neural_networks.aux'.
 
  (chapters/semantic_textual_similarity/siamese_neural_networks.tex
-[14
+[20
 
 
 
 
 ]
 Chapter 4.
-) [15]
+) [21]
 \openout2 = `chapters/semantic_textual_similarity/transformers.aux'.
 
- (chapters/semantic_textual_similarity/transformers.tex [16
+ (chapters/semantic_textual_similarity/transformers.tex [22
 
 
 
 
 ]
 Chapter 5.
-) [17] [18
+) [23] [24
 
 
 
-] [19] [20]
+] [25] [26]
 \openout2 = `chapters/translation_memories/introduction.aux'.
 
  (chapters/translation_memories/introduction.texpdfTeX warning (ext4): destinat
@@ -1082,7 +1227,7 @@ tifier (name{section.1.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.9 \section{STS for Translation Memories}
-                                          ) [21
+                                          ) [27
 
 
 
@@ -1090,7 +1235,7 @@ l.9 \section{STS for Translation Memories}
 \openout2 = `chapters/translation_memories/sentence_encoders.aux'.
 
 
-(chapters/translation_memories/sentence_encoders.tex [22
+(chapters/translation_memories/sentence_encoders.tex [28
 
 
 
@@ -1117,11 +1262,11 @@ ifier (name{section.2.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.8 \section{Results and Evaluation}
-                                    ) [23] [24
+                                    ) [29] [30
 
 
 
-] [25] [26]
+] [31] [32]
 \openout2 = `chapters/translation_quality_estimation/introduction.aux'.
 
 
@@ -1154,7 +1299,7 @@ tifier (name{section.1.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.9 ...ion{STS for Translation Quality Estimation}
-                                                  ) [27
+                                                  ) [33
 
 
 
@@ -1162,7 +1307,7 @@ l.9 ...ion{STS for Translation Quality Estimation}
 \openout2 = `chapters/translation_quality_estimation/transquest.aux'.
 
 
-(chapters/translation_quality_estimation/transquest.tex [28
+(chapters/translation_quality_estimation/transquest.tex [34
 
 
 
@@ -1189,18 +1334,22 @@ ifier (name{section.2.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.7 \section{Results and Evaluation}
-                                    ) [29]
+                                    ) [35]
 \openout2 = `bib.aux'.
 
- (bib.tex (thesis.bbl [30
+ (bib.tex (thesis.bbl [36
 
 
 
 
-] [31]
-[32] [33] [34])) [35]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
+] [37]
+[38]
+Underfull \vbox (badness 1067) has occurred while \output is active []
+
+ [39]
+[40] [41])) [42]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
  (thesis.aux (abstract.aux) (ack.aux) (contents.aux)
 (tables.aux) (figures.aux) (listings.aux)
 (chapters/semantic_textual_similarity/introduction.aux)
@@ -1212,27 +1361,167 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
 (chapters/translation_memories/sentence_encoders.aux)
 (chapters/translation_quality_estimation/introduction.aux)
 (chapters/translation_quality_estimation/transquest.aux) (bib.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
 
 
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+ *File List*
+  report.cls    2019/12/20 v1.4l Standard LaTeX document class
+  size12.clo    2019/12/20 v1.4l Standard LaTeX file (size option)
+  thesis.sty    
+  xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
+   color.cfg    2016/01/02 v1.6 sample color configuration
+  pdftex.def    2018/01/08 v1.0l Graphics/color driver for pdftex
+colortbl.sty    2020/01/04 v1.0e Color table columns (DPC)
+   array.sty    2019/08/31 v2.4l Tabular extension package (FMi)
+   float.sty    2001/11/08 v1.3d Float enhancements (AL)
+graphicx.sty    2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
+graphics.sty    2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
+graphics.cfg    2016/06/04 v1.11 sample graphics configuration
+latexsym.sty    1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+fancyhdr.sty    2019/01/31 v3.10 Extensive control of page headers and footers
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+ amsmath.sty    2020/01/20 v2.17e AMS math features
+ amstext.sty    2000/06/29 v2.01 AMS text
+  amsgen.sty    1999/11/30 v2.0 generic functions
+  amsbsy.sty    1999/11/29 v1.2d Bold Symbols
+  amsopn.sty    2016/03/08 v2.02 operator names
+  amsthm.sty    2020/05/29 v2.20.6
+     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+verbatim.sty    2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+booktabs.sty    2020/01/12 v1.61803398 Publication quality tables
+todonotes.sty    2018/11/22
+  ifthen.sty    2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+ xkeyval.sty    2014/12/03 v2.7a package option processing (HA)
+ xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
+    tikz.sty    2020/01/08 v3.1.5b (3.1.5b)
+     pgf.sty    2020/01/08 v3.1.5b (3.1.5b)
+  pgfrcs.sty    2020/01/08 v3.1.5b (3.1.5b)
+everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
+pgfrcs.code.tex
+ pgfcore.sty    2020/01/08 v3.1.5b (3.1.5b)
+  pgfsys.sty    2020/01/08 v3.1.5b (3.1.5b)
+pgfsys.code.tex
+pgfsyssoftpath.code.tex    2020/01/08 v3.1.5b (3.1.5b)
+pgfsysprotocol.code.tex    2020/01/08 v3.1.5b (3.1.5b)
+pgfcore.code.tex
+pgfcomp-version-0-65.sty    2020/01/08 v3.1.5b (3.1.5b)
+pgfcomp-version-1-18.sty    2020/01/08 v3.1.5b (3.1.5b)
+  pgffor.sty    2020/01/08 v3.1.5b (3.1.5b)
+ pgfkeys.sty    
+pgfkeys.code.tex
+ pgfmath.sty    
+pgfmath.code.tex
+pgffor.code.tex
+tikz.code.tex
+    calc.sty    2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+makecell.sty    2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+tabularx.sty    2020/01/15 v2.11c `tabularx' package (DPC)
+ fontenc.sty
+ arabtex.sty    2003/08/22  3.11 ArabTeX main module
+ arabaux.sty    2003/05/21  3.11 auxiliary macros for ArabTeX
+    acmd.sty    2003/08/20  3.11 Arabic command processing 
+  afonts.sty    1995/11/16  3.04 define Naskh font 
+ afonts2.sty    1998/10/19  3.10 define Naskh fonts for LaTeX2e
+   ascan.sty    2003/08/22  3.11 standard ZDMG input encoding 
+  aparse.sty    2003/05/26  3.11 get syllables 
+  awrite.sty    2003/06/05  3.11 build output word 
+xarbsymb.sty    1998/07/15  3.07 symbolic output encoding 
+arabskel.sty    2000/06/04  3.10 character skeleton definitions 
+xarbskel.sty    1999/07/17  3.09 character skeleton definitions 
+  aboxes.sty    2003/05/28  3.11 build output boxes
+arabtoks.sty    1999/07/17  3.09 ArabTeX CS token definitions 
+arabchrs.sty    1998/07/11  3.07 letter token definitions 
+   aligs.sty    2003/05/26  3.11 compute ligatures
+ aoutput.sty    2000/06/04  3.10 build output lines
+  abidir.sty    2003/08/22  3.11 bidirectional linebreaking
+  atrans.sty    2003/06/14  3.11 generate the transliteration 
+  alatex.sty    2003/05/04  3.11 ArabTeX extensions for LaTeX 
+   afoot.sty    2003/05/12  3.11 ArabTeX footnotes
+   abjad.sty    2003/04/26  3.11 abjad numerals 
+  apatch.sty    2006/07/02  3.11s last minute patches 
+  alists.sty    2003/04/26  3.11 inverted list macros
+   asect.sty    2003/04/26  3.11 section macros for Arabic
+   atabg.sty    1997/01/21  3.05 LaTeX tabbing macros for Arabic
+    utf8.sty    2000/06/13  3.10 UTF-8 input encoding 
+ utfcode.sty    2002/03/07  3.10a Arabic+Hebrew segment of UTF-8
+   tango.tex
+listings.sty    2020/03/24 1.8d (Carsten Heinz)
+ lstmisc.sty    2020/03/24 1.8d (Carsten Heinz)
+listings.cfg    2020/03/24 1.8d listings configuration
+lstlang1.sty    2020/03/24 1.8d listings language file
+lstlang2.sty    2020/03/24 1.8d listings language file
+lstlang3.sty    2020/03/24 1.8d listings language file
+hyperref.sty    2020-05-15 v7.00e Hypertext links for LaTeX
+ ltxcmds.sty    2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+   iftex.sty    2020/03/06 v1.0d TeX engine tests
+pdftexcmds.sty    2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+infwarerr.sty    2019/12/03 v1.5 Providing info/warning/error messages (HO)
+kvsetkeys.sty    2019/12/15 v1.18 Key value parser (HO)
+kvdefinekeys.sty    2019-12-19 v1.6 Define keys (HO)
+pdfescape.sty    2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ hycolor.sty    2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+letltxmacro.sty    2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+ auxhook.sty    2019-12-17 v1.6 Hooks for auxiliary files (HO)
+kvoptions.sty    2019/11/29 v3.13 Key value format for package options (HO)
+  pd1enc.def    2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+ intcalc.sty    2019/12/15 v1.3 Expandable calculations with integers (HO)
+etexcmds.sty    2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+  bitset.sty    2019/12/09 v1.3 Handle bit-vector datatype (HO)
+bigintcalc.sty    2019/12/15 v1.5 Expandable calculations on big integers (HO)
+atbegshi.sty    2019/12/05 v1.19 At begin shipout hook (HO)
+ hpdftex.def    2020-05-15 v7.00e Hyperref driver for pdfTeX
+atveryend.sty    2019-12-11 v1.11 Hooks at the very end of document (HO)
+rerunfilecheck.sty    2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+uniquecounter.sty    2019/12/15 v1.4 Provide unlimited unique counter (HO)
+l3backend-pdfmode.def    2020-06-29 L3 backend support: PDF mode
+supp-pdf.mkii
+epstopdf-base.sty    2020-01-24 v2.11 Base part for package epstopdf
+ nameref.sty    2019/09/16 v2.46 Cross-referencing by name of section
+refcount.sty    2019/12/15 v3.6 Data extraction from label references (HO)
+gettitlestring.sty    2019/12/15 v1.6 Cleanup title references (HO)
+  thesis.out
+  thesis.out
+  apatch.sty    2006/07/02  3.11s last minute patches 
+abstract.tex
+  t1cmtt.fd    2019/12/16 v2.5j Standard LaTeX font definitions
+     ack.tex
+   ulasy.fd    1998/08/17 v2.2e LaTeX symbol font definitions
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+contents.tex
+  tables.tex
+ figures.tex
+listings.tex
+chapters/semantic_textual_similarity/introduction.tex
+   uxnsh.fd     1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
+chapters/semantic_textual_similarity/state_of_the_art.tex
+chapters/semantic_textual_similarity/sentence_encoders.tex
+chapters/semantic_textual_similarity/siamese_neural_networks.tex
+chapters/semantic_textual_similarity/transformers.tex
+chapters/translation_memories/introduction.tex
+chapters/translation_memories/sentence_encoders.tex
+chapters/translation_quality_estimation/introduction.tex
+chapters/translation_quality_estimation/transquest.tex
+     bib.tex
+  thesis.bbl
+ ***********
 
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 7CEB12D709DB83A38995616C3B1B4A05;4141
-(rerunfilecheck)             After:  A172F8615652D9923498DC60C48E33A5;4224.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: A172F8615652D9923498DC60C48E33A5;4224.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 19936 strings out of 480790
- 376492 string characters out of 2897770
- 709736 words of memory out of 3000000
- 35244 multiletter control sequences out of 15000+200000
- 551808 words of font info for 74 fonts, out of 3000000 for 9000
+ 22302 strings out of 480790
+ 400301 string characters out of 2897770
+ 760344 words of memory out of 3000000
+ 37499 multiletter control sequences out of 15000+200000
+ 552125 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,17n,83p,1847b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,19n,83p,1847b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1
 000.pk> <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 ecti1200.pk> <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
@@ -1247,10 +1536,11 @@ KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\ASUS\AppData\Loc
 al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\ASUS\AppDat
 a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\ASUS\A
 ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1440.pk> <C:\Users\A
-SUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1728.pk>
-Output written on thesis.pdf (50 pages, 292830 bytes).
+SUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1728.pk><C:/Use
+rs/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb>
+Output written on thesis.pdf (57 pages, 340793 bytes).
 PDF statistics:
- 1203 PDF objects out of 1440 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
- 605 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1324 PDF objects out of 1440 (max. 8388607)
+ 148 named destinations out of 1000 (max. 500000)
+ 613 words of extra memory for PDF output out of 10000 (max. 10000000)
 
