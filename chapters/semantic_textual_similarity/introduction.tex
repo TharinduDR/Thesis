@@ -1,11 +1,26 @@
 \chapter{\label{cha:sts_introduction}Introduction}
 
 
-\section{What is Semantic Textual Similarity?}
 
-\section{Related Work}
+
+
+
+\section{Semantic Textual Similarity Approaches}
+Over the years, researchers have proposed numerous STS methods. Most of the early approaches were based on traditional machine learning and involved heavy feature engineering \cite{bechara-etal-2015-miniexperts}. With the advances of word embeddings, and as a result of the success neural networks have achieved in other fields, most of the methods proposed in recent years rely on neural architectures \cite{tai-etal-2015-improved,shao-2017-hcti}. Neural networks are preferred over traditional machine learning models as they generally tend to perform better than traditional machine learning models. They also do not rely on explicit linguistics features which have to be extracted before the ML model is learnt. Determining the best linguistic features for calculating STS is not an easy task as it requires a good understanding of the linguistic phenomenon and relies on researchers' intuition. In addition, calculating these features is usually not an easy task, especially for languages other than English. Therefore, in contrast to traditional ML methods, models based on word embeddings and neural networks can be easily applied to other languages.
+
+As stated in the  Chapter \ref{cha:introduction} the machine learning algorithms we experimented can be classified in to two min categories: Unsupervised STS methods and Supervised STS methods. In the Chapter \ref{cha:sts_state_of_the_art_methods} we evaluate the current STS state of the arts methods that uses word embeddings and we improve state of the arts STS methods using contextual embeddings.
+
+In Chapter \ref{cha:sts_sentence_encoders} we explore another unsupervised STS method using sentence encoders. We use three different sentence encoders analyse their performance in various aspects of English STS and also evaluate their portability to different languages and domains.  
+
+Siamese Neural Networks are a special kind of neural network that are being used commonly in STS tasks. It is a supervised STS method which we discuss comprehensively in Chapter \ref{cha:sts_siamese_neural_networks}. We evaluate the existing Siamese Neural Network architectures in STS datasets and propose a novel Siamese Neural Network architecture, MAGRU: an efficient and more accurate Siamese Neural Network architecture for STS tasks. We also asses its performance on different languages and different domains. 
+
+In the final chapter of the Part I of this thesis, we explore the newly released transformers in STS tasks. We bring together various transformer architectures like BERT \cite{devlin-etal-2019-bert}, XLNet \cite{yang2019xlnet}, RoBERTa \cite{liu2019roberta} etc and investigate their performance in various STS datasets in Chapter \ref{cha:sts_transformers}. 
+
+The remainder of this chapter is structured as follows. Section \ref{sec:sts_intro_datsets} discuss the various datasets we used in \textit{"Semantic Textual Similarity"} part of the thesis. We also briefly analyse the datasets for common properties. In the Section \ref{sec:sts_intro_contribution} we discuss the main contributions we have to the community with the \textit{"Semantic Textual Similarity"} part of the thesis. The chapter concludes with the conclusions.
+
 
 \section{Datasets}
+\label{sec:sts_intro_datsets}
 We experimented with several datasets throughout the experiments in the Semantic Textual Similarity Section. In order to maintain the versatility of our methods we experimented with several English datasets as well as several non English datasets and several datasets from different domains which we will introduce in this section. All of the datasets which are described here re publicly available and can be considered as STS benchmarks. 
 
 \subsection{English Datasets}
@@ -43,7 +58,7 @@ We experimented with several datasets throughout the experiments in the Semantic
   		 2. There is no biker jumping in the air. } & 1.6  \\
   		\hline               
   	\end{tabular}
-  	\caption[Example sentence pairs from the SICK dataset]{Example sentence pairs from the SICK dataset with their gold relatedness scores (on a 5-point rating scale).}
+  	\caption[Example sentence pairs from the SICK dataset]{Example sentence pairs from the SICK dataset with their gold relatedness scores (on a 5-point rating scale). \textbf{Sentence Pair} column shows the two sentence and \textbf{Relatedness} column denotes the annotated relatedness score.}
   	\label{tab:sickdata}
   \end{table}
 
@@ -139,7 +154,7 @@ We experimented with several datasets throughout the experiments in the Semantic
  		\hline
  	
  	\end{tabular}
- 	\caption[Example sentence pairs from the STS2017 English dataset]{Example sentence pairs from the STS2017 English dataset with their gold relatedness scores (on a 5-point rating scale) and explanations.}
+ 	\caption[Example sentence pairs from the STS2017 English dataset]{Example sentence pairs from the STS2017 English dataset with their gold relatedness scores (on a 5-point rating scale) and explanations. \textbf{Sentence Pair} column shows the two sentence and \textbf{Relatedness} column denotes the annotated relatedness score.}
  	\label{tab:sts2017data}
  \end{table} 
   
@@ -182,9 +197,10 @@ This is different to the previous datasets since it is not artificially created 
 \end{enumerate}
 
 \subsection{Datasets on Other Languages}
-In order to evaluate the potability of our STS methods we used several non-English datasets through out the experiments which we describe below.  
+One of the main requirements in our research was to build a STS method without depending on the language. Therefore through out our research we worked on several datasets from different languages. Those non-English datasets are described below. 
+  
 \begin{enumerate}
-\item{ \textbf{Spanish STS Dataset \footnote{The Spanish STS dataset can be downloaded at \url{http://alt.qcri.org/semeval2017/task1/index.php?id=data-and-tools}}}} - Spanish STS dataset that we used was employed for Spanish STS subtask in SemEval 2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation \cite{cer-etal-2017-semeval}. The training set has 1250 sentence pairs annotated with a relatedness score between 0 and 4. The training set combined several datasets from previous SemEval STS shared tasks also\cite{cer-etal-2017-semeval}. Table \ref{tab:spanishdata_info} shows more information about the trainin set. There were two sources for test set - Spanish news and Spanish Wikipedia dump having 500 and 250 sentence pairs respectively \cite{cer-etal-2017-semeval}. Both datasets were annotated with a relatedness score between 0 and 4. Table \ref{tab:spanishdata} shows few pairs of sentences with their similarity score.
+\item{ \textbf{Spanish STS Dataset \footnote{The Spanish STS dataset can be downloaded at \url{http://alt.qcri.org/semeval2017/task1/index.php?id=data-and-tools}}}} - Spanish STS dataset that we used was employed for Spanish STS subtask in SemEval 2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation \cite{cer-etal-2017-semeval}. The training set has 1250 sentence pairs annotated with a relatedness score between 0 and 4. The training set combined several datasets from previous SemEval STS shared tasks also\cite{cer-etal-2017-semeval}. Table \ref{tab:spanishdata_info} shows more information about the trainin set. There were two sources for test set - Spanish news and Spanish Wikipedia dump having 500 and 250 sentence pairs respectively \cite{cer-etal-2017-semeval}. Both datasets were annotated with a relatedness score between 0 and 4. Table \ref{tab:spanishdata} shows few pairs of sentences with their similarity score. The machine learning models require to predict a value between 0-4 which reflects the similarity of the given Spanish sentence pair.
 
 \begin{table}[ht!]
 	\centering
@@ -261,7 +277,7 @@ In order to evaluate the potability of our STS methods we used several non-Engli
 	\label{tab:arabicdata_info}
 \end{table}  
 
-To prepare the annotated instances, a subset of the English STS 2017 dataset has been selected and human translated into Arabic. Sentences have been translated independently from their pairs. Arabic translation has been provided by native Arabic speakers with strong English skills in Carnegie Mellon University in Qatar . Translators have been given an English sentence and its Arabic machine translation5 where they have performed post-editing to correct errors.  STS labels have been then transferred to the translated pairs. Therefore, annotation guidelines and the template will be similar to the English STS 2017 dataset. 1103 sentence pairs were available for training and 250 sentence pairs were available in the test set. Table \ref{tab:arabicdata} shows few pairs of sentences with their similarity score.  
+To prepare the annotated instances, a subset of the English STS 2017 dataset has been selected and human translated into Arabic. Sentences have been translated independently from their pairs. Arabic translation has been provided by native Arabic speakers with strong English skills in Carnegie Mellon University in Qatar . Translators have been given an English sentence and its Arabic machine translation5 where they have performed post-editing to correct errors.  STS labels have been then transferred to the translated pairs. Therefore, annotation guidelines and the template will be similar to the English STS 2017 dataset. 1103 sentence pairs were available for training and 250 sentence pairs were available in the test set. Table \ref{tab:arabicdata} shows few pairs of sentences with their similarity score. The machine learning models require to predict a value between 0-5 which reflects the similarity of a given Arabic sentence pair. 
 
     \begin{table}[ht!]
 	\centering 	
@@ -293,8 +309,8 @@ To prepare the annotated instances, a subset of the English STS 2017 dataset has
 		\\
 		\hline
 		\makecell[l]
-		{	1. \< رجل يرقص على صقف الغرفة.  > \\ \textit{A man dancing on the roof of the room.}\ \\ 
-			2.  \< رجل يرقص رأسا على عقب على السقف. > \\ \  \textit{A man is dancing upside down on the ceiling.} } & 4.600
+		{	1. \< الأيل قفز فوق السياج. > \\ \textit{The deer jumped over the fence.}\ \\ 
+			2.  \< أيل يقفز فوق سياج الإعصار. > \\ \  \textit{Deer Jumps Over Hurricane Fence} } & 4.800
 		\\
 		\hline
 		
@@ -303,26 +319,177 @@ To prepare the annotated instances, a subset of the English STS 2017 dataset has
 	\label{tab:arabicdata}
 \end{table}  
 
-
-
 	
 \end{enumerate}
 
 
 \subsection{Datasets on Different Domains}
-
+In order to experiment how our STS methods can be adopted in to different domains we have used two datasets from different disciplines which we introduce in this section. 
 \begin{enumerate}
-	\item{ \textbf{Bio-medical STS Dataset}} - 
-	\cite{10.1093/bioinformatics/btx238}
 	
-	\item{ \textbf{Clinical STS Dataset}}
-	\cite{Wang2020}	
+	\item{ \textbf{Bio-medical STS Dataset: BIOSSES } \footnote{Bio-medical STS Dataset: BIOSSES  can be downloaded from \url{https://tabilab.cmpe.boun.edu.tr/BIOSSES/DataSet.html} }} - BIOSSES is the first and only benchmark dataset for biomedical  sentence  similarity  estimation.
+	\cite{10.1093/bioinformatics/btx238}. The  dataset  comprises 100 sentence pairs, in which each sentence has been selected from the TAC (Text Analysis Conference) Biomedical Summarisation Track- training dataset containing articles from  the  biomedical domain \footnote{Biomedical Summarisation Track is a shared task organised in TAC 2014 - \url{https://tac.nist.gov/2014/BiomedSumm/}}. The sentence pairs have been evaluated by five different human experts that judged their similarity and gave scores ranging from 0 (no relation) to 4 (equivalent). The score range was described based on the guidelines of SemEval 2012 Task 6 on STS \cite{agirre-etal-2012-semeval}. Besides the annotation instructions, example sentences from the bio-medical literature 
+	have been also provided to the annotators for each of the similarity degrees. To represent the similarity between two sentences we took the average of the scores provided by the five human experts. Table \ref{tab:biomeddata} shows few examples in the dataset. The machine learning models require to predict a value between 0-4 which reflects the similarity of the given bio medical sentence pair.
+	
+	A dataset as small as this one can not be used by to train a supervised ML method, requiring alternative approaches such as unsupervised methods and transfer learning techniques which we will be exploring in the next few chapters.
+	
+	\begin{table}[ht!]
+		\centering
+			\begin{tabular}{c|c}
+				\hline
+				\multicolumn{1}{c|}{\textbf{Sentence Pair}} & 
+				\multicolumn{1}{c}{\textbf{Similarity}}  \\
+				\hline
+				\makecell[l]{1. It has recently been shown that Craf is essential \\ for Kras G12D-induced NSCLC. \\ 
+					2. It has recently become evident that Craf is \\ essential for the onset of Kras-driven non-small \\ cell lung cancer.} & 4  \\
+				\hline
+				\makecell[l]{1. Up-regulation of miR-24 has been observed in \\ a number of cancers, including OSCC. \\ 
+					2. In addition, miR-24 is one of the most abundant \\ miRNAs in cervical cancer cells, and is reportedly \\ up-regulated in solid stomach cancers. } & 3 \\
+				\hline
+				\makecell[l]{1. These cells (herein termed TLM-HMECs) are \\ immortal but do not proliferate in the absence of \\ extracellular matrix (ECM) \\  
+					2. HMECs expressing hTERT and SV40 LT \\ (TLM-HMECs) were cultured in mammary epithelial \\ growth medium (MEGM, Lonza)  } & 1.4  \\
+				\hline
+				\makecell[l]{1.The up-regulation of miR-146a was also detected in \\ cervical cancer tissues.  \\ 
+					2. Similarly to PLK1, Aurora-A activity is required \\ for the enrichment or localisation of multiple \\ centrosomal  factors which have roles in maturation, \\ including LATS2 and CDK5RAP2/Cnn.} & 0.2  \\
+				\hline               
+			\end{tabular}
+		\caption[Example question pairs from the Arabic STS dataset]{Example question  pairs from the Arabic STS dataset. \textbf{Sentence Pair} column shows the two sentences. We also included their translations in the table. The translations were done by a native Arabic speaker. \textbf{Similarity} column indicates the averaged annotated similarity of the two sentences.}
+		\label{tab:biomeddata}
+	\end{table} 
+	
+	 
+	\item{ \textbf{Clinical STS Dataset: MedSTS} \footnote{Clinical STS Dataset: MedSTS can be downloaded from \url{https://n2c2.dbmi.hms.harvard.edu/track1}. }}. MedSTS is another important STS benchmark dataset built on electronic clinical records (EHR). MedSTS contains 1,642 sentence pairs which were employed in Track 1 of National NLP Clinical Challenges (n2c2): Clinical Semantic Textual Similarity. Out of the 1,642 sentence pairs, 1,068 pairs were from the BioCreative/OHNLP 2018 shared task \cite{10.1145/3233547.3233672} \footnote{BioCreative/OHNLP shared task is available on \url{https://sites.google.com/view/ohnlp2018/home}} as well as 1,006 new pairs from two EHR systems, GE \footnote{GE Healthcare provides IT healthcare solutions that also includes EHR solutions and can be accessed from \url{https://www.gehealthcare.sa/products/healthcare-it/electronic-medical-records}} and Epic \footnote{Epic is a cloud-based EHR solution. More information can be viewed from their website \url{https://www.epic.com/}}. Sentence pairs for BioCreative/OHNLP 2018 shared task have been extracted from Mayo Clinic’s clinical data warehouse \cite{10.1136/amiajnl-2011-000744}. 
+	
+	The creators of the dataset have removed protected health information (PHI) in the sentences by employing a frequency filtering approach \cite{Wang2020}. Once the sentence pairs have been selected  two clinical experts have being asked to annotate each sentence pair on the basis of their semantic equivalence. The annotation guideline is similar to the annotation guidelines of the STS 2017 English dataset \cite{agirre-etal-2012-semeval}. Table \ref{tab:medstsdata_1} and Table \ref{tab:medstsdata_2} shows some example sentence pairs from the dataset with the gold labels and their explanations. The machine learning models require to predict a value between 0-5 which reflects the similarity of the given sentence pair.
+	
+	
+	
+	\begin{table}[ht!]
+		\centering 	
+		\begin{tabular}{l|c} 
+			\hline
+			\multicolumn{1}{c|}{\textbf{Sentence Pair}} & 
+			\multicolumn{1}{c}{\textbf{Relatedness}}  \\
+			\hline
+			\makecell[l]
+			{\textit{The two sentences are completely equivalent}  \\ \textit{as they mean the same thing.} \\
+				1. Albuterol [PROVENTIL/VENTOLIN] 90 mcg/Act \\ HFA Aerosol 2 puffs by
+				inhalation every 4 hours \\ as needed. \\ 
+				2. Albuterol [PROVENTIL/VENTOLIN] 90 mcg/Act \\ HFA Aerosol 1-2 puffs by inhalation every 4 hours \\ as needed 1 each.} & 5  \\
+			\hline
+			\makecell[l]
+			{\textit{The two sentences are completely equivalent}  \\ \textit{as they mean the same thing.} \\
+				1. Discussed goals, risks, alternatives, advanced \\ directives, and the necessity of other members of \\ the surgical team participating in the procedure \\ with the patient. \\ 
+				2. Discussed risks, goals, alternatives, advance \\ directives, and the necessity of other members of \\ the healthcare team participating in the procedure \\ with the patient
+				and his mother.} & 4  \\
+			\hline
+			\makecell[l]
+			{\textit{The two sentences are roughly equivalent, but }  \\ \textit{some important information differs/missing.} \\
+				1. Cardiovascular assessment findings include heart \\ rate normal, Heart rhythm, atrial fibrillation with \\controlled ventricular response. \\ 
+				2. Cardiovascular assessment findings include heart \\ rate, bradycardic, Heart rhythm, first degree AV \\ Block.} & 3  \\
+			\hline
+			
+		\end{tabular}
+		\caption[Example sentence pairs from the MedSTS dataset - Part I]{Example sentence pairs from the MedSTS dataset with their gold relatedness scores (on a 5-point rating scale) and explanations - Part I. \textbf{Sentence Pair} column shows the two sentence and \textbf{Relatedness} column denotes the annotated relatedness score.}
+		\label{tab:medstsdata_1}
+	\end{table} 
+
+
+
+
+\begin{table}[ht!]
+	\centering 	
+	\begin{tabular}{l|c} 
+		\hline
+		\multicolumn{1}{c|}{\textbf{Sentence Pair}} & 
+		\multicolumn{1}{c}{\textbf{Relatedness}}  \\
+		\hline
+		\makecell[l]
+		{\textit{The two sentences are not equivalent, but share } \\
+			\textit{some details.} \\
+			1. Discussed risks, goals, alternatives, advance \\ directives, and the necessity of other members \\ of the healthcare team participating in the \\ procedure with (patient) (legal representative \\ and others present during the discussion). \\ 
+			2. We discussed the low likelihood that a blood \\ transfusion would be required during the \\ postoperative period and the necessity of other \\ members of the surgical team participating \\ in the procedure.
+} & 2  \\
+		\hline
+		\makecell[l]
+		{\textit{The two sentences are not equivalent, but are } \\
+			\textit{on the same topic.} \\
+			1. No: typical 'cold' symptoms; fever present \\ (greater than or equal to 100.4 F or 38 C) or \\ suspected fever; rash; white patches on lips, \\ tongue or mouth (other than throat); blisters in \\ the mouth; swollen or 'bull' neck; hoarseness or \\ lost voice or ear pain. \\ 
+			2. New wheezing or chest tightness, runny or \\ blocked nose, or discharge down the back of the \\ throat, hoarseness or lost voice.} & 1  \\
+		\hline
+		\makecell[l]
+		{\textit{The two sentences are completely dissimilar} \\
+			1. The risks and benefits of the procedure were \\ discussed, and the patient consented to this \\ procedure. \\ 
+			2. The content of this note has been reproduced, \\ signed by an authorized } & 0  \\
+		\hline
+		
+	\end{tabular}
+	\caption[Example sentence pairs from the MedSTS dataset - Part II]{Example sentence pairs from the MedSTS dataset with their gold relatedness scores (on a 5-point rating scale) and explanations - Part II. \textbf{Sentence Pair} column shows the two sentence and \textbf{Relatedness} column denotes the annotated relatedness score.}
+	\label{tab:medstsdata_2}
+\end{table} 
+
+
+
 \end{enumerate}
 
-\section{Applications}
+\section{Evaluation Metrics}
+While training a model is a key step, how the model generalizes on unseen data is an equally important aspect that should be considered in every machine learning model. We need to know whether it actually works and, consequently, if we can trust its predictions. This is typically called as \textit{evaluation}. All of the datasets that we introduced in the previous section has what we call a \textit{test} set. The machine learning models need to provide their predictions for the test test and the predictions will be evaluated against the true values of the test set. 
 
+There are three common evaluation metrics that are employed in Semantic Textual Similarity tasks, which we explain in this section. We will be using them to evaluate our models through out the first part of our research. 
+
+In the equations presented for each of the evaluation metrics, we represent the gold labels with $X$ and predictions with $Y$. Therefore, a gold label in $i^{th}$ position will be represented by $X_i$ and a prediction in $i^{th}$ position will be represented by $Y_i$. 
+
+\begin{enumerate}
+	
+	\item \textbf{Pearson's Correlation Coefficient} - Correlation is a technique for investigating the relationship between two quantitative, continuous variables. Pearson's correlation coefficient ($\rho$)  is a measure of the strength of the linear association between the two variables. A value of +1 is total positive linear correlation between the variables, 0 is no linear correlation, and -1 is total negative linear correlation. 
+	
+	Pearson's Correlation Coefficient is one of the most common evaluation metrics in STS shared tasks \cite{marelli-etal-2014-semeval,agirre-etal-2012-semeval,agirre-etal-2013-sem,agirre-etal-2014-semeval,agirre-etal-2015-semeval,agirre-etal-2016-semeval}. A machine learning model with a Pearson's Correlation Coefficient close to 1 indicates that the predictions of that model and gold labels have a strong positive linear correlation and therefore, it is a good model to predict STS. Pearson's Correlation Coefficient equation is shown in Equation \ref{equ:pearson} where $cov$  is the covariance, $\sigma_X$ is the standard deviation of $X$ and $\sigma_Y$ is the standard deviation of $Y$.
+	
+	\begin{equation}
+	\label{equ:pearson}
+	\rho = \frac{\text{cov}(X,Y)}{\sigma_X \sigma_Y}
+	\end{equation}
+	
+	\item \textbf{Spearman's Correlation Coefficient} - Spearman's Correlation Coefficient ($\tau$) is another common evaluation metric in STS shared tasks \cite{marelli-etal-2014-semeval,agirre-etal-2012-semeval,agirre-etal-2013-sem,agirre-etal-2014-semeval,agirre-etal-2015-semeval,agirre-etal-2016-semeval}. It assesses how well the relationship between two variables can be described using a monotonic function. A monotonic relationship is a relationship that does one of the following: 
+	
+	\begin{enumerate}
+		\item as the value of one variable increases, so does the value of the other variable, \textit{OR},
+		\item as the value of one variable increases, the other variable value decreases.
+	\end{enumerate}
+	
+	But not exactly at a constant rate whereas in a linear relationship the rate of increase/decrease is constant. The fundamental difference between Pearson's Correlation Coefficient and Spearman's Correlation Coefficient is that the Pearson Correlation Coefficient only works with a linear relationship between the two variables whereas the Correlation Coefficient works with the monotonic relationships as well. Spearman's Correlation Coefficient equation is shown in Equation \ref{equ:spearman} where $D_i$ is the pairwise distances of the ranks of the variables $X_i$ and $Y_i$ and $n$ is the number of elements in $X$ or $Y$.  
+	
+	
+	\begin{equation}
+	\label{equ:spearman}
+	\tau = 1- {\frac {6 \sum D_i^2}{n(n^2 - 1)}}
+	\end{equation}
+	
+	
+	\item \textbf{Root Mean Squared Error} - Both Pearson's Correlation Coefficient and Spearman's Correlation Coefficient works only when both gold labels($X$) and predictions ($Y$) are continues. Therefore, in the datasets like Quora Question Pairs where the gold labels are discrete values, Root Mean Squared Error (RMSE) is preferred for evaluation than Correlation Coefficient values. RMSE measures the distance between the gold labels and the predictions. RMSE equation is shown in Equation \ref{equ:rmse} where $n$ is the number of elements in $X$ or $Y$. 
+	
+	\begin{equation}
+	\label{equ:rmse}
+	rmse = \sqrt{(\frac{1}{n})\sum_{i=1}^{n}(Y_{i} - X_{i})^{2}}
+	\end{equation}
+	
+\end{enumerate}
 %%% The following are used by emacs, and similar:
 
 %%% Local Variables: ***
 %%% TeX-master: "../thesis.tex"  ***
 %%% End: ***
+
+\section{Contributions}
+\label{sec:sts_intro_contribution}
+The main contributions of this part of the thesis are as follows.
+
+\begin{enumerate}
+	\item In each chapter, we cover various techniques to compute semantic similarity at the sentence level that can benefit the applications in the machine translation domain. 
+	
+	\item We propose a novel unsupervised STS method that outperforms current state of the arts unsupervised STS methods in all the English datasets, non-English datasets and datasets in other domains. 
+	
+	\item We propose a novel Siamese neural network architecture model which is efficient and outperforms current Siamese neural network architectures in all STS datasets. 
+	
+	\item We provide important resources to the community. The code of the each chapter as an open-source GitHub repository and the pre-trained STS models will be freely available to the community. The link to the GitHub repository and the models will be unveiled in the introduction section of the each chapter. 
+\end{enumerate}

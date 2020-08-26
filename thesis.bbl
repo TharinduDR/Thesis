@@ -1,5 +1,111 @@
 \begin{thebibliography}{10}
 
+\bibitem{Majumder2016SemanticTS}
+Goutam Majumder, Partha Pakray, Alexander~F. Gelbukh, and David Pinto.
+\newblock Semantic textual similarity methods, tools, and applications: A
+  survey.
+\newblock {\em Computaci{\'o}n y Sistemas}, 20, 2016.
+
+\bibitem{Aliguliyev2009ANS}
+Ramiz~M. Aliguliyev.
+\newblock A new sentence similarity measure and sentence based extractive
+  technique for automatic text summarization.
+\newblock {\em Expert Syst. Appl.}, 36:7764--7772, 2009.
+
+\bibitem{10.1177/0165551511408848}
+Makbule~Gulcin Ozsoy, Ferda~Nur Alpaslan, and Ilyas Cicekli.
+\newblock Text summarization using latent semantic analysis.
+\newblock {\em J. Inf. Sci.}, 37(4):405–417, August 2011.
+
+\bibitem{mohler-etal-2011-learning}
+Michael Mohler, Razvan Bunescu, and Rada Mihalcea.
+\newblock Learning to grade short answer questions using semantic similarity
+  measures and dependency graph alignments.
+\newblock In {\em Proceedings of the 49th Annual Meeting of the Association for
+  Computational Linguistics: Human Language Technologies}, pages 752--762,
+  Portland, Oregon, USA, June 2011. Association for Computational Linguistics.
+
+\bibitem{rocchio71relevance}
+J.~J. Rocchio.
+\newblock Relevance feedback in information retrieval.
+\newblock In G.~Salton, editor, {\em The Smart retrieval system - experiments
+  in automatic document processing}, pages 313--323. Englewood Cliffs, NJ:
+  Prentice-Hall, 1971.
+
+\bibitem{Li2006SentenceSB}
+Yuhua Li, David McLean, Zuhair Bandar, James O'Shea, and Keeley~A. Crockett.
+\newblock Sentence similarity based on semantic nets and corpus statistics.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  18:1138--1150, 2006.
+
+\bibitem{10.1016/S0306-4573(96)00062-3}
+Gerard Salton, Amit Singhal, Mandar Mitra, and Chris Buckley.
+\newblock Automatic text structuring and summarization.
+\newblock {\em Inf. Process. Manage.}, 33(2):193–207, March 1997.
+
+\bibitem{xu-etal-2015-semeval}
+Wei Xu, Chris Callison-Burch, and Bill Dolan.
+\newblock {S}em{E}val-2015 task 1: Paraphrase and semantic similarity in
+  twitter ({PIT}).
+\newblock In {\em Proceedings of the 9th International Workshop on Semantic
+  Evaluation ({S}em{E}val 2015)}, pages 1--11, Denver, Colorado, June 2015.
+  Association for Computational Linguistics.
+
+\bibitem{10.1371/journal.pcbi.1000937}
+João~D. Ferreira and Francisco~M. Couto.
+\newblock Semantic similarity for automatic classification of chemical
+  compounds.
+\newblock {\em PLOS Computational Biology}, 6(9):1--11, 09 2010.
+
+\bibitem{bechara-etal-2015-miniexperts}
+Hanna B{\'e}chara, Hernani Costa, Shiva Taslimipoor, Rohit Gupta, Constantin
+  Orasan, Gloria Corpas~Pastor, and Ruslan Mitkov.
+\newblock {M}ini{E}xperts: An {SVM} approach for measuring semantic textual
+  similarity.
+\newblock In {\em Proceedings of the 9th International Workshop on Semantic
+  Evaluation ({S}em{E}val 2015)}, pages 96--101, Denver, Colorado, June 2015.
+  Association for Computational Linguistics.
+
+\bibitem{tai-etal-2015-improved}
+Kai~Sheng Tai, Richard Socher, and Christopher~D. Manning.
+\newblock Improved semantic representations from tree-structured long
+  short-term memory networks.
+\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
+  Computational Linguistics and the 7th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)}, pages 1556--1566,
+  Beijing, China, July 2015. Association for Computational Linguistics.
+
+\bibitem{shao-2017-hcti}
+Yang Shao.
+\newblock {HCTI} at {S}em{E}val-2017 task 1: Use convolutional neural network
+  to evaluate semantic textual similarity.
+\newblock In {\em Proceedings of the 11th International Workshop on Semantic
+  Evaluation ({S}em{E}val-2017)}, pages 130--133, Vancouver, Canada, August
+  2017. Association for Computational Linguistics.
+
+\bibitem{devlin-etal-2019-bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock {BERT}: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock In {\em Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers)}, pages 4171--4186,
+  Minneapolis, Minnesota, June 2019. Association for Computational Linguistics.
+
+\bibitem{yang2019xlnet}
+Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Russ~R Salakhutdinov,
+  and Quoc~V Le.
+\newblock Xlnet: Generalized autoregressive pretraining for language
+  understanding.
+\newblock In {\em Advances in neural information processing systems}, pages
+  5753--5763, 2019.
+
+\bibitem{liu2019roberta}
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer
+  Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov.
+\newblock Roberta: A robustly optimized bert pretraining approach.
+\newblock {\em arXiv preprint arXiv:1907.11692}, 2019.
+
 \bibitem{marelli-etal-2014-semeval}
 Marco Marelli, Luisa Bentivogli, Marco Baroni, Raffaella Bernardi, Stefano
   Menini, and Roberto Zamparelli.
@@ -83,6 +189,22 @@ Gizem Soğancıoğlu, Hakime Öztürk, and Arzucan Özgür.
   biomedical domain}.
 \newblock {\em Bioinformatics}, 33(14):i49--i58, 07 2017.
 
+\bibitem{10.1145/3233547.3233672}
+Majid Rastegar-Mojarad, Sijia Liu, Yanshan Wang, Naveed Afzal, Liwei Wang,
+  Feichen Shen, Sunyang Fu, and Hongfang Liu.
+\newblock Biocreative/ohnlp challenge 2018.
+\newblock In {\em Proceedings of the 2018 ACM International Conference on
+  Bioinformatics, Computational Biology, and Health Informatics}, BCB '18, page
+  575, New York, NY, USA, 2018. Association for Computing Machinery.
+
+\bibitem{10.1136/amiajnl-2011-000744}
+Stephen~T Wu, Hongfang Liu, Dingcheng Li, Cui Tao, Mark~A Musen, Christopher~G
+  Chute, and Nigam~H Shah.
+\newblock {Unified Medical Language System term occurrences in clinical notes:
+  a large-scale corpus analysis}.
+\newblock {\em Journal of the American Medical Informatics Association},
+  19(e1):e149--e156, 04 2012.
+
 \bibitem{Wang2020}
 Yanshan Wang, Naveed Afzal, Sunyang Fu, Liwei Wang, Feichen Shen, Majid
   Rastegar-Mojarad, and Hongfang Liu.
@@ -112,15 +234,6 @@ Tharindu Ranasinghe, Constantin Orasan, and Ruslan Mitkov.
 \newblock In {\em Proceedings of the International Conference on Recent
   Advances in Natural Language Processing (RANLP 2019)}, pages 1004--1011,
   Varna, Bulgaria, September 2019. INCOMA Ltd.
-
-\bibitem{devlin-etal-2019-bert}
-Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
-\newblock {BERT}: Pre-training of deep bidirectional transformers for language
-  understanding.
-\newblock In {\em Proceedings of the 2019 Conference of the North {A}merican
-  Chapter of the Association for Computational Linguistics: Human Language
-  Technologies, Volume 1 (Long and Short Papers)}, pages 4171--4186,
-  Minneapolis, Minnesota, June 2019. Association for Computational Linguistics.
 
 \bibitem{Arthern1979}
 Peter~J. Arthern.
