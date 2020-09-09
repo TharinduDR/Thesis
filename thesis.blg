@@ -1,8 +1,8 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
-Reallocating 'name_of_file' (item size: 1) to 6 items.
-The style file: unsrt.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: unsrtnat.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: abstract.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
@@ -57,44 +57,48 @@ Database file #7: refs/translation_memories/introduction.bib
 Database file #8: refs/translation_memories/sentence_encoders.bib
 Database file #9: refs/translation_quality_estimation/introduction.bib
 Database file #10: refs/translation_quality_estimation/transquest.bib
-You've used 35 entries,
-            1791 wiz_defined-function locations,
-            705 strings with 14670 characters,
-and the built_in function-call counts, 12534 in all, are:
-= -- 1193
-> -- 583
-< -- 25
-+ -- 207
-- -- 172
-* -- 901
-:= -- 1816
-add.period$ -- 128
-call.type$ -- 35
-change.case$ -- 35
-chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 599
-empty$ -- 1103
-format.name$ -- 172
-if$ -- 2955
-int.to.chr$ -- 0
-int.to.str$ -- 35
-missing$ -- 35
-newline$ -- 178
-num.names$ -- 37
-pop$ -- 136
+Warning--I didn't find a database entry for "Conneau2017SupervisedLO"
+Warning--I didn't find a database entry for "Pagliardini2018UnsupervisedLO"
+Warning--I didn't find a database entry for "Le2014DistributedRO"
+You've used 51 entries,
+            2481 wiz_defined-function locations,
+            962 strings with 22789 characters,
+and the built_in function-call counts, 29907 in all, are:
+= -- 2760
+> -- 1673
+< -- 49
++ -- 615
+- -- 508
+* -- 2389
+:= -- 4494
+add.period$ -- 270
+call.type$ -- 51
+change.case$ -- 102
+chr.to.int$ -- 46
+cite$ -- 51
+duplicate$ -- 1536
+empty$ -- 2361
+format.name$ -- 565
+if$ -- 6738
+int.to.chr$ -- 6
+int.to.str$ -- 52
+missing$ -- 51
+newline$ -- 340
+num.names$ -- 153
+pop$ -- 464
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 51
 quote$ -- 0
-skip$ -- 366
+skip$ -- 1031
 stack$ -- 0
-substring$ -- 928
-swap$ -- 249
-text.length$ -- 25
+substring$ -- 1433
+swap$ -- 595
+text.length$ -- 44
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 357
 warning$ -- 0
-while$ -- 116
-width$ -- 37
-write$ -- 432
+while$ -- 220
+width$ -- 0
+write$ -- 901
+(There were 3 warnings)
