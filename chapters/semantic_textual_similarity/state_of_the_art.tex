@@ -20,14 +20,14 @@ The rest of this chapter is organised as follows. Section \ref{sec:state_related
 
 \section{Related Work}
 \label{sec:state_related}
-Given that a good STS metric is required for a variety of natural language processing fields, researchers have proposed a large number of such metrics. Before the shift of interest in neural networks, most of the proposed methods relied heavily on feature engineering. With the introduction of word embedding models, researchers focused more on neural representation for this task. The three unsupervised STS methods explored in this paper: Cosine similarity on average vectors, Word Mover's Distance and Cosine similarity using Smooth Inverse Frequency are the most common unsupervised methods explored in STS tasks. Apart from them cosine similarity of the output from Infersent \cite{Conneau2017SupervisedLO}, sent2vec \cite{Pagliardini2018UnsupervisedLO} and doc2vec \cite{Le2014DistributedRO} have been used to represent the similarity between two sentences which we discuss in the next chapter. 
+Given that a good STS metric is required for a variety of natural language processing fields, researchers have proposed a large number of such metrics. Before the shift of interest in neural networks, most of the proposed methods relied heavily on feature engineering. With the introduction of word embedding models, researchers focused more on neural representation for this task. The three unsupervised STS methods explored in this paper: Cosine similarity on average vectors, Word Mover's Distance and Cosine similarity using Smooth Inverse Frequency are the most common unsupervised methods explored in STS tasks. Apart from them cosine similarity of the output from Infersent \cite{conneau-EtAl:2017:EMNLP2017}, sent2vec \cite{pagliardini-etal-2018-unsupervised} and doc2vec \cite{10.5555/3044805.3045025} have been used to represent the similarity between two sentences which we discuss in the next chapter. 
 
 
 \subsection{Cosine Similarity on Average Vectors}
 The first unsupervised STS method that we used to estimate the semantic similarity between a pair of sentences, takes the average of the word embeddings of all words in the two sentences, and calculates the cosine similarity between the resulting embeddings. This is a common way to acquire sentence embeddings from word embeddings. Obviously, this simple baseline leaves considerable room for variation. Researches have investigated the effects of ignoring stopwords and computing an average weighted by tf-idf in particular.
 
 \subsection{Word Mover's Distance}
-The second STS state of the arts method that we have considered is Word Mover's Distance introduced by \citet{10.5555/3045118.3045221}. Word Mover's Distance uses the word embeddings of the words in two texts to measure the minimum distance that the words in one text need to ``travel'' in semantic space to reach the words in the other text as shown in Figure \ref{fig:WMD}. \citet{10.5555/3045118.3045221} says that this is a good approach than vector averaging since this technique keeps the word vectors as it is through out the operation. We have investigated the effects of considering/ ignoring stop words before calculating the word mover's distance.
+The second STS state of the arts method that we have considered is Word Mover's Distance introduced by \citet{10.5555/3045118.3045221}. Word Mover's Distance uses the word embeddings of the words in two texts to measure the minimum distance that the words in one text need to ``travel'' in semantic space to reach the words in the other text as shown in Figure \ref{fig:WMD}. \citet{10.5555/3045118.3045221} says that this is a good approach than vector averaging since this technique keeps the word vectors as it is through out the operation.
 
 \begin{figure}[ht]
 	\centering
@@ -52,13 +52,13 @@ All of these STS methods are based on word embeddings/vectors. The main weakness
 \item \textbf{ELMo\footnote{More details about ELMo can be viewed on \url{https://allennlp.org/elmo}}}
 introduced by \citet{peters-etal-2018-deep} use bidirectional language model (biLM) to learn both word (e.g., syntax and semantics) and linguistic context. After pre-training, an internal state of vectors can be transferred to downstream natural language processing tasks. ELMo vectors have been successfully used many natural language processing tasks like text classification \cite{jiang-etal-2019-team}, named entity recognition \cite{Luo2018} which motivated us to explore ELMo in unsupervised STS methods. Also, we were aware about the fact that ELMo has been pre-trained on different languages \cite{che-EtAl:2018:K18-2} and different domains \cite{jin2019probing} which will be easier when we are adopting our methodology for different languages and domains in Sections \ref{sec:state_languages} and \ref{sec:state_domains}.
 
-\item \textbf{BERT\footnote{The GitHub repository of BERT is available on \url{https://github.com/google-research/bert}}} introduced by \citet{devlin-etal-2019-bert} might probably be the most popular contextualised word embedding model. In contrast to ELMo which uses a shallow concatenation layer \cite{devlin-etal-2019-bert}, BERT employs a deep concatenation layer. As a result BERT is considered a very powerful embedding architecture. BERT has been successfully applied in many natural language processing tasks like text classification \cite{Ranasinghe2019a}, word similarity \cite{hettiarachchi-etal-2020-brums}, named entity recognition \cite{10.1145/3394486.3403149}, question and answering \cite{yang-etal-2019-end} etc. Similar to ELMo, BERT too has been widely adopted to different languages such as Arabic \cite{antoun-etal-2020-arabert}, French \cite{martin-etal-2020-camembert} etc. and different domains such as SciBERT \cite{beltagy-etal-2019-scibert} and BioBERT \cite{10.1093/bioinformatics/btz682} etc.  
+\item \textbf{BERT\footnote{The GitHub repository of BERT is available on \url{https://github.com/google-research/bert}}} introduced by \citet{devlin-etal-2019-bert} might probably be the most popular contextualised word embedding model. In contrast to ELMo which uses a shallow concatenation layer \cite{devlin-etal-2019-bert}, BERT employs a deep concatenation layer. As a result BERT is considered a very powerful embedding architecture. BERT has been successfully applied in many natural language processing tasks like text classification \cite{Ranasinghe2019a}, word similarity \cite{hettiarachchi-etal-2020-brums}, named entity recognition \cite{10.1145/3394486.3403149}, question and answering \cite{yang-etal-2019-end} etc. Similar to ELMo, BERT too has been widely adopted to different languages\footnote{Information about pretrained BERT models for different languages can be found on \url{https://bertlang.unibocconi.it/}} such as Arabic \cite{antoun-etal-2020-arabert}, French \cite{martin-etal-2020-camembert}, Spanish \cite{CaneteCFP2020}, Greek \cite{10.1145/3411408.3411440} etc. and different domains such as SciBERT \cite{beltagy-etal-2019-scibert}, BioBERT \cite{10.1093/bioinformatics/btz682}, LEGAL-BERT \cite{chalkidis-etal-2020-legal} etc.  
 
 \item \textbf{Flair\footnote{The GitHub repository of Flair is available on \url{https://github.com/flairNLP/flair}}} is another type of popular contextualised word embeddings introduced in \citet{akbik-etal-2018-contextual}. It takes a different approach by using a character level language model rather than the word level language model used in ELMo and BERT. Flair also has been used successfully in natural language processing tasks such as named entity recognition \cite{akbik-etal-2019-pooled}, part-of-speech tagging \cite{akbik-etal-2018-contextual} and has been widely adopted in to different languages and domains \cite{akbik-etal-2018-contextual,sharma2019bioflair}.
 
 \end{enumerate}
 
-Apart from using these contextual word embedding models individually we also considered \textbf{Stacked Embeddings} of these models together. Stacked Embeddings are obtained by concatenating different embeddings. According to \citet{akbik-etal-2018-contextual} stacking the embeddings can provide a powerful embeddings to represent words. Therefore, we experimented with several combinations of Stacked Embeddings.
+Apart from using these contextual word embedding models individually we also considered \textbf{Stacked Embeddings} of these models together. Stacked Embeddings are obtained by concatenating different embeddings. According to \citet{akbik-etal-2018-contextual} stacking the embeddings can provide powerful embeddings to represent words. Therefore, we experimented with several combinations of Stacked Embeddings.
 
 Even though these contextual word embedding models have shown promising results in many natural language processing tasks, to the best of our knowledge none of these contextual word representations has been applied on unsupervised STS methods.  
 
@@ -74,11 +74,272 @@ For BERT we used the 'bert-large-cased' pre-trained model. Compared to the 'bert
 
 As suggested in \citet{akbik-etal-2018-contextual} the recommended way to use Flair embeddings is to stack pre-trained 'news-forward' flair embeddings and pre-trained flair 'news-backward' embeddings with GloVe \cite{pennington-etal-2014-glove} word embeddings. We used the stacked model to represent each word as a 4196 lengthened vector. 
 
+As mentioned before we also considered stacked embeddings of ELMo and BERT. For this we used pre-trained 'bert-large-uncased' model and 'original (5.5B)' pre-trained ELMo model to represent each word as a 4096 + 3072 vector.
+
+In order to compare the results of contextualised word embeddings, we used a standard word representation model in each experiment as a baseline. In this research we used Word2vec embeddings \cite{DBLP:journals/corr/abs-1301-3781} pre-trained on Google news corpus\footnote{Pretrained Word2vec can be downloaded from \url{https://code.google.com/archive/p/word2vec/}}. We represented each word as a 300 lengthened vector using this model.
+
+ 
+
 In the following list we show the performance of each unsupervised STS method with contextual word embeddings on different English STS datasets. 
 
 \begin{enumerate}
-	\item \textbf{Cosine Similarity on Average Vectors} - The first unsupervised STS method we tried to improve using contextual word embeddings is Cosine Similarity on Average Vectors which we explained on Section \ref{sec:state_related}.
+	\item \textbf{Cosine Similarity on Average Vectors} - The first unsupervised STS method we tried to improve using contextual word embeddings is Cosine Similarity on Average Vectors which we explained on Section \ref{sec:state_related}. Table \ref{tab:sick_average_vectors} shows the results for SICK dataset, Table \ref{tab:sts_average_vectors} shows the results for STS 2017 dataset. In order to compare our results with the other systems, we conducted the experiments only on the test data of the three mentioned datasets. Since this method leaves considerable room for variation, we have investigated the following variations and reported their results in each table. 
+	
+	\begin{enumerate}
+		\item All the word vectors were considered for averaging. Results are shown in column I of Tables \ref{tab:sick_average_vectors}, \ref{tab:sts_average_vectors} and \ref{tab:quora_average_vectors}
+		
+		\item All the word vectors except the vectors for stop words were considered for averaging. Column II of Tables \ref{tab:sick_average_vectors}, \ref{tab:sts_average_vectors} and \ref{tab:quora_average_vectors} shows the results. 
+		
+		\item All the word vectors were weighted from its tf-idf scores and considered averaging. Results are shown in column III of Tables \ref{tab:sick_average_vectors}, \ref{tab:sts_average_vectors} and \ref{tab:quora_average_vectors}
+		
+		\item Stop words were removed first and remaining word vectors were weighted from its tf-idf scores and considered averaging. Column IV of Tables \ref{tab:sick_average_vectors}, \ref{tab:sts_average_vectors} and \ref{tab:quora_average_vectors} shows the results.  
+		
+	\end{enumerate}
+	
+\begin{table*}[htb]
+	%\footnotesize
+	\centering
+	\scalebox{0.95}{
+		\begin{tabular}{l|cc|cc|cc|cc|}
+			
+			\hline & 
+			\multicolumn{2}{c|}{\textbf{I}}    & \multicolumn{2}{c|}{\textbf{II}}   & \multicolumn{2}{c|}{\textbf{III}}  &    
+			\multicolumn{2}{c|}{\textbf{IV}}   \\ 
+			\hline
+			\multicolumn{1}{l|}{\textbf{Model}} 
+			& $\bm{\rho}$   & $\bm{\tau}$     
+			& $\bm{\rho}$   & $\bm{\tau}$  
+			& $\bm{\rho}$   & $\bm{\tau}$  
+			& $\bm{\rho}$   & $\bm{\tau}$  
+			\\ \hline
+			\textit{Word2vec}                  
+			& \textbf{0.730}$^{\dagger}$  & 0.624        
+			& \textbf{0.714}        & 0.583    
+			& \textbf{0.693}        & 0.570    
+			& \textbf{0.687}        & 0.555    \\
+			\textit{ELMo}                     
+			& 0.669                 & 0.592         
+			& 0.693                 & 0.603       
+			& 0.676                 & \textbf{0.579}  
+			& 0.668                 & \textbf{0.572}      \\
+			\textit{Flair}                     
+			& 0.646                 & 0.568         
+			& 0.670                 & 0.562       
+			& 0.644                 & 0.535  
+			& 0.643                 & 0.531      \\
+			\textit{BERT}                     
+			& 0.683                 & 0.633         
+			& 0.686                 & 0.606       
+			& 0.557                 & 0.552  
+			& 0.539                 & 0.538 \\
+			\textit{ELMo $\bigoplus$ BERT}                     
+			& 0.696                 & \textbf{0.634}$^{\dagger}$          
+			& 0.702                 & \textbf{0.614}       
+			& 0.607                 & 0.562  
+			& 0.591                 & 0.551 \\
+			\hline
+		\end{tabular}
+	}
+	\caption[Results for SICK with Vector Averaging]{Results for SICK dataset with Vector Averaging. I, II, III and IV indicates the different variations as explained before. For each word embedding model, Pearson Correlation ($\bm{\rho}$) and Spearman Correlation ($\bm{\tau}$) are reported on all variations between the predicted values and the gold labels of the test set. $\bigoplus$ indicates a stacked word embedding model. Best result in each variation is marked in \textbf{Bold}. Best result from all the variations is marked with ${\dagger}$. }  
+	\label{tab:sick_average_vectors}
+\end{table*}
+
+\begin{table*}[htb]
+	%\footnotesize
+	\centering
+	\scalebox{0.95}{
+		\begin{tabular}{l|cc|cc|cc|cc|}
+			
+			\hline & 
+			\multicolumn{2}{c|}{\textbf{I}}    & \multicolumn{2}{c|}{\textbf{II}}   & \multicolumn{2}{c|}{\textbf{III}}  &    
+			\multicolumn{2}{c|}{\textbf{IV}}   \\ 
+			\hline
+			\multicolumn{1}{l|}{\textbf{Model}} 
+			&  $\bm{\rho}$   & $\bm{\tau}$      
+			&  $\bm{\rho}$   & $\bm{\tau}$  
+			&  $\bm{\rho}$   & $\bm{\tau}$  
+			&  $\bm{\rho}$   & $\bm{\tau}$  
+			\\ \hline
+			\textit{Word2vec}                     
+			& \textbf{0.625}$^{\dagger}$ & 0.583         
+			& 0.609             & \textbf{0.635}       
+			& \textbf{0.640}    & \textbf{0.591} 
+			& \textbf{0.588}    & \textbf{0.573} \\
+			\textit{ELMo}                     
+			& 0.575                      & 0.574         
+			& \textbf{0.618}             & 0.609       
+			& 0.374                      & 0.395  
+			& 0.352                      & 0.376 \\
+			\textit{Flair}                     
+			& 0.411                      & 0.444         
+			& 0.584                      & 0.586       
+			& 0.325                      & 0.374  
+			& 0.336                      & 0.386 \\
+			\textit{BERT}                     
+			& 0.575                      & 0.574         
+			& 0.555                      & 0.588       
+			& 0.355                      & 0.401  
+			& 0.309                      & 0.386 \\
+			\textit{ELMo $\bigoplus$ BERT}                     
+			& 0.600                      & \textbf{0.597}$^{\dagger}$         
+			& 0.591                      & 0.608       
+			& 0.391                      & 0.413  
+			& 0.354                      & 0.398 \\
+			\hline
+		\end{tabular}
+	}
+	\caption[Results for STS 2017 with Vector Averaging]{Results for STS 2017 dataset with Vector Averaging. I, II, III and IV indicates the different variations as explained before. For each word embedding model, Pearson Correlation ($\bm{\rho}$) and Spearman Correlation ($\bm{\tau}$) are reported on all variations between the predicted values and the gold labels of the test set. $\bigoplus$ indicates a stacked word embedding model. Best result in each variation is marked in \textbf{Bold}. Best result from all the variations is marked with ${\dagger}$. }  
+	\label{tab:sts_average_vectors}
+\end{table*}
+
+\begin{table*}[htb]
+	%\footnotesize
+	\centering
+	\scalebox{0.95}{
+		\begin{tabular}{l|c|c|c|c|}
+			
+			\hline
+			& \multicolumn{1}{c|}{\textbf{I}} & \multicolumn{1}{c|}{\textbf{II}}             & \multicolumn{1}{c|}{\textbf{III}}  &    
+			\multicolumn{1}{c|}{\textbf{IV}} \\ 
+			\hline
+			\multicolumn{1}{l|}{\textbf{Model}} & RMSE   & RMSE     &  RMSE & RMSE 
+			\\ \hline
+			\textit{Word2vec}  
+			& \textbf{0.621}                      & \textbf{0.591}$^{\dagger}$    
+			& \textbf{0.646}                      & \textbf{0.607}       \\
+			\textit{ELMo}  
+			& 0.629                      & 0.615    
+			& 0.652                      & 0.649       \\
+			\textit{Flair}  
+			& 0.720                      & 0.711    
+			& 0.743                      & 0.735       \\
+			\textit{BERT}  
+			& 0.651                      & 0.643    
+			& 0.673                      & 0.662       \\
+			\textit{ELMo $\bigoplus$ BERT}  
+			& 0.625                      & 0.611    
+			& 0.650                      & 0.647       \\	
+			\hline
+		\end{tabular}
+	}
+	\caption[Results for QUORA with Vector Averaging]{Results for QUORA dataset with Vector Averaging. I, II, III and IV indicates the different variations as explained before. For each word embedding model, Root Mean Squared Error (RMSE) is reported on all variations. $\bigoplus$ indicates a stacked word embedding model. Best result in each variation is marked in \textbf{Bold}. Best result from all the variations is marked with ${\dagger}$. }  
+	\label{tab:quora_average_vectors}
+\end{table*}
+
+	From the results in Table \ref{tab:sick_average_vectors}, \ref{tab:sts_average_vectors} and \ref{tab:quora_average_vectors} there is no clear indication that contextualised word embeddings perform better than the standard word embeddings. In all the datasets considered, the best result was provided by Word2vec. 
+	
+	All the contextualised word embedding models we considered have more than 3000 dimensions for the word representation which is significantly higher than the number of dimensions for the word representation we had for standard embeddings - 300. As the vector averaging model is highly dependent on the number of dimensions that a vector can have, the curse of dimensionality might be the reason for the poor performance of contextualised word embeddings. 
+
+	
+	\item \textbf{Word Mover's Distance} - As the second unsupervised STS method we experimented with Word Mover's Distance explained on Section \ref{sec:state_related}. We have investigated the effects of considering/ ignoring stop words before calculating the word mover's distance which are detailed below. 
+	
+	\begin{enumerate}
+		\item Considering all the words to calculate the Word Mover's Distance. Results are shown in column I of Tables \ref{tab:sick_word_movers}, \ref{tab:sts_word_movers} and \ref{tab:quora_word_movers}
+		\item Removing stop words before calculating the Word Mover's Distance. Column II of Tables \ref{tab:sick_word_movers}, \ref{tab:sts_word_movers} and \ref{tab:quora_word_movers} shows the results. 
+	\end{enumerate} 
+	
+	
 \end{enumerate}
+
+
+\begin{table*}[htb]
+	%\footnotesize
+	\centering
+	\scalebox{0.95}{
+		\begin{tabular}{l|cc|cc|}
+			
+			\hline & 
+			\multicolumn{2}{c|}{\textbf{I}}    & \multicolumn{2}{c|}{\textbf{II}}   \\ 
+			\hline
+			\multicolumn{1}{l|}{\textbf{Model}} 
+			& $\bm{\rho}$   & $\bm{\tau}$     
+			& $\bm{\rho}$   & $\bm{\tau}$  
+			\\ \hline
+			\textit{Word2vec}                  
+			& \textbf{0.730}$^{\dagger}$  & 0.624        
+			& \textbf{0.714}        & 0.583   \\
+			\textit{ELMo}                     
+			& 0.669                 & 0.592         
+			& 0.693                 & 0.603    \\
+			\textit{Flair}                     
+			& 0.646                 & 0.568         
+			& 0.670                 & 0.562    \\
+			\textit{BERT}                     
+			& 0.683                 & 0.633         
+			& 0.686                 & 0.606  \\
+			\textit{ELMo $\bigoplus$ BERT}                     
+			& 0.696                 & \textbf{0.634}$^{\dagger}$          
+			& 0.702                 & \textbf{0.614}  \\
+			\hline
+		\end{tabular}
+	}
+	\caption[Results for SICK with Word Mover's Distance]{Results for SICK dataset with Word Mover's Distance. I and II indicates the different variations as explained before. For each word embedding model, Pearson Correlation ($\bm{\rho}$) and Spearman Correlation ($\bm{\tau}$) are reported on all variations between the predicted values and the gold labels of the test set. $\bigoplus$ indicates a stacked word embedding model. Best result in each variation is marked in \textbf{Bold}. Best result from all the variations is marked with ${\dagger}$. }  
+	\label{tab:sick_word_movers}
+\end{table*}
+
+\begin{table*}[htb]
+	%\footnotesize
+	\centering
+	\scalebox{0.95}{
+		\begin{tabular}{l|cc|cc|}
+			
+			\hline & 
+			\multicolumn{2}{c|}{\textbf{I}}    & \multicolumn{2}{c|}{\textbf{II}}   \\ 
+			\hline
+			\multicolumn{1}{l|}{\textbf{Model}} 
+			&  $\bm{\rho}$   & $\bm{\tau}$      
+			&  $\bm{\rho}$   & $\bm{\tau}$   
+			\\ \hline
+			\textit{Word2vec}                     
+			& \textbf{0.625}$^{\dagger}$ & 0.583         
+			& 0.609             & \textbf{0.635} \\
+			\textit{ELMo}                     
+			& 0.575                      & 0.574         
+			& \textbf{0.618}             & 0.609 \\
+			\textit{Flair}                     
+			& 0.411                      & 0.444         
+			& 0.584                      & 0.586\\
+			\textit{BERT}                     
+			& 0.575                      & 0.574         
+			& 0.555                      & 0.588 \\
+			\textit{ELMo $\bigoplus$ BERT}                     
+			& 0.600                      & \textbf{0.597}$^{\dagger}$   & 0.591                      & 0.608  \\
+			\hline
+		\end{tabular}
+	}
+	\caption[Results for STS 2017 with Word Mover's Distance]{Results for STS 2017 dataset with Word Mover's Distance. I and II indicate the different variations as explained before. For each word embedding model, Pearson Correlation ($\bm{\rho}$) and Spearman Correlation ($\bm{\tau}$) are reported on all variations between the predicted values and the gold labels of the test set. $\bigoplus$ indicates a stacked word embedding model. Best result in each variation is marked in \textbf{Bold}. Best result from all the variations is marked with ${\dagger}$. }  
+	\label{tab:sts_word_movers}
+\end{table*}
+
+\begin{table*}[htb]
+	%\footnotesize
+	\centering
+	\scalebox{0.95}{
+		\begin{tabular}{l|c|c|}
+			
+			\hline
+			& \multicolumn{1}{c|}{\textbf{I}} & \multicolumn{1}{c|}{\textbf{II}}  \\ 
+			\hline
+			\multicolumn{1}{l|}{\textbf{Model}} & RMSE   & RMSE     
+			\\ \hline
+			\textit{Word2vec}  
+			& \textbf{0.621}                      & \textbf{0.591}$^{\dagger}$ \\
+			\textit{ELMo}  
+			& 0.629                      & 0.615      \\
+			\textit{Flair}  
+			& 0.720                      & 0.711       \\
+			\textit{BERT}  
+			& 0.651                      & 0.643     \\
+			\textit{ELMo $\bigoplus$ BERT}  
+			& 0.625                      & 0.611      \\	
+			\hline
+		\end{tabular}
+	}
+	\caption[Results for QUORA with Word Mover's Distance]{Results for QUORA dataset with Word Mover's Distance. I and II indicate the different variations as explained before. For each word embedding model, Root Mean Squared Error (RMSE) is reported on all variations. $\bigoplus$ indicates a stacked word embedding model. Best result in each variation is marked in \textbf{Bold}. Best result from all the variations is marked with ${\dagger}$. }  
+	\label{tab:quora_word_movers}
+\end{table*}
+
+As depicted in table  contextualised word representations could not improve Word Mover's method too over standard word representations. Since the travelling distance is dependent on number of dimensions, the curse of dimensionality might be the reason for the poor performance of contextualised word representations in this scenario too.
 
 
 

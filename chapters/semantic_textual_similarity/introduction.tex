@@ -62,11 +62,7 @@ We experimented with several datasets throughout the experiments in the Semantic
   	\label{tab:sickdata}
   \end{table}
 
-Figure \ref{fig:sick_relatedness}
-
-Figure \ref{fig:sick_words}
-
-Figure \ref{fig:sick_word_share}
+Figure \ref{fig:sick_relatedness} shows the distribution of the relatedness value in SICK training and SICK testing set. It is clear that there are more sentence pairs with a high relatedness values compared to low relatedness values. SICK train and SICK test follows a similar distribution. 
 
 
 \begin{figure}
@@ -108,6 +104,27 @@ Figure \ref{fig:sick_word_share}
 	\label{fig:sick_words}
 \end{figure}
 
+
+\begin{table*}
+	\centering
+	\begin{tabular}{l|cc|cc}
+		\hline
+		Measure   & \multicolumn{2}{c|}{SICK Train} & \multicolumn{2}{c}{SICK Test} \\
+		\hline
+		\multicolumn{1}{l|}{} & \textbf{Sent$\_$1} & \textbf{Sent$\_$2} & \textbf{Sent$\_$1} & \textbf{Sent$\_$2} \\
+		\textit{Word Count Mean} & 9.73 & 9.52 & 9.69 & 9.53  \\
+		\textit{Word Count STD} & 3.66 & 3.70 & 3.69 & 3.65  \\
+		\textit{Word Count MAX} & 28 & 32 & 28 & 30  \\
+		\textit{Word Count MIN} & 3 & 3 & 3 & 3  \\
+		\hline
+	\end{tabular}
+	\caption[Word count stats in SICK]{Word count stats in SICK training and SICK testing. \textit{STD} indicates the standard deviation and the other acronyms indicate the common meaning }
+	\label{table:sick_sts}
+\end{table*}
+
+In Figure \ref{fig:sick_words} we visualise the normalised distribution of word count for both sentence 1 and sentence 2 in SICK train and SICK test. Both sentences have a similar distribution reaching the maximum around 9 words. SICK train and SICK test follows a similar pattern in word count distribution too. Additionally we show some word count statistics in Table \ref{table:sick_sts}. In SICK train number of words for a sentence ranges from 3 to 32 and have the mean number of words around 9.5. These statistics are extremely close in SICK test too. 
+
+
 \begin{figure}
 	\captionsetup[subfigure]{justification=centering}
 	\centering
@@ -127,25 +144,14 @@ Figure \ref{fig:sick_word_share}
 	\label{fig:sick_word_share}
 \end{figure}
 
+The common judgement in STS is that, when two sentences share a large number of words, the relatedness of that two sentences should be higher. In fact, in early feature based approaches of calculating semantic textual similarity, the number of overlapping words between the two sentences was a common feature \cite{vilarino-etal-2014-buap,  gupta-etal-2014-uow, lynum-etal-2014-ntnu, chavez-etal-2014-umcc}. Systems like \citet{vilarino-etal-2014-buap, lynum-etal-2014-ntnu} use the number of words common in two sentences as a feature directly while systems like \citet{gupta-etal-2014-uow, chavez-etal-2014-umcc} use Jaccard Similarity Coefficient as a feature, which is a measurement based on word overlap. To observe, whether the number of words common in the two sentences has a relationship on the relatedness, we draw a violin plot \footnote{Violin plots are similar to box plots, except that they also show the probability density of the data at different values, usually smoothed by a kernel density estimator.} for each relatedness score bins with word share in Figure \ref{fig:sick_word_share}.
 
-\begin{table*}
-	\centering
-	\begin{tabular}{l|cc|cc}
-		\hline
-		Measure   & \multicolumn{2}{c|}{SICK Train} & \multicolumn{2}{c}{SICK Test} \\
-		\hline
-		\multicolumn{1}{l|}{} & \textbf{Sent$\_$1} & \textbf{Sent$\_$2} & \textbf{Sent$\_$1} & \textbf{Sent$\_$2} \\
-		\textit{Word Count Mean} & 9.73 & 9.52 & 9.69 & 9.53  \\
-		\textit{Word Count STD} & 3.66 & 3.70 & 3.69 & 3.65  \\
-		\textit{Word Count MAX} & 28 & 32 & 28 & 30  \\
-		\textit{Word Count MIN} & 3 & 3 & 3 & 3  \\
-		\hline
-	\end{tabular}
-	\caption[Word count stats in SICK]{Word count stats in SICK training and SICK testing.\textit{STD} indicates the standard deviation and the other acronyms indicate the common meaning }
-	\label{table:sick_sts}
-\end{table*}
+In figure \ref{fig:sick_word_share}, it is clear that sentence pairs with a higher relatedness tend to have a high word share. However, it should be noted that, in the "2-3" relatedness score bin, there are some sentence pairs with a high word share. Most common example for such a case would be sentence 2 is the complete negation of the sentence 1. In such cases the two sentences share a large potion of the words and one sentence have the \textit{"not"} word that gives a complete opposite meaning compared to the other sentence. Similarly "4-5" relatedness score bin has some sentence pairs with a low word share. Those sentence pairs does not contain the same words but will be having synonyms and possess the same overall meaning. Therefore, the STS methods that focusses on word share won't perform well in SICK dataset. 
 
- \item \textbf{STS 2017 English Dataset} \footnote{The STS 2017 English Dataset is available to download at \url{http://ixa2.si.ehu.es/stswiki/}} STS 2017 English Dataset was employed in SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation which is the most recent STS task in SemEval \cite{cer-etal-2017-semeval}. As the training data for the competition, participants were encouraged to make use of all existing data sets from prior STS evaluations including all previously released trial, training and evaluation data from SemEval 2012 - 2016 \cite{agirre-etal-2012-semeval,agirre-etal-2013-sem,agirre-etal-2014-semeval,agirre-etal-2015-semeval,agirre-etal-2016-semeval}. Once combined we had 8277 sentence pairs for training. More information about the datasets used to build the training set is available in Table \ref{tab:englishdata_info}.
+A clear strength in the SICK dataset is that training set and the testing set reflects similar properties so that a properly trained machine learning model on SICK train should give good results to the SICK test set as well.  
+
+
+ \item \textbf{STS 2017 English Dataset} \footnote{The STS 2017 English Dataset is available to download at \url{http://ixa2.si.ehu.es/stswiki/}} The second English STS dataset we used to experiment in this section is STS 2017 English Dataset which was employed in SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation which is the most recent STS task in SemEval \cite{cer-etal-2017-semeval}. As the training data for the competition, participants were encouraged to make use of all existing data sets from prior STS evaluations including all previously released trial, training and evaluation data from SemEval 2012 - 2016 \cite{agirre-etal-2012-semeval,agirre-etal-2013-sem,agirre-etal-2014-semeval,agirre-etal-2015-semeval,agirre-etal-2016-semeval}. Once combined we had 8277 sentence pairs for training. More information about the datasets used to build the training set is available in Table \ref{tab:englishdata_info}.
  
  On the other hand, a fresh test set of 250 sentence pairs was provided by SemEval-2017 STS Task organisers \cite{cer-etal-2017-semeval}. The Stanford Natural Language Inference (SNLI) corpus \cite{bowman-etal-2015-large} was the primary data source for this test set. Similar to the SICK dataset, Each pair in the STS 2017 English Test set has been annotated to mark the degree to which the two sentence meanings are related (on a 5-point scale). The ratings have been collected through crowdsourcing on Amazon Mechanical Turk\footnote{Amazon Mechanical Turk is a crowdsourcing website for businesses to hire remotely located \textit{crowd workers} to perform discrete on-demand tasks. It is available at \url{https://www.mturk.com/}}. Five annotations have been collected per pair and gold score has been computed for each pair as the average of the five ratings assigned by the annotators. However, unlike the SICK dataset, the organisers has a clear explanations for the score ranges. Table \ref{tab:sts2017data} shows some example sentence pairs from the dataset with the gold labels and their explanations. Similar to the SICK dataset, the machine learning models require to predict a value between 0-5 which reflects the similarity of the given sentence pair.
  
@@ -158,35 +164,35 @@ Figure \ref{fig:sick_word_share}
  		\multicolumn{1}{c|}{\textbf{Pairs}} & 
  		\multicolumn{1}{c}{\textbf{Source}} \\
  		\hline
- 		2012 \cite{agirre-etal-2012-semeval} & MSRpar & 1500 & newswire \\
- 		2012 \cite{agirre-etal-2012-semeval} & MSRvid & 1500 & videos \\
+ 		 & MSRpar & 1500 & newswire \\
+ 		 & MSRvid & 1500 & videos \\
  		2012 \cite{agirre-etal-2012-semeval} & OnWN & 750 & glosses \\
- 		2012 \cite{agirre-etal-2012-semeval} & SMTnews & 750 & WMT eval. \\
- 		2012 \cite{agirre-etal-2012-semeval} & SMTeuroparl & 750 & WMT eval. \\
+ 		 & SMTnews & 750 & WMT eval. \\
+ 		 & SMTeuroparl & 750 & WMT eval. \\
  		\hline
- 		2013 \cite{agirre-etal-2013-sem} & HDL & 750 & newswire \\
+ 		 & HDL & 750 & newswire \\
  		2013 \cite{agirre-etal-2013-sem} & FNWN & 189 & glosses \\
- 		2013 \cite{agirre-etal-2013-sem} & OnWN & 561 & glosses \\
- 		2013 \cite{agirre-etal-2013-sem} & SMT & 750 & MT eval. \\
+ 		 & OnWN & 561 & glosses \\
+ 		 & SMT & 750 & MT eval. \\
  		\hline
- 		2014 \cite{agirre-etal-2014-semeval} & HDL & 750 & newswire headlines \\
- 		2014 \cite{agirre-etal-2014-semeval} & OnWN & 750 & glosses \\
+ 		 & HDL & 750 & newswire headlines \\
+ 		 & OnWN & 750 & glosses \\
  		2014 \cite{agirre-etal-2014-semeval} & Deft-forum & 450 & forum posts \\
- 		2014 \cite{agirre-etal-2014-semeval} & Deft-news & 300 & news summary \\
- 		2014 \cite{agirre-etal-2014-semeval} & Images & 750 & image descriptions \\
- 		2014 \cite{agirre-etal-2014-semeval} & Tweet-news & 750 & tweet-news pairs \\
+ 		 & Deft-news & 300 & news summary \\
+ 		 & Images & 750 & image descriptions \\
+ 		 & Tweet-news & 750 & tweet-news pairs \\
  		\hline
- 		2015 \cite{agirre-etal-2015-semeval} & HDL & 750 & newswire headlines \\
- 		2015 \cite{agirre-etal-2015-semeval} & Images & 750 & image descriptions \\
+ 		 & HDL & 750 & newswire headlines \\
+ 		 & Images & 750 & image descriptions \\
  		2015 \cite{agirre-etal-2015-semeval} & Ans.-student & 750 & student answers \\
- 		2015 \cite{agirre-etal-2015-semeval} & Ans.-forum & 375 & Q\&A forum answers \\
- 		2015 \cite{agirre-etal-2015-semeval} & Belief & 375 & committed belief \\
+ 		 & Ans.-forum & 375 & Q\&A forum answers \\
+ 		 & Belief & 375 & committed belief \\
  		\hline
- 		2016 \cite{agirre-etal-2016-semeval} & HDL & 249 & newswire headlines \\
- 		2016 \cite{agirre-etal-2016-semeval} & Plagiarism & 230 & short-answer plag. \\
+ 		 & HDL & 249 & newswire headlines \\
+ 		 & Plagiarism & 230 & short-answer plag. \\
  		2016 \cite{agirre-etal-2016-semeval} & post-editing & 244 & MT postedits \\
- 		2016 \cite{agirre-etal-2016-semeval} & Ans.-Ans. & 254 & Q\&A forum answers \\
- 		2016 \cite{agirre-etal-2016-semeval} & Quest.-Quest. & 209 & Q\&A forum questions \\
+ 		 & Ans.-Ans. & 254 & Q\&A forum answers \\
+ 		 & Quest.-Quest. & 209 & Q\&A forum questions \\
  		\hline
  		2017 \cite{cer-etal-2017-semeval} & Trial & 23 & Mixed STS 2016 \\
  		\hline
@@ -304,7 +310,7 @@ Figure \ref{fig:sick_word_share}
 	\centering
 	\begin{tabular}{l|cc|cc}
 		\hline
-		Measure   & \multicolumn{2}{c|}{SICK Train} & \multicolumn{2}{c}{SICK Test} \\
+		Measure   & \multicolumn{2}{c|}{STS 2017 Train} & \multicolumn{2}{c}{STS 2017 Test} \\
 		\hline
 		\multicolumn{1}{l|}{} & \textbf{Sent$\_$1} & \textbf{Sent$\_$2} & \textbf{Sent$\_$1} & \textbf{Sent$\_$2} \\
 		\textit{Word Count Mean} & 10.01 & 9.94 & 9.83 & 9.80  \\
@@ -317,6 +323,12 @@ Figure \ref{fig:sick_word_share}
 	\label{table:sts_2017_sts}
 \end{table*}
 
+Similar to the SICK dataset, we calculate some statistics and produce some graphs. Figure \ref{fig:sts_relatedness} shows the relatedness distribution and Figure \ref{fig:sts_words} shows the normalised distribution of word count for sentence 1 and sentence 2 in STS 2017 train and test sets. Most of these statistics are similar to the SICK dataset. One notable change is the maximum word count in STS 2017 training dataset which is 57 in sentence 1 and 48 in sentence 2 according to Table \ref{table:sts_2017_sts} while both SICK datasets' and STS 2017 test set's maximum word count is limited to 30. We believe that the reason is STS train is composed with many sources including news articles which can have lengthy sentences. However, the STS algorithm should be able to properly handle this imbalance nature between STS  
+2017 train and test set. 
+
+In Figure \ref{fig:sts_word_share} we draw a violin plot for each relatedness score bin with word share. We can see that generally higher word share leads to higher relatedness, but still there can be sentence pairs contradicts this which is similar to the observation we had with SICK dataset. 
+
+Since the statics of SICK and STS 2017 datasets are similar one dataset can be used to augment the training data in the other dataset which can lead to better results as neural networks perform better with more data \cite{wang-etal-2020-evaluating,info:doi/10.2196/23086}. We hope to experiment this with supervised machine learning models in Chapters \ref{cha:sts_siamese_neural_networks} and \ref{cha:sts_transformers}.
   
  \item \textbf{Quora Question Pairs} \footnote{The Quora Question Pairs Dataset is available to download at \url{http://qim.fs.quoracdn.net/quora_duplicate_questions.tsv}} The Quora Question Pairs dataset is a big dataset which was first released for a Kaggle Competition\footnote{Kaggle is an online community of data scientists and machine learning practitioners that hosts machine learning competitions. The Quora Question Pairs competition is available on \url{https://www.kaggle.com/c/quora-question-pairs}}. Quora is a question-and-answer website where questions are asked, answered, followed, and edited by internet users, either factually or in the form of opinions. If a particular new question has been asked before, users merge the new question to the original question flagging it as a duplicate. The organisers used this functionality to create the dataset and did not use a separate annotation process. Their original sampling method has returned an imbalanced dataset with many more true examples of duplicate pairs than non-duplicates. Therefore, the organisers have supplemented the dataset with negative examples. One source of negative examples 
  have been pairs of \textit{related question} which, although pertaining to similar topics, are not truly semantically equivalent. 
@@ -398,16 +410,16 @@ Figure \ref{fig:sick_word_share}
 	\begin{subfigure}[b]{.5\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{figures/semantic_textual_similarity/introduction/quora_train_word_share.png}
-		\caption{Word share against relatedness bins in QUORA train}
+		\caption{Word share against is-relatedness value in QUORA train}
 		\label{fig:quora_train_word_share}
 	\end{subfigure}%
 	\begin{subfigure}[b]{.5\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{figures/semantic_textual_similarity/introduction/quora_test_word_share.png}
-		\caption{Word share against relatedness bins in QUORA test}
+		\caption{Word share against is-relatedness value in QUORA test}
 		\label{fig:quora_test_word_share}
 	\end{subfigure}
-	\caption[Word share against relatedness bins in QUORA train and QUORA test.]{Word share against relatedness bins in QUORA train and QUORA test. \textit{Word Share} indicates the ratio between number of common words in the two sentences to total number of words in the two sentences against each \textit{Is-duplicate}}
+	\caption[Word share against Is-duplicate values in QUORA train and QUORA test.]{Word share against Is-duplicate values in QUORA train and QUORA test. \textit{Word Share} indicates the ratio between number of common words in the two sentences to total number of words in the two sentences against each \textit{Is-duplicate}}
 	\label{fig:quora_word_share}
 \end{figure}
 
@@ -431,13 +443,21 @@ Figure \ref{fig:sick_word_share}
  
   
 This is different to the previous datasets since it is not artificially created and use day to day language. Since it has more than 300,000 training instances deep learning systems will benefit more when used on this dataset. 
+
+In Figure \ref{fig:quora_is_duplicate} we show the distribution of the two classes in QUORA dataset. The dataset seems to have more non duplicate question pairs than duplicate sentence pairs which is similar to the real world scenario. According to the word count distribution in Figure \ref{fig:quora_words} and word count statistics in Table \ref{table:quora_sts}, it is clear that QUORA datasets contains longer texts than SICK and STS 2017 datasets. Therefore, QUORA dataset should be able to test machine learning models'ability to handle lengthy texts properly. 
+
+In Figure \ref{fig:quora_word_share} we show a violin plot for each \textit{"is-duplicate"} value with word share. We can see that duplicate questions have a high word share. However, it should be noted that there are non duplicate question pairs that still have a high word share. The machine learning algorithm should be able to handle them properly. 
+
+According to statistics provided by the Director of Product Management at Quora on 17 September 2018, over 100 million people visit Quora every month, which raises the problem of different users asking similar questions with same intent but in different words \cite{8967103}. Multiple questions with the same intent can cause seekers to spend more time finding the best answer to their question, and make writers feel they need to answer multiple versions of the same question. Therefore, identifying duplicate questions will make it easier to find high quality answers to questions resulting in an improved experience for Quora writers, seekers, and readers.
+
+
 \end{enumerate}
 
 \subsection{Datasets on Other Languages}
 One of the main requirements in our research was to build a STS method without depending on the language. Therefore through out our research we worked on several datasets from different languages. Those non-English datasets are described below. 
   
 \begin{enumerate}
-\item{ \textbf{Spanish STS Dataset \footnote{The Spanish STS dataset can be downloaded at \url{http://alt.qcri.org/semeval2017/task1/index.php?id=data-and-tools}}}} - Spanish STS dataset that we used was employed for Spanish STS subtask in SemEval 2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation \cite{cer-etal-2017-semeval}. The training set has 1250 sentence pairs annotated with a relatedness score between 0 and 4. The training set combined several datasets from previous SemEval STS shared tasks also\cite{cer-etal-2017-semeval}. Table \ref{tab:spanishdata_info} shows more information about the trainin set. There were two sources for test set - Spanish news and Spanish Wikipedia dump having 500 and 250 sentence pairs respectively \cite{cer-etal-2017-semeval}. Both datasets were annotated with a relatedness score between 0 and 4. Table \ref{tab:spanishdata} shows few pairs of sentences with their similarity score. The machine learning models require to predict a value between 0-4 which reflects the similarity of the given Spanish sentence pair.
+\item{ \textbf{Spanish STS Dataset \footnote{The Spanish STS dataset can be downloaded at \url{http://alt.qcri.org/semeval2017/task1/index.php?id=data-and-tools}}}} - Spanish STS dataset that we used was employed for Spanish STS subtask in SemEval 2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation \cite{cer-etal-2017-semeval}. The training set has 1250 sentence pairs annotated with a relatedness score between 0 and 4. The training set combined several datasets from previous SemEval STS shared tasks also\cite{cer-etal-2017-semeval}. Table \ref{tab:spanishdata_info} shows more information about the training set. There were two sources for test set - Spanish news and Spanish Wikipedia dump having 500 and 250 sentence pairs respectively \cite{cer-etal-2017-semeval}. Both datasets were annotated with a relatedness score between 0 and 5. Table \ref{tab:spanishdata} shows few pairs of sentences with their similarity score. The machine learning models require to predict a value between 0-5 which reflects the similarity of the given Spanish sentence pair.
 
 \begin{table}[ht!]
 	\centering
@@ -448,12 +468,12 @@ One of the main requirements in our research was to build a STS method without d
 		\multicolumn{1}{c|}{\textbf{Pairs}} & 
 		\multicolumn{1}{c}{\textbf{Source}} \\
 		\hline
-		2014 \cite{agirre-etal-2014-semeval} & Trial & 56 & NR \\
+		 & Trial & 56 & NR \\
 		2014 \cite{agirre-etal-2014-semeval} & Wiki  & 324 & Spanish Wikipedia \\
-		2014 \cite{agirre-etal-2014-semeval} & News  & 480 & Newswire \\
+		 & News  & 480 & Newswire \\
+		\hline
 		2015 \cite{agirre-etal-2014-semeval} & Wiki & 251 & Spanish Wikipedia \\
-		2015 \cite{agirre-etal-2015-semeval} & News & 500 & Sewswire \\
-		2017 \cite{cer-etal-2017-semeval} & Trial & 23 & Mixed STS 2016 \\
+		 & News & 500 & Sewswire \\
 		\hline
 	\end{tabular}
 	\caption[Information about Spanish STS training set]{Information about the datasets used to build the Spanish STS training set. The \textbf{Year} column shows the year of the SemEval competition that the dataset got released. \textbf{Dataset} column expresses the acronym used describe a dataset in that year. \textbf{Pairs} is the number of sentence pairs in that particular dataset and \textbf{Source} shows the source of the sentence pairs. }
@@ -493,6 +513,85 @@ One of the main requirements in our research was to build a STS method without d
 	\caption[Example sentence pairs from the Spanish STS dataset]{Example sentence pairs from the Spanish STS dataset. \textbf{Sentence Pair} column shows the two sentences. We also included their translations in the table. The translations were done by a native Spanish speaker. \textbf{Similarity} column indicates the annotated similarity of the two sentences. }
 	\label{tab:spanishdata}
 \end{table}  
+
+\begin{figure}
+	\captionsetup[subfigure]{justification=centering}
+	\centering
+	\begin{subfigure}[b]{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/semantic_textual_similarity/introduction/sts_spanish_train.png}
+		\caption{Relatedness distribution of \\ Spanish STS  training test}
+		\label{fig:spanish_train_relatedness}
+	\end{subfigure}%
+	\begin{subfigure}[b]{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/semantic_textual_similarity/introduction/sts_spanish_test.png}
+		\caption{Relatedness distribution of \\ Spanish STS  testing set}
+		\label{fig:spanish_test_relatedness}
+	\end{subfigure}
+	\caption[Relatedness distribution of Spanish STS train and Spanish STS test]{Relatedness distribution of Spanish STS train and Spanish STS test. \textit{Sentence Pairs} shows the number of sentence pairs that a certain \textit{Relatedness bin} has.}
+	\label{fig:spanish_sts_relatedness}
+\end{figure}
+
+
+\begin{figure}
+	\captionsetup[subfigure]{justification=centering}
+	\centering
+	\begin{subfigure}[b]{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/semantic_textual_similarity/introduction/spanish_sts_train_words.png}
+		\caption{Normalised distribution of word count in Spanish STS train}
+		\label{fig:spanish_sts_train_words}
+	\end{subfigure}%
+	\begin{subfigure}[b]{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/semantic_textual_similarity/introduction/spanish_sts_test_words.png}
+		\caption{Normalised distribution of word count in Spanish STS test}
+		\label{fig:spanish_sts_test_words}
+	\end{subfigure}
+	\caption[Normalised distribution of word count inSpanish STS train and Spanish STS test.]{Normalised distribution of word count in Spanish STS train and Spanish STS test. \textit{Number of words} indicates the word count and \textit{Probability} shows the total probability of a sentence with that word count appearing in the dataset.}
+	\label{fig:spanish_sts_words}
+\end{figure}
+
+\begin{figure}
+	\captionsetup[subfigure]{justification=centering}
+	\centering
+	\begin{subfigure}[b]{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/semantic_textual_similarity/introduction/spanish_sts_train_word_share.png}
+		\caption{Word share against relatedness bins in Spanish STS train}
+		\label{fig:spanish_sts_train_word_share}
+	\end{subfigure}%
+	\begin{subfigure}[b]{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/semantic_textual_similarity/introduction/spanish_sts_test_word_share.png}
+		\caption{Word share against relatedness bins in Spanish STS test}
+		\label{fig:spanish_sts_test_word_share}
+	\end{subfigure}
+	\caption[Word share against relatedness bins in Spanish STS train and STS 2017 test.]{Word share against relatedness bins in Spanish STS train and Spanish STS test. \textit{Word Share} indicates the ratio between number of common words in the two sentences to total number of words in the two sentences against each \textit{Relatedness} bins}
+	\label{fig:spanish_sts_word_share}
+\end{figure}
+
+
+\begin{table*}
+	\centering
+	\begin{tabular}{l|cc|cc}
+		\hline
+		Measure   & \multicolumn{2}{c|}{Spanish STS Train} & \multicolumn{2}{c}{Spanish STS Test} \\
+		\hline
+		\multicolumn{1}{l|}{} & \textbf{Sent$\_$1} & \textbf{Sent$\_$2} & \textbf{Sent$\_$1} & \textbf{Sent$\_$2} \\
+		\textit{Word Count Mean} & 31.23 & 31.02 & 9.03 & 9.34  \\
+		\textit{Word Count STD} & 12.15 & 12.37 & 3.66 & 3.74  \\
+		\textit{Word Count MAX} & 90 & 90 & 22 & 24  \\
+		\textit{Word Count MIN} & 5 & 1 & 3 & 3  \\
+		\hline
+	\end{tabular}
+	\caption[Word count stats in Spanish STS]{Word count stats in Spanish STS training and Spanish STS testing.\textit{STD} indicates the standard deviation and the other acronyms indicate the common meaning }
+	\label{table:spanish_sts}
+\end{table*}
+
+Similar to the English datasets we calculate some statistics and produce some graphs. A key challenge in the Spanish STS dataset is that test set is very different from the training set. As can be seen in Figure \ref{fig:spanish_sts_relatedness} training set has been annotated with relatedness scores 0-4 while the test set has been annotated with relatedness scores 0-5. Therefore, STS methods should be able to handle that properly. Furthermore, as shown in Figure \ref{fig:spanish_sts_words} and in Table \ref{table:spanish_sts} sentence pairs in test set are shorter in word length than the sentence pairs in train set. Therefore, STS methods working on this dataset should be able to properly handle that too. This can be observed as a weakness in this dataset, but that the same time this property of the dataset can be exploited to measure the strength of a STS system as well.
+
 	
 \item{ \textbf{Arabic STS Dataset \footnote{The Arabic STS dataset can be downloaded at \url{http://alt.qcri.org/semeval2017/task1/index.php?id=data-and-tools}}}} The Arabic STS dataset we selected was also used for the Arabic STS subtask in SemEval 2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation \cite{cer-etal-2017-semeval}. Unlike Spanish, no data from previous SemEval competitions were available since this was the first time an Arabic STS task was organised in SemEval. More information about the extracted sentences will be shown in the Table \ref{tab:arabicdata_info}. 
 
@@ -514,7 +613,7 @@ One of the main requirements in our research was to build a STS method without d
 	\label{tab:arabicdata_info}
 \end{table}  
 
-To prepare the annotated instances, a subset of the English STS 2017 dataset has been selected and human translated into Arabic. Sentences have been translated independently from their pairs. Arabic translation has been provided by native Arabic speakers with strong English skills in Carnegie Mellon University in Qatar . Translators have been given an English sentence and its Arabic machine translation5 where they have performed post-editing to correct errors.  STS labels have been then transferred to the translated pairs. Therefore, annotation guidelines and the template will be similar to the English STS 2017 dataset. 1103 sentence pairs were available for training and 250 sentence pairs were available in the test set. Table \ref{tab:arabicdata} shows few pairs of sentences with their similarity score. The machine learning models require to predict a value between 0-5 which reflects the similarity of a given Arabic sentence pair. 
+To prepare the annotated instances, a subset of the English STS 2017 dataset has been selected and human translated into Arabic. Sentences have been translated independently from their pairs. Arabic translation has been provided by native Arabic speakers with strong English skills in Carnegie Mellon University in Qatar. Translators have been given an English sentence and its Arabic machine translation5 where they have performed post-editing to correct errors. STS labels have been then transferred to the translated pairs. Therefore, annotation guidelines and the template will be similar to the English STS 2017 dataset. 1103 sentence pairs were available for training and 250 sentence pairs were available in the test set. Table \ref{tab:arabicdata} shows few pairs of sentences with their similarity score. The machine learning models require to predict a value between 0-5 which reflects the similarity of a given Arabic sentence pair. 
 
     \begin{table}[ht!]
 	\centering 	

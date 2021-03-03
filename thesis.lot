@@ -1,23 +1,39 @@
+\contentsline {part}{I\hspace {1em}Semantic Textual Similarity}{1}{part.1}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {1.1}{\ignorespaces Example sentence pairs from the SICK dataset}}{7}{table.caption.8}%
-\contentsline {table}{\numberline {1.2}{\ignorespaces Word count stats in SICK}}{8}{table.caption.12}%
-\contentsline {table}{\numberline {1.3}{\ignorespaces Information about English STS 2017 training set}}{12}{table.caption.13}%
-\contentsline {table}{\numberline {1.4}{\ignorespaces Example sentence pairs from the STS2017 English dataset}}{13}{table.caption.14}%
-\contentsline {table}{\numberline {1.5}{\ignorespaces Word count stats in STS 2017}}{14}{table.caption.18}%
-\contentsline {table}{\numberline {1.6}{\ignorespaces Example question pairs from the Quora Question Pairs dataset}}{16}{table.caption.19}%
-\contentsline {table}{\numberline {1.7}{\ignorespaces Word count stats in QUORA}}{16}{table.caption.23}%
-\contentsline {table}{\numberline {1.8}{\ignorespaces Information about Spanish STS training set}}{18}{table.caption.24}%
-\contentsline {table}{\numberline {1.9}{\ignorespaces Example sentence pairs from the Spanish STS dataset}}{19}{table.caption.25}%
-\contentsline {table}{\numberline {1.10}{\ignorespaces Information about Arabic STS training set}}{20}{table.caption.26}%
-\contentsline {table}{\numberline {1.11}{\ignorespaces Example question pairs from the Arabic STS dataset}}{21}{table.caption.27}%
-\contentsline {table}{\numberline {1.12}{\ignorespaces Example question pairs from the Arabic STS dataset}}{23}{table.caption.28}%
-\contentsline {table}{\numberline {1.13}{\ignorespaces Example sentence pairs from the MedSTS dataset - Part I}}{24}{table.caption.29}%
-\contentsline {table}{\numberline {1.14}{\ignorespaces Example sentence pairs from the MedSTS dataset - Part II}}{25}{table.caption.30}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Word count stats in SICK}}{8}{table.caption.11}%
+\contentsline {table}{\numberline {1.3}{\ignorespaces Information about English STS 2017 training set}}{14}{table.caption.13}%
+\contentsline {table}{\numberline {1.4}{\ignorespaces Example sentence pairs from the STS2017 English dataset}}{15}{table.caption.14}%
+\contentsline {table}{\numberline {1.5}{\ignorespaces Word count stats in STS 2017}}{16}{table.caption.18}%
+\contentsline {table}{\numberline {1.6}{\ignorespaces Example question pairs from the Quora Question Pairs dataset}}{17}{table.caption.19}%
+\contentsline {table}{\numberline {1.7}{\ignorespaces Word count stats in QUORA}}{18}{table.caption.23}%
+\contentsline {table}{\numberline {1.8}{\ignorespaces Information about Spanish STS training set}}{21}{table.caption.24}%
+\contentsline {table}{\numberline {1.9}{\ignorespaces Example sentence pairs from the Spanish STS dataset}}{23}{table.caption.25}%
+\contentsline {table}{\numberline {1.10}{\ignorespaces Word count stats in Spanish STS}}{24}{table.caption.29}%
+\contentsline {table}{\numberline {1.11}{\ignorespaces Information about Arabic STS training set}}{25}{table.caption.30}%
+\contentsline {table}{\numberline {1.12}{\ignorespaces Example question pairs from the Arabic STS dataset}}{26}{table.caption.31}%
+\contentsline {table}{\numberline {1.13}{\ignorespaces Example question pairs from the Arabic STS dataset}}{28}{table.caption.32}%
+\contentsline {table}{\numberline {1.14}{\ignorespaces Example sentence pairs from the MedSTS dataset - Part I}}{30}{table.caption.33}%
+\contentsline {table}{\numberline {1.15}{\ignorespaces Example sentence pairs from the MedSTS dataset - Part II}}{31}{table.caption.34}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Results for SICK with Vector Averaging}}{45}{table.caption.36}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Results for STS 2017 with Vector Averaging}}{45}{table.caption.37}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Results for QUORA with Vector Averaging}}{46}{table.caption.38}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Results for SICK with Word Mover's Distance}}{47}{table.caption.39}%
+\contentsline {table}{\numberline {2.5}{\ignorespaces Results for STS 2017 with Word Mover's Distance}}{47}{table.caption.40}%
+\contentsline {table}{\numberline {2.6}{\ignorespaces Results for QUORA with Word Mover's Distance}}{48}{table.caption.41}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{55}{part.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{63}{part.3}%
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Pearson correlation between TransQuest algorithm predictions and human post-editing effort}}{68}{table.caption.43}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Target F1-Multi between the algorithm predictions and human annotations}}{72}{table.caption.44}%
 \addvspace {10\p@ }

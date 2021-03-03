@@ -1,0 +1,54 @@
+\chapter{\label{cha:transquest_word}Extending TransQuest for word-level QE}
+
+\section{Introduction}
+
+
+\section{Related Work}
+\cite{logacheva-etal-2016-marmot}
+\section{Methodology}
+
+\section{Results and Evaluation}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{table}[t]
+	\begin{center}
+		\small
+		\scalebox{0.75}{
+			% \footnotesize
+			\begin{tabular}{l l c c c c c c c c c} 
+				%\hline
+				\toprule
+				& & \multicolumn{4}{c}{\bf IT} & \multicolumn{3}{c}{\bf Pharmaceutical} & \multicolumn{2}{c}{\bf Wiki}\\
+				\cmidrule(r){3-6}\cmidrule(r){7-9}\cmidrule(r){10-11}
+				&{\bf \makecell{Train \\ Language(s)} } & \makecell{En-Cs \\ SMT} & \makecell{ En-De \\ NMT} & \makecell{En-De \\ SMT} & \makecell{En-Ru \\ NMT} & \makecell{De-En \\ SMT} & \makecell{En-LV \\ NMT} & \makecell{En-Lv \\ SMT } & \makecell{En-De \\ NMT} & \makecell{En-Zh \\ NMT} \\
+				\midrule
+				\multirow{9}{*}{\bf I} & En-Cs SMT & 0.6081 & \textcolor{gray}{(-0.09)} & \textcolor{gray}{(-0.07)} & \textcolor{gray}{(-0.09)} & \textcolor{gray}{(-0.15)} & \textcolor{gray}{(-0.02)} & \textcolor{gray}{(-0.01)} & \textcolor{gray}{(-0.10)} &  \textcolor{gray}{(-0.11)}\\
+				& En-De NMT & \textcolor{gray}{(-0.17)} & 0.4421 & \textcolor{gray}{(-0.06)} & \textcolor{gray}{(-0.02)}  & \textcolor{gray}{(-0.18)} & \textcolor{gray}{(-0.01)} & \textcolor{gray}{(-0.02)} & \textcolor{gray}{(-0.01)} &  \textcolor{gray}{(-0.08)} \\
+				& En-De SMT & \textcolor{gray}{(-0.01)} & \textcolor{gray}{(-0.05)}& 0.6348 & \textcolor{gray}{(-0.67)} & \textcolor{gray}{(-0.14)} & \textcolor{gray}{(-0.06)} & \textcolor{gray}{(-0.04)} & \textcolor{gray}{(-0.06)} &  \textcolor{gray}{(-0.09)} \\
+				& En-Ru NMT & \textcolor{gray}{(-0.14)} & \textcolor{gray}{(-0.08)} & \textcolor{gray}{(-0.16)} & \textbf{0.5592} & \textcolor{gray}{(-0.12)} & \textcolor{gray}{(-0.01)} & \textcolor{gray}{(-0.03)} & \textcolor{gray}{(-0.09)} & \textcolor{gray}{(-0.08)} \\
+				& De-En SMT & \textcolor{gray}{(-0.43)} & \textcolor{gray}{(-0.23)} & \textcolor{gray}{(-0.33)} & \textcolor{gray}{(-0.31)} & \textbf{0.6485} & \textcolor{gray}{(-0.29)} & \textcolor{gray}{(-0.32)} & \textcolor{gray}{(-0.25)} & \textcolor{gray}{(-0.28)} \\
+				& En-LV NMT & \textcolor{gray}{(-0.12)} & \textcolor{gray}{(-0.09)} & \textcolor{gray}{(-0.14)} & \textcolor{gray}{(-0.03)} & \textcolor{gray}{(-0.12)} & 0.5868 & \textcolor{gray}{(-0.01)} & \textcolor{gray}{(0.09)} & \textcolor{gray}{(-0.08)} \\
+				& En-Lv SMT & \textcolor{gray}{(-0.04)} & \textcolor{gray}{(-0.16)} & \textcolor{gray}{(-0.10)} & \textcolor{gray}{(-0.09)} & \textcolor{gray}{(-0.16)} & \textcolor{gray}{(-0.01)}  & 0.5939 & \textcolor{gray}{(-0.15)} & \textcolor{gray}{(-0.14)} \\
+				& En-De NMT & \textcolor{gray}{(-0.11)} & \textcolor{gray}{(-0.01)} & \textcolor{gray}{(-0.08)} & \textcolor{gray}{(-0.02)} & \textcolor{gray}{(-0.14)} & \textcolor{gray}{(-0.02)}  & \textcolor{gray}{(-0.04)} & 0.6013 &  \textcolor{gray}{(-0.06)} \\
+				& En-Zh NMT & \textcolor{gray}{(-0.19)} & \textcolor{gray}{(-0.08)} & \textcolor{gray}{(-0.17)} & \textcolor{gray}{(-0.03)} & \textcolor{gray}{(-0.16)} & \textcolor{gray}{(-0.03)}  & \textcolor{gray}{(-0.06)} & \textcolor{gray}{(-0.07)} & 0.6402 \\
+				\midrule
+				\multirow{2}{*}{\bf II} & All & \textbf{0.6112} & \textbf{0.4523} & \textbf{0.6583} & 0.5558 & 0.6221 & \textbf{0.5991} & \textbf{0.5980} & 0.6101 & 0.6229\\
+				& All-1 & \textcolor{gray}{(-0.01)} & \textcolor{gray}{(-0.01)} & \textcolor{gray}{(-0.05)} & \textcolor{gray}{(-0.02)} & \textcolor{gray}{(-0.12)} & \textcolor{gray}{(-0.01)} & \textcolor{gray}{(-0.01)} & \textcolor{gray}{(-0.01)} & \textcolor{gray}{(-0.05)} \\
+				\midrule
+				\multirow{1}{*}{\bf III} & Domain & 0.6095 &  0.4467 & 0.6421 & 0.5560 & 0.6331 & 0.5892 & 0.5951  & 0.6021 &  0.6210 \\
+				\midrule
+				\multirow{1}{*}{\bf IV} & SMT/NMT & 0.6092 & 0.4461  & 0.6410 & 0.5421 & 0.6320 & 0.5885 & 0.5934 & 0.6010 & 0.6205 \\
+				\midrule
+				\multirow{3}{*}{\bf V} & Baseline-Marmot & 0.4449 & 0.1812 & 0.3630 & NR & 0.4373 & 0.4208 & 0.3445 & NR & NR \\
+				& Baseline-OpenKiwi & NR & NR & NR & 0.2412 & NR & NR & NR & 0.4111 & 0.5583 \\
+				& Best system & 0.4449 & 0.4361 & 0.6246 & 0.4780 & 0.6012 & 0.4293 & 0.3618 & \textbf{0.6186} & \textbf{0.6415} \\
+				\bottomrule
+				%\bottomrule
+			\end{tabular}
+		}
+	\end{center}
+	\caption[Target F1-Multi between the algorithm predictions and human annotations]{Target F1-Multi between the algorithm predictions and human annotations. Best results for each language by any method are marked in bold. Sections I, II and III indicate the different evaluation settings. Section IV shows the results of the state-of-the-art methods and the best system submitted for the language pair in that competition. \textbf{NR} implies that a particular result was \textit{not reported} by the organisers. Zero-shot results are colored in grey and it shows the difference between the best result in that section for that language pair and itself.} 
+	\label{tab:mt_prediction}
+\end{table}
+
+\section{Conclusion}

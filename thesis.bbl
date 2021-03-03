@@ -1,4 +1,4 @@
-\begin{thebibliography}{51}
+\begin{thebibliography}{65}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -100,6 +100,52 @@ Eneko Agirre, Daniel Cer, Mona Diab, and Aitor Gonzalez-Agirre.
   Linguistics.
 \newblock URL \url{https://www.aclweb.org/anthology/S12-1051}.
 
+\bibitem[Vilari{\~n}o et~al.(2014)Vilari{\~n}o, Pinto, Le{\'o}n, Tovar, and
+  Beltr{\'a}n]{vilarino-etal-2014-buap}
+Darnes Vilari{\~n}o, David Pinto, Sa{\'u}l Le{\'o}n, Mireya Tovar, and Beatriz
+  Beltr{\'a}n.
+\newblock {BUAP}: Evaluating features for multilingual and cross-level semantic
+  textual similarity.
+\newblock In \emph{Proceedings of the 8th International Workshop on Semantic
+  Evaluation ({S}em{E}val 2014)}, pages 149--153, Dublin, Ireland, August 2014.
+  Association for Computational Linguistics.
+\newblock \doi{10.3115/v1/S14-2022}.
+\newblock URL \url{https://www.aclweb.org/anthology/S14-2022}.
+
+\bibitem[Gupta et~al.(2014)Gupta, B{\'e}chara, El~Maarouf, and
+  Or{\u{a}}san]{gupta-etal-2014-uow}
+Rohit Gupta, Hanna B{\'e}chara, Ismail El~Maarouf, and Constantin Or{\u{a}}san.
+\newblock {U}o{W}: {NLP} techniques developed at the {U}niversity of
+  {W}olverhampton for semantic similarity and textual entailment.
+\newblock In \emph{Proceedings of the 8th International Workshop on Semantic
+  Evaluation ({S}em{E}val 2014)}, pages 785--789, Dublin, Ireland, August 2014.
+  Association for Computational Linguistics.
+\newblock \doi{10.3115/v1/S14-2139}.
+\newblock URL \url{https://www.aclweb.org/anthology/S14-2139}.
+
+\bibitem[Lynum et~al.(2014)Lynum, Pakray, Gamb{\"a}ck, and
+  Jimenez]{lynum-etal-2014-ntnu}
+Andr{\'e} Lynum, Partha Pakray, Bj{\"o}rn Gamb{\"a}ck, and Sergio Jimenez.
+\newblock {NTNU}: Measuring semantic similarity with sublexical feature
+  representations and soft cardinality.
+\newblock In \emph{Proceedings of the 8th International Workshop on Semantic
+  Evaluation ({S}em{E}val 2014)}, pages 448--453, Dublin, Ireland, August 2014.
+  Association for Computational Linguistics.
+\newblock \doi{10.3115/v1/S14-2078}.
+\newblock URL \url{https://www.aclweb.org/anthology/S14-2078}.
+
+\bibitem[Ch{\'a}vez et~al.(2014)Ch{\'a}vez, D{\'a}vila, Guti{\'e}rrez,
+  Fern{\'a}ndez-Orqu{\'\i}n, Montoyo, and Mu{\~n}oz]{chavez-etal-2014-umcc}
+Alexander Ch{\'a}vez, H{\'e}ctor D{\'a}vila, Yoan Guti{\'e}rrez, Antonio
+  Fern{\'a}ndez-Orqu{\'\i}n, Andr{\'e}s Montoyo, and Rafael Mu{\~n}oz.
+\newblock {UMCC}{\_}{DLSI}{\_}{S}em{S}im: Multilingual system for measuring
+  semantic textual similarity.
+\newblock In \emph{Proceedings of the 8th International Workshop on Semantic
+  Evaluation ({S}em{E}val 2014)}, pages 716--721, Dublin, Ireland, August 2014.
+  Association for Computational Linguistics.
+\newblock \doi{10.3115/v1/S14-2128}.
+\newblock URL \url{https://www.aclweb.org/anthology/S14-2128}.
+
 \bibitem[Cer et~al.(2017)Cer, Diab, Agirre, Lopez-Gazpio, and
   Specia]{cer-etal-2017-semeval}
 Daniel Cer, Mona Diab, Eneko Agirre, I{\~n}igo Lopez-Gazpio, and Lucia Specia.
@@ -168,6 +214,34 @@ Samuel~R. Bowman, Gabor Angeli, Christopher Potts, and Christopher~D. Manning.
 \newblock \doi{10.18653/v1/D15-1075}.
 \newblock URL \url{https://www.aclweb.org/anthology/D15-1075}.
 
+\bibitem[Wang et~al.(2020{\natexlab{a}})Wang, Liu, Verspoor, and
+  Baldwin]{wang-etal-2020-evaluating}
+Yuxia Wang, Fei Liu, Karin Verspoor, and Timothy Baldwin.
+\newblock {Evaluating the Utility of Model Configurations and Data Augmentation
+  on Clinical Semantic Textual Similarity}.
+\newblock In \emph{Proceedings of the 19th SIGBioMed Workshop on Biomedical
+  Language Processing}, pages 105--111, Online, July 2020{\natexlab{a}}.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2020.bionlp-1.11}.
+\newblock URL \url{https://www.aclweb.org/anthology/2020.bionlp-1.11}.
+
+\bibitem[Li et~al.(2021)Li, Zhang, and Zhou]{info:doi/10.2196/23086}
+Junyi Li, Xuejie Zhang, and Xiaobing Zhou.
+\newblock {ALBERT-Based Self-Ensemble Model With Semisupervised Learning and
+  Data Augmentation for Clinical Semantic Textual Similarity Calculation:
+  Algorithm Validation Study}.
+\newblock \emph{JMIR Med Inform}, 9\penalty0 (1):\penalty0 e23086, Jan 2021.
+\newblock ISSN 2291-9694.
+\newblock \doi{10.2196/23086}.
+\newblock URL \url{http://medinform.jmir.org/2021/1/e23086/}.
+
+\bibitem[{Imtiaz} et~al.(2020){Imtiaz}, {Umer}, {Ahmad}, {Ullah}, {Choi}, and
+  {Mehmood}]{8967103}
+Z.~{Imtiaz}, M.~{Umer}, M.~{Ahmad}, S.~{Ullah}, G.~S. {Choi}, and A.~{Mehmood}.
+\newblock Duplicate questions pair detection using siamese malstm.
+\newblock \emph{IEEE Access}, 8:\penalty0 21932--21942, 2020.
+\newblock \doi{10.1109/ACCESS.2020.2969041}.
+
 \bibitem[Soğancıoğlu et~al.(2017)Soğancıoğlu, Öztürk, and
   Özgür]{10.1093/bioinformatics/btx238}
 Gizem Soğancıoğlu, Hakime Öztürk, and Arzucan Özgür.
@@ -202,13 +276,13 @@ Stephen~T Wu, Hongfang Liu, Dingcheng Li, Cui Tao, Mark~A Musen, Christopher~G
 \newblock \doi{10.1136/amiajnl-2011-000744}.
 \newblock URL \url{https://doi.org/10.1136/amiajnl-2011-000744}.
 
-\bibitem[Wang et~al.(2020)Wang, Afzal, Fu, Wang, Shen, Rastegar-Mojarad, and
-  Liu]{Wang2020}
+\bibitem[Wang et~al.(2020{\natexlab{b}})Wang, Afzal, Fu, Wang, Shen,
+  Rastegar-Mojarad, and Liu]{Wang2020}
 Yanshan Wang, Naveed Afzal, Sunyang Fu, Liwei Wang, Feichen Shen, Majid
   Rastegar-Mojarad, and Hongfang Liu.
 \newblock Medsts: a resource for clinical semantic textual similarity.
 \newblock \emph{Language Resources and Evaluation}, 54\penalty0 (1):\penalty0
-  57--72, Mar 2020.
+  57--72, Mar 2020{\natexlab{b}}.
 \newblock ISSN 1574-0218.
 \newblock \doi{10.1007/s10579-018-9431-1}.
 \newblock URL \url{https://doi.org/10.1007/s10579-018-9431-1}.
@@ -288,14 +362,14 @@ Tomas Mikolov, Edouard Grave, Piotr Bojanowski, Christian Puhrsch, and Armand
   European Language Resources Association (ELRA).
 \newblock URL \url{https://www.aclweb.org/anthology/L18-1008}.
 
-\bibitem[Mikolov et~al.(2013)Mikolov, Sutskever, Chen, Corrado, and
-  Dean]{10.5555/2999792.2999959}
+\bibitem[Mikolov et~al.(2013{\natexlab{a}})Mikolov, Sutskever, Chen, Corrado,
+  and Dean]{10.5555/2999792.2999959}
 Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, and Jeffrey Dean.
 \newblock Distributed representations of words and phrases and their
   compositionality.
 \newblock In \emph{Proceedings of the 26th International Conference on Neural
   Information Processing Systems - Volume 2}, NIPS'13, page 3111–3119, Red
-  Hook, NY, USA, 2013. Curran Associates Inc.
+  Hook, NY, USA, 2013{\natexlab{a}}. Curran Associates Inc.
 
 \bibitem[Peters et~al.(2018)Peters, Neumann, Iyyer, Gardner, Clark, Lee, and
   Zettlemoyer]{peters-etal-2018-deep}
@@ -407,6 +481,25 @@ Louis Martin, Benjamin Muller, Pedro~Javier Ortiz~Su{\'a}rez, Yoann Dupont,
 \newblock \doi{10.18653/v1/2020.acl-main.645}.
 \newblock URL \url{https://www.aclweb.org/anthology/2020.acl-main.645}.
 
+\bibitem[Cañete et~al.(2020)Cañete, Chaperon, Fuentes, Ho, Kang, and
+  Pérez]{CaneteCFP2020}
+José Cañete, Gabriel Chaperon, Rodrigo Fuentes, Jou-Hui Ho, Hojin Kang, and
+  Jorge Pérez.
+\newblock {Spanish Pre-Trained BERT Model and Evaluation Data}.
+\newblock In \emph{PML4DC at ICLR 2020}, 2020.
+
+\bibitem[Koutsikakis et~al.(2020)Koutsikakis, Chalkidis, Malakasiotis, and
+  Androutsopoulos]{10.1145/3411408.3411440}
+John Koutsikakis, Ilias Chalkidis, Prodromos Malakasiotis, and Ion
+  Androutsopoulos.
+\newblock {GREEK-BERT: The Greeks Visiting Sesame Street}.
+\newblock In \emph{11th Hellenic Conference on Artificial Intelligence}, SETN
+  2020, page 110–117, New York, NY, USA, 2020. Association for Computing
+  Machinery.
+\newblock ISBN 9781450388788.
+\newblock \doi{10.1145/3411408.3411440}.
+\newblock URL \url{https://doi.org/10.1145/3411408.3411440}.
+
 \bibitem[Beltagy et~al.(2019)Beltagy, Lo, and Cohan]{beltagy-etal-2019-scibert}
 Iz~Beltagy, Kyle Lo, and Arman Cohan.
 \newblock {S}ci{BERT}: A pretrained language model for scientific text.
@@ -427,6 +520,17 @@ Jinhyuk Lee, Wonjin Yoon, Sungdong Kim, Donghyeon Kim, Sunkyu Kim, Chan~Ho So,
 \newblock ISSN 1367-4803.
 \newblock \doi{10.1093/bioinformatics/btz682}.
 \newblock URL \url{https://doi.org/10.1093/bioinformatics/btz682}.
+
+\bibitem[Chalkidis et~al.(2020)Chalkidis, Fergadiotis, Malakasiotis, Aletras,
+  and Androutsopoulos]{chalkidis-etal-2020-legal}
+Ilias Chalkidis, Manos Fergadiotis, Prodromos Malakasiotis, Nikolaos Aletras,
+  and Ion Androutsopoulos.
+\newblock {LEGAL}-{BERT}: The muppets straight out of law school.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2020}, pages 2898--2904, Online, November 2020. Association for
+  Computational Linguistics.
+\newblock \doi{10.18653/v1/2020.findings-emnlp.261}.
+\newblock URL \url{https://www.aclweb.org/anthology/2020.findings-emnlp.261}.
 
 \bibitem[Akbik et~al.(2018)Akbik, Blythe, and
   Vollgraf]{akbik-etal-2018-contextual}
@@ -476,6 +580,15 @@ Jeffrey Pennington, Richard Socher, and Christopher Manning.
   October 2014{\natexlab{b}}. Association for Computational Linguistics.
 \newblock \doi{10.3115/v1/D14-1162}.
 \newblock URL \url{https://www.aclweb.org/anthology/D14-1162}.
+
+\bibitem[Mikolov et~al.(2013{\natexlab{b}})Mikolov, Chen, Corrado, and
+  Dean]{DBLP:journals/corr/abs-1301-3781}
+Tom{\'{a}}s Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\newblock Efficient estimation of word representations in vector space.
+\newblock In Yoshua Bengio and Yann LeCun, editors, \emph{1st International
+  Conference on Learning Representations, {ICLR} 2013, Scottsdale, Arizona,
+  USA, May 2-4, 2013, Workshop Track Proceedings}, 2013{\natexlab{b}}.
+\newblock URL \url{http://arxiv.org/abs/1301.3781}.
 
 \bibitem[Ranasinghe et~al.(2019{\natexlab{c}})Ranasinghe, Orasan, and
   Mitkov]{ranasinghe-etal-2019-semantic}
@@ -528,5 +641,37 @@ Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume
   Association for Computational Linguistics.
 \newblock \doi{10.18653/v1/2020.acl-main.747}.
 \newblock URL \url{https://www.aclweb.org/anthology/2020.acl-main.747}.
+
+\bibitem[Sun et~al.(2020)Sun, Fomicheva, Blain, Chaudhary, El-Kishky,
+  Renduchintala, Guzm{\'a}n, and Specia]{sun-etal-2020-exploratory}
+Shuo Sun, Marina Fomicheva, Fr{\'e}d{\'e}ric Blain, Vishrav Chaudhary, Ahmed
+  El-Kishky, Adithya Renduchintala, Francisco Guzm{\'a}n, and Lucia Specia.
+\newblock An exploratory study on multilingual quality estimation.
+\newblock In \emph{Proceedings of the 1st Conference of the Asia-Pacific
+  Chapter of the Association for Computational Linguistics and the 10th
+  International Joint Conference on Natural Language Processing}, pages
+  366--377, Suzhou, China, December 2020. Association for Computational
+  Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/2020.aacl-main.39}.
+
+\bibitem[Logacheva et~al.(2016)Logacheva, Hokamp, and
+  Specia]{logacheva-etal-2016-marmot}
+Varvara Logacheva, Chris Hokamp, and Lucia Specia.
+\newblock {MARMOT}: A toolkit for translation quality estimation at the word
+  level.
+\newblock In \emph{Proceedings of the Tenth International Conference on
+  Language Resources and Evaluation ({LREC}'16)}, pages 3671--3674,
+  Portoro{\v{z}}, Slovenia, May 2016. European Language Resources Association
+  (ELRA).
+\newblock URL \url{https://www.aclweb.org/anthology/L16-1582}.
+
+\bibitem[Lee(2020)]{lee-2020-two}
+Dongjun Lee.
+\newblock Two-phase cross-lingual language model fine-tuning for machine
+  translation quality estimation.
+\newblock In \emph{Proceedings of the Fifth Conference on Machine Translation},
+  pages 1024--1028, Online, November 2020. Association for Computational
+  Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/2020.wmt-1.118}.
 
 \end{thebibliography}

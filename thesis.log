@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  9 SEP 2020 10:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  3 MAR 2021 23:05
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -22,7 +22,164 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
-(thesis.sty
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2020-06-18 L3 programming layer (loader) 
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfm
+ode.def
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count176
+\l__pdf_internal_box=\box45
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse
+.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse
+-generic.tex
+\l__xparse_current_arg_int=\count177
+\g__xparse_grabber_int=\count178
+\l__xparse_m_args_int=\count179
+\l__xparse_v_nesting_int=\count180
+))
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count181
+))
+Success
+Success
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
+sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
+y
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.st
+y
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
+eys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
+y
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.
+sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen135
+\Hy@linkcounter=\count182
+\Hy@pagecounter=\count183
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count184
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count185
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen136
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.
+sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count186
+\Field@Width=\dimen137
+\Fld@charsize=\dimen138
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/atbegshi\atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count187
+\c@Item=\count188
+\c@Hfootnote=\count189
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/atveryend\atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count190
+\c@bookmark@seq@number=\count191
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
+check.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
+unter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip49
+) (thesis.sty
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -38,18 +195,18 @@ Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen135
-\ar@mcellbox=\box45
-\extrarowheight=\dimen136
-\NC@list=\toks15
-\extratabsurround=\skip49
-\backup@length=\skip50
-\ar@cellbox=\box46
+\col@sep=\dimen139
+\ar@mcellbox=\box46
+\extrarowheight=\dimen140
+\NC@list=\toks16
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box47
 )
-\everycr=\toks16
-\minrowclearance=\skip51
+\everycr=\toks17
+\minrowclearance=\skip52
 )
-\rownum=\count176
+\rownum=\count192
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -62,19 +219,15 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count177
-\float@exts=\toks17
-\float@box=\box47
-\@float@everytoks=\toks18
-\@floatcapt=\box48
+\c@float@type=\count193
+\float@exts=\toks18
+\float@box=\box48
+\@float@everytoks=\toks19
+\@floatcapt=\box49
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
-)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
@@ -87,8 +240,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen137
-\Gin@req@width=\dimen138
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
 ) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
@@ -98,15 +251,15 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip52
-\f@nch@O@elh=\skip53
-\f@nch@O@erh=\skip54
-\f@nch@O@olh=\skip55
-\f@nch@O@orh=\skip56
-\f@nch@O@elf=\skip57
-\f@nch@O@erf=\skip58
-\f@nch@O@olf=\skip59
-\f@nch@O@orf=\skip60
+\f@nch@headwidth=\skip53
+\f@nch@O@elh=\skip54
+\f@nch@O@erh=\skip55
+\f@nch@O@olh=\skip56
+\f@nch@O@orh=\skip57
+\f@nch@O@elf=\skip58
+\f@nch@O@erf=\skip59
+\f@nch@O@olf=\skip60
+\f@nch@O@orf=\skip61
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -122,7 +275,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip61
+\@mathmargin=\skip62
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
@@ -131,49 +284,49 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
-\ex@=\dimen139
+\ex@=\dimen143
 ))
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen140
+\pmbraise@=\dimen144
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count178
+\inf@bad=\count194
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count179
-\leftroot@=\count180
+\uproot@=\count195
+\leftroot@=\count196
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count181
-\DOTSCASE@=\count182
+\classnum@=\count197
+\DOTSCASE@=\count198
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box49
-\strutbox@=\box50
-\big@size=\dimen141
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen145
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count183
-\c@MaxMatrixCols=\count184
-\dotsspace@=\muskip16
-\c@parentequation=\count185
-\dspbrk@lvl=\count186
+\macc@depth=\count199
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip17
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
 \tag@help=\toks22
-\row@=\count187
-\column@=\count188
-\maxfields@=\count189
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
 \andhelp@=\toks23
-\eqnshift@=\dimen142
-\alignsep@=\dimen143
-\tagshift@=\dimen144
-\tagwidth@=\dimen145
-\totwidth@=\dimen146
-\lineht@=\dimen147
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
 \@envbody=\toks24
-\multlinegap=\skip62
-\multlinetaggap=\skip63
+\multlinegap=\skip63
+\multlinetaggap=\skip64
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
@@ -185,20 +338,16 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks28
 \thm@notefont=\toks29
 \thm@headpunct=\toks30
-\thm@preskip=\skip64
-\thm@postskip=\skip65
-\thm@headsep=\skip66
+\thm@preskip=\skip65
+\thm@postskip=\skip66
+\thm@headsep=\skip67
 \dth@everypar=\toks31
 )
-\c@definition=\count190
-\c@case=\count191
-\c@theorem=\count192
-\c@lemma=\count193
-\c@thesis=\count194
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+\c@definition=\count272
+\c@case=\count273
+\c@theorem=\count274
+\c@lemma=\count275
+\c@thesis=\count276
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
@@ -208,23 +357,23 @@ Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen148
-\lightrulewidth=\dimen149
-\cmidrulewidth=\dimen150
-\belowrulesep=\dimen151
-\belowbottomsep=\dimen152
-\aboverulesep=\dimen153
-\abovetopsep=\dimen154
-\cmidrulesep=\dimen155
-\cmidrulekern=\dimen156
-\defaultaddspace=\dimen157
-\@cmidla=\count195
-\@cmidlb=\count196
-\@aboverulesep=\dimen158
-\@belowrulesep=\dimen159
-\@thisruleclass=\count197
-\@lastruleclass=\count198
-\@thisrulewidth=\dimen160
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count277
+\@cmidlb=\count278
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count279
+\@lastruleclass=\count280
+\@thisrulewidth=\dimen164
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.sty
 Package: todonotes 2019/01/24 v1.1.2 Todonotes source and documentation.
@@ -241,7 +390,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks34
 \XKV@tempa@toks=\toks35
 )
-\XKV@depth=\count199
+\XKV@depth=\count281
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.s
@@ -252,14 +401,14 @@ ty
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
 common.tex
 \pgfutil@everybye=\toks36
-\pgfutil@tempdima=\dimen161
-\pgfutil@tempdimb=\dimen162
+\pgfutil@tempdima=\dimen165
+\pgfutil@tempdimb=\dimen166
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
 common-lists.tex))
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
 latex.def
-\pgfutil@abb=\box51
+\pgfutil@abb=\box52
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
@@ -288,26 +437,26 @@ code.tex
 iltered.code.tex
 \pgfkeys@tmptoks=\toks39
 ))
-\pgf@x=\dimen163
-\pgf@y=\dimen164
-\pgf@xa=\dimen165
-\pgf@ya=\dimen166
-\pgf@xb=\dimen167
-\pgf@yb=\dimen168
-\pgf@xc=\dimen169
-\pgf@yc=\dimen170
-\pgf@xd=\dimen171
-\pgf@yd=\dimen172
+\pgf@x=\dimen167
+\pgf@y=\dimen168
+\pgf@xa=\dimen169
+\pgf@ya=\dimen170
+\pgf@xb=\dimen171
+\pgf@yb=\dimen172
+\pgf@xc=\dimen173
+\pgf@yc=\dimen174
+\pgf@xd=\dimen175
+\pgf@yd=\dimen176
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count266
-\c@pgf@countb=\count267
-\c@pgf@countc=\count268
-\c@pgf@countd=\count269
+\c@pgf@counta=\count282
+\c@pgf@countb=\count283
+\c@pgf@countc=\count284
+\c@pgf@countd=\count285
 \t@pgf@toka=\toks40
 \t@pgf@tokb=\toks41
 \t@pgf@tokc=\toks42
-\pgf@sys@id@count=\count270
+\pgf@sys@id@count=\count286
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cf
 g
@@ -326,8 +475,8 @@ File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
 softpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count271
-\pgfsyssoftpath@bigbuffer@items=\count272
+\pgfsyssoftpath@smallbuffer@items=\count287
+\pgfsyssoftpath@bigbuffer@items=\count288
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
 protocol.code.tex
@@ -345,9 +494,9 @@ ode.tex
 ode.tex)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser
 .code.tex
-\pgfmath@dimen=\dimen173
-\pgfmath@count=\count273
-\pgfmath@box=\box52
+\pgfmath@dimen=\dimen177
+\pgfmath@count=\count289
+\pgfmath@box=\box53
 \pgfmath@toks=\toks43
 \pgfmath@stack@operand=\toks44
 \pgfmath@stack@operation=\toks45
@@ -372,59 +521,59 @@ ons.misc.code.tex)
 ons.integerarithmetics.code.tex)))
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.
 code.tex
-\c@pgfmathroundto@lastzeros=\count274
+\c@pgfmathroundto@lastzeros=\count290
 ))
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.t
 ex)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
 points.code.tex
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen174
-\pgf@picmaxx=\dimen175
-\pgf@picminy=\dimen176
-\pgf@picmaxy=\dimen177
-\pgf@pathminx=\dimen178
-\pgf@pathmaxx=\dimen179
-\pgf@pathminy=\dimen180
-\pgf@pathmaxy=\dimen181
-\pgf@xx=\dimen182
-\pgf@xy=\dimen183
-\pgf@yx=\dimen184
-\pgf@yy=\dimen185
-\pgf@zx=\dimen186
-\pgf@zy=\dimen187
+\pgf@picminx=\dimen178
+\pgf@picmaxx=\dimen179
+\pgf@picminy=\dimen180
+\pgf@picmaxy=\dimen181
+\pgf@pathminx=\dimen182
+\pgf@pathmaxx=\dimen183
+\pgf@pathminy=\dimen184
+\pgf@pathmaxy=\dimen185
+\pgf@xx=\dimen186
+\pgf@xy=\dimen187
+\pgf@yx=\dimen188
+\pgf@yy=\dimen189
+\pgf@zx=\dimen190
+\pgf@zy=\dimen191
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
 pathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen188
-\pgf@path@lasty=\dimen189
+\pgf@path@lastx=\dimen192
+\pgf@path@lasty=\dimen193
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
 pathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen190
-\pgf@shorten@start@additional=\dimen191
+\pgf@shorten@end@additional=\dimen194
+\pgf@shorten@start@additional=\dimen195
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
 scopes.code.tex
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box53
-\pgf@hbox=\box54
-\pgf@layerbox@main=\box55
-\pgf@picture@serial@count=\count275
+\pgfpic=\box54
+\pgf@hbox=\box55
+\pgf@layerbox@main=\box56
+\pgf@picture@serial@count=\count291
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
 graphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen192
+\pgflinewidth=\dimen196
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
 transformations.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen193
-\pgf@pt@y=\dimen194
-\pgf@pt@temp=\dimen195
+\pgf@pt@x=\dimen197
+\pgf@pt@y=\dimen198
+\pgf@pt@temp=\dimen199
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
 quick.code.tex
@@ -441,14 +590,14 @@ File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
 arrows.code.tex
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen196
+\pgfarrowsep=\dimen256
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
 shade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen197
-\pgf@sys@shading@range@num=\count276
-\pgf@shadingcount=\count277
+\pgf@max=\dimen257
+\pgf@sys@shading@range@num=\count292
+\pgf@shadingcount=\count293
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
 image.code.tex
@@ -457,7 +606,7 @@ File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
 external.code.tex
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box56
+\pgfexternal@startupbox=\box57
 ))
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
 layers.code.tex
@@ -478,7 +627,7 @@ File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodules
 hapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box57
+\pgfnodeparttextbox=\box58
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulep
 lot.code.tex
@@ -487,8 +636,8 @@ File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
 p-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen198
-\pgf@nodesepend=\dimen199
+\pgf@nodesepstart=\dimen258
+\pgf@nodesepend=\dimen259
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
 p-version-1-18.sty
@@ -509,8 +658,8 @@ Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
 tex)
-\pgffor@iter=\dimen256
-\pgffor@skip=\dimen257
+\pgffor@iter=\dimen260
+\pgffor@skip=\dimen261
 \pgffor@stack=\toks46
 \pgffor@toks=\toks47
 ))
@@ -521,34 +670,34 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
 ryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count278
-\pgfplotmarksize=\dimen258
+\pgf@plot@mark@count=\count294
+\pgfplotmarksize=\dimen262
 )
-\tikz@lastx=\dimen259
-\tikz@lasty=\dimen260
-\tikz@lastxsaved=\dimen261
-\tikz@lastysaved=\dimen262
-\tikz@lastmovetox=\dimen263
-\tikz@lastmovetoy=\dimen264
-\tikzleveldistance=\dimen265
-\tikzsiblingdistance=\dimen266
-\tikz@figbox=\box58
-\tikz@figbox@bg=\box59
-\tikz@tempbox=\box60
-\tikz@tempbox@bg=\box61
-\tikztreelevel=\count279
-\tikznumberofchildren=\count280
-\tikznumberofcurrentchild=\count281
-\tikz@fig@count=\count282
+\tikz@lastx=\dimen263
+\tikz@lasty=\dimen264
+\tikz@lastxsaved=\dimen265
+\tikz@lastysaved=\dimen266
+\tikz@lastmovetox=\dimen267
+\tikz@lastmovetoy=\dimen268
+\tikzleveldistance=\dimen269
+\tikzsiblingdistance=\dimen270
+\tikz@figbox=\box59
+\tikz@figbox@bg=\box60
+\tikz@tempbox=\box61
+\tikz@tempbox@bg=\box62
+\tikztreelevel=\count295
+\tikznumberofchildren=\count296
+\tikznumberofcurrentchild=\count297
+\tikz@fig@count=\count298
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulem
 atrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count283
-\pgfmatrixcurrentcolumn=\count284
-\pgf@matrix@numberofcolumns=\count285
+\pgfmatrixcurrentrow=\count299
+\pgfmatrixcurrentcolumn=\count300
+\pgf@matrix@numberofcolumns=\count301
 )
-\tikz@expandcount=\count286
+\tikz@expandcount=\count302
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
 /libraries\tikzlibrarytopaths.code.tex
@@ -572,33 +721,33 @@ File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count287
-\calc@Bcount=\count288
-\calc@Adimen=\dimen267
-\calc@Bdimen=\dimen268
-\calc@Askip=\skip67
-\calc@Bskip=\skip68
+\calc@Acount=\count303
+\calc@Bcount=\count304
+\calc@Adimen=\dimen271
+\calc@Bdimen=\dimen272
+\calc@Askip=\skip68
+\calc@Bskip=\skip69
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count289
-\calc@Cskip=\skip69
+\calc@Ccount=\count305
+\calc@Cskip=\skip70
 )
-\c@@todonotes@numberoftodonotes=\count290
+\c@@todonotes@numberoftodonotes=\count306
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen269
-\c@nlinenum=\count291
+\rotheadsize=\dimen273
+\c@nlinenum=\count307
 \TeXr@lab=\toks48
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen270
-\TX@old@table=\dimen271
-\TX@old@col=\dimen272
-\TX@target=\dimen273
-\TX@delta=\dimen274
-\TX@cols=\count292
+\TX@col@width=\dimen274
+\TX@old@table=\dimen275
+\TX@old@col=\dimen276
+\TX@target=\dimen277
+\TX@delta=\dimen278
+\TX@cols=\count308
 \TX@ftn=\toks49
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
@@ -610,10 +759,7 @@ ts for all LaTeX engines.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-))
+)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
@@ -644,22 +790,19 @@ LaTeX Info: Redefining \oldstylenums on input line 484.
 Package: zi4 2019/05/17 v1.12
 
 `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
-\zifour@ocount=\count293
+\zifour@ocount=\count309
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\newtxmath.sty
 Package: newtxmath 2020/08/04 v1.629
 
 `newtxmath' v1.629, 2020/08/04 Math macros based originally on txfonts (msharpe
-) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count294
 ) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-\tx@cntz=\count295
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/binhex\binhex.tex)
-\tx@Isdigit=\count296
-\tx@IsAlNum=\count297
+\tx@cntz=\count310
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/binhex\binhex.tex)
+\tx@Isdigit=\count311
+\tx@IsAlNum=\count312
 \tx@tA=\toks50
 \tx@tB=\toks51
 \tx@su=\read4
@@ -770,12 +913,12 @@ LaTeX Font Info:    Redeclaring math delimiter \vert on input line 864.
 LaTeX Font Info:    Redeclaring math accent \dot on input line 935.
 LaTeX Font Info:    Redeclaring math accent \ddot on input line 936.
 LaTeX Font Info:    Redeclaring math accent \vec on input line 1999.
-\ntx@numstart=\count298
-\ntx@UCstart=\count299
-\ntx@lcstart=\count300
-\ntx@tmpc=\count301
-\ntx@imath=\count302
-\ntx@jmath=\count303
+\ntx@numstart=\count313
+\ntx@UCstart=\count314
+\ntx@lcstart=\count315
+\ntx@tmpc=\count316
+\ntx@imath=\count317
+\ntx@jmath=\count318
 LaTeX Info: Redefining \Bbbk on input line 2510.
 LaTeX Info: Redefining \not on input line 2659.
 LaTeX Info: Redefining \textsquare on input line 2689.
@@ -784,8 +927,8 @@ LaTeX Info: Redefining \openbox on input line 2691.
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\arabtex.sty
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\aconfig.sty
 LaTeX2e detected 
-\a@moduledate=\count304
-\a@maindate=\count305
+\a@moduledate=\count319
+\a@maindate=\count320
 )
 Package: arabtex 2003/08/22  3.11 ArabTeX main module
 
@@ -881,18 +1024,18 @@ Arabic processor `ArabTeX' [20060702 patch level 3.11s (02.07.2006)]
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\utf8.sty
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\utfcode.sty
 Package: utfcode 2002/03/07  3.10a Arabic+Hebrew segment of UTF-8
-\u@lb=\count335
-\u@lq=\count336
+\u@lb=\count350
+\u@lq=\count351
 )
 Package: utf8 2000/06/13  3.10 UTF-8 input encoding 
 
 (ArabTeX) scanner for code UTF-8 installed.)
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip72
-\bibsep=\skip73
+\bibhang=\skip73
+\bibsep=\skip74
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count337
+\c@NAT@ctr=\count352
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/05/30 v3.4k Customizing captions (AR)
@@ -901,47 +1044,64 @@ Package: caption 2020/05/30 v3.4k Customizing captions (AR)
 Package: caption3 2020/07/20 v1.12b caption3 kernel (AR)
 Package caption3 Info: Fixing ArabTeX on input line 44.
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen297
-\captionmargin@=\dimen298
-\captionwidth=\dimen299
-\caption@tempdima=\dimen300
-\caption@indent=\dimen301
-\caption@parindent=\dimen302
-\caption@hangindent=\dimen303
+\captionmargin=\dimen301
+\captionmargin@=\dimen302
+\captionwidth=\dimen303
+\caption@tempdima=\dimen304
+\caption@indent=\dimen305
+\caption@parindent=\dimen306
+\caption@hangindent=\dimen307
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count338
-\c@continuedfloat=\count339
+\c@caption@flags=\count353
+\c@continuedfloat=\count354
 Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
-\c@subfigure=\count340
-\c@subtable=\count341
+\c@subfigure=\count355
+\c@subtable=\count356
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup11
+\symboldletters=\mathgroup12
+\symboldsymbols=\mathgroup13
+\symboldlargesymbols=\mathgroup14
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip75
+\multirow@cntb=\count357
+\multirow@dima=\skip76
+\bigstrutjot=\dimen308
 )
 \@input{tango.aux}
 \openout2 = `tango.aux'.
 
 (tango.tex
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count342
-\lst@gtempboxa=\box77
+\lst@mode=\count358
+\lst@gtempboxa=\box78
 \lst@token=\toks73
-\lst@length=\count343
-\lst@currlwidth=\dimen304
-\lst@column=\count344
-\lst@pos=\count345
-\lst@lostspace=\dimen305
-\lst@width=\dimen306
-\lst@newlines=\count346
-\lst@lineno=\count347
-\lst@maxwidth=\dimen307
+\lst@length=\count359
+\lst@currlwidth=\dimen309
+\lst@column=\count360
+\lst@pos=\count361
+\lst@lostspace=\dimen310
+\lst@width=\dimen311
+\lst@newlines=\count362
+\lst@lineno=\count363
+\lst@maxwidth=\dimen312
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count348
-\lst@skipnumbers=\count349
-\lst@framebox=\box78
+\c@lstnumber=\count364
+\lst@skipnumbers=\count365
+\lst@framebox=\box79
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -957,146 +1117,18 @@ File: lstlang2.sty 2020/03/24 1.8d listings language file
 File: lstlang3.sty 2020/03/24 1.8d listings language file
 )
 (ArabTeX) input encoding set to UTF-8 conventions
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
-sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
-y
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.st
-y
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
-eys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
-y
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.
-sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-
-Package auxhook Warning: Cannot patch \document,
-(auxhook)                using \AtBeginDocument instead.
-
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
-)
-\@linkdim=\dimen308
-\Hy@linkcounter=\count350
-\Hy@pagecounter=\count351
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count352
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count353
-LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen309
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.
-sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
-))
-\Fld@menulength=\count354
-\Field@Width=\dimen310
-\Fld@charsize=\dimen311
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring OFF on input line 6367.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode OFF on input line 6377.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/atbegshi\atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
-)
-\Hy@abspage=\count355
-\c@Item=\count356
-\c@Hfootnote=\count357
-)
-Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/atveryend\atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-)
-\Fld@listcount=\count358
-\c@bookmark@seq@number=\count359
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
-check.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
-unter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
-)
-\Hy@SectionHShift=\skip74
-)
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 35.
+(hyperref)                setting the option has no effect on input line 69.
 
-Package hyperref Info: Option `unicode' set `false' on input line 35.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 35.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 35.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 35.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 35.
-Package hyperref Info: Option `colorlinks' set `true' on input line 35.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfm
-ode.def
-File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count360
-\l__pdf_internal_box=\box79
-) (thesis.aux (abstract.aux) (ack.aux) (contents.aux) (tables.aux)
-(figures.aux) (listings.aux) (introduction.aux)
+Package hyperref Info: Option `unicode' set `false' on input line 69.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 69.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 69.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 69.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 69.
+Package hyperref Info: Option `colorlinks' set `true' on input line 69.
+(thesis.aux (abstract.aux) (ack.aux) (contents.aux) (tables.aux) (figures.aux)
+(listings.aux) (introduction.aux)
 (chapters/semantic_textual_similarity/introduction.aux)
 (chapters/semantic_textual_similarity/state_of_the_art.aux)
 (chapters/semantic_textual_similarity/sentence_encoders.aux)
@@ -1104,93 +1136,60 @@ File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 (chapters/semantic_textual_similarity/transformers.aux)
 (chapters/translation_memories/introduction.aux)
 (chapters/translation_memories/sentence_encoders.aux)
-(chapters/translation_quality_estimation/introduction.aux
-
-LaTeX Warning: Label `cha:introduction' multiply defined.
-
-) (chapters/translation_quality_estimation/transquest.aux) (bib.aux))
+(chapters/translation_memories/future.aux)
+(chapters/translation_quality_estimation/introduction.aux)
+(chapters/translation_quality_estimation/transquest.aux)
+(chapters/translation_quality_estimation/multilingual.aux)
+(chapters/translation_quality_estimation/transquest_word.aux)
+(chapters/translation_quality_estimation/transquest_plus.aux) (bib.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 37.
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 71.
 LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line
- 37.
+ 71.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 71.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-37.
+71.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 71.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 37.
+ 71.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 71.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 37.
+e 71.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
-i
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count361
-\scratchdimen=\dimen312
-\scratchbox=\box80
-\nofMPsegments=\count362
-\nofMParguments=\count363
-\everyMPshowfont=\toks74
-\MPscratchCnt=\count364
-\MPscratchDim=\dimen313
-\MPnumerator=\count365
-\makeMPintoPDFobject=\count366
-\everyMPtoPDFconversion=\toks75
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
-se.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-) ABD: EveryShipout initializing macros
-\c@mv@tabular=\count367
-\c@mv@boldtabular=\count368
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
-)
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count369
-\AtBeginShipoutBox=\box81
-Package hyperref Info: Link coloring ON on input line 37.
+LaTeX Font Info:    ... okay on input line 71.
+\AtBeginShipoutBox=\box80
+Package hyperref Info: Link coloring ON on input line 71.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1202,32 +1201,65 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 estring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count370
+\c@section@level=\count366
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
  (thesis.out) (thesis.out)
 \@outlinefile=\write6
 \openout6 = `thesis.out'.
 
 
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count367
+\scratchdimen=\dimen313
+\scratchbox=\box81
+\nofMPsegments=\count368
+\nofMParguments=\count369
+\everyMPshowfont=\toks74
+\MPscratchCnt=\count370
+\MPscratchDim=\dimen314
+\MPnumerator=\count371
+\makeMPintoPDFobject=\count372
+\everyMPtoPDFconversion=\toks75
+)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+) ABD: EveryShipout initializing macros
+\c@mv@tabular=\count373
+\c@mv@boldtabular=\count374
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count375
+
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\apatch.sty
-\a@lines=\count371
-\a@Lwidth=\dimen314
-\a@displaywidth=\dimen315
+\a@lines=\count376
+\a@Lwidth=\dimen315
+\a@displaywidth=\dimen316
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alocal.sty
 (ArabTeX) 3.11 local stub, 26.02.2006)
 (ArabTeX) version 3.11s (02.07.2006): second phase of patching)
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 41.
+(Font)              scaled to size 12.0pt on input line 75.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 17.28pt on input line 41.
+(Font)              scaled to size 17.28pt on input line 75.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 41.
+(Font)              scaled to size 14.4pt on input line 75.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 41.
+(Font)              scaled to size 14.4pt on input line 75.
  [1
 
 
@@ -1242,75 +1274,16 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
 ]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 3.
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 6.
-
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
-File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 6.
-)
-[3]
+) [3]
 \openout2 = `ack.aux'.
 
- (ack.tex [4
+
+(ack.tex [4
 
 
 
 
-]
-LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF
- on input line 10.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/libertine\ot1linuxlibert
-inet-tlf.fd
-File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
-LinuxLibertineT-TLF.
-)
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 10.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 10.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 10.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
-.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
-
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
-
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-10.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
-File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
-)
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-10.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
-File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
-)
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-10.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
-File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-))
-[5]
+]) [5]
 \openout2 = `contents.aux'.
 
  (contents.tex [6
@@ -1323,66 +1296,127 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 7.
- [7] [8] [9])
+LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF
+ on input line 9.
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/libertine\ot1linuxlibert
+inet-tlf.fd
+File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
+LinuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.8pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.6pt on input line 9.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 9.
+
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
+9.
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
+File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
+9.
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
+File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
+9.
+
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 12.0pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 8.8pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 6.6pt on input line 9.
+
+[7] [8] [9] [10])
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
-) [10]
+) [11]
 \openout2 = `tables.aux'.
 
- (tables.tex (thesis.lot)
+ (tables.tex [12
+
+
+
+
+] (thesis.lot [13])
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
-)
-[11
+) [14]
+\openout2 = `figures.aux'.
+
+ (figures.tex
+(thesis.lof
+Overfull \hbox (12.69846pt too wide) in paragraph at lines 10--10
+ [][] [][][]\T1/LinuxLibertineT-TLF/m/n/12 Normalised dis-tri-bu-tion of word c
+ount in QUORA train and QUORA 
+ []
+
+
+Overfull \hbox (12.53044pt too wide) in paragraph at lines 11--11
+ [][] [][][]\T1/LinuxLibertineT-TLF/m/n/12 Word share against Is-duplicate val-
+ues in QUORA train and QUORA 
+ []
+
+[15
+
+
+
+
+])
+\tf@lof=\write9
+\openout9 = `thesis.lof'.
+
+) [16]
+\openout2 = `listings.aux'.
+
+ (listings.tex (thesis.lol)
+\tf@lol=\write10
+\openout10 = `thesis.lol'.
+
+) [17
 
 
 
 
 ]
-\openout2 = `figures.aux'.
-
- (figures.tex [12
-
-
-
-
-] (thesis.lof
-Overfull \hbox (12.69846pt too wide) in paragraph at lines 9--9
- [][] [][][]\T1/LinuxLibertineT-TLF/m/n/12 Normalised dis-tri-bu-tion of word c
-ount in QUORA train and QUORA 
- []
-
-)
-\tf@lof=\write9
-\openout9 = `thesis.lof'.
-
-) [13]
-\openout2 = `listings.aux'.
-
- (listings.tex [14
-
-
-
-
-] (thesis.lol)
-\tf@lol=\write10
-\openout10 = `thesis.lol'.
-
-) [15]
 \openout2 = `introduction.aux'.
 
- (introduction.tex [16
+ (introduction.tex [18
 
 
 
 
-]) [17]
+]) [19]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 66.
+(Font)              scaled to size 24.88pt on input line 100.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 66.
+(Font)              scaled to size 24.88pt on input line 100.
 
 [1
 
@@ -1395,6 +1429,9 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 8.
+
+Package hyperref Warning: Suppressing empty link on input line 11.
+
 [3
 
 
@@ -1422,8 +1459,19 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <5.5> not available
 (Font)              size <5> substituted on input line 28.
 
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 10.0pt on input line 28.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 7.3pt on input line 28.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 5.5pt on input line 28.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 7.3pt on input line 28.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 28
+.
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
+File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
+)
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 10.0pt on input line 28.
 
@@ -1449,304 +1497,368 @@ Underfull \vbox (badness 2478) has occurred while \output is active []
 
  [6]
 <figures/semantic_textual_similarity/introduction/sick_train_relatedness_hist.p
-ng, id=546, 433.62pt x 289.08pt>
+ng, id=714, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_train_relatedness_h
 ist.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_train_relatedness_hi
 st.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sick_
-train_relatedness_hist.png  used on input line 77.
+train_relatedness_hist.png  used on input line 73.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 78.
+(Font)              scaled to size 10.95pt on input line 74.
 <figures/semantic_textual_similarity/introduction/sick_test_relatedness_hist.pn
-g, id=548, 433.62pt x 289.08pt>
+g, id=716, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_test_relatedness_hi
 st.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_test_relatedness_his
 t.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sick_
-test_relatedness_hist.png  used on input line 83.
+test_relatedness_hist.png  used on input line 79.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/sick_train_words.png, id=549,
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+<figures/semantic_textual_similarity/introduction/sick_train_words.png, id=721,
  433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_train_words.png Gra
 phic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_train_words.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sick_
-train_words.png  used on input line 97.
+train_words.png  used on input line 93.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/sick_test_words.png, id=550, 
+<figures/semantic_textual_similarity/introduction/sick_test_words.png, id=722, 
 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_test_words.png Grap
 hic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_test_words.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sick_
-test_words.png  used on input line 103.
+test_words.png  used on input line 99.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 8.8pt on input line 114.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 6.6pt on input line 114.
 <figures/semantic_textual_similarity/introduction/sick_train_word_share.png, id
-=551, 433.62pt x 289.08pt>
+=725, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_train_word_share.pn
 g Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_train_word_share.png
 >
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sick_
-train_word_share.png  used on input line 116.
+train_word_share.png  used on input line 133.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/sick_test_word_share.png, id=
-552, 433.62pt x 289.08pt>
+726, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_test_word_share.png
  Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_test_word_share.png>
 
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sick_
-test_word_share.png  used on input line 122.
+test_word_share.png  used on input line 139.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 8.8pt on input line 137.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 6.6pt on input line 137.
 
-[7] [8 <./figures/semantic_textual_similarity/introduction/sick_train_relatedne
-ss_hist.png> <./figures/semantic_textual_similarity/introduction/sick_test_rela
-tedness_hist.png> <./figures/semantic_textual_similarity/introduction/sick_trai
-n_words.png> <./figures/semantic_textual_similarity/introduction/sick_test_word
-s.png>]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 150.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [8 <./figures/semantic_textual_similarity/introduction/sick_train_relatedness_
+hist.png> <./figures/semantic_textual_similarity/introduction/sick_test_related
+ness_hist.png>]
 Underfull \vbox (badness 1546) has occurred while \output is active []
 
- [9 <./figures/semantic_textual_similarity/introduction/sick_train_word_share.p
-ng> <./figures/semantic_textual_similarity/introduction/sick_test_word_share.pn
-g>]
-<figures/semantic_textual_similarity/introduction/sts_train.png, id=621, 433.62
+ [9 <./figures/semantic_textual_similarity/introduction/sick_train_words.png> <
+./figures/semantic_textual_similarity/introduction/sick_test_words.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./figures/semantic_textual_similarity/introduction/sick_train_word_share.
+png> <./figures/semantic_textual_similarity/introduction/sick_test_word_share.p
+ng>]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 156.
+
+[11]
+<figures/semantic_textual_similarity/introduction/sts_train.png, id=795, 433.62
 pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_train.png Graphic fi
 le (type png)
 <use figures/semantic_textual_similarity/introduction/sts_train.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_t
-rain.png  used on input line 249.
+rain.png  used on input line 255.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/sts_test.png, id=622, 433.62p
+<figures/semantic_textual_similarity/introduction/sts_test.png, id=796, 433.62p
 t x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_test.png Graphic fil
 e (type png)
 <use figures/semantic_textual_similarity/introduction/sts_test.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_t
-est.png  used on input line 255.
+est.png  used on input line 261.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/sts_2017_train_words.png, id=
-623, 433.62pt x 289.08pt>
+797, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_2017_train_words.png
  Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sts_2017_train_words.png>
 
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_2
-017_train_words.png  used on input line 269.
+017_train_words.png  used on input line 275.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/sts_2017_test_words.png, id=6
-24, 433.62pt x 289.08pt>
+<figures/semantic_textual_similarity/introduction/sts_2017_test_words.png, id=7
+98, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_2017_test_words.png 
 Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sts_2017_test_words.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_2
-017_test_words.png  used on input line 275.
+017_test_words.png  used on input line 281.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/sts_2017_train_word_share.png
-, id=625, 433.62pt x 289.08pt>
+, id=799, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_2017_train_word_shar
 e.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sts_2017_train_word_share
 .png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_2
-017_train_word_share.png  used on input line 288.
+017_train_word_share.png  used on input line 294.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/sts_2017_test_word_share.png,
- id=626, 433.62pt x 289.08pt>
+ id=800, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_2017_test_word_share
 .png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sts_2017_test_word_share.
 png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_2
-017_test_word_share.png  used on input line 294.
+017_test_word_share.png  used on input line 300.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
- [10 <./figures/semantic_textual_similarity/introduction/sts_train.png> <./figu
-res/semantic_textual_similarity/introduction/sts_test.png>] [11 <./figures/sema
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./figures/semantic_textual_similarity/introduction/sts_train.png> <./figu
+res/semantic_textual_similarity/introduction/sts_test.png>] [13 <./figures/sema
 ntic_textual_similarity/introduction/sts_2017_train_words.png> <./figures/seman
 tic_textual_similarity/introduction/sts_2017_test_words.png> <./figures/semanti
 c_textual_similarity/introduction/sts_2017_train_word_share.png> <./figures/sem
 antic_textual_similarity/introduction/sts_2017_test_word_share.png>]
-Underfull \vbox (badness 1430) has occurred while \output is active []
-
- [12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
-<figures/semantic_textual_similarity/introduction/quora_train.png, id=658, 433.
+ [14]
+[15] [16]
+<figures/semantic_textual_similarity/introduction/quora_train.png, id=846, 433.
 62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_train.png Graphic 
 file (type png)
 <use figures/semantic_textual_similarity/introduction/quora_train.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
-_train.png  used on input line 361.
+_train.png  used on input line 373.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/quora_test.png, id=659, 433.6
+<figures/semantic_textual_similarity/introduction/quora_test.png, id=847, 433.6
 2pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_test.png Graphic f
 ile (type png)
 <use figures/semantic_textual_similarity/introduction/quora_test.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
-_test.png  used on input line 367.
+_test.png  used on input line 379.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/quora_train_words.png, id=660
+<figures/semantic_textual_similarity/introduction/quora_train_words.png, id=848
 , 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_train_words.png Gr
 aphic file (type png)
 <use figures/semantic_textual_similarity/introduction/quora_train_words.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
-_train_words.png  used on input line 381.
+_train_words.png  used on input line 393.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/quora_test_words.png, id=661,
+<figures/semantic_textual_similarity/introduction/quora_test_words.png, id=849,
  433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_test_words.png Gra
 phic file (type png)
 <use figures/semantic_textual_similarity/introduction/quora_test_words.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
-_test_words.png  used on input line 387.
+_test_words.png  used on input line 399.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/quora_train_word_share.png, i
-d=662, 433.62pt x 289.08pt>
+d=850, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_train_word_share.p
 ng Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/quora_train_word_share.pn
 g>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
-_train_word_share.png  used on input line 400.
+_train_word_share.png  used on input line 412.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/quora_test_word_share.png, id
-=663, 433.62pt x 289.08pt>
+=851, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_test_word_share.pn
 g Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/quora_test_word_share.png
 >
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
-_test_word_share.png  used on input line 406.
+_test_word_share.png  used on input line 418.
+(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+
+Underfull \vbox (badness 1087) has occurred while \output is active []
+
+ [17]
+[18 <./figures/semantic_textual_similarity/introduction/quora_train.png> <./fig
+ures/semantic_textual_similarity/introduction/quora_test.png> <./figures/semant
+ic_textual_similarity/introduction/quora_train_words.png> <./figures/semantic_t
+extual_similarity/introduction/quora_test_words.png>]
+Underfull \vbox (badness 5592) has occurred while \output is active []
+
+ [19 <./figures/semantic_textual_similarity/introduction/quora_train_word_share
+.png> <./figures/semantic_textual_similarity/introduction/quora_test_word_share
+.png>]
+[20]
+<figures/semantic_textual_similarity/introduction/sts_spanish_train.png, id=893
+, 433.62pt x 289.08pt>
+File: figures/semantic_textual_similarity/introduction/sts_spanish_train.png Gr
+aphic file (type png)
+<use figures/semantic_textual_similarity/introduction/sts_spanish_train.png>
+Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_s
+panish_train.png  used on input line 522.
+(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+<figures/semantic_textual_similarity/introduction/sts_spanish_test.png, id=894,
+ 433.62pt x 289.08pt>
+File: figures/semantic_textual_similarity/introduction/sts_spanish_test.png Gra
+phic file (type png)
+<use figures/semantic_textual_similarity/introduction/sts_spanish_test.png>
+Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_s
+panish_test.png  used on input line 528.
+(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+<figures/semantic_textual_similarity/introduction/spanish_sts_train_words.png, 
+id=895, 433.62pt x 289.08pt>
+File: figures/semantic_textual_similarity/introduction/spanish_sts_train_words.
+png Graphic file (type png)
+<use figures/semantic_textual_similarity/introduction/spanish_sts_train_words.p
+ng>
+Package pdftex.def Info: figures/semantic_textual_similarity/introduction/spani
+sh_sts_train_words.png  used on input line 542.
+(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+<figures/semantic_textual_similarity/introduction/spanish_sts_test_words.png, i
+d=896, 433.62pt x 289.08pt>
+File: figures/semantic_textual_similarity/introduction/spanish_sts_test_words.p
+ng Graphic file (type png)
+<use figures/semantic_textual_similarity/introduction/spanish_sts_test_words.pn
+g>
+Package pdftex.def Info: figures/semantic_textual_similarity/introduction/spani
+sh_sts_test_words.png  used on input line 548.
+(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+<figures/semantic_textual_similarity/introduction/spanish_sts_train_word_share.
+png, id=897, 433.62pt x 289.08pt>
+File: figures/semantic_textual_similarity/introduction/spanish_sts_train_word_s
+hare.png Graphic file (type png)
+<use figures/semantic_textual_similarity/introduction/spanish_sts_train_word_sh
+are.png>
+Package pdftex.def Info: figures/semantic_textual_similarity/introduction/spani
+sh_sts_train_word_share.png  used on input line 561.
+(pdftex.def)             Requested size: 195.0pt x 130.00098pt.
+<figures/semantic_textual_similarity/introduction/spanish_sts_test_word_share.p
+ng, id=898, 433.62pt x 289.08pt>
+File: figures/semantic_textual_similarity/introduction/spanish_sts_test_word_sh
+are.png Graphic file (type png)
+<use figures/semantic_textual_similarity/introduction/spanish_sts_test_word_sha
+re.png>
+Package pdftex.def Info: figures/semantic_textual_similarity/introduction/spani
+sh_sts_test_word_share.png  used on input line 567.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
-[15 <./figures/semantic_textual_similarity/introduction/quora_train.png> <./fig
-ures/semantic_textual_similarity/introduction/quora_test.png> <./figures/semant
-ic_textual_similarity/introduction/quora_train_words.png> <./figures/semantic_t
-extual_similarity/introduction/quora_test_words.png>]
+ [21 <./figures/semantic_textual_similarity/introduction/sts_spanish_train.png>
+ <./figures/semantic_textual_similarity/introduction/sts_spanish_test.png>] [22
+ <./figures/semantic_textual_similarity/introduction/spanish_sts_train_words.pn
+g> <./figures/semantic_textual_similarity/introduction/spanish_sts_test_words.p
+ng> <./figures/semantic_textual_similarity/introduction/spanish_sts_train_word_
+share.png> <./figures/semantic_textual_similarity/introduction/spanish_sts_test
+_word_share.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
-Underfull \hbox (badness 1237) in paragraph at lines 497--497
+ [23]
+Underfull \hbox (badness 1237) in paragraph at lines 596--596
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 The Ara-bic STS dataset can be down-loaded
  at [][]$\T1/zi4/m/n/10 http : / / alt . qcri . org / semeval2017 /
  []
 
-[17 <./figures/semantic_textual_similarity/introduction/quora_train_word_share.
-png> <./figures/semantic_textual_similarity/introduction/quora_test_word_share.
-png>]
-Overfull \hbox (0.41814pt too wide) in paragraph at lines 517--518
+
+Overfull \hbox (0.41814pt too wide) in paragraph at lines 616--617
 []\T1/LinuxLibertineT-TLF/m/n/12 To pre-pare the an-no-tated in-stances, a sub-
 set of the En-glish STS 2017 dataset
  []
 
-
-Underfull \vbox (badness 3668) has occurred while \output is active []
-
- [18]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
-LaTeX Font Info:    Trying to load font information for U+xnsh on input line 52
-8.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\uxnsh.fd
+[24]
+LaTeX Font Info:    Trying to load font information for U+xnsh on input line 62
+7.
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\uxnsh.fd
 File: uxnsh.fd  1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
 )
 LaTeX Font Info:    Font shape `U/xnsh/m/n' will be
-(Font)              scaled to size 17.28003pt on input line 528.
+(Font)              scaled to size 17.28003pt on input line 627.
 
-[20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
-Underfull \hbox (badness 4556) in paragraph at lines 598--598
+ [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \hbox (badness 4556) in paragraph at lines 697--697
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 BioCreative/OHNLP shared task is avail-abl
 e on [][]$\T1/zi4/m/n/10 https : / / sites . google . com / view /
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 598--598
+Underfull \hbox (badness 4391) in paragraph at lines 697--697
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 GE Health-care pro-vides IT health-care so
 -lu-tions that also in-cludes EHR so-lu-tions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 697--697
 \T1/LinuxLibertineT-TLF/m/n/10 and can be ac-cessed from [][]$\T1/zi4/m/n/10 ht
 tps : / / www . gehealthcare . sa / products / healthcare-[]it /
  []
 
-[22]
+[27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [28]
+[29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
+ [30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
-[26]
+ [31]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 687.
- [27]
-Overfull \hbox (2.6546pt too wide) in paragraph at lines 706--707
+(Font)              scaled to size 6.6pt on input line 786.
+
+[32]
+Overfull \hbox (2.6546pt too wide) in paragraph at lines 805--806
 \T1/LinuxLibertineT-TLF/m/n/12 Ques-tion Pairs where the gold la-bels are dis-c
 rete val-ues, Root Mean Squared
  []
 
-[28]) [29]
+
+Underfull \vbox (badness 2564) has occurred while \output is active []
+
+ [33])
+[34]
 \openout2 = `chapters/semantic_textual_similarity/state_of_the_art.aux'.
 
- (chapters/semantic_textual_similarity/state_of_the_art.tex [30
+ (chapters/semantic_textual_similarity/state_of_the_art.tex
+Chapter 2.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35
 
 
 
 
 ]
-Chapter 2.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
 Underfull \hbox (badness 8170) in paragraph at lines 12--12
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 The pub-lic GitHub repos-i-tory is avail-a
 ble on [][]$\T1/zi4/m/n/10 https : / / github . com / tharindudr /
  []
 
-
-Package natbib Warning: Citation `Conneau2017SupervisedLO' on page 32 undefined
- on input line 23.
-
-
-Package natbib Warning: Citation `Pagliardini2018UnsupervisedLO' on page 32 und
-efined on input line 23.
-
-
-Package natbib Warning: Citation `Le2014DistributedRO' on page 32 undefined on 
-input line 23.
-
-[32] [33]
+[36] [37]
 <figures/semantic_textual_similarity/state_of_the_art/word_movers_distance.png,
- id=880, 497.86pt x 255.95625pt>
+ id=1092, 497.86pt x 255.95625pt>
 File: figures/semantic_textual_similarity/state_of_the_art/word_movers_distance
 .png Graphic file (type png)
 <use figures/semantic_textual_similarity/state_of_the_art/word_movers_distance.
@@ -1760,23 +1872,48 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 43.
 
-[34 <./figures/semantic_textual_similarity/state_of_the_art/word_movers_distanc
-e.png>] [35] [36] [37] [38]) [39]
+[38 <./figures/semantic_textual_similarity/state_of_the_art/word_movers_distanc
+e.png>] [39] [40] [41] [42]
+Overfull \hbox (5.15962pt too wide) in paragraph at lines 77--78
+\T1/LinuxLibertineT-TLF/m/n/12 BERT. For this we used pre-trained 'bert-large-u
+ncased' model and 'orig-i-nal (5.5B)'
+ []
+
+[43]
+Overfull \hbox (2.55875pt too wide) in paragraph at lines 89--90
+[]\T1/LinuxLibertineT-TLF/m/n/12 All the word vec-tors were con-sid-ered for av
+-er-ag-ing. Re-sults are shown
+ []
+
+
+Overfull \hbox (11.59584pt too wide) in paragraph at lines 142--143
+ [][] 
+ []
+
+
+Overfull \hbox (11.59584pt too wide) in paragraph at lines 190--191
+ [][] 
+ []
+
+[44] [45])
+Underfull \vbox (badness 5359) has occurred while \output is active []
+
+ [46]
+[47] [48]
 \openout2 = `chapters/semantic_textual_similarity/sentence_encoders.aux'.
 
-
-(chapters/semantic_textual_similarity/sentence_encoders.tex [40
+ (chapters/semantic_textual_similarity/sentence_encoders.tex
+Chapter 3.
+) [49
 
 
 
 
 ]
-Chapter 3.
-) [41]
 \openout2 = `chapters/semantic_textual_similarity/siamese_neural_networks.aux'.
 
  (chapters/semantic_textual_similarity/siamese_neural_networks.tex
-[42
+[50
 
 
 
@@ -1784,15 +1921,15 @@ Chapter 3.
 ]
 Chapter 4.
 
-Overfull \hbox (5.50084pt too wide) in paragraph at lines 7--7
+Overfull \hbox (5.50084pt too wide) in paragraph at lines 8--8
 []\T1/LinuxLibertineT-TLF/b/n/17.28 MAGRU: Im-prov-ing Siamese Neu-ral Net-work
 s 
  []
 
-) [43]
+) [51]
 \openout2 = `chapters/semantic_textual_similarity/transformers.aux'.
 
- (chapters/semantic_textual_similarity/transformers.tex [44
+ (chapters/semantic_textual_similarity/transformers.tex [52
 
 
 
@@ -1805,200 +1942,171 @@ Overfull \hbox (1.61842pt too wide) in paragraph at lines 9--9
 an-
  []
 
-) [45] [46
+) [53] [54
 
 
 
-] [47] [48]
+] [55] [56]
 \openout2 = `chapters/translation_memories/introduction.aux'.
 
- (chapters/translation_memories/introduction.texpdfTeX warning (ext4): destinat
-ion with the same identifier (name{chapter.1}) has been already used, duplicate
- ignored
-<to be read again> 
-                   \relax 
-l.1 ...er{\label{cha:tm_introduction}Introduction}
-                                                  
+ (chapters/translation_memories/introduction.tex
 Chapter 1.
-pdfTeX warning (ext4): destination with the same identifier (name{section.1.1})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 \section{What is Translation Memory?}
-                                         pdfTeX warning (ext4): destination wit
-h the same identifier (name{section.1.2}) has been already used, duplicate igno
-red
-<to be read again> 
-                   \relax 
-l.5 \section{Datasets}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{section.1.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.7 \section{Related Work}
-                          pdfTeX warning (ext4): destination with the same iden
-tifier (name{section.1.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.9 \section{STS for Translation Memories}
-                                          ) [49
+) [57
 
 
 
 ]
 \openout2 = `chapters/translation_memories/sentence_encoders.aux'.
 
-
-(chapters/translation_memories/sentence_encoders.tex [50
-
+ (chapters/translation_memories/sentence_encoders.tex [58
 
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 ...Sentence Encoders for Translation Memories}
-                                                  
+
+]
 Chapter 2.
-pdfTeX warning (ext4): destination with the same identifier (name{section.2.1})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 \section{Introduction}
-                          pdfTeX warning (ext4): destination with the same iden
-tifier (name{section.2.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.6 \section{Methodology}
-                         pdfTeX warning (ext4): destination with the same ident
-ifier (name{section.2.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.8 \section{Results and Evaluation}
-                                    ) [51] [52
+) [59]
+\openout2 = `chapters/translation_memories/future.aux'.
+
+ (chapters/translation_memories/future.tex [60
 
 
 
-] [53] [54]
+
+]
+Chapter 3.
+) [61] [62
+
+
+
+] [63] [64]
 \openout2 = `chapters/translation_quality_estimation/introduction.aux'.
 
-
-(chapters/translation_quality_estimation/introduction.texpdfTeX warning (ext4):
- destination with the same identifier (name{chapter.1}) has been already used, 
-duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter{\label{cha:introduction}Introduction}
-                                                  
+ (chapters/translation_quality_estimation/introduction.tex
 Chapter 1.
-pdfTeX warning (ext4): destination with the same identifier (name{section.1.1})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 ...on{What is Translation Quality Estimation?}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{section.1.2}) has been already used, dupli
-cate ignored
-<to be read again> 
-                   \relax 
-l.5 \section{Datasets}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{section.1.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.7 \section{Related Work}
-                          pdfTeX warning (ext4): destination with the same iden
-tifier (name{section.1.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.9 ...ion{STS for Translation Quality Estimation}
-                                                  ) [55
+) [65
 
 
 
 ]
 \openout2 = `chapters/translation_quality_estimation/transquest.aux'.
 
-
-(chapters/translation_quality_estimation/transquest.tex [56
-
-
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 ...quest}TransQuest: STS Architectures for QE}
-                                                  
-Chapter 2.
-pdfTeX warning (ext4): destination with the same identifier (name{section.2.1})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 \section{Introduction}
-                          pdfTeX warning (ext4): destination with the same iden
-tifier (name{section.2.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 \section{Methodology}
-                         pdfTeX warning (ext4): destination with the same ident
-ifier (name{section.2.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.7 \section{Results and Evaluation}
-                                    ) [57]
-\openout2 = `bib.aux'.
-
- (bib.tex (thesis.bbl [58
+ (chapters/translation_quality_estimation/transquest.tex [66
 
 
 
 
 ]
+Chapter 2.
+<figures/translation_quality_estimation/TransQuest.png, id=1349, 357.7365pt x 3
+25.9377pt>
+File: figures/translation_quality_estimation/TransQuest.png Graphic file (type 
+png)
+<use figures/translation_quality_estimation/TransQuest.png>
+Package pdftex.def Info: figures/translation_quality_estimation/TransQuest.png 
+ used on input line 10.
+(pdftex.def)             Requested size: 214.64354pt x 195.56412pt.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 49.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 49.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.1pt on input line 49.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 10.95pt on input line 49.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 8.0pt on input line 49.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 6.1pt on input line 49.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 49.
+
+Overfull \hbox (2.2468pt too wide) in paragraph at lines 49--50
+ [] 
+ []
+
+) [67] [68 <./figures/translation_quality_estimation/TransQuest.png>]
+\openout2 = `chapters/translation_quality_estimation/multilingual.aux'.
+
+
+(chapters/translation_quality_estimation/multilingual.tex
+Chapter 3.
+) [69
+
+
+
+
+]
+\openout2 = `chapters/translation_quality_estimation/transquest_word.aux'.
+
+ (chapters/translation_quality_estimation/transquest_word.tex [70
+
+
+
+
+]
+Chapter 4.
+) [71] [72]
+\openout2 = `chapters/translation_quality_estimation/transquest_plus.aux'.
+
+ (chapters/translation_quality_estimation/transquest_plus.tex
+Chapter 5.
+) [73
+
+
+
+
+]
+\openout2 = `bib.aux'.
+
+ (bib.tex (thesis.bbl [74
+
+
+
+
+]
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 12.0pt on input line 18.
+
 Underfull \vbox (badness 2181) has occurred while \output is active []
 
- [59]
-[60] [61] [62]
-Underfull \hbox (badness 1221) in paragraph at lines 173--180
+ [75]
+[76] [77] [78] [79] [80]
+Underfull \hbox (badness 1221) in paragraph at lines 247--254
 []\T1/LinuxLibertineT-TLF/m/n/12 Gizem So§anco§lu, Hakime Öztürk, and Arzu-can
  Özgür.  BIOSSES:
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 173--180
+Underfull \hbox (badness 2005) in paragraph at lines 247--254
 \T1/LinuxLibertineT-TLF/m/n/12 a se-man-tic sen-tence sim-i-lar-ity es-ti-ma-ti
 on sys-tem for the biomed-i-cal
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 173--180
+Underfull \hbox (badness 2376) in paragraph at lines 247--254
 \T1/LinuxLibertineT-TLF/m/n/12 do-main.  \T1/LinuxLibertineT-TLF/m/it/12 Bioin-
 for-mat-ics\T1/LinuxLibertineT-TLF/m/n/12 , 33(14):i49--i58, 07 2017.  ISSN 136
 7-4803.
  []
 
-[63] [64]
-Underfull \hbox (badness 3078) in paragraph at lines 264--272
+[81] [82]
+Underfull \hbox (badness 3078) in paragraph at lines 338--346
 \T1/LinuxLibertineT-TLF/m/n/12 978-[]954-[]452-[]056-[]4 _ 115$.  URL [][]$\T1/
 zi4/m/n/12 https : / / www . aclweb . org / anthology /
  []
 
-[65] [66] [67] [68] [69] [70]
-Underfull \hbox (badness 2521) in paragraph at lines 460--469
+[83] [84] [85] [86] [87] [88]
+Underfull \hbox (badness 2521) in paragraph at lines 564--573
 []\T1/LinuxLibertineT-TLF/m/n/12 Alan Ak-bik, Tanja Bergmann, Dun-can Blythe, K
 ashif Ra-sul, Ste-fan
  []
 
-[71] [72])) [73]
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
-(thesis.aux (abstract.aux) (ack.aux) (contents.aux) (tables.aux) (figures.aux)
-(listings.aux) (introduction.aux)
+[89] [90] [91] [92])) [93]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+ (thesis.aux (abstract.aux) (ack.aux) (contents.aux)
+(tables.aux) (figures.aux) (listings.aux) (introduction.aux)
 (chapters/semantic_textual_similarity/introduction.aux)
 (chapters/semantic_textual_similarity/state_of_the_art.aux)
 (chapters/semantic_textual_similarity/sentence_encoders.aux)
@@ -2006,14 +2114,48 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
 (chapters/semantic_textual_similarity/transformers.aux)
 (chapters/translation_memories/introduction.aux)
 (chapters/translation_memories/sentence_encoders.aux)
+(chapters/translation_memories/future.aux)
 (chapters/translation_quality_estimation/introduction.aux)
-(chapters/translation_quality_estimation/transquest.aux) (bib.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
+(chapters/translation_quality_estimation/transquest.aux)
+(chapters/translation_quality_estimation/multilingual.aux)
+(chapters/translation_quality_estimation/transquest_word.aux)
+(chapters/translation_quality_estimation/transquest_plus.aux) (bib.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
 
 
  *File List*
   report.cls    2019/12/20 v1.4l Standard LaTeX document class
   size12.clo    2019/12/20 v1.4l Standard LaTeX file (size option)
+  xpatch.sty    2020/03/25 v0.3a Extending etoolbox patching commands
+   expl3.sty    2020-06-18 L3 programming layer (loader) 
+l3backend-pdfmode.def    2020-06-29 L3 backend support: PDF mode
+  xparse.sty    2020-05-15 L3 Experimental document command parser
+xparse-generic.tex
+etoolbox.sty    2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+hyperref.sty    2020-05-15 v7.00e Hypertext links for LaTeX
+ ltxcmds.sty    2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+   iftex.sty    2020/03/06 v1.0d TeX engine tests
+pdftexcmds.sty    2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+infwarerr.sty    2019/12/03 v1.5 Providing info/warning/error messages (HO)
+  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
+kvsetkeys.sty    2019/12/15 v1.18 Key value parser (HO)
+kvdefinekeys.sty    2019-12-19 v1.6 Define keys (HO)
+pdfescape.sty    2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ hycolor.sty    2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+letltxmacro.sty    2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+ auxhook.sty    2019-12-17 v1.6 Hooks for auxiliary files (HO)
+kvoptions.sty    2019/11/29 v3.13 Key value format for package options (HO)
+  pd1enc.def    2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+ intcalc.sty    2019/12/15 v1.3 Expandable calculations with integers (HO)
+etexcmds.sty    2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+  bitset.sty    2019/12/09 v1.3 Handle bit-vector datatype (HO)
+bigintcalc.sty    2019/12/15 v1.5 Expandable calculations on big integers (HO)
+atbegshi.sty    2019/12/05 v1.19 At begin shipout hook (HO)
+ hpdftex.def    2020-05-15 v7.00e Hyperref driver for pdfTeX
+atveryend.sty    2019-12-11 v1.11 Hooks at the very end of document (HO)
+rerunfilecheck.sty    2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+uniquecounter.sty    2019/12/15 v1.4 Provide unlimited unique counter (HO)
   thesis.sty    
   xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
    color.cfg    2016/01/02 v1.6 sample color configuration
@@ -2022,7 +2164,6 @@ colortbl.sty    2020/01/04 v1.0e Color table columns (DPC)
    array.sty    2019/08/31 v2.4l Tabular extension package (FMi)
    float.sty    2001/11/08 v1.3d Float enhancements (AL)
 graphicx.sty    2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
-  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
 graphics.sty    2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
     trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
 graphics.cfg    2016/06/04 v1.11 sample graphics configuration
@@ -2036,7 +2177,6 @@ amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
   amsbsy.sty    1999/11/29 v1.2d Bold Symbols
   amsopn.sty    2016/03/08 v2.02 operator names
   amsthm.sty    2020/05/29 v2.20.6
-     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
 verbatim.sty    2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 booktabs.sty    2020/01/12 v1.61803398 Publication quality tables
 todonotes.sty    2018/11/22
@@ -2070,7 +2210,6 @@ tabularx.sty    2020/01/15 v2.11c `tabularx' package (DPC)
 libertine.sty    2020/03/26 (Bob Tennent) Supports Libertine and Biolinum fonts
  for all LaTeX engines.
  ifxetex.sty    2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-   iftex.sty    2020/03/06 v1.0d TeX engine tests
 ifluatex.sty    2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 textcomp.sty    2020/02/02 v2.0n Standard LaTeX package
  fontenc.sty
@@ -2078,7 +2217,6 @@ fontaxes.sty    2020/07/21 v1.0e Font selection axes
 LinLibertine_I.tex
      zi4.sty    2019/05/17 v1.12
 newtxmath.sty    2020/08/04 v1.629
-etoolbox.sty    2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 centernot.sty    2016/05/16 v1.4 Centers the not symbol horizontally (HO)
   binhex.tex
  arabtex.sty    2003/08/22  3.11 ArabTeX main module
@@ -2113,6 +2251,8 @@ arabchrs.sty    1998/07/11  3.07 letter token definitions
  caption.sty    2020/05/30 v3.4k Customizing captions (AR)
 caption3.sty    2020/07/20 v1.12b caption3 kernel (AR)
 subcaption.sty    2020/01/22 v1.3d Sub-captions (AR)
+      bm.sty    2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+multirow.sty    2019/05/31 v2.5 Span multiple rows of a table
    tango.tex
 listings.sty    2020/03/24 1.8d (Carsten Heinz)
  lstmisc.sty    2020/03/24 1.8d (Carsten Heinz)
@@ -2120,45 +2260,23 @@ listings.cfg    2020/03/24 1.8d listings configuration
 lstlang1.sty    2020/03/24 1.8d listings language file
 lstlang2.sty    2020/03/24 1.8d listings language file
 lstlang3.sty    2020/03/24 1.8d listings language file
-hyperref.sty    2020-05-15 v7.00e Hypertext links for LaTeX
- ltxcmds.sty    2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-pdftexcmds.sty    2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
-infwarerr.sty    2019/12/03 v1.5 Providing info/warning/error messages (HO)
-kvsetkeys.sty    2019/12/15 v1.18 Key value parser (HO)
-kvdefinekeys.sty    2019-12-19 v1.6 Define keys (HO)
-pdfescape.sty    2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- hycolor.sty    2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-letltxmacro.sty    2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
- auxhook.sty    2019-12-17 v1.6 Hooks for auxiliary files (HO)
-kvoptions.sty    2019/11/29 v3.13 Key value format for package options (HO)
-  pd1enc.def    2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
- intcalc.sty    2019/12/15 v1.3 Expandable calculations with integers (HO)
-etexcmds.sty    2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-  bitset.sty    2019/12/09 v1.3 Handle bit-vector datatype (HO)
-bigintcalc.sty    2019/12/15 v1.5 Expandable calculations on big integers (HO)
-atbegshi.sty    2019/12/05 v1.19 At begin shipout hook (HO)
- hpdftex.def    2020-05-15 v7.00e Hyperref driver for pdfTeX
-atveryend.sty    2019-12-11 v1.11 Hooks at the very end of document (HO)
-rerunfilecheck.sty    2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-uniquecounter.sty    2019/12/15 v1.4 Provide unlimited unique counter (HO)
-l3backend-pdfmode.def    2020-06-29 L3 backend support: PDF mode
 omlnxlmi.fd    2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
  untxexa.fd    2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 lmsntxsy.fd    2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 lmxntxexx.fd    2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
-supp-pdf.mkii
-epstopdf-base.sty    2020-01-24 v2.11 Base part for package epstopdf
- upquote.sty    2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbat
-im
  nameref.sty    2019/09/16 v2.46 Cross-referencing by name of section
 refcount.sty    2019/12/15 v3.6 Data extraction from label references (HO)
 gettitlestring.sty    2019/12/15 v1.6 Cleanup title references (HO)
   thesis.out
   thesis.out
+supp-pdf.mkii
+epstopdf-base.sty    2020-01-24 v2.11 Base part for package epstopdf
+ upquote.sty    2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbat
+im
   apatch.sty    2006/07/02  3.11s last minute patches 
 abstract.tex
-   t1zi4.fd    2018/01/14 T1/zi4 (Inconsolata)
      ack.tex
+contents.tex
 ot1linuxlibertinet-tlf.fd
    ulasy.fd    1998/08/17 v2.2e LaTeX symbol font definitions
     umsa.fd    2013/01/14 v3.01 AMS symbols A
@@ -2166,12 +2284,12 @@ ot1linuxlibertinet-tlf.fd
  untxmia.fd    2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
  untxsym.fd    2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
  untxsyc.fd    2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-contents.tex
   tables.tex
  figures.tex
 listings.tex
 introduction.tex
 chapters/semantic_textual_similarity/introduction.tex
+   t1zi4.fd    2018/01/14 T1/zi4 (Inconsolata)
 figures/semantic_textual_similarity/introduction/sick_train_relatedness_hist.pn
 g
 figures/semantic_textual_similarity/introduction/sick_test_relatedness_hist.png
@@ -2192,6 +2310,14 @@ figures/semantic_textual_similarity/introduction/quora_train_words.png
 figures/semantic_textual_similarity/introduction/quora_test_words.png
 figures/semantic_textual_similarity/introduction/quora_train_word_share.png
 figures/semantic_textual_similarity/introduction/quora_test_word_share.png
+figures/semantic_textual_similarity/introduction/sts_spanish_train.png
+figures/semantic_textual_similarity/introduction/sts_spanish_test.png
+figures/semantic_textual_similarity/introduction/spanish_sts_train_words.png
+figures/semantic_textual_similarity/introduction/spanish_sts_test_words.png
+figures/semantic_textual_similarity/introduction/spanish_sts_train_word_share.p
+ng
+figures/semantic_textual_similarity/introduction/spanish_sts_test_word_share.pn
+g
    uxnsh.fd     1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
 chapters/semantic_textual_similarity/state_of_the_art.tex
 figures/semantic_textual_similarity/state_of_the_art/word_movers_distance.png
@@ -2200,51 +2326,54 @@ chapters/semantic_textual_similarity/siamese_neural_networks.tex
 chapters/semantic_textual_similarity/transformers.tex
 chapters/translation_memories/introduction.tex
 chapters/translation_memories/sentence_encoders.tex
+chapters/translation_memories/future.tex
 chapters/translation_quality_estimation/introduction.tex
 chapters/translation_quality_estimation/transquest.tex
+figures/translation_quality_estimation/TransQuest.png
+chapters/translation_quality_estimation/multilingual.tex
+chapters/translation_quality_estimation/transquest_word.tex
+chapters/translation_quality_estimation/transquest_plus.tex
      bib.tex
   thesis.bbl
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: ACCDC0736D88CABE54CF85445EF3818C;4476.
+(rerunfilecheck)             Checksum: 07FAAAC6EE304AECDE6E4F6693E218A2;6202.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 27118 strings out of 480790
- 487025 string characters out of 2897770
- 817492 words of memory out of 3000000
- 42065 multiletter control sequences out of 15000+200000
- 669437 words of font info for 146 fonts, out of 3000000 for 9000
+ 28180 strings out of 480790
+ 515560 string characters out of 2897770
+ 926382 words of memory out of 3000000
+ 42958 multiletter control sequences out of 15000+200000
+ 723890 words of font info for 221 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,19n,96p,1847b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,19n,96p,1893b,698s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_o
-exx6f.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertin
-e/lbtn_7grukw.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
-libertine/lbtn_nh77jq.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/en
-c/dvips/inconsolata/i4-t1-4.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fo
+exx6f.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsol
+ata/i4-t1-4.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/li
+bertine/lbtn_7grukw.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/
+dvips/libertine/lbtn_nh77jq.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fo
 nts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/ASUS/AppData/Local/Programs/M
 iKTeX/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}<C:/Users/ASUS/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/ASU
-S/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/LibertineMathMI.pfb><C
-:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibe
-rtineT.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/libe
-rtine/LinLibertineTB.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/libertine/LinLibertineTI.pfb><C:/Users/ASUS/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/ASUS/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/ASUS/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/ASUS/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb>
-Output written on thesis.pdf (90 pages, 869348 bytes).
+S/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/LibertineMathBMI.pfb><
+C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/LibertineM
+athMI.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/liber
+tine/LinLibertineT.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/libertine/LinLibertineTB.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/ASUS/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/ASUS/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/ASUS/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/ASUS/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb>
+Output written on thesis.pdf (112 pages, 1208327 bytes).
 PDF statistics:
- 1310 PDF objects out of 1440 (max. 8388607)
- 265 named destinations out of 1000 (max. 500000)
- 732 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1687 PDF objects out of 1728 (max. 8388607)
+ 364 named destinations out of 1000 (max. 500000)
+ 943 words of extra memory for PDF output out of 10000 (max. 10000000)
 

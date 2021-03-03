@@ -1,4 +1,35 @@
 \documentclass[12pt,a4paper,twoside,openright]{report}
+
+\usepackage{xpatch}
+\makeatletter
+
+
+\xpatchcmd{\@part}{%
+	\markboth{}{}% Find a hook in order to append content. 
+}{%
+	\markboth{}{}%
+	\ifnum\c@secnumdepth>-2\relax
+	\addcontentsline{lof}{part}{\thepart\hspace{1em}#1}%
+	\else
+	\addcontentsline{lof}{part}{#1}%
+	\fi
+}{\typeout{Success}}{\typeout{Patch failure}}
+
+
+\xpatchcmd{\@part}{%
+	\markboth{}{}% Find a hook in order to append content. 
+}{%
+	\markboth{}{}%
+	\ifnum\c@secnumdepth>-2\relax
+	\addcontentsline{lot}{part}{\thepart\hspace{1em}#1}%
+	\else
+	\addcontentsline{lot}{part}{#1}%
+	\fi
+}{\typeout{Success}}{\typeout{Patch failure}}
+\makeatother
+
+\usepackage{hyperref}
+
 \usepackage{thesis}
 
 \usepackage{url}
@@ -20,6 +51,9 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{multirow}
 % Tango imports the listings package and defines a style for syntax
 % highlighting. We also need to tell listings which programming
 % languages to load.
@@ -32,13 +66,13 @@
 
 %%% Set up the title page of the thesis.
 
-\setuphyperref{Deep learning based Semantic Textual Similarity Metric for Applications in machine translation domain} {Tharindu Ranasinghe}
+\setuphyperref{Deep learning based Semantic Textual Similarity Metric for Applications in Translation Technology} {Tharindu Ranasinghe}
 
 \begin{document}
 
 %%% \thesistitle ends the preamble.
 % Thesis title, author and name.
-\thesistitle{Deep learning based Semantic Textual Similarity for Applications in Machine Translation Domain} {Tharindu Ranasinghe} {2021}
+\thesistitle{Deep learning based Semantic Textual Similarity for Applications in Translation Technology} {Tharindu Ranasinghe} {2021}
 
 %%% End of preamble.
 
@@ -73,10 +107,15 @@
 \part{Applications - Translation Memories}
 \include{chapters/translation_memories/introduction}
 \include{chapters/translation_memories/sentence_encoders}
+\include{chapters/translation_memories/future}
 
 \part{Applications - Translation Quality Estimation}
 \include{chapters/translation_quality_estimation/introduction}
+
 \include{chapters/translation_quality_estimation/transquest}
+\include{chapters/translation_quality_estimation/multilingual}
+\include{chapters/translation_quality_estimation/transquest_word}
+\include{chapters/translation_quality_estimation/transquest_plus}
 
 
 % Bibliography.

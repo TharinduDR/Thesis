@@ -31,10 +31,18 @@ Reallocating 'name_of_file' (item size: 1) to 47 items.
 A level-1 auxiliary file: chapters/translation_memories/introduction.aux
 Reallocating 'name_of_file' (item size: 1) to 52 items.
 A level-1 auxiliary file: chapters/translation_memories/sentence_encoders.aux
+Reallocating 'name_of_file' (item size: 1) to 41 items.
+A level-1 auxiliary file: chapters/translation_memories/future.aux
 Reallocating 'name_of_file' (item size: 1) to 57 items.
 A level-1 auxiliary file: chapters/translation_quality_estimation/introduction.aux
 Reallocating 'name_of_file' (item size: 1) to 55 items.
 A level-1 auxiliary file: chapters/translation_quality_estimation/transquest.aux
+Reallocating 'name_of_file' (item size: 1) to 57 items.
+A level-1 auxiliary file: chapters/translation_quality_estimation/multilingual.aux
+Reallocating 'name_of_file' (item size: 1) to 60 items.
+A level-1 auxiliary file: chapters/translation_quality_estimation/transquest_word.aux
+Reallocating 'name_of_file' (item size: 1) to 60 items.
+A level-1 auxiliary file: chapters/translation_quality_estimation/transquest_plus.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: bib.aux
 Reallocating 'name_of_file' (item size: 1) to 18 items.
@@ -47,6 +55,9 @@ Reallocating 'name_of_file' (item size: 1) to 39 items.
 Reallocating 'name_of_file' (item size: 1) to 44 items.
 Reallocating 'name_of_file' (item size: 1) to 49 items.
 Reallocating 'name_of_file' (item size: 1) to 47 items.
+Reallocating 'name_of_file' (item size: 1) to 60 items.
+Reallocating 'name_of_file' (item size: 1) to 52 items.
+Reallocating 'name_of_file' (item size: 1) to 52 items.
 Database file #1: refs/introduction.bib
 Database file #2: refs/semantic_textual_similarity/introduction.bib
 Database file #3: refs/semantic_textual_similarity/state_of_the_art.bib
@@ -57,48 +68,47 @@ Database file #7: refs/translation_memories/introduction.bib
 Database file #8: refs/translation_memories/sentence_encoders.bib
 Database file #9: refs/translation_quality_estimation/introduction.bib
 Database file #10: refs/translation_quality_estimation/transquest.bib
-Warning--I didn't find a database entry for "Conneau2017SupervisedLO"
-Warning--I didn't find a database entry for "Pagliardini2018UnsupervisedLO"
-Warning--I didn't find a database entry for "Le2014DistributedRO"
-You've used 51 entries,
+Database file #11: refs/translation_quality_estimation/multilingual_transquest.bib
+Database file #12: refs/translation_quality_estimation/transquest_word.bib
+Database file #13: refs/translation_quality_estimation/transquest_plus.bib
+You've used 65 entries,
             2481 wiz_defined-function locations,
-            962 strings with 22789 characters,
-and the built_in function-call counts, 29907 in all, are:
-= -- 2760
-> -- 1673
-< -- 49
-+ -- 615
-- -- 508
-* -- 2389
-:= -- 4494
-add.period$ -- 270
-call.type$ -- 51
-change.case$ -- 102
-chr.to.int$ -- 46
-cite$ -- 51
-duplicate$ -- 1536
-empty$ -- 2361
-format.name$ -- 565
-if$ -- 6738
-int.to.chr$ -- 6
-int.to.str$ -- 52
-missing$ -- 51
-newline$ -- 340
-num.names$ -- 153
-pop$ -- 464
+            1059 strings with 27395 characters,
+and the built_in function-call counts, 37904 in all, are:
+= -- 3504
+> -- 2099
+< -- 60
++ -- 773
+- -- 636
+* -- 3035
+:= -- 5696
+add.period$ -- 345
+call.type$ -- 65
+change.case$ -- 130
+chr.to.int$ -- 58
+cite$ -- 65
+duplicate$ -- 1944
+empty$ -- 3012
+format.name$ -- 707
+if$ -- 8536
+int.to.chr$ -- 8
+int.to.str$ -- 66
+missing$ -- 65
+newline$ -- 433
+num.names$ -- 197
+pop$ -- 590
 preamble$ -- 1
-purify$ -- 51
+purify$ -- 65
 quote$ -- 0
-skip$ -- 1031
+skip$ -- 1291
 stack$ -- 0
-substring$ -- 1433
-swap$ -- 595
-text.length$ -- 44
+substring$ -- 1842
+swap$ -- 745
+text.length$ -- 54
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 357
+type$ -- 455
 warning$ -- 0
-while$ -- 220
+while$ -- 279
 width$ -- 0
-write$ -- 901
-(There were 3 warnings)
+write$ -- 1148
