@@ -1,4 +1,4 @@
-\begin{thebibliography}{65}
+\begin{thebibliography}{78}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -63,7 +63,7 @@ Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Russ~R Salakhutdinov,
   Zettlemoyer, and Stoyanov]{liu2019roberta}
 Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer
   Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov.
-\newblock Roberta: A robustly optimized bert pretraining approach.
+\newblock {RoBERTa: A Robustly Optimized BERT Pretraining Approach}.
 \newblock \emph{arXiv preprint arXiv:1907.11692}, 2019.
 
 \bibitem[Marelli et~al.(2014)Marelli, Bentivogli, Baroni, Bernardi, Menini, and
@@ -214,14 +214,14 @@ Samuel~R. Bowman, Gabor Angeli, Christopher Potts, and Christopher~D. Manning.
 \newblock \doi{10.18653/v1/D15-1075}.
 \newblock URL \url{https://www.aclweb.org/anthology/D15-1075}.
 
-\bibitem[Wang et~al.(2020{\natexlab{a}})Wang, Liu, Verspoor, and
+\bibitem[Wang et~al.(2020)Wang, Liu, Verspoor, and
   Baldwin]{wang-etal-2020-evaluating}
 Yuxia Wang, Fei Liu, Karin Verspoor, and Timothy Baldwin.
 \newblock {Evaluating the Utility of Model Configurations and Data Augmentation
   on Clinical Semantic Textual Similarity}.
 \newblock In \emph{Proceedings of the 19th SIGBioMed Workshop on Biomedical
-  Language Processing}, pages 105--111, Online, July 2020{\natexlab{a}}.
-  Association for Computational Linguistics.
+  Language Processing}, pages 105--111, Online, July 2020. Association for
+  Computational Linguistics.
 \newblock \doi{10.18653/v1/2020.bionlp-1.11}.
 \newblock URL \url{https://www.aclweb.org/anthology/2020.bionlp-1.11}.
 
@@ -251,41 +251,6 @@ Gizem Soğancıoğlu, Hakime Öztürk, and Arzucan Özgür.
 \newblock ISSN 1367-4803.
 \newblock \doi{10.1093/bioinformatics/btx238}.
 \newblock URL \url{https://doi.org/10.1093/bioinformatics/btx238}.
-
-\bibitem[Rastegar-Mojarad et~al.(2018)Rastegar-Mojarad, Liu, Wang, Afzal, Wang,
-  Shen, Fu, and Liu]{10.1145/3233547.3233672}
-Majid Rastegar-Mojarad, Sijia Liu, Yanshan Wang, Naveed Afzal, Liwei Wang,
-  Feichen Shen, Sunyang Fu, and Hongfang Liu.
-\newblock Biocreative/ohnlp challenge 2018.
-\newblock In \emph{Proceedings of the 2018 ACM International Conference on
-  Bioinformatics, Computational Biology, and Health Informatics}, BCB '18, page
-  575, New York, NY, USA, 2018. Association for Computing Machinery.
-\newblock ISBN 9781450357944.
-\newblock \doi{10.1145/3233547.3233672}.
-\newblock URL \url{https://doi.org/10.1145/3233547.3233672}.
-
-\bibitem[Wu et~al.(2012)Wu, Liu, Li, Tao, Musen, Chute, and
-  Shah]{10.1136/amiajnl-2011-000744}
-Stephen~T Wu, Hongfang Liu, Dingcheng Li, Cui Tao, Mark~A Musen, Christopher~G
-  Chute, and Nigam~H Shah.
-\newblock {Unified Medical Language System term occurrences in clinical notes:
-  a large-scale corpus analysis}.
-\newblock \emph{Journal of the American Medical Informatics Association},
-  19\penalty0 (e1):\penalty0 e149--e156, 04 2012.
-\newblock ISSN 1067-5027.
-\newblock \doi{10.1136/amiajnl-2011-000744}.
-\newblock URL \url{https://doi.org/10.1136/amiajnl-2011-000744}.
-
-\bibitem[Wang et~al.(2020{\natexlab{b}})Wang, Afzal, Fu, Wang, Shen,
-  Rastegar-Mojarad, and Liu]{Wang2020}
-Yanshan Wang, Naveed Afzal, Sunyang Fu, Liwei Wang, Feichen Shen, Majid
-  Rastegar-Mojarad, and Hongfang Liu.
-\newblock Medsts: a resource for clinical semantic textual similarity.
-\newblock \emph{Language Resources and Evaluation}, 54\penalty0 (1):\penalty0
-  57--72, Mar 2020{\natexlab{b}}.
-\newblock ISSN 1574-0218.
-\newblock \doi{10.1007/s10579-018-9431-1}.
-\newblock URL \url{https://doi.org/10.1007/s10579-018-9431-1}.
 
 \bibitem[Pagliardini et~al.(2018)Pagliardini, Gupta, and
   Jaggi]{pagliardini-etal-2018-unsupervised}
@@ -589,6 +554,158 @@ Tom{\'{a}}s Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
   Conference on Learning Representations, {ICLR} 2013, Scottsdale, Arizona,
   USA, May 2-4, 2013, Workshop Track Proceedings}, 2013{\natexlab{b}}.
 \newblock URL \url{http://arxiv.org/abs/1301.3781}.
+
+\bibitem[Indyk and Motwani(1998)]{10.1145/276698.276876}
+Piotr Indyk and Rajeev Motwani.
+\newblock Approximate nearest neighbors: Towards removing the curse of
+  dimensionality.
+\newblock In \emph{Proceedings of the Thirtieth Annual ACM Symposium on Theory
+  of Computing}, STOC '98, page 604–613, New York, NY, USA, 1998. Association
+  for Computing Machinery.
+\newblock ISBN 0897919629.
+\newblock \doi{10.1145/276698.276876}.
+\newblock URL \url{https://doi.org/10.1145/276698.276876}.
+
+\bibitem[Fares et~al.(2017)Fares, Kutuzov, Oepen, and
+  Velldal]{fares-etal-2017-word}
+Murhaf Fares, Andrey Kutuzov, Stephan Oepen, and Erik Velldal.
+\newblock Word vectors, reuse, and replicability: Towards a community
+  repository of large-text resources.
+\newblock In \emph{Proceedings of the 21st Nordic Conference on Computational
+  Linguistics}, pages 271--276, Gothenburg, Sweden, May 2017. Association for
+  Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/W17-0237}.
+
+\bibitem[Soliman et~al.(2017)Soliman, Eissa, and El-Beltagy]{SOLIMAN2017256}
+Abu~Bakr Soliman, Kareem Eissa, and Samhaa~R. El-Beltagy.
+\newblock Aravec: A set of arabic word embedding models for use in arabic nlp.
+\newblock \emph{Procedia Computer Science}, 117:\penalty0 256--265, 2017.
+\newblock ISSN 1877-0509.
+\newblock \doi{https://doi.org/10.1016/j.procs.2017.10.117}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1877050917321749}.
+\newblock Arabic Computational Linguistics.
+
+\bibitem[Bilbao-Jayo and Almeida(2018)]{doi:10.1177/1550147718811827}
+Aritz Bilbao-Jayo and Aitor Almeida.
+\newblock Automatic political discourse analysis with multi-scale convolutional
+  neural networks and contextual data.
+\newblock \emph{International Journal of Distributed Sensor Networks},
+  14\penalty0 (11):\penalty0 1550147718811827, 2018.
+\newblock \doi{10.1177/1550147718811827}.
+\newblock URL \url{https://doi.org/10.1177/1550147718811827}.
+
+\bibitem[Wu et~al.(2017)Wu, Huang, Jian, Guo, and Su]{wu-etal-2017-bit}
+Hao Wu, Heyan Huang, Ping Jian, Yuhang Guo, and Chao Su.
+\newblock {BIT} at {S}em{E}val-2017 task 1: Using semantic information space to
+  evaluate semantic textual similarity.
+\newblock In \emph{Proceedings of the 11th International Workshop on Semantic
+  Evaluation ({S}em{E}val-2017)}, pages 77--84, Vancouver, Canada, August 2017.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/S17-2007}.
+\newblock URL \url{https://www.aclweb.org/anthology/S17-2007}.
+
+\bibitem[Kohail et~al.(2017)Kohail, Salama, and Biemann]{kohail-etal-2017-sts}
+Sarah Kohail, Amr~Rekaby Salama, and Chris Biemann.
+\newblock {STS}-{UHH} at {S}em{E}val-2017 task 1: Scoring semantic textual
+  similarity using supervised and unsupervised ensemble.
+\newblock In \emph{Proceedings of the 11th International Workshop on Semantic
+  Evaluation ({S}em{E}val-2017)}, pages 175--179, Vancouver, Canada, August
+  2017. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/S17-2025}.
+\newblock URL \url{https://www.aclweb.org/anthology/S17-2025}.
+
+\bibitem[Tian et~al.(2017)Tian, Zhou, Lan, and Wu]{tian-etal-2017-ecnu}
+Junfeng Tian, Zhiheng Zhou, Man Lan, and Yuanbin Wu.
+\newblock {ECNU} at {S}em{E}val-2017 task 1: Leverage kernel-based traditional
+  {NLP} features and neural networks to build a universal model for
+  multilingual and cross-lingual semantic textual similarity.
+\newblock In \emph{Proceedings of the 11th International Workshop on Semantic
+  Evaluation ({S}em{E}val-2017)}, pages 191--197, Vancouver, Canada, August
+  2017. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/S17-2028}.
+\newblock URL \url{https://www.aclweb.org/anthology/S17-2028}.
+
+\bibitem[Barrow and Peskov(2017)]{barrow-peskov-2017-umdeep}
+Joe Barrow and Denis Peskov.
+\newblock {UMD}eep at {S}em{E}val-2017 task 1: End-to-end shared weight {LSTM}
+  model for semantic textual similarity.
+\newblock In \emph{Proceedings of the 11th International Workshop on Semantic
+  Evaluation ({S}em{E}val-2017)}, pages 180--184, Vancouver, Canada, August
+  2017. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/S17-2026}.
+\newblock URL \url{https://www.aclweb.org/anthology/S17-2026}.
+
+\bibitem[Zhang et~al.(2019)Zhang, Chen, Yang, Lin, and Lu]{Zhang2019}
+Yijia Zhang, Qingyu Chen, Zhihao Yang, Hongfei Lin, and Zhiyong Lu.
+\newblock Biowordvec, improving biomedical word embeddings with subword
+  information and mesh.
+\newblock \emph{Scientific Data}, 6\penalty0 (1):\penalty0 52, May 2019.
+\newblock \doi{10.1038/s41597-019-0055-0}.
+\newblock URL \url{https://doi.org/10.1038/s41597-019-0055-0}.
+
+\bibitem[Aronson(2001)]{Aronson2001}
+A.~R. Aronson.
+\newblock Effective mapping of biomedical text to the umls metathesaurus: the
+  metamap program.
+\newblock \emph{Proceedings. AMIA Symposium}, pages 17--21, 2001.
+\newblock ISSN 1531-605X.
+\newblock URL \url{https://pubmed.ncbi.nlm.nih.gov/11825149}.
+\newblock 11825149[pmid].
+
+\bibitem[Kakwani et~al.(2020)Kakwani, Kunchukuttan, Golla, N.C., Bhattacharyya,
+  Khapra, and Kumar]{kakwani-etal-2020-indicnlpsuite}
+Divyanshu Kakwani, Anoop Kunchukuttan, Satish Golla, Gokul N.C., Avik
+  Bhattacharyya, Mitesh~M. Khapra, and Pratyush Kumar.
+\newblock {I}ndic{NLPS}uite: Monolingual corpora, evaluation benchmarks and
+  pre-trained multilingual language models for {I}ndian languages.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2020}, pages 4948--4961, Online, November 2020. Association for
+  Computational Linguistics.
+\newblock \doi{10.18653/v1/2020.findings-emnlp.445}.
+\newblock URL \url{https://www.aclweb.org/anthology/2020.findings-emnlp.445}.
+
+\bibitem[Chriqui and Yahav(2021)]{chriqui2021hebert}
+Avihay Chriqui and Inbal Yahav.
+\newblock Hebert {\&} hebemo: a hebrew bert model and a tool for polarity
+  analysis and emotion recognition.
+\newblock \emph{arXiv preprint arXiv:2102.01909}, 2021.
+
+\bibitem[Alabi et~al.(2020)Alabi, Amponsah-Kaakyire, Adelani, and
+  Espa{\~n}a-Bonet]{alabi-etal-2020-massive}
+Jesujoba Alabi, Kwabena Amponsah-Kaakyire, David Adelani, and Cristina
+  Espa{\~n}a-Bonet.
+\newblock Massive vs. curated embeddings for low-resourced languages: the case
+  of {Y}or{\`u}b{\'a} and {T}wi.
+\newblock In \emph{Proceedings of the 12th Language Resources and Evaluation
+  Conference}, pages 2754--2762, Marseille, France, May 2020. European Language
+  Resources Association.
+\newblock ISBN 979-10-95546-34-4.
+\newblock URL \url{https://www.aclweb.org/anthology/2020.lrec-1.335}.
+
+\bibitem[Joshi et~al.(2020)Joshi, Chen, Liu, Weld, Zettlemoyer, and
+  Levy]{joshi-etal-2020-spanbert}
+Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel~S. Weld, Luke Zettlemoyer, and
+  Omer Levy.
+\newblock {S}pan{BERT}: Improving pre-training by representing and predicting
+  spans.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  8:\penalty0 64--77, 2020.
+\newblock \doi{10.1162/tacl_a_00300}.
+\newblock URL \url{https://www.aclweb.org/anthology/2020.tacl-1.5}.
+
+\bibitem[Beltagy et~al.(2020)Beltagy, Peters, and Cohan]{beltagy2020}
+Iz~Beltagy, Matthew~E. Peters, and Arman Cohan.
+\newblock Longformer: The long-document transformer.
+\newblock \emph{arXiv preprint arXiv:2004.05150}, 2020.
+
+\bibitem[Zaheer et~al.(2021)Zaheer, Guruganesh, Dubey, Ainslie, Alberti,
+  Ontanon, Pham, Ravula, Wang, Yang, and Ahmed]{zaheer2021}
+Manzil Zaheer, Guru Guruganesh, Avinava Dubey, Joshua Ainslie, Chris Alberti,
+  Santiago Ontanon, Philip Pham, Anirudh Ravula, Qifan Wang, Li~Yang, and Amr
+  Ahmed.
+\newblock Big bird: Transformers for longer sequences.
+\newblock \emph{arXiv preprint arXiv:2007.14062}, 2021.
 
 \bibitem[Ranasinghe et~al.(2019{\natexlab{c}})Ranasinghe, Orasan, and
   Mitkov]{ranasinghe-etal-2019-semantic}

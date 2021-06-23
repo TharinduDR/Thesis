@@ -8,9 +8,9 @@
 \section{Semantic Textual Similarity Approaches}
 Over the years, researchers have proposed numerous STS methods. Most of the early approaches were based on traditional machine learning and involved heavy feature engineering \cite{bechara-etal-2015-miniexperts}. With the advances of word embeddings, and as a result of the success neural networks have achieved in other fields, most of the methods proposed in recent years rely on neural architectures \cite{tai-etal-2015-improved,shao-2017-hcti}. Neural networks are preferred over traditional machine learning models as they generally tend to perform better than traditional machine learning models. They also do not rely on explicit linguistics features which have to be extracted before the ML model is learnt. Determining the best linguistic features for calculating STS is not an easy task as it requires a good understanding of the linguistic phenomenon and relies on researchers' intuition. In addition, calculating these features is usually not an easy task, especially for languages other than English. Therefore, in contrast to traditional ML methods, models based on word embeddings and neural networks can be easily applied to other languages.
 
-As stated in the  Chapter \ref{cha:introduction} the machine learning algorithms we experimented can be classified in to two min categories: Unsupervised STS methods and Supervised STS methods. In the Chapter \ref{cha:sts_state_of_the_art_methods} we evaluate the current STS state of the arts methods that uses word embeddings and we improve state of the arts STS methods using contextual embeddings.
+As stated in the  Chapter \ref{cha:introduction} the machine learning algorithms we experimented can be classified in to two main categories: Unsupervised STS methods and Supervised STS methods. In the Chapter \ref{cha:sts_state_of_the_art_methods} we evaluate the current STS state of the arts methods that uses word embeddings and we improve state of the arts STS methods using contextual embeddings.
 
-In Chapter \ref{cha:sts_sentence_encoders} we explore another unsupervised STS method using sentence encoders. We use three different sentence encoders analyse their performance in various aspects of English STS and also evaluate their portability to different languages and domains.  
+In Chapter \ref{cha:sts_sentence_encoders} we explore another unsupervised STS method using sentence encoders. We use three different sentence encoders and analyse their performance in various aspects of English STS and also evaluate their portability to different languages and domains.  
 
 Siamese Neural Networks are a special kind of neural network that are being used commonly in STS tasks. It is a supervised STS method which we discuss comprehensively in Chapter \ref{cha:sts_siamese_neural_networks}. We evaluate the existing Siamese Neural Network architectures in STS datasets and propose a novel Siamese Neural Network architecture, MAGRU: an efficient and more accurate Siamese Neural Network architecture for STS tasks. We also asses its performance on different languages and different domains. 
 
@@ -21,7 +21,7 @@ The remainder of this chapter is structured as follows. Section \ref{sec:sts_int
 
 \section{Datasets}
 \label{sec:sts_intro_datsets}
-We experimented with several datasets throughout the experiments in the Semantic Textual Similarity Section. In order to maintain the versatility of our methods we experimented with several English datasets as well as several non English datasets and several datasets from different domains which we will introduce in this section. All of the datasets which are described here re publicly available and can be considered as STS benchmarks. 
+We experimented with several datasets throughout the experiments in the Semantic Textual Similarity Section. In order to maintain the versatility of our methods we experimented with several English datasets as well as several non English datasets and a dataset from a different domain which we will introduce in this section. All of the datasets which are described here are publicly available and can be considered as STS benchmarks. 
 
 \subsection{English Datasets}
 \begin{enumerate}
@@ -590,7 +590,7 @@ One of the main requirements in our research was to build a STS method without d
 	\label{table:spanish_sts}
 \end{table*}
 
-Similar to the English datasets we calculate some statistics and produce some graphs. A key challenge in the Spanish STS dataset is that test set is very different from the training set. As can be seen in Figure \ref{fig:spanish_sts_relatedness} training set has been annotated with relatedness scores 0-4 while the test set has been annotated with relatedness scores 0-5. Therefore, STS methods should be able to handle that properly. Furthermore, as shown in Figure \ref{fig:spanish_sts_words} and in Table \ref{table:spanish_sts} sentence pairs in test set are shorter in word length than the sentence pairs in train set. Therefore, STS methods working on this dataset should be able to properly handle that too. This can be observed as a weakness in this dataset, but that the same time this property of the dataset can be exploited to measure the strength of a STS system as well.
+Similar to the English datasets we calculate some statistics and produce some graphs. A key challenge in the Spanish STS dataset is that test set is very different from the training set. As can be seen in Figure \ref{fig:spanish_sts_relatedness} training set has been annotated with relatedness scores 0-4 while the test set has been annotated with relatedness scores 0-5. Therefore, STS methods should be able to handle that properly. Furthermore, as shown in Figure \ref{fig:spanish_sts_words} and in Table \ref{table:spanish_sts} sentence pairs in test set are shorter in word length than the sentence pairs in train set. Therefore, STS methods working on this dataset should be able to properly handle that too. This can be observed as a weakness in this dataset, but at the same time this property of the dataset can be exploited to measure the strength of a STS system as well.
 
 	
 \item{ \textbf{Arabic STS Dataset \footnote{The Arabic STS dataset can be downloaded at \url{http://alt.qcri.org/semeval2017/task1/index.php?id=data-and-tools}}}} The Arabic STS dataset we selected was also used for the Arabic STS subtask in SemEval 2017 Task 1: Semantic Textual Similarity Multilingual and Cross-lingual Focused Evaluation \cite{cer-etal-2017-semeval}. Unlike Spanish, no data from previous SemEval competitions were available since this was the first time an Arabic STS task was organised in SemEval. More information about the extracted sentences will be shown in the Table \ref{tab:arabicdata_info}. 
@@ -655,12 +655,88 @@ To prepare the annotated instances, a subset of the English STS 2017 dataset has
 	\label{tab:arabicdata}
 \end{table}  
 
+\begin{figure}
+	\captionsetup[subfigure]{justification=centering}
+	\centering
+	\begin{subfigure}[b]{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/semantic_textual_similarity/introduction/sts_arabic_train.png}
+		\caption{Relatedness distribution of \\ Arabic STS  training test}
+		\label{fig:arabic_train_relatedness}
+	\end{subfigure}%
+	\begin{subfigure}[b]{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/semantic_textual_similarity/introduction/sts_arabic_test.png}
+		\caption{Relatedness distribution of \\ Arabic STS  testing set}
+		\label{fig:arabic_test_relatedness}
+	\end{subfigure}
+	\caption[Relatedness distribution of Arabic STS train and Arabic STS test]{Relatedness distribution of Arabic STS train and Arabic STS test. \textit{Sentence Pairs} shows the number of sentence pairs that a certain \textit{Relatedness bin} has.}
+	\label{fig:arabic_sts_relatedness}
+\end{figure}
+
+
+\begin{figure}
+	\captionsetup[subfigure]{justification=centering}
+	\centering
+	\begin{subfigure}[b]{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/semantic_textual_similarity/introduction/arabic_sts_train_words.png}
+		\caption{Normalised distribution of word count in Spanish STS train}
+		\label{fig:arabic_sts_train_words}
+	\end{subfigure}%
+	\begin{subfigure}[b]{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/semantic_textual_similarity/introduction/arabic_sts_test_words.png}
+		\caption{Normalised distribution of word count in Spanish STS test}
+		\label{fig:arabic_sts_test_words}
+	\end{subfigure}
+	\caption[Normalised distribution of word count in Arabic STS train and Arabic STS test.]{Normalised distribution of word count in Arabic STS train and Arabic STS test. \textit{Number of words} indicates the word count and \textit{Probability} shows the total probability of a sentence with that word count appearing in the dataset.}
+	\label{fig:arabic_sts_words}
+\end{figure}
+
+\begin{figure}
+	\captionsetup[subfigure]{justification=centering}
+	\centering
+	\begin{subfigure}[b]{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/semantic_textual_similarity/introduction/arabic_sts_train_word_share.png}
+		\caption{Word share against relatedness bins in Arabic STS train}
+		\label{fig:arabic_sts_train_word_share}
+	\end{subfigure}%
+	\begin{subfigure}[b]{.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/semantic_textual_similarity/introduction/arabic_sts_test_word_share.png}
+		\caption{Word share against relatedness bins in Arabic STS test}
+		\label{fig:arabic_sts_test_word_share}
+	\end{subfigure}
+	\caption[Word share against relatedness bins in Arabic STS train and Arabic STS test.]{Word share against relatedness bins in Arabic STS train and Spanish STS test. \textit{Word Share} indicates the ratio between number of common words in the two sentences to total number of words in the two sentences against each \textit{Relatedness} bins}
+	\label{fig:arabic_sts_word_share}
+\end{figure}
+
+
+\begin{table*}
+	\centering
+	\begin{tabular}{l|cc|cc}
+		\hline
+		Measure   & \multicolumn{2}{c|}{Spanish STS Train} & \multicolumn{2}{c}{Spanish STS Test} \\
+		\hline
+		\multicolumn{1}{l|}{} & \textbf{Sent$\_$1} & \textbf{Sent$\_$2} & \textbf{Sent$\_$1} & \textbf{Sent$\_$2} \\
+		\textit{Word Count Mean} & 31.23 & 31.02 & 9.03 & 9.34  \\
+		\textit{Word Count STD} & 12.15 & 12.37 & 3.66 & 3.74  \\
+		\textit{Word Count MAX} & 90 & 90 & 22 & 24  \\
+		\textit{Word Count MIN} & 5 & 1 & 3 & 3  \\
+		\hline
+	\end{tabular}
+	\caption[Word count stats in Arabic STS]{Word count stats in Arabic STS training and Arabic STS testing.\textit{STD} indicates the standard deviation and the other acronyms indicate the common meaning }
+	\label{table:arabic_sts}
+\end{table*}
+
 	
 \end{enumerate}
 
 
 \subsection{Datasets on Different Domains}
-In order to experiment how our STS methods can be adopted in to different domains we have used two datasets from different disciplines which we introduce in this section. 
+In order to experiment how our STS methods can be adopted in to different domains we also used a dataset from a different discipline which we introduce in this section. 
 \begin{enumerate}
 	
 	\item{ \textbf{Bio-medical STS Dataset: BIOSSES } \footnote{Bio-medical STS Dataset: BIOSSES  can be downloaded from \url{https://tabilab.cmpe.boun.edu.tr/BIOSSES/DataSet.html} }} - BIOSSES is the first and only benchmark dataset for biomedical  sentence  similarity  estimation.
@@ -689,87 +765,112 @@ In order to experiment how our STS methods can be adopted in to different domain
 					2. Similarly to PLK1, Aurora-A activity is required \\ for the enrichment or localisation of multiple \\ centrosomal  factors which have roles in maturation, \\ including LATS2 and CDK5RAP2/Cnn.} & 0.2  \\
 				\hline               
 			\end{tabular}
-		\caption[Example question pairs from the Arabic STS dataset]{Example question  pairs from the Arabic STS dataset. \textbf{Sentence Pair} column shows the two sentences. We also included their translations in the table. The translations were done by a native Arabic speaker. \textbf{Similarity} column indicates the averaged annotated similarity of the two sentences.}
+		\caption[Example question pairs from the BIOSSES dataset]{Example question  pairs from the BIOSSES dataset. \textbf{Sentence Pair} column shows the two sentences. \textbf{Similarity} column indicates the averaged annotated similarity of the two sentences.}
 		\label{tab:biomeddata}
 	\end{table} 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/semantic_textual_similarity/introduction/biosses.png}
+	\caption[Relatedness distribution of BIOSSES]{Relatedness distribution of BIOSSES. \textit{Sentence Pairs} shows the number of sentence pairs that a certain \textit{Relatedness bin} has.}
+	\label{fig:biosses_relatedness}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/semantic_textual_similarity/introduction/biosses_words.png}
+	\caption[Normalised distribution of word count in BIOSSES.]{Normalised distribution of word count in BIOSSES. \textit{Number of words} indicates the word count and \textit{Probability} shows the total probability of a sentence with that word count appearing in the dataset.}
+	\label{fig:biosses_words}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/semantic_textual_similarity/introduction/biosses_words.png}
+	\caption[Word share against relatedness bins in BIOSSES.]{Word share against relatedness bins in BIOSSES. \textit{Word Share} indicates the ratio between number of common words in the two sentences to total number of words in the two sentences against each \textit{Relatedness} bins}
+	\label{fig:biosses_words}
+\end{figure}
+
+
+
 	
 	 
-	\item{ \textbf{Clinical STS Dataset: MedSTS} \footnote{Clinical STS Dataset: MedSTS can be downloaded from \url{https://n2c2.dbmi.hms.harvard.edu/track1}. }}. MedSTS is another important STS benchmark dataset built on electronic clinical records (EHR). MedSTS contains 1,642 sentence pairs which were employed in Track 1 of National NLP Clinical Challenges (n2c2): Clinical Semantic Textual Similarity. Out of the 1,642 sentence pairs, 1,068 pairs were from the BioCreative/OHNLP 2018 shared task \cite{10.1145/3233547.3233672} \footnote{BioCreative/OHNLP shared task is available on \url{https://sites.google.com/view/ohnlp2018/home}} as well as 1,006 new pairs from two EHR systems, GE \footnote{GE Healthcare provides IT healthcare solutions that also includes EHR solutions and can be accessed from \url{https://www.gehealthcare.sa/products/healthcare-it/electronic-medical-records}} and Epic \footnote{Epic is a cloud-based EHR solution. More information can be viewed from their website \url{https://www.epic.com/}}. Sentence pairs for BioCreative/OHNLP 2018 shared task have been extracted from Mayo Clinic’s clinical data warehouse \cite{10.1136/amiajnl-2011-000744}. 
-	
-	The creators of the dataset have removed protected health information (PHI) in the sentences by employing a frequency filtering approach \cite{Wang2020}. Once the sentence pairs have been selected  two clinical experts have being asked to annotate each sentence pair on the basis of their semantic equivalence. The annotation guideline is similar to the annotation guidelines of the STS 2017 English dataset \cite{agirre-etal-2012-semeval}. Table \ref{tab:medstsdata_1} and Table \ref{tab:medstsdata_2} shows some example sentence pairs from the dataset with the gold labels and their explanations. The machine learning models require to predict a value between 0-5 which reflects the similarity of the given sentence pair.
-	
-	
-	
-	\begin{table}[ht!]
-		\centering 	
-		\begin{tabular}{l|c} 
-			\hline
-			\multicolumn{1}{c|}{\textbf{Sentence Pair}} & 
-			\multicolumn{1}{c}{\textbf{Relatedness}}  \\
-			\hline
-			\makecell[l]
-			{\textit{The two sentences are completely equivalent}  \\ \textit{as they mean the same thing.} \\
-				1. Albuterol [PROVENTIL/VENTOLIN] 90 mcg/Act \\ HFA Aerosol 2 puffs by
-				inhalation every 4 hours \\ as needed. \\ 
-				2. Albuterol [PROVENTIL/VENTOLIN] 90 mcg/Act \\ HFA Aerosol 1-2 puffs by inhalation every 4 hours \\ as needed 1 each.} & 5  \\
-			\hline
-			\makecell[l]
-			{\textit{The two sentences are completely equivalent}  \\ \textit{as they mean the same thing.} \\
-				1. Discussed goals, risks, alternatives, advanced \\ directives, and the necessity of other members of \\ the surgical team participating in the procedure \\ with the patient. \\ 
-				2. Discussed risks, goals, alternatives, advance \\ directives, and the necessity of other members of \\ the healthcare team participating in the procedure \\ with the patient
-				and his mother.} & 4  \\
-			\hline
-			\makecell[l]
-			{\textit{The two sentences are roughly equivalent, but }  \\ \textit{some important information differs/missing.} \\
-				1. Cardiovascular assessment findings include heart \\ rate normal, Heart rhythm, atrial fibrillation with \\controlled ventricular response. \\ 
-				2. Cardiovascular assessment findings include heart \\ rate, bradycardic, Heart rhythm, first degree AV \\ Block.} & 3  \\
-			\hline
-			
-		\end{tabular}
-		\caption[Example sentence pairs from the MedSTS dataset - Part I]{Example sentence pairs from the MedSTS dataset with their gold relatedness scores (on a 5-point rating scale) and explanations - Part I. \textbf{Sentence Pair} column shows the two sentence and \textbf{Relatedness} column denotes the annotated relatedness score.}
-		\label{tab:medstsdata_1}
-	\end{table} 
-
-
-
-
-\begin{table}[ht!]
-	\centering 	
-	\begin{tabular}{l|c} 
-		\hline
-		\multicolumn{1}{c|}{\textbf{Sentence Pair}} & 
-		\multicolumn{1}{c}{\textbf{Relatedness}}  \\
-		\hline
-		\makecell[l]
-		{\textit{The two sentences are not equivalent, but share } \\
-			\textit{some details.} \\
-			1. Discussed risks, goals, alternatives, advance \\ directives, and the necessity of other members \\ of the healthcare team participating in the \\ procedure with (patient) (legal representative \\ and others present during the discussion). \\ 
-			2. We discussed the low likelihood that a blood \\ transfusion would be required during the \\ postoperative period and the necessity of other \\ members of the surgical team participating \\ in the procedure.
-} & 2  \\
-		\hline
-		\makecell[l]
-		{\textit{The two sentences are not equivalent, but are } \\
-			\textit{on the same topic.} \\
-			1. No: typical 'cold' symptoms; fever present \\ (greater than or equal to 100.4 F or 38 C) or \\ suspected fever; rash; white patches on lips, \\ tongue or mouth (other than throat); blisters in \\ the mouth; swollen or 'bull' neck; hoarseness or \\ lost voice or ear pain. \\ 
-			2. New wheezing or chest tightness, runny or \\ blocked nose, or discharge down the back of the \\ throat, hoarseness or lost voice.} & 1  \\
-		\hline
-		\makecell[l]
-		{\textit{The two sentences are completely dissimilar} \\
-			1. The risks and benefits of the procedure were \\ discussed, and the patient consented to this \\ procedure. \\ 
-			2. The content of this note has been reproduced, \\ signed by an authorized } & 0  \\
-		\hline
-		
-	\end{tabular}
-	\caption[Example sentence pairs from the MedSTS dataset - Part II]{Example sentence pairs from the MedSTS dataset with their gold relatedness scores (on a 5-point rating scale) and explanations - Part II. \textbf{Sentence Pair} column shows the two sentence and \textbf{Relatedness} column denotes the annotated relatedness score.}
-	\label{tab:medstsdata_2}
-\end{table} 
+%	\item{ \textbf{Clinical STS Dataset: MedSTS} \footnote{Clinical STS Dataset: MedSTS can be downloaded from \url{https://n2c2.dbmi.hms.harvard.edu/track1}. }}. MedSTS is another important STS benchmark dataset built on electronic clinical records (EHR). MedSTS contains 1,642 sentence pairs which were employed in Track 1 of National NLP Clinical Challenges (n2c2): Clinical Semantic Textual Similarity. Out of the 1,642 sentence pairs, 1,068 pairs were from the BioCreative/OHNLP 2018 shared task \cite{10.1145/3233547.3233672} \footnote{BioCreative/OHNLP shared task is available on \url{https://sites.google.com/view/ohnlp2018/home}} as well as 1,006 new pairs from two EHR systems, GE \footnote{GE Healthcare provides IT healthcare solutions that also includes EHR solutions and can be accessed from \url{https://www.gehealthcare.sa/products/healthcare-it/electronic-medical-records}} and Epic \footnote{Epic is a cloud-based EHR solution. More information can be viewed from their website \url{https://www.epic.com/}}. Sentence pairs for BioCreative/OHNLP 2018 shared task have been extracted from Mayo Clinic’s clinical data warehouse \cite{10.1136/amiajnl-2011-000744}. 
+%	
+%	The creators of the dataset have removed protected health information (PHI) in the sentences by employing a frequency filtering approach \cite{Wang2020}. Once the sentence pairs have been selected  two clinical experts have being asked to annotate each sentence pair on the basis of their semantic equivalence. The annotation guideline is similar to the annotation guidelines of the STS 2017 English dataset \cite{agirre-etal-2012-semeval}. Table \ref{tab:medstsdata_1} and Table \ref{tab:medstsdata_2} shows some example sentence pairs from the dataset with the gold labels and their explanations. The machine learning models require to predict a value between 0-5 which reflects the similarity of the given sentence pair.
+%	
+%	
+%	
+%	\begin{table}[ht!]
+%		\centering 	
+%		\begin{tabular}{l|c} 
+%			\hline
+%			\multicolumn{1}{c|}{\textbf{Sentence Pair}} & 
+%			\multicolumn{1}{c}{\textbf{Relatedness}}  \\
+%			\hline
+%			\makecell[l]
+%			{\textit{The two sentences are completely equivalent}  \\ \textit{as they mean the same thing.} \\
+%				1. Albuterol [PROVENTIL/VENTOLIN] 90 mcg/Act \\ HFA Aerosol 2 puffs by
+%				inhalation every 4 hours \\ as needed. \\ 
+%				2. Albuterol [PROVENTIL/VENTOLIN] 90 mcg/Act \\ HFA Aerosol 1-2 puffs by inhalation every 4 hours \\ as needed 1 each.} & 5  \\
+%			\hline
+%			\makecell[l]
+%			{\textit{The two sentences are completely equivalent}  \\ \textit{as they mean the same thing.} \\
+%				1. Discussed goals, risks, alternatives, advanced \\ directives, and the necessity of other members of \\ the surgical team participating in the procedure \\ with the patient. \\ 
+%				2. Discussed risks, goals, alternatives, advance \\ directives, and the necessity of other members of \\ the healthcare team participating in the procedure \\ with the patient
+%				and his mother.} & 4  \\
+%			\hline
+%			\makecell[l]
+%			{\textit{The two sentences are roughly equivalent, but }  \\ \textit{some important information differs/missing.} \\
+%				1. Cardiovascular assessment findings include heart \\ rate normal, Heart rhythm, atrial fibrillation with \\controlled ventricular response. \\ 
+%				2. Cardiovascular assessment findings include heart \\ rate, bradycardic, Heart rhythm, first degree AV \\ Block.} & 3  \\
+%			\hline
+%			
+%		\end{tabular}
+%		\caption[Example sentence pairs from the MedSTS dataset - Part I]{Example sentence pairs from the MedSTS dataset with their gold relatedness scores (on a 5-point rating scale) and explanations - Part I. \textbf{Sentence Pair} column shows the two sentence and \textbf{Relatedness} column denotes the annotated relatedness score.}
+%		\label{tab:medstsdata_1}
+%	\end{table} 
+%
+%
+%
+%
+%\begin{table}[ht!]
+%	\centering 	
+%	\begin{tabular}{l|c} 
+%		\hline
+%		\multicolumn{1}{c|}{\textbf{Sentence Pair}} & 
+%		\multicolumn{1}{c}{\textbf{Relatedness}}  \\
+%		\hline
+%		\makecell[l]
+%		{\textit{The two sentences are not equivalent, but share } \\
+%			\textit{some details.} \\
+%			1. Discussed risks, goals, alternatives, advance \\ directives, and the necessity of other members \\ of the healthcare team participating in the \\ procedure with (patient) (legal representative \\ and others present during the discussion). \\ 
+%			2. We discussed the low likelihood that a blood \\ transfusion would be required during the \\ postoperative period and the necessity of other \\ members of the surgical team participating \\ in the procedure.
+%} & 2  \\
+%		\hline
+%		\makecell[l]
+%		{\textit{The two sentences are not equivalent, but are } \\
+%			\textit{on the same topic.} \\
+%			1. No: typical 'cold' symptoms; fever present \\ (greater than or equal to 100.4 F or 38 C) or \\ suspected fever; rash; white patches on lips, \\ tongue or mouth (other than throat); blisters in \\ the mouth; swollen or 'bull' neck; hoarseness or \\ lost voice or ear pain. \\ 
+%			2. New wheezing or chest tightness, runny or \\ blocked nose, or discharge down the back of the \\ throat, hoarseness or lost voice.} & 1  \\
+%		\hline
+%		\makecell[l]
+%		{\textit{The two sentences are completely dissimilar} \\
+%			1. The risks and benefits of the procedure were \\ discussed, and the patient consented to this \\ procedure. \\ 
+%			2. The content of this note has been reproduced, \\ signed by an authorized } & 0  \\
+%		\hline
+%		
+%	\end{tabular}
+%	\caption[Example sentence pairs from the MedSTS dataset - Part II]{Example sentence pairs from the MedSTS dataset with their gold relatedness scores (on a 5-point rating scale) and explanations - Part II. \textbf{Sentence Pair} column shows the two sentence and \textbf{Relatedness} column denotes the annotated relatedness score.}
+%	\label{tab:medstsdata_2}
+%\end{table} 
 
 
 
 \end{enumerate}
 
 \section{Evaluation Metrics}
-While training a model is a key step, how the model generalizes on unseen data is an equally important aspect that should be considered in every machine learning model. We need to know whether it actually works and, consequently, if we can trust its predictions. This is typically called as \textit{evaluation}. All of the datasets that we introduced in the previous section has what we call a \textit{test} set. The machine learning models need to provide their predictions for the test test and the predictions will be evaluated against the true values of the test set. 
+While training a model is a key step, how the model generalises on unseen data is an equally important aspect that should be considered in every machine learning model. We need to know whether it actually works and, consequently, if we can trust its predictions. This is typically called as \textit{evaluation}. All of the datasets that we introduced in the previous section has what we call a \textit{test} set. The machine learning models need to provide their predictions for the test set and the predictions will be evaluated against the true values of the test set. 
 
 There are three common evaluation metrics that are employed in Semantic Textual Similarity tasks, which we explain in this section. We will be using them to evaluate our models through out the first part of our research. 
 

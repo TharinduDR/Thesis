@@ -12,19 +12,25 @@
 \contentsline {figure}{\numberline {1.10}{\ignorespaces Relatedness distribution of Spanish STS train and Spanish STS test}}{21}{figure.caption.26}%
 \contentsline {figure}{\numberline {1.11}{\ignorespaces Normalised distribution of word count inSpanish STS train and Spanish STS test.}}{22}{figure.caption.27}%
 \contentsline {figure}{\numberline {1.12}{\ignorespaces Word share against relatedness bins in Spanish STS train and STS 2017 test.}}{22}{figure.caption.28}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Relatedness distribution of Arabic STS train and Arabic STS test}}{26}{figure.caption.32}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Normalised distribution of word count in Arabic STS train and Arabic STS test.}}{26}{figure.caption.33}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Word share against relatedness bins in Arabic STS train and Arabic STS test.}}{28}{figure.caption.34}%
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Relatedness distribution of BIOSSES}}{30}{figure.caption.37}%
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Normalised distribution of word count in BIOSSES.}}{30}{figure.caption.38}%
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Word share against relatedness bins in BIOSSES.}}{32}{figure.caption.39}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The Word Mover's Distance between two sentences\relax }}{38}{figure.caption.35}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{55}{part.2}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{63}{part.3}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The Word Mover's Distance between two sentences\relax }}{41}{figure.caption.40}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {MonoTransQuest} architecture\relax }}{68}{figure.caption.42}%
+\addvspace {10\p@ }
+\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{67}{part.2}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{75}{part.3}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {MonoTransQuest} architecture\relax }}{80}{figure.caption.50}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
