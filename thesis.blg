@@ -61,10 +61,6 @@ Reallocating 'name_of_file' (item size: 1) to 52 items.
 Database file #1: refs/introduction.bib
 Database file #2: refs/semantic_textual_similarity/introduction.bib
 Database file #3: refs/semantic_textual_similarity/state_of_the_art.bib
-Warning--I'm ignoring Aronson2001's extra "note" field
---line 559 of file refs/semantic_textual_similarity/state_of_the_art.bib
-Warning--I'm ignoring Aronson2001's extra "note" field
---line 560 of file refs/semantic_textual_similarity/state_of_the_art.bib
 Database file #4: refs/semantic_textual_similarity/siamese_neural_networks.bib
 Database file #5: refs/semantic_textual_similarity/sentence_encoders.bib
 Database file #6: refs/semantic_textual_similarity/transformers.bib
@@ -75,45 +71,44 @@ Database file #10: refs/translation_quality_estimation/transquest.bib
 Database file #11: refs/translation_quality_estimation/multilingual_transquest.bib
 Database file #12: refs/translation_quality_estimation/transquest_word.bib
 Database file #13: refs/translation_quality_estimation/transquest_plus.bib
-You've used 78 entries,
+You've used 85 entries,
             2481 wiz_defined-function locations,
-            1144 strings with 30911 characters,
-and the built_in function-call counts, 44447 in all, are:
-= -- 4146
-> -- 2388
-< -- 73
-+ -- 882
-- -- 720
-* -- 3508
-:= -- 6669
-add.period$ -- 411
-call.type$ -- 78
-change.case$ -- 156
-chr.to.int$ -- 72
-cite$ -- 78
-duplicate$ -- 2293
-empty$ -- 3564
-format.name$ -- 812
-if$ -- 10019
+            1188 strings with 32644 characters,
+and the built_in function-call counts, 47630 in all, are:
+= -- 4400
+> -- 2599
+< -- 79
++ -- 958
+- -- 782
+* -- 3777
+:= -- 7186
+add.period$ -- 441
+call.type$ -- 85
+change.case$ -- 170
+chr.to.int$ -- 79
+cite$ -- 85
+duplicate$ -- 2451
+empty$ -- 3837
+format.name$ -- 887
+if$ -- 10704
 int.to.chr$ -- 7
-int.to.str$ -- 79
-missing$ -- 78
-newline$ -- 518
-num.names$ -- 236
-pop$ -- 697
+int.to.str$ -- 86
+missing$ -- 85
+newline$ -- 559
+num.names$ -- 261
+pop$ -- 764
 preamble$ -- 1
-purify$ -- 78
+purify$ -- 85
 quote$ -- 0
-skip$ -- 1534
+skip$ -- 1619
 stack$ -- 0
-substring$ -- 2184
-swap$ -- 859
-text.length$ -- 62
+substring$ -- 2265
+swap$ -- 893
+text.length$ -- 65
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 546
+type$ -- 595
 warning$ -- 0
-while$ -- 331
+while$ -- 351
 width$ -- 0
-write$ -- 1368
-(There were 2 warnings)
+write$ -- 1474

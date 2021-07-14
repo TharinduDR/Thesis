@@ -1,36 +1,36 @@
 \contentsline {part}{I\hspace {1em}Semantic Textual Similarity}{1}{part.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Relatedness distribution of SICK train and SICK test}}{8}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Normalised distribution of word count in SICK train and SICK test.}}{9}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Word share against relatedness bins in SICK train and SICK test.}}{10}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Relatedness distribution of STS 2017 train and STS 2017 test}}{12}{figure.caption.15}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Normalised distribution of word count in STS 2017 train and STS 2017 test.}}{13}{figure.caption.16}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Word share against relatedness bins in STS 2017 train and STS 2017 test.}}{13}{figure.caption.17}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Is-duplicate distribution of QUORA train and QUORA test}}{18}{figure.caption.20}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Normalised distribution of word count in QUORA train and QUORA test.}}{18}{figure.caption.21}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Word share against Is-duplicate values in QUORA train and QUORA test.}}{19}{figure.caption.22}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Relatedness distribution of Spanish STS train and Spanish STS test}}{21}{figure.caption.26}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Normalised distribution of word count inSpanish STS train and Spanish STS test.}}{22}{figure.caption.27}%
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Word share against relatedness bins in Spanish STS train and STS 2017 test.}}{22}{figure.caption.28}%
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Relatedness distribution of Arabic STS train and Arabic STS test}}{26}{figure.caption.32}%
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Normalised distribution of word count in Arabic STS train and Arabic STS test.}}{26}{figure.caption.33}%
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Word share against relatedness bins in Arabic STS train and Arabic STS test.}}{28}{figure.caption.34}%
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Relatedness distribution of BIOSSES}}{30}{figure.caption.37}%
-\contentsline {figure}{\numberline {1.17}{\ignorespaces Normalised distribution of word count in BIOSSES.}}{30}{figure.caption.38}%
-\contentsline {figure}{\numberline {1.18}{\ignorespaces Word share against relatedness bins in BIOSSES.}}{32}{figure.caption.39}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Relatedness distribution of SICK train and SICK test}}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Normalised distribution of word count in SICK train and SICK test.}}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Word share against relatedness bins in SICK train and SICK test.}}{9}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Relatedness distribution of STS 2017 train and STS 2017 test}}{11}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Normalised distribution of word count in STS 2017 train and STS 2017 test.}}{12}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Word share against relatedness bins in STS 2017 train and STS 2017 test.}}{12}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Is-duplicate distribution of QUORA train and QUORA test}}{17}{figure.caption.20}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Normalised distribution of word count in QUORA train and QUORA test.}}{17}{figure.caption.21}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Word share against Is-duplicate values in QUORA train and QUORA test.}}{18}{figure.caption.22}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Relatedness distribution of Spanish STS train and Spanish STS test}}{20}{figure.caption.26}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Normalised distribution of word count inSpanish STS train and Spanish STS test.}}{21}{figure.caption.27}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Word share against relatedness bins in Spanish STS train and STS 2017 test.}}{21}{figure.caption.28}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Relatedness distribution of Arabic STS train and Arabic STS test}}{25}{figure.caption.32}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Normalised distribution of word count in Arabic STS train and Arabic STS test.}}{25}{figure.caption.33}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Word share against relatedness bins in Arabic STS train and Arabic STS test.}}{27}{figure.caption.34}%
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Relatedness distribution of BIOSSES}}{29}{figure.caption.37}%
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Normalised distribution of word count in BIOSSES.}}{29}{figure.caption.38}%
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Word share against relatedness bins in BIOSSES.}}{31}{figure.caption.39}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The Word Mover's Distance between two sentences\relax }}{41}{figure.caption.40}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{67}{part.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The Word Mover's Distance between two sentences\relax }}{39}{figure.caption.40}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Basic structure of the Siamese neural network. Unit A is changed over the architectures.\relax }}{61}{figure.caption.50}%
 \addvspace {10\p@ }
-\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{75}{part.3}%
+\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{66}{part.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {MonoTransQuest} architecture\relax }}{80}{figure.caption.50}%
 \addvspace {10\p@ }
+\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{70}{part.3}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Architecture in TransQuest\relax }}{73}{figure.caption.54}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

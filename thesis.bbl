@@ -1,4 +1,4 @@
-\begin{thebibliography}{78}
+\begin{thebibliography}{85}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -584,7 +584,6 @@ Abu~Bakr Soliman, Kareem Eissa, and Samhaa~R. El-Beltagy.
 \newblock \doi{https://doi.org/10.1016/j.procs.2017.10.117}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S1877050917321749}.
-\newblock Arabic Computational Linguistics.
 
 \bibitem[Bilbao-Jayo and Almeida(2018)]{doi:10.1177/1550147718811827}
 Aritz Bilbao-Jayo and Aitor Almeida.
@@ -716,6 +715,66 @@ Tharindu Ranasinghe, Constantin Orasan, and Ruslan Mitkov.
   Varna, Bulgaria, September 2019{\natexlab{c}}. INCOMA Ltd.
 \newblock \doi{10.26615/978-954-452-056-4_116}.
 \newblock URL \url{https://www.aclweb.org/anthology/R19-1116}.
+
+\bibitem[Mueller and Thyagarajan(2016)]{Mueller_Thyagarajan_2016}
+Jonas Mueller and Aditya Thyagarajan.
+\newblock Siamese recurrent architectures for learning sentence similarity.
+\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence},
+  30\penalty0 (1), Mar 2016.
+\newblock URL \url{https://ojs.aaai.org/index.php/AAAI/article/view/10350}.
+
+\bibitem[Schuster and Paliwal(1997)]{650093}
+M.~Schuster and K.K. Paliwal.
+\newblock Bidirectional recurrent neural networks.
+\newblock \emph{IEEE Transactions on Signal Processing}, 45\penalty0
+  (11):\penalty0 2673--2681, 1997.
+\newblock \doi{10.1109/78.650093}.
+
+\bibitem[Chung et~al.(2014)Chung, Çaglar G{\"u}lçehre, Cho, and
+  Bengio]{Chung2014EmpiricalEO}
+Junyoung Chung, Çaglar G{\"u}lçehre, Kyunghyun Cho, and Yoshua Bengio.
+\newblock Empirical evaluation of gated recurrent neural networks on sequence
+  modeling.
+\newblock In \emph{NIPS 2014 Workshop on Deep Learning}, Dec 2014.
+
+\bibitem[Vukoti{\'c} et~al.(2016)Vukoti{\'c}, Raymond, and
+  Gravier]{vukotic:hal-01351733}
+Vedran Vukoti{\'c}, Christian Raymond, and Guillaume Gravier.
+\newblock {A step beyond local observations with a dialog aware bidirectional
+  GRU network for Spoken Language Understanding}.
+\newblock In \emph{{Interspeech}}, San Francisco, United States, September
+  2016.
+\newblock URL \url{https://hal.inria.fr/hal-01351733}.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{NIPS2017_3f5ee243}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, \L~ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, \emph{Advances in Neural
+  Information Processing Systems}, volume~30. Curran Associates, Inc., 2017.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf}.
+
+\bibitem[Sabour et~al.(2017)Sabour, Frosst, and Hinton]{NIPS2017_2cad8fa4}
+Sara Sabour, Nicholas Frosst, and Geoffrey~E Hinton.
+\newblock Dynamic routing between capsules.
+\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, \emph{Advances in Neural
+  Information Processing Systems}, volume~30. Curran Associates, Inc., 2017.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper/2017/file/2cad8fa47bbef282badbb8de5374b894-Paper.pdf}.
+
+\bibitem[Reimers and Gurevych(2019)]{reimers-gurevych-2019-sentence}
+Nils Reimers and Iryna Gurevych.
+\newblock Sentence-{BERT}: Sentence embeddings using {S}iamese {BERT}-networks.
+\newblock In \emph{Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing and the 9th International Joint Conference on
+  Natural Language Processing (EMNLP-IJCNLP)}, pages 3982--3992, Hong Kong,
+  China, November 2019. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/D19-1410}.
+\newblock URL \url{https://aclanthology.org/D19-1410}.
 
 \bibitem[Arthern(1979)]{Arthern1979}
 Peter~J. Arthern.
