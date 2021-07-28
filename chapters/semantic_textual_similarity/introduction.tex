@@ -740,8 +740,7 @@ In order to experiment how our STS methods can be adopted in to different domain
 \begin{enumerate}
 	
 	\item{ \textbf{Bio-medical STS Dataset: BIOSSES } \footnote{Bio-medical STS Dataset: BIOSSES  can be downloaded from \url{https://tabilab.cmpe.boun.edu.tr/BIOSSES/DataSet.html} }} - BIOSSES is the first and only benchmark dataset for biomedical  sentence  similarity  estimation.
-	\cite{10.1093/bioinformatics/btx238}. The  dataset  comprises 100 sentence pairs, in which each sentence has been selected from the TAC (Text Analysis Conference) Biomedical Summarisation Track- training dataset containing articles from  the  biomedical domain \footnote{Biomedical Summarisation Track is a shared task organised in TAC 2014 - \url{https://tac.nist.gov/2014/BiomedSumm/}}. The sentence pairs have been evaluated by five different human experts that judged their similarity and gave scores ranging from 0 (no relation) to 4 (equivalent). The score range was described based on the guidelines of SemEval 2012 Task 6 on STS \cite{agirre-etal-2012-semeval}. Besides the annotation instructions, example sentences from the bio-medical literature 
-	have been also provided to the annotators for each of the similarity degrees. To represent the similarity between two sentences we took the average of the scores provided by the five human experts. Table \ref{tab:biomeddata} shows few examples in the dataset. The machine learning models require to predict a value between 0-4 which reflects the similarity of the given bio medical sentence pair.
+	\cite{10.1093/bioinformatics/btx238}. The  dataset  comprises 100 sentence pairs, in which each sentence has been selected from the TAC (Text Analysis Conference) Biomedical Summarisation Track- training dataset containing articles from  the  biomedical domain \footnote{Biomedical Summarisation Track is a shared task organised in TAC 2014 - \url{https://tac.nist.gov/2014/BiomedSumm/}}. The sentence pairs have been evaluated by five different human experts that judged their similarity and gave scores ranging from 0 (no relation) to 4 (equivalent). The score range was described based on the guidelines of SemEval 2012 Task 6 on STS \cite{agirre-etal-2012-semeval}. Besides the annotation instructions, example sentences from the bio-medical literature have been also provided to the annotators for each of the similarity degrees. To represent the similarity between two sentences we took the average of the scores provided by the five human experts. Table \ref{tab:biomeddata} shows few examples in the dataset. The machine learning models require to predict a value between 0-4 which reflects the similarity of the given bio medical sentence pair.
 	
 	A dataset as small as this one can not be used by to train a supervised ML method, requiring alternative approaches such as unsupervised methods and transfer learning techniques which we will be exploring in the next few chapters.
 	
@@ -786,9 +785,9 @@ In order to experiment how our STS methods can be adopted in to different domain
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.8\textwidth]{figures/semantic_textual_similarity/introduction/biosses_words.png}
+	\includegraphics[width=0.8\textwidth]{figures/semantic_textual_similarity/introduction/biosses_word_share.png}
 	\caption[Word share against relatedness bins in BIOSSES.]{Word share against relatedness bins in BIOSSES. \textit{Word Share} indicates the ratio between number of common words in the two sentences to total number of words in the two sentences against each \textit{Relatedness} bins}
-	\label{fig:biosses_words}
+	\label{fig:biosses_word_share}
 \end{figure}
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  13 JUL 2021 20:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  28 JUL 2021 08:58
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1137,11 +1137,8 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 71.
 Package hyperref Info: Option `colorlinks' set `true' on input line 71.
 (thesis.aux (abstract.aux) (ack.aux) (contents.aux) (tables.aux) (figures.aux)
 (listings.aux) (introduction.aux)
-(chapters/semantic_textual_similarity/introduction.aux
-
-LaTeX Warning: Label `fig:biosses_words' multiply defined.
-
-) (chapters/semantic_textual_similarity/state_of_the_art.aux)
+(chapters/semantic_textual_similarity/introduction.aux)
+(chapters/semantic_textual_similarity/state_of_the_art.aux)
 (chapters/semantic_textual_similarity/sentence_encoders.aux)
 (chapters/semantic_textual_similarity/siamese_neural_networks.aux)
 (chapters/semantic_textual_similarity/transformers.aux)
@@ -1366,19 +1363,19 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
 
 
 
-] [5] [6] [7])
+] [5] [6])
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
-) [8]
+) [7]
 \openout2 = `tables.aux'.
 
- (tables.tex (thesis.lot [9
+ (tables.tex (thesis.lot [8
 
 
 
 
-])
+] [9])
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
@@ -1509,7 +1506,7 @@ F/m/n/12 - The SICK data con-tains 9927 sen-tence pairs with a 5,000/4,927
 
 [4] [5]
 <figures/semantic_textual_similarity/introduction/sick_train_relatedness_hist.p
-ng, id=706, 433.62pt x 289.08pt>
+ng, id=735, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_train_relatedness_h
 ist.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_train_relatedness_hi
@@ -1520,7 +1517,7 @@ train_relatedness_hist.png  used on input line 73.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 74.
 <figures/semantic_textual_similarity/introduction/sick_test_relatedness_hist.pn
-g, id=708, 433.62pt x 289.08pt>
+g, id=737, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_test_relatedness_hi
 st.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_test_relatedness_his
@@ -1529,7 +1526,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sick_
 test_relatedness_hist.png  used on input line 79.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
  [6]
-<figures/semantic_textual_similarity/introduction/sick_train_words.png, id=713,
+<figures/semantic_textual_similarity/introduction/sick_train_words.png, id=742,
  433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_train_words.png Gra
 phic file (type png)
@@ -1537,7 +1534,7 @@ phic file (type png)
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sick_
 train_words.png  used on input line 93.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/sick_test_words.png, id=714, 
+<figures/semantic_textual_similarity/introduction/sick_test_words.png, id=743, 
 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_test_words.png Grap
 hic file (type png)
@@ -1550,7 +1547,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 6.6pt on input line 114.
 <figures/semantic_textual_similarity/introduction/sick_train_word_share.png, id
-=717, 433.62pt x 289.08pt>
+=746, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_train_word_share.pn
 g Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_train_word_share.png
@@ -1559,7 +1556,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sick_
 train_word_share.png  used on input line 133.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/sick_test_word_share.png, id=
-718, 433.62pt x 289.08pt>
+747, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_test_word_share.png
  Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_test_word_share.png>
@@ -1577,7 +1574,7 @@ share.png>]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 156.
  [10]
-<figures/semantic_textual_similarity/introduction/sts_train.png, id=787, 433.62
+<figures/semantic_textual_similarity/introduction/sts_train.png, id=816, 433.62
 pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_train.png Graphic fi
 le (type png)
@@ -1585,7 +1582,7 @@ le (type png)
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_t
 rain.png  used on input line 255.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/sts_test.png, id=788, 433.62p
+<figures/semantic_textual_similarity/introduction/sts_test.png, id=817, 433.62p
 t x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_test.png Graphic fil
 e (type png)
@@ -1594,7 +1591,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_t
 est.png  used on input line 261.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/sts_2017_train_words.png, id=
-789, 433.62pt x 289.08pt>
+818, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_2017_train_words.png
  Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sts_2017_train_words.png>
@@ -1602,8 +1599,8 @@ File: figures/semantic_textual_similarity/introduction/sts_2017_train_words.png
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_2
 017_train_words.png  used on input line 275.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/sts_2017_test_words.png, id=7
-90, 433.62pt x 289.08pt>
+<figures/semantic_textual_similarity/introduction/sts_2017_test_words.png, id=8
+19, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_2017_test_words.png 
 Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sts_2017_test_words.png>
@@ -1611,7 +1608,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_2
 017_test_words.png  used on input line 281.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/sts_2017_train_word_share.png
-, id=791, 433.62pt x 289.08pt>
+, id=820, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_2017_train_word_shar
 e.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sts_2017_train_word_share
@@ -1620,7 +1617,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_2
 017_train_word_share.png  used on input line 294.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/sts_2017_test_word_share.png,
- id=792, 433.62pt x 289.08pt>
+ id=821, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_2017_test_word_share
 .png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sts_2017_test_word_share.
@@ -1635,7 +1632,7 @@ tic_textual_similarity/introduction/sts_2017_test_words.png> <./figures/semanti
 c_textual_similarity/introduction/sts_2017_train_word_share.png> <./figures/sem
 antic_textual_similarity/introduction/sts_2017_test_word_share.png>] [13] [14] 
 [15]
-<figures/semantic_textual_similarity/introduction/quora_train.png, id=838, 433.
+<figures/semantic_textual_similarity/introduction/quora_train.png, id=867, 433.
 62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_train.png Graphic 
 file (type png)
@@ -1643,7 +1640,7 @@ file (type png)
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
 _train.png  used on input line 373.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/quora_test.png, id=839, 433.6
+<figures/semantic_textual_similarity/introduction/quora_test.png, id=868, 433.6
 2pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_test.png Graphic f
 ile (type png)
@@ -1651,7 +1648,7 @@ ile (type png)
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
 _test.png  used on input line 379.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/quora_train_words.png, id=840
+<figures/semantic_textual_similarity/introduction/quora_train_words.png, id=869
 , 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_train_words.png Gr
 aphic file (type png)
@@ -1659,7 +1656,7 @@ aphic file (type png)
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
 _train_words.png  used on input line 393.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/quora_test_words.png, id=841,
+<figures/semantic_textual_similarity/introduction/quora_test_words.png, id=870,
  433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_test_words.png Gra
 phic file (type png)
@@ -1668,7 +1665,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
 _test_words.png  used on input line 399.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/quora_train_word_share.png, i
-d=842, 433.62pt x 289.08pt>
+d=871, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_train_word_share.p
 ng Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/quora_train_word_share.pn
@@ -1677,7 +1674,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
 _train_word_share.png  used on input line 412.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/quora_test_word_share.png, id
-=843, 433.62pt x 289.08pt>
+=872, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_test_word_share.pn
 g Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/quora_test_word_share.png
@@ -1691,7 +1688,7 @@ semantic_textual_similarity/introduction/quora_train_words.png> <./figures/sema
 ntic_textual_similarity/introduction/quora_test_words.png>] [18 <./figures/sema
 ntic_textual_similarity/introduction/quora_train_word_share.png> <./figures/sem
 antic_textual_similarity/introduction/quora_test_word_share.png>] [19]
-<figures/semantic_textual_similarity/introduction/sts_spanish_train.png, id=885
+<figures/semantic_textual_similarity/introduction/sts_spanish_train.png, id=914
 , 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_spanish_train.png Gr
 aphic file (type png)
@@ -1699,7 +1696,7 @@ aphic file (type png)
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_s
 panish_train.png  used on input line 522.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/sts_spanish_test.png, id=886,
+<figures/semantic_textual_similarity/introduction/sts_spanish_test.png, id=915,
  433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_spanish_test.png Gra
 phic file (type png)
@@ -1708,7 +1705,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_s
 panish_test.png  used on input line 528.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/spanish_sts_train_words.png, 
-id=887, 433.62pt x 289.08pt>
+id=916, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/spanish_sts_train_words.
 png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/spanish_sts_train_words.p
@@ -1717,7 +1714,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/spani
 sh_sts_train_words.png  used on input line 542.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/spanish_sts_test_words.png, i
-d=888, 433.62pt x 289.08pt>
+d=917, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/spanish_sts_test_words.p
 ng Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/spanish_sts_test_words.pn
@@ -1726,7 +1723,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/spani
 sh_sts_test_words.png  used on input line 548.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/spanish_sts_train_word_share.
-png, id=889, 433.62pt x 289.08pt>
+png, id=918, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/spanish_sts_train_word_s
 hare.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/spanish_sts_train_word_sh
@@ -1735,7 +1732,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/spani
 sh_sts_train_word_share.png  used on input line 561.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/spanish_sts_test_word_share.p
-ng, id=890, 433.62pt x 289.08pt>
+ng, id=919, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/spanish_sts_test_word_sh
 are.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/spanish_sts_test_word_sha
@@ -1769,7 +1766,7 @@ File: uxnsh.fd  1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
 )
 LaTeX Font Info:    Font shape `U/xnsh/m/n' will be
 (Font)              scaled to size 17.28003pt on input line 627.
-<figures/semantic_textual_similarity/introduction/sts_arabic_train.png, id=925,
+<figures/semantic_textual_similarity/introduction/sts_arabic_train.png, id=954,
  433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_arabic_train.png Gra
 phic file (type png)
@@ -1777,7 +1774,7 @@ phic file (type png)
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_a
 rabic_train.png  used on input line 663.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/sts_arabic_test.png, id=926, 
+<figures/semantic_textual_similarity/introduction/sts_arabic_test.png, id=955, 
 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_arabic_test.png Grap
 hic file (type png)
@@ -1786,7 +1783,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_a
 rabic_test.png  used on input line 669.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/arabic_sts_train_words.png, i
-d=927, 433.62pt x 289.08pt>
+d=956, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/arabic_sts_train_words.p
 ng Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/arabic_sts_train_words.pn
@@ -1795,7 +1792,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/arabi
 c_sts_train_words.png  used on input line 683.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/arabic_sts_test_words.png, id
-=928, 433.62pt x 289.08pt>
+=957, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/arabic_sts_test_words.pn
 g Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/arabic_sts_test_words.png
@@ -1804,7 +1801,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/arabi
 c_sts_test_words.png  used on input line 689.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/arabic_sts_train_word_share.p
-ng, id=929, 433.62pt x 289.08pt>
+ng, id=958, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/arabic_sts_train_word_sh
 are.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/arabic_sts_train_word_sha
@@ -1813,7 +1810,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/arabi
 c_sts_train_word_share.png  used on input line 702.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/arabic_sts_test_word_share.pn
-g, id=930, 433.62pt x 289.08pt>
+g, id=959, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/arabic_sts_test_word_sha
 re.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/arabic_sts_test_word_shar
@@ -1829,34 +1826,37 @@ ng> <./figures/semantic_textual_similarity/introduction/sts_arabic_test.png> <.
 [26] [27 <./figures/semantic_textual_similarity/introduction/arabic_sts_train_w
 ord_share.png> <./figures/semantic_textual_similarity/introduction/arabic_sts_t
 est_word_share.png>]
-<figures/semantic_textual_similarity/introduction/biosses.png, id=965, 433.62pt
+<figures/semantic_textual_similarity/introduction/biosses.png, id=994, 433.62pt
  x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/biosses.png Graphic file
  (type png)
 <use figures/semantic_textual_similarity/introduction/biosses.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/bioss
-es.png  used on input line 774.
+es.png  used on input line 773.
 (pdftex.def)             Requested size: 312.00119pt x 208.0095pt.
-<figures/semantic_textual_similarity/introduction/biosses_words.png, id=966, 43
+<figures/semantic_textual_similarity/introduction/biosses_words.png, id=995, 43
 3.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/biosses_words.png Graphi
 c file (type png)
 <use figures/semantic_textual_similarity/introduction/biosses_words.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/bioss
-es_words.png  used on input line 781.
+es_words.png  used on input line 780.
 (pdftex.def)             Requested size: 312.00119pt x 208.0095pt.
-File: figures/semantic_textual_similarity/introduction/biosses_words.png Graphi
-c file (type png)
-<use figures/semantic_textual_similarity/introduction/biosses_words.png>
+<figures/semantic_textual_similarity/introduction/biosses_word_share.png, id=99
+6, 433.62pt x 289.08pt>
+File: figures/semantic_textual_similarity/introduction/biosses_word_share.png G
+raphic file (type png)
+<use figures/semantic_textual_similarity/introduction/biosses_word_share.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/bioss
-es_words.png  used on input line 789.
+es_word_share.png  used on input line 788.
 (pdftex.def)             Requested size: 312.00119pt x 208.0095pt.
  [28] [29 <./figures/semantic_textual_similarity/introduction/biosses.png> <./f
-igures/semantic_textual_similarity/introduction/biosses_words.png>] [30] [31]
+igures/semantic_textual_similarity/introduction/biosses_words.png>] [30] [31 <.
+/figures/semantic_textual_similarity/introduction/biosses_word_share.png>]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 887.
+(Font)              scaled to size 6.6pt on input line 886.
  [32]
-Overfull \hbox (2.6546pt too wide) in paragraph at lines 906--907
+Overfull \hbox (2.6546pt too wide) in paragraph at lines 905--906
 \T1/LinuxLibertineT-TLF/m/n/12 Ques-tion Pairs where the gold la-bels are dis-c
 rete val-ues, Root Mean Squared
  []
@@ -1889,7 +1889,7 @@ Overfull \hbox (9.97726pt too wide) in paragraph at lines 38--39
 
 [37]
 <figures/semantic_textual_similarity/state_of_the_art/word_movers_distance.png,
- id=1079, 497.86pt x 255.95625pt>
+ id=1110, 497.86pt x 255.95625pt>
 File: figures/semantic_textual_similarity/state_of_the_art/word_movers_distance
 .png Graphic file (type png)
 <use figures/semantic_textual_similarity/state_of_the_art/word_movers_distance.
@@ -1930,62 +1930,162 @@ Overfull \hbox (11.97583pt too wide) in paragraph at lines 209--210
 
 Package hyperref Warning: Suppressing empty link on input line 452.
 
-[52] [53]
-
-Package hyperref Warning: Suppressing empty link on input line 466.
-
-[54] [55] [56]) [57]
+[52] [53] [54] [55] [56]) [57]
 \openout2 = `chapters/semantic_textual_similarity/sentence_encoders.aux'.
 
 
 (chapters/semantic_textual_similarity/sentence_encoders.tex
 Chapter 3.
-) [58
+[58
 
 
 
 
-]
+] [59] [60]
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[][][]\T1/LinuxLibertineT-TLF/m/n/10 The code and the pre-trained mod-els are a
+vail-able on [][]$\T1/zi4/m/n/10 https : / / github . com /
+ []
+
+<figures/semantic_textual_similarity/sentence_encoders/infersent_general.png, i
+d=1449, 414.04688pt x 386.94562pt>
+File: figures/semantic_textual_similarity/sentence_encoders/infersent_general.p
+ng Graphic file (type png)
+<use figures/semantic_textual_similarity/sentence_encoders/infersent_general.pn
+g>
+Package pdftex.def Info: figures/semantic_textual_similarity/sentence_encoders/
+infersent_general.png  used on input line 41.
+(pdftex.def)             Requested size: 195.0pt x 182.24234pt.
+<figures/semantic_textual_similarity/sentence_encoders/infersent.png, id=1450, 
+329.73187pt x 392.21532pt>
+File: figures/semantic_textual_similarity/sentence_encoders/infersent.png Graph
+ic file (type png)
+<use figures/semantic_textual_similarity/sentence_encoders/infersent.png>
+Package pdftex.def Info: figures/semantic_textual_similarity/sentence_encoders/
+infersent.png  used on input line 47.
+(pdftex.def)             Requested size: 195.0pt x 231.95561pt.
+[61 <./figures/semantic_textual_similarity/sentence_encoders/infersent_general.
+png> <./figures/semantic_textual_similarity/sentence_encoders/infersent.png>]
+Underfull \hbox (badness 1152) in paragraph at lines 63--63
+\T1/zi4/m/n/10 google / universal-[]sentence-[]encoder-[]large$[][] \T1/LinuxLi
+bertineT-TLF/m/n/10 and pre-trained sen-tence en-coder for DAN
+ []
+
+[62]
+<figures/semantic_textual_similarity/sentence_encoders/dan.png, id=1471, 240.14
+719pt x 526.96875pt>
+File: figures/semantic_textual_similarity/sentence_encoders/dan.png Graphic fil
+e (type png)
+<use figures/semantic_textual_similarity/sentence_encoders/dan.png>
+Package pdftex.def Info: figures/semantic_textual_similarity/sentence_encoders/
+dan.png  used on input line 70.
+(pdftex.def)             Requested size: 136.50238pt x 299.53905pt.
+<figures/semantic_textual_similarity/sentence_encoders/transformer.png, id=1472
+, 254.45062pt x 528.47438pt>
+File: figures/semantic_textual_similarity/sentence_encoders/transformer.png Gra
+phic file (type png)
+<use figures/semantic_textual_similarity/sentence_encoders/transformer.png>
+Package pdftex.def Info: figures/semantic_textual_similarity/sentence_encoders/
+transformer.png  used on input line 76.
+(pdftex.def)             Requested size: 136.50238pt x 283.51723pt.
+ [63 <./figures/semantic_textual_similarity/sentence_encoders/dan.png> <./figur
+es/semantic_textual_similarity/sentence_encoders/transformer.png>] [64]
+[65] [66] [67]
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
+[][][]\T1/LinuxLibertineT-TLF/m/n/10 The pre-trained model is avail-able on [][
+]$\T1/zi4/m/n/10 https : / / github . com / BotCenter /
+ []
+
+[68] [69]
+Overfull \hbox (1.07715pt too wide) in paragraph at lines 273--274
+[]\T1/LinuxLibertineT-TLF/m/n/12 As can be ob-served in the re-sults, sen-tence
+ en-coder trained on the Bio-medical
+ []
+
+[70]) [71]
 \openout2 = `chapters/semantic_textual_similarity/siamese_neural_networks.aux'.
 
  (chapters/semantic_textual_similarity/siamese_neural_networks.tex
 Chapter 4.
-[59
+[72
 
 
 
 
 ]
-Underfull \hbox (badness 6592) in paragraph at lines 33--33
-[][][]\T1/LinuxLibertineT-TLF/m/n/10 The pub-lic GutHub repos-i-tory is avail-a
+Overfull \hbox (1.5787pt too wide) in paragraph at lines 8--9
+\T1/LinuxLibertineT-TLF/m/n/12 ad-van-tage in us-ing Siamese neu-ral net-works.
+ As we men-tioned be-fore, in Siamese
+ []
+
+[73]
+Overfull \hbox (18.46048pt too wide) in paragraph at lines 27--28
+\T1/LinuxLibertineT-TLF/m/n/12 Siamese neu-ral net-work that out-per-forms stat
+e-of-the-art LSTM based Siamese
+ []
+
+
+Underfull \hbox (badness 8170) in paragraph at lines 35--35
+[][][]\T1/LinuxLibertineT-TLF/m/n/10 The pub-lic GitHub repos-i-tory is avail-a
 ble on [][]$\T1/zi4/m/n/10 https : / / github . com / tharindudr /
  []
 
-[60]
+[74]
+Overfull \hbox (6.66884pt too wide) in paragraph at lines 47--48
+\T1/LinuxLibertineT-TLF/m/n/12 In au-dio and speech sig-nal pro-cess-ing field,
+ Thi-ol-liere et al. [][][] merged a dynamic-
+ []
+
+[75] [76] [77]
 <figures/semantic_textual_similarity/siamese_neural_networks/siamese_architectu
-re.png, id=1405, 393.47pt x 333.245pt>
+re.png, id=1734, 393.47pt x 333.245pt>
 File: figures/semantic_textual_similarity/siamese_neural_networks/siamese_archi
 tecture.png Graphic file (type png)
 <use figures/semantic_textual_similarity/siamese_neural_networks/siamese_archit
 ecture.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/siamese_neural_net
-works/siamese_architecture.png  used on input line 45.
+works/siamese_architecture.png  used on input line 78.
 (pdftex.def)             Requested size: 196.73451pt x 166.62209pt.
- [61 <./figures/semantic_textual_similarity/siamese_neural_networks/siamese_arc
-hitecture.png>]
 
-Package hyperref Warning: Suppressing empty link on input line 69.
-
-
-Overfull \hbox (5.33638pt too wide) in paragraph at lines 68--70
+Overfull \hbox (5.33638pt too wide) in paragraph at lines 84--85
 []\T1/LinuxLibertineT-TLF/m/n/12 As the word em-bed-ding model we used Word2vec
  em-bed-dings [[]] pre-trained
  []
 
-[62] [63]) [64]
+[78 <./figures/semantic_textual_similarity/siamese_neural_networks/siamese_arch
+itecture.png>] [79]
+
+Package hyperref Warning: Suppressing empty link on input line 178.
+
+[80]
+Overfull \hbox (55.79494pt too wide) in paragraph at lines 182--183
+\T1/LinuxLibertineT-TLF/m/n/12 based Siamese neu-ral net-work ar-chi-tec-ture f
+or the smaller STS datasets and LSTM+Attention
+ []
+
+[81] [82] [83]
+Overfull \hbox (1.88773pt too wide) in paragraph at lines 230--231
+[]\T1/LinuxLibertineT-TLF/m/n/12 We em-ployed thesaurus-based aug-men-ta-tion i
+n which 10,000 ad-di-tional train-
+ []
+
+
+Overfull \hbox (0.38191pt too wide) in paragraph at lines 230--231
+\T1/LinuxLibertineT-TLF/m/n/12 onyms found in Word-net [[]]. A sim-i-lar ap-pro
+ach has been suc-cess-fully adopted
+ []
+
+
+Overfull \hbox (10.78561pt too wide) in paragraph at lines 257--258
+\T1/LinuxLibertineT-TLF/m/n/12 GRU based Siamese neu-ral net-work out-per-forme
+d LSTM + At-ten-tion based Siamese
+ []
+
+[84] [85] [86] [87] [88] [89] [90] [91] [92]) [93]
 \openout2 = `chapters/semantic_textual_similarity/transformers.aux'.
 
- (chapters/semantic_textual_similarity/transformers.tex
+
+(chapters/semantic_textual_similarity/transformers.tex
 Chapter 5.
 
 Overfull \hbox (1.61842pt too wide) in paragraph at lines 9--9
@@ -1993,12 +2093,12 @@ Overfull \hbox (1.61842pt too wide) in paragraph at lines 9--9
 an-
  []
 
-) [65
+) [94
 
 
 
 
-] [66
+] [95
 
 
 
@@ -2007,7 +2107,7 @@ an-
 
  (chapters/translation_memories/introduction.tex
 Chapter 1.
-) [67
+) [96
 
 
 
@@ -2016,7 +2116,7 @@ Chapter 1.
 
  (chapters/translation_memories/sentence_encoders.tex
 Chapter 2.
-) [68
+) [97
 
 
 
@@ -2026,12 +2126,12 @@ Chapter 2.
 
  (chapters/translation_memories/future.tex
 Chapter 3.
-) [69
+) [98
 
 
 
 
-] [70
+] [99
 
 
 
@@ -2040,7 +2140,7 @@ Chapter 3.
 
  (chapters/translation_quality_estimation/introduction.tex
 Chapter 1.
-) [71
+) [100
 
 
 
@@ -2049,7 +2149,7 @@ Chapter 1.
 
  (chapters/translation_quality_estimation/transquest.tex
 Chapter 2.
-<figures/translation_quality_estimation/TransQuest.png, id=1501, 357.7365pt x 3
+<figures/translation_quality_estimation/TransQuest.png, id=1945, 357.7365pt x 3
 25.9377pt>
 File: figures/translation_quality_estimation/TransQuest.png Graphic file (type 
 png)
@@ -2059,7 +2159,7 @@ Package pdftex.def Info: figures/translation_quality_estimation/TransQuest.png
 (pdftex.def)             Requested size: 227.62204pt x 207.3859pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 10.95pt on input line 13.
-<figures/translation_quality_estimation/SiameseTransQuest.png, id=1502, 714.027
+<figures/translation_quality_estimation/SiameseTransQuest.png, id=1946, 714.027
 6pt x 456.0237pt>
 File: figures/translation_quality_estimation/SiameseTransQuest.png Graphic file
  (type png)
@@ -2091,19 +2191,19 @@ Overfull \hbox (2.2468pt too wide) in paragraph at lines 60--61
  [] 
  []
 
-) [72
+) [101
 
 
 
 
-] [73 <./figures/translation_quality_estimation/TransQuest.png> <./figures/tran
-slation_quality_estimation/SiameseTransQuest.png>] [74]
+] [102 <./figures/translation_quality_estimation/TransQuest.png> <./figures/tra
+nslation_quality_estimation/SiameseTransQuest.png>] [103]
 \openout2 = `chapters/translation_quality_estimation/multilingual.aux'.
 
 
 (chapters/translation_quality_estimation/multilingual.tex
 Chapter 3.
-) [75
+) [104
 
 
 
@@ -2113,97 +2213,120 @@ Chapter 3.
 
  (chapters/translation_quality_estimation/transquest_word.tex
 Chapter 4.
-) [76
+) [105
 
 
 
 
-] [77]
+] [106]
 \openout2 = `bib.aux'.
 
  (bib.tex (thesis.bbl
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 12.0pt on input line 18.
- [78
+ [107
 
 
 
 
-] [79] [80] [81] [82] [83]
-Underfull \hbox (badness 1221) in paragraph at lines 247--254
-[]\T1/LinuxLibertineT-TLF/m/n/12 Gizem So§anco§lu, Hakime Öztürk, and Arzu-can
- Özgür.  BIOSSES:
+] [108]
+Underfull \hbox (badness 2418) in paragraph at lines 93--102
+[]\T1/LinuxLibertineT-TLF/m/n/12 Eneko Agirre, Daniel Cer, Mona Diab, and Aitor
+ Gonzalez-Agirre.
  []
 
-
-Underfull \hbox (badness 2005) in paragraph at lines 247--254
+[109] [110] [111] [112]
+Underfull \hbox (badness 1137) in paragraph at lines 247--254
 \T1/LinuxLibertineT-TLF/m/n/12 a se-man-tic sen-tence sim-i-lar-ity es-ti-ma-ti
 on sys-tem for the biomed-i-cal
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 247--254
+Underfull \hbox (badness 1675) in paragraph at lines 247--254
 \T1/LinuxLibertineT-TLF/m/n/12 do-main.  \T1/LinuxLibertineT-TLF/m/it/12 Bioin-
 for-mat-ics\T1/LinuxLibertineT-TLF/m/n/12 , 33(14):i49--i58, 07 2017.  ISSN 136
 7-4803.
  []
 
-[84] [85]
-Underfull \hbox (badness 3078) in paragraph at lines 303--311
+[113] [114]
+Underfull \hbox (badness 1264) in paragraph at lines 303--311
 \T1/LinuxLibertineT-TLF/m/n/12 978-[]954-[]452-[]056-[]4 _ 115$.  URL [][]$\T1/
 zi4/m/n/12 https : / / www . aclweb . org / anthology /
  []
 
-[86] [87] [88] [89] [90] [91]
-Underfull \hbox (badness 2521) in paragraph at lines 529--538
+[115] [116] [117] [118] [119]
+Underfull \hbox (badness 1210) in paragraph at lines 491--499
+\T1/LinuxLibertineT-TLF/m/it/12 Lin-guis-tics: EMNLP 2020\T1/LinuxLibertineT-TL
+F/m/n/12 , pages 2898--2904, On-line, Novem-ber 2020.
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 491--499
+\T1/LinuxLibertineT-TLF/m/n/12 As-so-ci-a-tion for Com-pu-ta-tional Lin-guis-ti
+cs.  doi: $10 . 18653 / v1 / 2020 .
+ []
+
+[120]
+Underfull \hbox (badness 1596) in paragraph at lines 529--538
 []\T1/LinuxLibertineT-TLF/m/n/12 Alan Ak-bik, Tanja Bergmann, Dun-can Blythe, K
 ashif Ra-sul, Ste-fan
  []
 
-[92] [93] [94]
-Underfull \hbox (badness 3724) in paragraph at lines 639--645
+[121] [122] [123]
+Underfull \hbox (badness 2608) in paragraph at lines 640--647
 []\T1/LinuxLibertineT-TLF/m/n/12 Yijia Zhang, Qingyu Chen, Zhi-hao Yang, Hongfe
 i Lin, and Zhiy-
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 639--645
-\T1/LinuxLibertineT-TLF/m/n/12 ong Lu.  Bioword-vec, im-prov-ing biomed-i-cal w
-ord em-bed-dings with
- []
-
-
-Underfull \hbox (badness 1478) in paragraph at lines 639--645
-\T1/LinuxLibertineT-TLF/m/n/12 sub-word in-for-ma-tion and mesh.  \T1/LinuxLibe
-rtineT-TLF/m/it/12 Sci-en-tific Data\T1/LinuxLibertineT-TLF/m/n/12 , 6(1):52, M
-ay 2019.
- []
-
-
-Underfull \hbox (badness 4940) in paragraph at lines 639--645
+Underfull \hbox (badness 3000) in paragraph at lines 640--647
 \T1/LinuxLibertineT-TLF/m/n/12 doi: $10 . 1038 / s41597-[]019-[]0055-[]0$.  URL
  [][]$\T1/zi4/m/n/12 https : / / doi . org / 10 . 1038 /
  []
 
-[95] [96]
-Underfull \hbox (badness 1354) in paragraph at lines 751--759
-[]\T1/LinuxLibertineT-TLF/m/n/12 Ashish Vaswani, Noam Shazeer, Niki Par-mar, Ja
-kob Uszko-r-eit, Llion
+[124]
+Underfull \hbox (badness 4013) in paragraph at lines 677--686
+[]\T1/LinuxLibertineT-TLF/m/n/12 Jesujoba Al-abi, Kwabena Amponsah-Kaakyire, Da
+vid Ade-lani, and
+ []
+
+[125] [126] [127] [128]
+Underfull \hbox (badness 2042) in paragraph at lines 852--858
+[]\T1/LinuxLibertineT-TLF/m/n/12 Neil Zeghi-dour, Gabriel Syn-naeve, Nico-las U
+sunier, and Em-manuel
  []
 
 
-Underfull \hbox (badness 1325) in paragraph at lines 751--759
-\T1/LinuxLibertineT-TLF/m/it/12 Neu-ral In-for-ma-tion Pro-cess-ing Sys-tems\T1
-/LinuxLibertineT-TLF/m/n/12 , vol-ume 30. Cur-ran As-so-ciates,
+Underfull \hbox (badness 1852) in paragraph at lines 852--858
+\T1/LinuxLibertineT-TLF/m/n/12 Dupoux.  Joint learn-ing of speaker and pho-neti
+c sim-i-lar-i-ties with
  []
 
-[97]
-Underfull \hbox (badness 1325) in paragraph at lines 761--768
-\T1/LinuxLibertineT-TLF/m/it/12 Neu-ral In-for-ma-tion Pro-cess-ing Sys-tems\T1
-/LinuxLibertineT-TLF/m/n/12 , vol-ume 30. Cur-ran As-so-ciates,
+
+Underfull \hbox (badness 1348) in paragraph at lines 852--858
+\T1/LinuxLibertineT-TLF/m/n/12 10 . 21437 / Interspeech . 2016-[]811$.  URL [][
+]$\T1/zi4/m/n/12 http : / / dx . doi . org / 10 . 21437 /
  []
 
-[98] [99])) [100]
+[129]
+Underfull \hbox (badness 1365) in paragraph at lines 872--879
+\T1/LinuxLibertineT-TLF/m/n/12 dov.  Structure-preserving vi-su-al-i-sa-tion of
+ high di-men-sional single-
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 872--879
+\T1/LinuxLibertineT-TLF/m/n/12 doi: $10 . 1038 / s41598-[]019-[]45301-[]0$.  UR
+L [][]$\T1/zi4/m/n/12 https : / / doi . org / 10 . 1038 /
+ []
+
+[130] [131] [132] [133] [134] [135] [136] [137] [138] [139] [140]
+Underfull \hbox (badness 2189) in paragraph at lines 1334--1342
+\T1/LinuxLibertineT-TLF/m/it/12 ti-fi-cial In-tel-li-gence and Law\T1/LinuxLibe
+rtineT-TLF/m/n/12 , 27(2):171--198, Jun 2019.  ISSN 1572-
+ []
+
+[141] [142] [143])) [144]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
  (thesis.aux (abstract.aux) (ack.aux) (contents.aux)
@@ -2429,10 +2552,14 @@ figures/semantic_textual_similarity/introduction/arabic_sts_test_word_share.png
 
 figures/semantic_textual_similarity/introduction/biosses.png
 figures/semantic_textual_similarity/introduction/biosses_words.png
-figures/semantic_textual_similarity/introduction/biosses_words.png
+figures/semantic_textual_similarity/introduction/biosses_word_share.png
 chapters/semantic_textual_similarity/state_of_the_art.tex
 figures/semantic_textual_similarity/state_of_the_art/word_movers_distance.png
 chapters/semantic_textual_similarity/sentence_encoders.tex
+figures/semantic_textual_similarity/sentence_encoders/infersent_general.png
+figures/semantic_textual_similarity/sentence_encoders/infersent.png
+figures/semantic_textual_similarity/sentence_encoders/dan.png
+figures/semantic_textual_similarity/sentence_encoders/transformer.png
 chapters/semantic_textual_similarity/siamese_neural_networks.tex
 figures/semantic_textual_similarity/siamese_neural_networks/siamese_architectur
 e.png
@@ -2452,44 +2579,44 @@ chapters/translation_quality_estimation/transquest_word.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7E1E61F98FABC39D8806D27FB7E3DDED;6100.
+(rerunfilecheck)             Checksum: 8A7F38F743C56438362593503436D643;6066.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 28377 strings out of 480790
- 522104 string characters out of 2897770
+ 28757 strings out of 480790
+ 531336 string characters out of 2897770
  927337 words of memory out of 3000000
- 43099 multiletter control sequences out of 15000+200000
- 729305 words of font info for 223 fonts, out of 3000000 for 9000
+ 43340 multiletter control sequences out of 15000+200000
+ 729621 words of font info for 224 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,19n,96p,1893b,698s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_o
-exx6f.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsol
-ata/i4-t1-4.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/li
-bertine/lbtn_7grukw.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/
-dvips/libertine/lbtn_nh77jq.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fo
-nts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/ASUS/AppData/Local/Programs/M
-iKTeX/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}<C:/Users/ASUS/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/ASU
-S/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/LibertineMathBMI.pfb><
-C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/LibertineM
-athMI.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/liber
-tine/LinLibertineT.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/libertine/LinLibertineTB.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/ASUS/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/ASUS/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/ASUS/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/ASUS/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb>
-Output written on thesis.pdf (114 pages, 1732202 bytes).
+ 68i,19n,96p,1893b,744s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_f
+ygcup.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertin
+e/lbtn_oexx6f.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
+inconsolata/i4-t1-4.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/
+dvips/libertine/lbtn_7grukw.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fo
+nts/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/ASUS/AppData/Local/Programs/M
+iKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/ASUS/AppData/Local/Pr
+ograms/MiKTeX/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}<C:/Users/ASUS/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/U
+sers/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/LibertineMathB
+MI.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/Li
+bertineMathMI.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/libertine/LinLibertineT.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/ASUS/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/ASUS/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTZ.pfb><C:/Us
+ers/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/U
+sers/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:
+/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C
+:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pf
+b>
+Output written on thesis.pdf (158 pages, 2137702 bytes).
 PDF statistics:
- 1886 PDF objects out of 2073 (max. 8388607)
- 415 named destinations out of 1000 (max. 500000)
- 977 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2478 PDF objects out of 2487 (max. 8388607)
+ 547 named destinations out of 1000 (max. 500000)
+ 994 words of extra memory for PDF output out of 10000 (max. 10000000)
 

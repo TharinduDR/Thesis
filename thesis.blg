@@ -41,8 +41,6 @@ Reallocating 'name_of_file' (item size: 1) to 57 items.
 A level-1 auxiliary file: chapters/translation_quality_estimation/multilingual.aux
 Reallocating 'name_of_file' (item size: 1) to 60 items.
 A level-1 auxiliary file: chapters/translation_quality_estimation/transquest_word.aux
-Reallocating 'name_of_file' (item size: 1) to 60 items.
-A level-1 auxiliary file: chapters/translation_quality_estimation/transquest_plus.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: bib.aux
 Reallocating 'name_of_file' (item size: 1) to 18 items.
@@ -71,44 +69,44 @@ Database file #10: refs/translation_quality_estimation/transquest.bib
 Database file #11: refs/translation_quality_estimation/multilingual_transquest.bib
 Database file #12: refs/translation_quality_estimation/transquest_word.bib
 Database file #13: refs/translation_quality_estimation/transquest_plus.bib
-You've used 85 entries,
+You've used 144 entries,
             2481 wiz_defined-function locations,
-            1188 strings with 32644 characters,
-and the built_in function-call counts, 47630 in all, are:
-= -- 4400
-> -- 2599
-< -- 79
-+ -- 958
-- -- 782
-* -- 3777
-:= -- 7186
-add.period$ -- 441
-call.type$ -- 85
-change.case$ -- 170
-chr.to.int$ -- 79
-cite$ -- 85
-duplicate$ -- 2451
-empty$ -- 3837
-format.name$ -- 887
-if$ -- 10704
-int.to.chr$ -- 7
-int.to.str$ -- 86
-missing$ -- 85
-newline$ -- 559
-num.names$ -- 261
-pop$ -- 764
+            1605 strings with 48940 characters,
+and the built_in function-call counts, 78787 in all, are:
+= -- 7183
+> -- 4307
+< -- 126
++ -- 1591
+- -- 1293
+* -- 6350
+:= -- 11968
+add.period$ -- 740
+call.type$ -- 144
+change.case$ -- 288
+chr.to.int$ -- 134
+cite$ -- 144
+duplicate$ -- 3992
+empty$ -- 6429
+format.name$ -- 1475
+if$ -- 17630
+int.to.chr$ -- 11
+int.to.str$ -- 145
+missing$ -- 143
+newline$ -- 955
+num.names$ -- 440
+pop$ -- 1243
 preamble$ -- 1
-purify$ -- 85
+purify$ -- 144
 quote$ -- 0
-skip$ -- 1619
+skip$ -- 2607
 stack$ -- 0
-substring$ -- 2265
-swap$ -- 893
-text.length$ -- 65
+substring$ -- 3756
+swap$ -- 1384
+text.length$ -- 101
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 595
+type$ -- 1008
 warning$ -- 0
-while$ -- 351
+while$ -- 570
 width$ -- 0
-write$ -- 1474
+write$ -- 2485

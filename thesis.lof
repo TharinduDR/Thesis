@@ -21,16 +21,18 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The Word Mover's Distance between two sentences\relax }}{39}{figure.caption.40}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Infersent Architecture}}{61}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Universal Sentence Encoder Architectures}}{63}{figure.caption.54}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Basic structure of the Siamese neural network. Unit A is changed over the architectures.\relax }}{61}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Basic structure of the Siamese neural network}}{78}{figure.caption.60}%
 \addvspace {10\p@ }
-\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{66}{part.2}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{70}{part.3}%
+\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{95}{part.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Architecture in TransQuest\relax }}{73}{figure.caption.54}%
+\addvspace {10\p@ }
+\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{99}{part.3}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Architecture in TransQuest\relax }}{102}{figure.caption.74}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

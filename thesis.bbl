@@ -1,4 +1,4 @@
-\begin{thebibliography}{85}
+\begin{thebibliography}{144}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -327,14 +327,14 @@ Tomas Mikolov, Edouard Grave, Piotr Bojanowski, Christian Puhrsch, and Armand
   European Language Resources Association (ELRA).
 \newblock URL \url{https://www.aclweb.org/anthology/L18-1008}.
 
-\bibitem[Mikolov et~al.(2013{\natexlab{a}})Mikolov, Sutskever, Chen, Corrado,
-  and Dean]{10.5555/2999792.2999959}
+\bibitem[Mikolov et~al.(2013)Mikolov, Sutskever, Chen, Corrado, and
+  Dean]{10.5555/2999792.2999959}
 Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, and Jeffrey Dean.
 \newblock Distributed representations of words and phrases and their
   compositionality.
 \newblock In \emph{Proceedings of the 26th International Conference on Neural
   Information Processing Systems - Volume 2}, NIPS'13, page 3111–3119, Red
-  Hook, NY, USA, 2013{\natexlab{a}}. Curran Associates Inc.
+  Hook, NY, USA, 2013. Curran Associates Inc.
 
 \bibitem[Peters et~al.(2018)Peters, Neumann, Iyyer, Gardner, Clark, Lee, and
   Zettlemoyer]{peters-etal-2018-deep}
@@ -546,13 +546,13 @@ Jeffrey Pennington, Richard Socher, and Christopher Manning.
 \newblock \doi{10.3115/v1/D14-1162}.
 \newblock URL \url{https://www.aclweb.org/anthology/D14-1162}.
 
-\bibitem[Mikolov et~al.(2013{\natexlab{b}})Mikolov, Chen, Corrado, and
+\bibitem[Tom{\'{a}}s et~al.(2013)Tom{\'{a}}s, Chen, Corrado, and
   Dean]{DBLP:journals/corr/abs-1301-3781}
-Tom{\'{a}}s Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
+Tom{\'{a}}s, Kai Chen, Greg Corrado, and Jeffrey Dean.
 \newblock Efficient estimation of word representations in vector space.
 \newblock In Yoshua Bengio and Yann LeCun, editors, \emph{1st International
   Conference on Learning Representations, {ICLR} 2013, Scottsdale, Arizona,
-  USA, May 2-4, 2013, Workshop Track Proceedings}, 2013{\natexlab{b}}.
+  USA, May 2-4, 2013, Workshop Track Proceedings}, 2013.
 \newblock URL \url{http://arxiv.org/abs/1301.3781}.
 
 \bibitem[Indyk and Motwani(1998)]{10.1145/276698.276876}
@@ -635,11 +635,13 @@ Joe Barrow and Denis Peskov.
 \newblock \doi{10.18653/v1/S17-2026}.
 \newblock URL \url{https://www.aclweb.org/anthology/S17-2026}.
 
-\bibitem[Zhang et~al.(2019)Zhang, Chen, Yang, Lin, and Lu]{Zhang2019}
+\bibitem[Zhang et~al.(2019{\natexlab{a}})Zhang, Chen, Yang, Lin, and
+  Lu]{Zhang2019}
 Yijia Zhang, Qingyu Chen, Zhihao Yang, Hongfei Lin, and Zhiyong Lu.
 \newblock Biowordvec, improving biomedical word embeddings with subword
   information and mesh.
-\newblock \emph{Scientific Data}, 6\penalty0 (1):\penalty0 52, May 2019.
+\newblock \emph{Scientific Data}, 6\penalty0 (1):\penalty0 52, May
+  2019{\natexlab{a}}.
 \newblock \doi{10.1038/s41597-019-0055-0}.
 \newblock URL \url{https://doi.org/10.1038/s41597-019-0055-0}.
 
@@ -706,6 +708,424 @@ Manzil Zaheer, Guru Guruganesh, Avinava Dubey, Joshua Ainslie, Chris Alberti,
 \newblock Big bird: Transformers for longer sequences.
 \newblock \emph{arXiv preprint arXiv:2007.14062}, 2021.
 
+\bibitem[Lau and Baldwin(2016)]{lau-baldwin-2016-empirical}
+Jey~Han Lau and Timothy Baldwin.
+\newblock An empirical evaluation of doc2vec with practical insights into
+  document embedding generation.
+\newblock In \emph{Proceedings of the 1st Workshop on Representation Learning
+  for {NLP}}, pages 78--86, Berlin, Germany, August 2016. Association for
+  Computational Linguistics.
+\newblock \doi{10.18653/v1/W16-1609}.
+\newblock URL \url{https://aclanthology.org/W16-1609}.
+
+\bibitem[Hochreiter and Schmidhuber(1997)]{10.1162/neco.1997.9.8.1735}
+Sepp Hochreiter and Jürgen Schmidhuber.
+\newblock {Long Short-Term Memory}.
+\newblock \emph{Neural Computation}, 9\penalty0 (8):\penalty0 1735--1780, 11
+  1997.
+\newblock ISSN 0899-7667.
+\newblock \doi{10.1162/neco.1997.9.8.1735}.
+\newblock URL \url{https://doi.org/10.1162/neco.1997.9.8.1735}.
+
+\bibitem[Chung et~al.(2014)Chung, Çaglar G{\"u}lçehre, Cho, and
+  Bengio]{Chung2014EmpiricalEO}
+Junyoung Chung, Çaglar G{\"u}lçehre, Kyunghyun Cho, and Yoshua Bengio.
+\newblock Empirical evaluation of gated recurrent neural networks on sequence
+  modeling.
+\newblock In \emph{NIPS 2014 Workshop on Deep Learning}, Dec 2014.
+
+\bibitem[Schuster and Paliwal(1997)]{650093}
+M.~Schuster and K.K. Paliwal.
+\newblock Bidirectional recurrent neural networks.
+\newblock \emph{IEEE Transactions on Signal Processing}, 45\penalty0
+  (11):\penalty0 2673--2681, 1997.
+\newblock \doi{10.1109/78.650093}.
+
+\bibitem[Cer et~al.(2018)Cer, Yang, yi~Kong, Hua, Limtiaco, John, Constant,
+  Guajardo-Cespedes, Yuan, Tar, Sung, Strope, and Kurzweil]{cer2018universal}
+Daniel Cer, Yinfei Yang, Sheng yi~Kong, Nan Hua, Nicole Limtiaco, Rhomni~St.
+  John, Noah Constant, Mario Guajardo-Cespedes, Steve Yuan, Chris Tar,
+  Yun-Hsuan Sung, Brian Strope, and Ray Kurzweil.
+\newblock Universal sentence encoder, 2018.
+
+\bibitem[Conneau et~al.(2018)Conneau, Rinott, Lample, Williams, Bowman,
+  Schwenk, and Stoyanov]{conneau-etal-2018-xnli}
+Alexis Conneau, Ruty Rinott, Guillaume Lample, Adina Williams, Samuel Bowman,
+  Holger Schwenk, and Veselin Stoyanov.
+\newblock {XNLI}: Evaluating cross-lingual sentence representations.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 2475--2485, Brussels, Belgium,
+  October-November 2018. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/D18-1269}.
+\newblock URL \url{https://aclanthology.org/D18-1269}.
+
+\bibitem[Yang et~al.(2020)Yang, Cer, Ahmad, Guo, Law, Constant,
+  Hernandez~Abrego, Yuan, Tar, Sung, Strope, and
+  Kurzweil]{yang-etal-2020-multilingual}
+Yinfei Yang, Daniel Cer, Amin Ahmad, Mandy Guo, Jax Law, Noah Constant, Gustavo
+  Hernandez~Abrego, Steve Yuan, Chris Tar, Yun-hsuan Sung, Brian Strope, and
+  Ray Kurzweil.
+\newblock Multilingual universal sentence encoder for semantic retrieval.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics: System Demonstrations}, pages 87--94, Online,
+  July 2020. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2020.acl-demos.12}.
+\newblock URL \url{https://aclanthology.org/2020.acl-demos.12}.
+
+\bibitem[Tawfik and Spruit(2020)]{TAWFIK2020103396}
+Noha~S. Tawfik and Marco~R. Spruit.
+\newblock Evaluating sentence representations for biomedical text: Methods and
+  experimental results.
+\newblock \emph{Journal of Biomedical Informatics}, 104:\penalty0 103396, 2020.
+\newblock ISSN 1532-0464.
+\newblock \doi{https://doi.org/10.1016/j.jbi.2020.103396}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1532046420300253}.
+
+\bibitem[Chen et~al.(2019)Chen, Peng, and Lu]{8904728}
+Qingyu Chen, Yifan Peng, and Zhiyong Lu.
+\newblock Biosentvec: creating sentence embeddings for biomedical texts.
+\newblock In \emph{2019 IEEE International Conference on Healthcare Informatics
+  (ICHI)}, pages 1--5, 2019.
+\newblock \doi{10.1109/ICHI.2019.8904728}.
+
+\bibitem[Thiolliere et~al.(2015)Thiolliere, Dunbar, Synnaeve, Versteegh, and
+  Dupoux]{thiolliere2015hybrid}
+Roland Thiolliere, Ewan Dunbar, Gabriel Synnaeve, Maarten Versteegh, and
+  Emmanuel Dupoux.
+\newblock A hybrid dynamic time warping-deep neural network architecture for
+  unsupervised acoustic modeling.
+\newblock In \emph{Sixteenth Annual Conference of the International Speech
+  Communication Association}, 2015.
+
+\bibitem[Manocha et~al.(2018)Manocha, Badlani, Kumar, Shah, Elizalde, and
+  Raj]{8461524}
+Pranay Manocha, Rohan Badlani, Anurag Kumar, Ankit Shah, Benjamin Elizalde, and
+  Bhiksha Raj.
+\newblock Content-based representations of audio using siamese neural networks.
+\newblock In \emph{2018 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)}, pages 3136--3140, 2018.
+\newblock \doi{10.1109/ICASSP.2018.8461524}.
+
+\bibitem[Shon et~al.(2017)Shon, Ali, and Glass]{8268960}
+Suwon Shon, Ahmed Ali, and James Glass.
+\newblock Mit-qcri arabic dialect identification system for the 2017
+  multi-genre broadcast challenge.
+\newblock In \emph{2017 IEEE Automatic Speech Recognition and Understanding
+  Workshop (ASRU)}, pages 374--380, 2017.
+\newblock \doi{10.1109/ASRU.2017.8268960}.
+
+\bibitem[Zhang et~al.(2019{\natexlab{b}})Zhang, Pardo, and Duan]{8453811}
+Yichi Zhang, Bryan Pardo, and Zhiyao Duan.
+\newblock Siamese style convolutional neural networks for sound search by vocal
+  imitation.
+\newblock \emph{IEEE/ACM Transactions on Audio, Speech, and Language
+  Processing}, 27\penalty0 (2):\penalty0 429--441, 2019{\natexlab{b}}.
+\newblock \doi{10.1109/TASLP.2018.2868428}.
+
+\bibitem[{\v{S}}vec et~al.(2017){\v{S}}vec, {\v{S}}m{\'i}dl, and
+  Psutka]{10.1007/978-3-319-66429-3_11}
+Jan {\v{S}}vec, Lubo{\v{s}} {\v{S}}m{\'i}dl, and Josef~V. Psutka.
+\newblock An analysis of the rnn-based spoken term detection training.
+\newblock In Alexey Karpov, Rodmonga Potapova, and Iosif Mporas, editors,
+  \emph{Speech and Computer}, pages 119--129, Cham, 2017. Springer
+  International Publishing.
+
+\bibitem[Gündoğdu et~al.(2017)Gündoğdu, Yusuf, and Saraçlar]{8064706}
+Batuhan Gündoğdu, Bolaji Yusuf, and Murat Saraçlar.
+\newblock Joint learning of distance metric and query model for
+  posteriorgram-based keyword search.
+\newblock \emph{IEEE Journal of Selected Topics in Signal Processing},
+  11\penalty0 (8):\penalty0 1318--1328, 2017.
+\newblock \doi{10.1109/JSTSP.2017.2762080}.
+
+\bibitem[Siddhant et~al.(2017)Siddhant, Jyothi, and Ganapathy]{8268994}
+Aditya Siddhant, Preethi Jyothi, and Sriram Ganapathy.
+\newblock Leveraging native language speech for accent identification using
+  deep siamese networks.
+\newblock In \emph{2017 IEEE Automatic Speech Recognition and Understanding
+  Workshop (ASRU)}, pages 621--628, 2017.
+\newblock \doi{10.1109/ASRU.2017.8268994}.
+
+\bibitem[Zeghidour et~al.(2016)Zeghidour, Synnaeve, Usunier, and
+  Dupoux]{Zeghidour2016}
+Neil Zeghidour, Gabriel Synnaeve, Nicolas Usunier, and Emmanuel Dupoux.
+\newblock Joint learning of speaker and phonetic similarities with siamese
+  networks.
+\newblock In \emph{Interspeech 2016}, pages 1295--1299, 2016.
+\newblock \doi{10.21437/Interspeech.2016-811}.
+\newblock URL \url{http://dx.doi.org/10.21437/Interspeech.2016-811}.
+
+\bibitem[Zheng et~al.(2018)Zheng, Yang, Genco, Wactawski-Wende, Buck, and
+  Sun]{10.1093/bioinformatics/bty887}
+Wei Zheng, Le~Yang, Robert~J Genco, Jean Wactawski-Wende, Michael Buck, and
+  Yijun Sun.
+\newblock {SENSE: Siamese neural network for sequence embedding and
+  alignment-free comparison}.
+\newblock \emph{Bioinformatics}, 35\penalty0 (11):\penalty0 1820--1828, 10
+  2018.
+\newblock ISSN 1367-4803.
+\newblock \doi{10.1093/bioinformatics/bty887}.
+\newblock URL \url{https://doi.org/10.1093/bioinformatics/bty887}.
+
+\bibitem[Szubert et~al.(2019)Szubert, Cole, Monaco, and Drozdov]{Szubert2019}
+Benjamin Szubert, Jennifer~E. Cole, Claudia Monaco, and Ignat Drozdov.
+\newblock Structure-preserving visualisation of high dimensional single-cell
+  datasets.
+\newblock \emph{Scientific Reports}, 9\penalty0 (1):\penalty0 8914, Jun 2019.
+\newblock ISSN 2045-2322.
+\newblock \doi{10.1038/s41598-019-45301-0}.
+\newblock URL \url{https://doi.org/10.1038/s41598-019-45301-0}.
+
+\bibitem[Jeon et~al.(2019)Jeon, Park, Lee, Jeon, Ko, Kim, Choi, Tan, and
+  Kang]{10.1093/bioinformatics/btz411}
+Minji Jeon, Donghyeon Park, Jinhyuk Lee, Hwisang Jeon, Miyoung Ko, Sunkyu Kim,
+  Yonghwa Choi, Aik-Choon Tan, and Jaewoo Kang.
+\newblock {ReSimNet: drug response similarity prediction using Siamese neural
+  networks}.
+\newblock \emph{Bioinformatics}, 35\penalty0 (24):\penalty0 5249--5256, 05
+  2019.
+\newblock ISSN 1367-4803.
+\newblock \doi{10.1093/bioinformatics/btz411}.
+\newblock URL \url{https://doi.org/10.1093/bioinformatics/btz411}.
+
+\bibitem[Sun et~al.(2020{\natexlab{a}})Sun, He, Gritsenko, Lendasse, and
+  Baek]{10.1093/jcde/qwaa003}
+Zhiyu Sun, Yusen He, Andrey Gritsenko, Amaury Lendasse, and Stephen Baek.
+\newblock {Embedded spectral descriptors: learning the point-wise
+  correspondence metric via Siamese neural networks}.
+\newblock \emph{Journal of Computational Design and Engineering}, 7\penalty0
+  (1):\penalty0 18--29, 03 2020{\natexlab{a}}.
+\newblock ISSN 2288-5048.
+\newblock \doi{10.1093/jcde/qwaa003}.
+\newblock URL \url{https://doi.org/10.1093/jcde/qwaa003}.
+
+\bibitem[Baldi and Chauvin(1993)]{6797067}
+Pierre Baldi and Yves Chauvin.
+\newblock Neural networks for fingerprint recognition.
+\newblock \emph{Neural Computation}, 5\penalty0 (3):\penalty0 402--418, 1993.
+\newblock \doi{10.1162/neco.1993.5.3.402}.
+
+\bibitem[Chopra et~al.(2005)Chopra, Hadsell, and LeCun]{1467314}
+S.~Chopra, R.~Hadsell, and Y.~LeCun.
+\newblock Learning a similarity metric discriminatively, with application to
+  face verification.
+\newblock In \emph{2005 IEEE Computer Society Conference on Computer Vision and
+  Pattern Recognition (CVPR'05)}, volume~1, pages 539--546 vol. 1, 2005.
+\newblock \doi{10.1109/CVPR.2005.202}.
+
+\bibitem[He et~al.(2018)He, Chen, Chen, and Li]{rs10020355}
+Haiqing He, Min Chen, Ting Chen, and Dajun Li.
+\newblock Matching of remote sensing images with complex background variations
+  via siamese convolutional neural network.
+\newblock \emph{Remote Sensing}, 10\penalty0 (2), 2018.
+\newblock ISSN 2072-4292.
+\newblock \doi{10.3390/rs10020355}.
+\newblock URL \url{https://www.mdpi.com/2072-4292/10/2/355}.
+
+\bibitem[Paisios et~al.(2012)Paisios, Rubinsteyn, and
+  Subramanian]{21be1428c6a44fb7a32d49ba83126bcb}
+Nektarios Paisios, Alex Rubinsteyn, and Lakshminarayanan Subramanian.
+\newblock Choosing which clothes to wear confidently: A tool for pattern
+  matching.
+\newblock In \emph{Frontiers of Accessibility for Pervasive Computing}, June
+  2012.
+
+\bibitem[Yi et~al.(2014)Yi, Lei, Liao, and Li]{6976727}
+Dong Yi, Zhen Lei, Shengcai Liao, and Stan~Z. Li.
+\newblock Deep metric learning for person re-identification.
+\newblock In \emph{2014 22nd International Conference on Pattern Recognition},
+  pages 34--39, 2014.
+\newblock \doi{10.1109/ICPR.2014.16}.
+
+\bibitem[Lefebvre and Garcia(2013)]{6636646}
+Grégoire Lefebvre and Christophe Garcia.
+\newblock Learning a bag of features based nonlinear metric for facial
+  similarity.
+\newblock In \emph{2013 10th IEEE International Conference on Advanced Video
+  and Signal Based Surveillance}, pages 238--243, 2013.
+\newblock \doi{10.1109/AVSS.2013.6636646}.
+
+\bibitem[Taigman et~al.(2014)Taigman, Yang, Ranzato, and
+  Wolf]{Taigman_2014_CVPR}
+Yaniv Taigman, Ming Yang, Marc'Aurelio Ranzato, and Lior Wolf.
+\newblock Deepface: Closing the gap to human-level performance in face
+  verification.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, June 2014.
+
+\bibitem[Berlemont et~al.(2015)Berlemont, Lefebvre, Duffner, and
+  Garcia]{7163112}
+Samuel Berlemont, Grégoire Lefebvre, Stefan Duffner, and Christophe Garcia.
+\newblock Siamese neural network based similarity metric for inertial gesture
+  classification and rejection.
+\newblock In \emph{2015 11th IEEE International Conference and Workshops on
+  Automatic Face and Gesture Recognition (FG)}, volume~1, pages 1--6, 2015.
+\newblock \doi{10.1109/FG.2015.7163112}.
+
+\bibitem[Kassis et~al.(2017)Kassis, Nassour, and El-Sana]{8269987}
+Majeed Kassis, Jumana Nassour, and Jihad El-Sana.
+\newblock Alignment of historical handwritten manuscripts using siamese neural
+  network.
+\newblock In \emph{2017 14th IAPR International Conference on Document Analysis
+  and Recognition (ICDAR)}, volume~01, pages 293--298, 2017.
+\newblock \doi{10.1109/ICDAR.2017.56}.
+
+\bibitem[Hanif(2019)]{HANIF201954}
+Muhammad~Shehzad Hanif.
+\newblock Patch match networks: Improved two-channel and siamese networks for
+  image patch matching.
+\newblock \emph{Pattern Recognition Letters}, 120:\penalty0 54--61, 2019.
+\newblock ISSN 0167-8655.
+\newblock \doi{https://doi.org/10.1016/j.patrec.2019.01.005}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0167865519300054}.
+
+\bibitem[Zou et~al.(2018)Zou, Li, Chen, and Lan]{Zou18}
+Yanbiao Zou, Jinchao Li, Xiangzhi Chen, and Rui Lan.
+\newblock Learning siamese networks for laser vision seam tracking.
+\newblock \emph{J. Opt. Soc. Am. A}, 35\penalty0 (11):\penalty0 1805--1813, Nov
+  2018.
+\newblock \doi{10.1364/JOSAA.35.001805}.
+\newblock URL \url{http://josaa.osa.org/abstract.cfm?URI=josaa-35-11-1805}.
+
+\bibitem[{De Baets} et~al.(2019){De Baets}, Develder, Dhaene, and
+  Deschrijver]{DEBAETS2019645}
+Leen {De Baets}, Chris Develder, Tom Dhaene, and Dirk Deschrijver.
+\newblock Detection of unidentified appliances in non-intrusive load monitoring
+  using siamese neural networks.
+\newblock \emph{International Journal of Electrical Power {\&} Energy Systems},
+  104:\penalty0 645--653, 2019.
+\newblock ISSN 0142-0615.
+\newblock \doi{https://doi.org/10.1016/j.ijepes.2018.07.026}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0142061517331253}.
+
+\bibitem[Utkin et~al.(2017{\natexlab{a}})Utkin, Zaborovsky, and
+  Popov]{Utkin2017}
+L.~V. Utkin, V.~S. Zaborovsky, and S.~G. Popov.
+\newblock Siamese neural network for intelligent information security control
+  in multi-robot systems.
+\newblock \emph{Automatic Control and Computer Sciences}, 51\penalty0
+  (8):\penalty0 881--887, Dec 2017{\natexlab{a}}.
+\newblock ISSN 1558-108X.
+\newblock \doi{10.3103/S0146411617080235}.
+\newblock URL \url{https://doi.org/10.3103/S0146411617080235}.
+
+\bibitem[Utkin et~al.(2017{\natexlab{b}})Utkin, Zhuk, and Zaborovsky]{7970671}
+L.~V. Utkin, Yu.~A. Zhuk, and V.~S. Zaborovsky.
+\newblock An anomalous behavior detection of a robot system by using a
+  hierarchical siamese neural network.
+\newblock In \emph{2017 XX IEEE International Conference on Soft Computing and
+  Measurements (SCM)}, pages 630--634, 2017{\natexlab{b}}.
+\newblock \doi{10.1109/SCM.2017.7970671}.
+
+\bibitem[Zeng et~al.(2018)Zeng, Song, Yu, Donlon, Hogan, Bauza, Ma, Taylor,
+  Liu, Romo, Fazeli, Alet, Dafle, Holladay, Morena, Qu~Nair, Green, Taylor,
+  Liu, Funkhouser, and Rodriguez]{8461044}
+Andy Zeng, Shuran Song, Kuan-Ting Yu, Elliott Donlon, Francois~R. Hogan, Maria
+  Bauza, Daolin Ma, Orion Taylor, Melody Liu, Eudald Romo, Nima Fazeli, Ferran
+  Alet, Nikhil~Chavan Dafle, Rachel Holladay, Isabella Morena, Prem Qu~Nair,
+  Druck Green, Ian Taylor, Weber Liu, Thomas Funkhouser, and Alberto Rodriguez.
+\newblock Robotic pick-and-place of novel objects in clutter with
+  multi-affordance grasping and cross-domain image matching.
+\newblock In \emph{2018 IEEE International Conference on Robotics and
+  Automation (ICRA)}, pages 3750--3757, 2018.
+\newblock \doi{10.1109/ICRA.2018.8461044}.
+
+\bibitem[Ryoo et~al.(2018)Ryoo, Kim, and Yang]{AAAI1816790}
+Michael Ryoo, Kiyoon Kim, and Hyun Yang.
+\newblock Extreme low resolution activity recognition with multi-siamese
+  embedding learning.
+\newblock In \emph{AAAI Conference on Artificial Intelligence}, 2018.
+\newblock URL
+  \url{https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16790}.
+
+\bibitem[Liu et~al.(2018{\natexlab{a}})Liu, Liu, Mei, and Ma]{8036238}
+Xinchen Liu, Wu~Liu, Tao Mei, and Huadong Ma.
+\newblock Provid: Progressive and multimodal vehicle reidentification for
+  large-scale urban surveillance.
+\newblock \emph{IEEE Transactions on Multimedia}, 20\penalty0 (3):\penalty0
+  645--658, 2018{\natexlab{a}}.
+\newblock \doi{10.1109/TMM.2017.2751966}.
+
+\bibitem[Liu et~al.(2018{\natexlab{b}})Liu, Zhang, Ma, and Li]{Liu2018}
+Wu~Liu, Cheng Zhang, Huadong Ma, and Shuangqun Li.
+\newblock Learning efficient spatial-temporal gait features with deep learning
+  for human identification.
+\newblock \emph{Neuroinformatics}, 16\penalty0 (3):\penalty0 457--471, Oct
+  2018{\natexlab{b}}.
+\newblock ISSN 1559-0089.
+\newblock \doi{10.1007/s12021-018-9362-4}.
+\newblock URL \url{https://doi.org/10.1007/s12021-018-9362-4}.
+
+\bibitem[Lee and Kim(2019)]{8587153}
+Sangyun Lee and Euntai Kim.
+\newblock Multiple object tracking via feature pyramid siamese networks.
+\newblock \emph{IEEE Access}, 7:\penalty0 8181--8194, 2019.
+\newblock \doi{10.1109/ACCESS.2018.2889442}.
+
+\bibitem[Yih et~al.(2011)Yih, Toutanova, Platt, and
+  Meek]{10.5555/2018936.2018965}
+Wen-tau Yih, Kristina Toutanova, John~C. Platt, and Christopher Meek.
+\newblock Learning discriminative projections for text similarity measures.
+\newblock In \emph{Proceedings of the Fifteenth Conference on Computational
+  Natural Language Learning}, CoNLL '11, page 247–256, USA, 2011. Association
+  for Computational Linguistics.
+\newblock ISBN 9781932432923.
+
+\bibitem[Kumar et~al.(2018)Kumar, Khattar, Gairola, Kumar~Lal, and
+  Varma]{10.1145/3209978.3210144}
+Vaibhav Kumar, Dhruv Khattar, Siddhartha Gairola, Yash Kumar~Lal, and Vasudeva
+  Varma.
+\newblock Identifying clickbait: A multi-strategy approach using neural
+  networks.
+\newblock In \emph{The 41st International ACM SIGIR Conference on Research {\&}
+  Development in Information Retrieval}, SIGIR '18, page 1225–1228, New York,
+  NY, USA, 2018. Association for Computing Machinery.
+\newblock ISBN 9781450356572.
+\newblock \doi{10.1145/3209978.3210144}.
+\newblock URL \url{https://doi.org/10.1145/3209978.3210144}.
+
+\bibitem[Gonz{\'a}lez et~al.(2019)Gonz{\'a}lez, Segarra, Garc{\'i}a-Granada,
+  Sanchis, and Hurtado]{Gonzalez2019}
+Jos{\'e}-{\'A}ngel Gonz{\'a}lez, Encarna Segarra, Fernando Garc{\'i}a-Granada,
+  Emilio Sanchis, and Llu{\&}rsquo;{\i}s-F. Hurtado.
+\newblock Siamese hierarchical attention networks for extractive summarization.
+\newblock \emph{Journal of Intelligent {\&} Fuzzy Systems}, 36:\penalty0
+  4599--4607, 2019.
+\newblock ISSN 1875-8967.
+\newblock \doi{10.3233/JIFS-179011}.
+\newblock URL \url{https://doi.org/10.3233/JIFS-179011}.
+\newblock 5.
+
+\bibitem[Das et~al.(2016)Das, Yenala, Chinnakotla, and
+  Shrivastava]{das-etal-2016-together}
+Arpita Das, Harish Yenala, Manoj Chinnakotla, and Manish Shrivastava.
+\newblock Together we stand: {S}iamese networks for similar question retrieval.
+\newblock In \emph{Proceedings of the 54th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 378--387,
+  Berlin, Germany, August 2016. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/P16-1036}.
+\newblock URL \url{https://aclanthology.org/P16-1036}.
+
+\bibitem[Neculoiu et~al.(2016)Neculoiu, Versteegh, and
+  Rotaru]{neculoiu-etal-2016-learning}
+Paul Neculoiu, Maarten Versteegh, and Mihai Rotaru.
+\newblock Learning text similarity with {S}iamese recurrent networks.
+\newblock In \emph{Proceedings of the 1st Workshop on Representation Learning
+  for {NLP}}, pages 148--157, Berlin, Germany, August 2016. Association for
+  Computational Linguistics.
+\newblock \doi{10.18653/v1/W16-1617}.
+\newblock URL \url{https://aclanthology.org/W16-1617}.
+
+\bibitem[Mueller and Thyagarajan(2016)]{Mueller_Thyagarajan_2016}
+Jonas Mueller and Aditya Thyagarajan.
+\newblock Siamese recurrent architectures for learning sentence similarity.
+\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence},
+  30\penalty0 (1), Mar 2016.
+\newblock URL \url{https://ojs.aaai.org/index.php/AAAI/article/view/10350}.
+
 \bibitem[Ranasinghe et~al.(2019{\natexlab{c}})Ranasinghe, Orasan, and
   Mitkov]{ranasinghe-etal-2019-semantic}
 Tharindu Ranasinghe, Constantin Orasan, and Ruslan Mitkov.
@@ -716,26 +1136,16 @@ Tharindu Ranasinghe, Constantin Orasan, and Ruslan Mitkov.
 \newblock \doi{10.26615/978-954-452-056-4_116}.
 \newblock URL \url{https://www.aclweb.org/anthology/R19-1116}.
 
-\bibitem[Mueller and Thyagarajan(2016)]{Mueller_Thyagarajan_2016}
-Jonas Mueller and Aditya Thyagarajan.
-\newblock Siamese recurrent architectures for learning sentence similarity.
-\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence},
-  30\penalty0 (1), Mar 2016.
-\newblock URL \url{https://ojs.aaai.org/index.php/AAAI/article/view/10350}.
-
-\bibitem[Schuster and Paliwal(1997)]{650093}
-M.~Schuster and K.K. Paliwal.
-\newblock Bidirectional recurrent neural networks.
-\newblock \emph{IEEE Transactions on Signal Processing}, 45\penalty0
-  (11):\penalty0 2673--2681, 1997.
-\newblock \doi{10.1109/78.650093}.
-
-\bibitem[Chung et~al.(2014)Chung, Çaglar G{\"u}lçehre, Cho, and
-  Bengio]{Chung2014EmpiricalEO}
-Junyoung Chung, Çaglar G{\"u}lçehre, Kyunghyun Cho, and Yoshua Bengio.
-\newblock Empirical evaluation of gated recurrent neural networks on sequence
-  modeling.
-\newblock In \emph{NIPS 2014 Workshop on Deep Learning}, Dec 2014.
+\bibitem[Bromley et~al.(1993)Bromley, Bentz, Bottou, Guyon, LeCun, Moore,
+  S{\"a}ckinger, and Shah]{doi:10.1142/S0218001493000339}
+Jane Bromley, James~W Bentz, L{\'e}on Bottou, Isabelle Guyon, Yann LeCun, Cliff
+  Moore, Eduard S{\"a}ckinger, and Roopak Shah.
+\newblock Signature verification using a “siamese” time delay neural
+  network.
+\newblock \emph{International Journal of Pattern Recognition and Artificial
+  Intelligence}, 07\penalty0 (04):\penalty0 669--688, 1993.
+\newblock \doi{10.1142/S0218001493000339}.
+\newblock URL \url{https://doi.org/10.1142/S0218001493000339}.
 
 \bibitem[Vukoti{\'c} et~al.(2016)Vukoti{\'c}, Raymond, and
   Gravier]{vukotic:hal-01351733}
@@ -765,6 +1175,170 @@ Sara Sabour, Nicholas Frosst, and Geoffrey~E Hinton.
   Information Processing Systems}, volume~30. Curran Associates, Inc., 2017.
 \newblock URL
   \url{https://proceedings.neurips.cc/paper/2017/file/2cad8fa47bbef282badbb8de5374b894-Paper.pdf}.
+
+\bibitem[Hettiarachchi and
+  Ranasinghe(2019)]{hettiarachchi-ranasinghe-2019-emoji}
+Hansi Hettiarachchi and Tharindu Ranasinghe.
+\newblock Emoji powered capsule network to detect type and target of offensive
+  posts in social media.
+\newblock In \emph{Proceedings of the International Conference on Recent
+  Advances in Natural Language Processing (RANLP 2019)}, pages 474--480, Varna,
+  Bulgaria, September 2019. INCOMA Ltd.
+\newblock \doi{10.26615/978-954-452-056-4_056}.
+\newblock URL \url{https://aclanthology.org/R19-1056}.
+
+\bibitem[Houlsby et~al.(2019)Houlsby, Giurgiu, Jastrzebski, Morrone,
+  De~Laroussilhe, Gesmundo, Attariyan, and Gelly]{pmlr-v97-houlsby19a}
+Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin
+  De~Laroussilhe, Andrea Gesmundo, Mona Attariyan, and Sylvain Gelly.
+\newblock Parameter-efficient transfer learning for {NLP}.
+\newblock In \emph{Proceedings of the 36th International Conference on Machine
+  Learning}, volume~97 of \emph{Proceedings of Machine Learning Research},
+  pages 2790--2799. PMLR, 09--15 Jun 2019.
+\newblock URL \url{http://proceedings.mlr.press/v97/houlsby19a.html}.
+
+\bibitem[Ruder et~al.(2019)Ruder, Peters, Swayamdipta, and
+  Wolf]{ruder-etal-2019-transfer}
+Sebastian Ruder, Matthew~E. Peters, Swabha Swayamdipta, and Thomas Wolf.
+\newblock Transfer learning in natural language processing.
+\newblock In \emph{Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Tutorials}, pages
+  15--18, Minneapolis, Minnesota, June 2019. Association for Computational
+  Linguistics.
+\newblock \doi{10.18653/v1/N19-5004}.
+\newblock URL \url{https://aclanthology.org/N19-5004}.
+
+\bibitem[Wei and Zou(2019)]{wei-zou-2019-eda}
+Jason Wei and Kai Zou.
+\newblock {EDA}: Easy data augmentation techniques for boosting performance on
+  text classification tasks.
+\newblock In \emph{Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing and the 9th International Joint Conference on
+  Natural Language Processing (EMNLP-IJCNLP)}, pages 6382--6388, Hong Kong,
+  China, November 2019. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/D19-1670}.
+\newblock URL \url{https://aclanthology.org/D19-1670}.
+
+\bibitem[Miller(1995)]{10.1145/219717.219748}
+George~A. Miller.
+\newblock Wordnet: A lexical database for english.
+\newblock \emph{Commun. ACM}, 38\penalty0 (11):\penalty0 39–41, November
+  1995.
+\newblock ISSN 0001-0782.
+\newblock \doi{10.1145/219717.219748}.
+\newblock URL \url{https://doi.org/10.1145/219717.219748}.
+
+\bibitem[Zhang et~al.(2015)Zhang, Zhao, and LeCun]{10.5555/2969239.2969312}
+Xiang Zhang, Junbo Zhao, and Yann LeCun.
+\newblock Character-level convolutional networks for text classification.
+\newblock In \emph{Proceedings of the 28th International Conference on Neural
+  Information Processing Systems - Volume 1}, NIPS'15, page 649–657,
+  Cambridge, MA, USA, 2015. MIT Press.
+
+\bibitem[Jimenez et~al.(2014)Jimenez, Due{\~n}as, Baquero, and
+  Gelbukh]{jimenez-etal-2014-unal}
+Sergio Jimenez, George Due{\~n}as, Julia Baquero, and Alexander Gelbukh.
+\newblock {UNAL}-{NLP}: Combining soft cardinality features for semantic
+  textual similarity, relatedness and entailment.
+\newblock In \emph{Proceedings of the 8th International Workshop on Semantic
+  Evaluation ({S}em{E}val 2014)}, pages 732--742, Dublin, Ireland, August 2014.
+  Association for Computational Linguistics.
+\newblock \doi{10.3115/v1/S14-2131}.
+\newblock URL \url{https://aclanthology.org/S14-2131}.
+
+\bibitem[Bjerva et~al.(2014)Bjerva, Bos, van~der Goot, and
+  Nissim]{bjerva-etal-2014-meaning}
+Johannes Bjerva, Johan Bos, Rob van~der Goot, and Malvina Nissim.
+\newblock The meaning factory: Formal semantics for recognizing textual
+  entailment and determining semantic similarity.
+\newblock In \emph{Proceedings of the 8th International Workshop on Semantic
+  Evaluation ({S}em{E}val 2014)}, pages 642--646, Dublin, Ireland, August 2014.
+  Association for Computational Linguistics.
+\newblock \doi{10.3115/v1/S14-2114}.
+\newblock URL \url{https://aclanthology.org/S14-2114}.
+
+\bibitem[Zhao et~al.(2014)Zhao, Zhu, and Lan]{zhao-etal-2014-ecnu-one}
+Jiang Zhao, Tiantian Zhu, and Man Lan.
+\newblock {ECNU}: One stone two birds: Ensemble of heterogenous measures for
+  semantic relatedness and textual entailment.
+\newblock In \emph{Proceedings of the 8th International Workshop on Semantic
+  Evaluation ({S}em{E}val 2014)}, pages 271--277, Dublin, Ireland, August 2014.
+  Association for Computational Linguistics.
+\newblock \doi{10.3115/v1/S14-2044}.
+\newblock URL \url{https://aclanthology.org/S14-2044}.
+
+\bibitem[Maharjan et~al.(2017)Maharjan, Banjade, Gautam, Tamang, and
+  Rus]{maharjan-etal-2017-dt}
+Nabin Maharjan, Rajendra Banjade, Dipesh Gautam, Lasang~J. Tamang, and Vasile
+  Rus.
+\newblock {DT}{\_}{T}eam at {S}em{E}val-2017 task 1: Semantic similarity using
+  alignments, sentence-level embeddings and {G}aussian mixture model output.
+\newblock In \emph{Proceedings of the 11th International Workshop on Semantic
+  Evaluation ({S}em{E}val-2017)}, pages 120--124, Vancouver, Canada, August
+  2017. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/S17-2014}.
+\newblock URL \url{https://aclanthology.org/S17-2014}.
+
+\bibitem[Nagoudi et~al.(2017)Nagoudi, Ferrero, and
+  Schwab]{nagoudi-etal-2017-lim}
+El~Moatez~Billah Nagoudi, J{\'e}r{\'e}my Ferrero, and Didier Schwab.
+\newblock {LIM}-{LIG} at {S}em{E}val-2017 task1: Enhancing the semantic
+  similarity for {A}rabic sentences with vectors weighting.
+\newblock In \emph{Proceedings of the 11th International Workshop on Semantic
+  Evaluation ({S}em{E}val-2017)}, pages 134--138, Vancouver, Canada, August
+  2017. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/S17-2017}.
+\newblock URL \url{https://aclanthology.org/S17-2017}.
+
+\bibitem[Hassan et~al.(2017)Hassan, AbdelRahman, Bahgat, and
+  Farag]{hassan-etal-2017-fcicu}
+Basma Hassan, Samir AbdelRahman, Reem Bahgat, and Ibrahim Farag.
+\newblock {FCICU} at {S}em{E}val-2017 task 1: Sense-based language independent
+  semantic textual similarity approach.
+\newblock In \emph{Proceedings of the 11th International Workshop on Semantic
+  Evaluation ({S}em{E}val-2017)}, pages 125--129, Vancouver, Canada, August
+  2017. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/S17-2015}.
+\newblock URL \url{https://aclanthology.org/S17-2015}.
+
+\bibitem[Kumar et~al.(2020{\natexlab{a}})Kumar, Choudhary, and
+  Cho]{kumar-etal-2020-data}
+Varun Kumar, Ashutosh Choudhary, and Eunah Cho.
+\newblock Data augmentation using pre-trained transformer models.
+\newblock In \emph{Proceedings of the 2nd Workshop on Life-long Learning for
+  Spoken Language Systems}, pages 18--26, Suzhou, China, December
+  2020{\natexlab{a}}. Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/2020.lifelongnlp-1.3}.
+
+\bibitem[Haider(2018)]{haider-2018-urdu}
+Samar Haider.
+\newblock {U}rdu word embeddings.
+\newblock In \emph{Proceedings of the Eleventh International Conference on
+  Language Resources and Evaluation ({LREC} 2018)}, Miyazaki, Japan, May 2018.
+  European Language Resources Association (ELRA).
+\newblock URL \url{https://aclanthology.org/L18-1155}.
+
+\bibitem[Kumar et~al.(2020{\natexlab{b}})Kumar, Kumar, Kanojia, and
+  Bhattacharyya]{kumar-etal-2020-passage}
+Saurav Kumar, Saunack Kumar, Diptesh Kanojia, and Pushpak Bhattacharyya.
+\newblock {``}a passage to {I}ndia{''}: Pre-trained word embeddings for
+  {I}ndian languages.
+\newblock In \emph{Proceedings of the 1st Joint Workshop on Spoken Language
+  Technologies for Under-resourced languages (SLTU) and Collaboration and
+  Computing for Under-Resourced Languages (CCURL)}, pages 352--357, Marseille,
+  France, May 2020{\natexlab{b}}. European Language Resources association.
+\newblock ISBN 979-10-95546-35-1.
+\newblock URL \url{https://aclanthology.org/2020.sltu-1.49}.
+
+\bibitem[Chalkidis and Kampas(2019)]{Chalkidis2019}
+Ilias Chalkidis and Dimitrios Kampas.
+\newblock Deep learning in law: early adaptation and legal word embeddings
+  trained on large corpora.
+\newblock \emph{Artificial Intelligence and Law}, 27\penalty0 (2):\penalty0
+  171--198, Jun 2019.
+\newblock ISSN 1572-8382.
+\newblock \doi{10.1007/s10506-018-9238-9}.
+\newblock URL \url{https://doi.org/10.1007/s10506-018-9238-9}.
 
 \bibitem[Reimers and Gurevych(2019)]{reimers-gurevych-2019-sentence}
 Nils Reimers and Iryna Gurevych.
@@ -818,16 +1392,16 @@ Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume
 \newblock \doi{10.18653/v1/2020.acl-main.747}.
 \newblock URL \url{https://www.aclweb.org/anthology/2020.acl-main.747}.
 
-\bibitem[Sun et~al.(2020)Sun, Fomicheva, Blain, Chaudhary, El-Kishky,
-  Renduchintala, Guzm{\'a}n, and Specia]{sun-etal-2020-exploratory}
+\bibitem[Sun et~al.(2020{\natexlab{b}})Sun, Fomicheva, Blain, Chaudhary,
+  El-Kishky, Renduchintala, Guzm{\'a}n, and Specia]{sun-etal-2020-exploratory}
 Shuo Sun, Marina Fomicheva, Fr{\'e}d{\'e}ric Blain, Vishrav Chaudhary, Ahmed
   El-Kishky, Adithya Renduchintala, Francisco Guzm{\'a}n, and Lucia Specia.
 \newblock An exploratory study on multilingual quality estimation.
 \newblock In \emph{Proceedings of the 1st Conference of the Asia-Pacific
   Chapter of the Association for Computational Linguistics and the 10th
   International Joint Conference on Natural Language Processing}, pages
-  366--377, Suzhou, China, December 2020. Association for Computational
-  Linguistics.
+  366--377, Suzhou, China, December 2020{\natexlab{b}}. Association for
+  Computational Linguistics.
 \newblock URL \url{https://www.aclweb.org/anthology/2020.aacl-main.39}.
 
 \bibitem[Logacheva et~al.(2016)Logacheva, Hokamp, and
@@ -840,14 +1414,5 @@ Varvara Logacheva, Chris Hokamp, and Lucia Specia.
   Portoro{\v{z}}, Slovenia, May 2016. European Language Resources Association
   (ELRA).
 \newblock URL \url{https://www.aclweb.org/anthology/L16-1582}.
-
-\bibitem[Lee(2020)]{lee-2020-two}
-Dongjun Lee.
-\newblock Two-phase cross-lingual language model fine-tuning for machine
-  translation quality estimation.
-\newblock In \emph{Proceedings of the Fifth Conference on Machine Translation},
-  pages 1024--1028, Online, November 2020. Association for Computational
-  Linguistics.
-\newblock URL \url{https://www.aclweb.org/anthology/2020.wmt-1.118}.
 
 \end{thebibliography}
