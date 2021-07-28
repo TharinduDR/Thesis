@@ -1,4 +1,4 @@
-\begin{thebibliography}{144}
+\begin{thebibliography}{146}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -283,12 +283,12 @@ Matt~J. Kusner, Yu~Sun, Nicholas~I. Kolkin, and Kilian~Q. Weinberger.
   International Conference on Machine Learning - Volume 37}, ICML'15, page
   957–966. JMLR.org, 2015.
 
-\bibitem[Le and Mikolov(2014)]{10.5555/3044805.3045025}
+\bibitem[Le and Mikolov(2014{\natexlab{a}})]{10.5555/3044805.3045025}
 Quoc Le and Tomas Mikolov.
 \newblock Distributed representations of sentences and documents.
 \newblock In \emph{Proceedings of the 31st International Conference on
   International Conference on Machine Learning - Volume 32}, ICML'14, page
-  II–1188–II–1196. JMLR.org, 2014.
+  II–1188–II–1196. JMLR.org, 2014{\natexlab{a}}.
 
 \bibitem[Arora et~al.(2017)Arora, Liang, and Ma]{DBLP:conf/iclr/AroraLM17}
 Sanjeev Arora, Yingyu Liang, and Tengyu Ma.
@@ -708,6 +708,22 @@ Manzil Zaheer, Guru Guruganesh, Avinava Dubey, Joshua Ainslie, Chris Alberti,
 \newblock Big bird: Transformers for longer sequences.
 \newblock \emph{arXiv preprint arXiv:2007.14062}, 2021.
 
+\bibitem[Cer et~al.(2018)Cer, Yang, yi~Kong, Hua, Limtiaco, John, Constant,
+  Guajardo-Cespedes, Yuan, Tar, Sung, Strope, and Kurzweil]{cer2018universal}
+Daniel Cer, Yinfei Yang, Sheng yi~Kong, Nan Hua, Nicole Limtiaco, Rhomni~St.
+  John, Noah Constant, Mario Guajardo-Cespedes, Steve Yuan, Chris Tar,
+  Yun-Hsuan Sung, Brian Strope, and Ray Kurzweil.
+\newblock Universal sentence encoder, 2018.
+
+\bibitem[Le and Mikolov(2014{\natexlab{b}})]{pmlr-v32-le14}
+Quoc Le and Tomas Mikolov.
+\newblock Distributed representations of sentences and documents.
+\newblock In Eric~P. Xing and Tony Jebara, editors, \emph{Proceedings of the
+  31st International Conference on Machine Learning}, volume~32 of
+  \emph{Proceedings of Machine Learning Research}, pages 1188--1196, Bejing,
+  China, 22--24 Jun 2014{\natexlab{b}}. PMLR.
+\newblock URL \url{http://proceedings.mlr.press/v32/le14.html}.
+
 \bibitem[Lau and Baldwin(2016)]{lau-baldwin-2016-empirical}
 Jey~Han Lau and Timothy Baldwin.
 \newblock An empirical evaluation of doc2vec with practical insights into
@@ -740,13 +756,6 @@ M.~Schuster and K.K. Paliwal.
 \newblock \emph{IEEE Transactions on Signal Processing}, 45\penalty0
   (11):\penalty0 2673--2681, 1997.
 \newblock \doi{10.1109/78.650093}.
-
-\bibitem[Cer et~al.(2018)Cer, Yang, yi~Kong, Hua, Limtiaco, John, Constant,
-  Guajardo-Cespedes, Yuan, Tar, Sung, Strope, and Kurzweil]{cer2018universal}
-Daniel Cer, Yinfei Yang, Sheng yi~Kong, Nan Hua, Nicole Limtiaco, Rhomni~St.
-  John, Noah Constant, Mario Guajardo-Cespedes, Steve Yuan, Chris Tar,
-  Yun-Hsuan Sung, Brian Strope, and Ray Kurzweil.
-\newblock Universal sentence encoder, 2018.
 
 \bibitem[Conneau et~al.(2018)Conneau, Rinott, Lample, Williams, Bowman,
   Schwenk, and Stoyanov]{conneau-etal-2018-xnli}
@@ -788,6 +797,16 @@ Qingyu Chen, Yifan Peng, and Zhiyong Lu.
 \newblock In \emph{2019 IEEE International Conference on Healthcare Informatics
   (ICHI)}, pages 1--5, 2019.
 \newblock \doi{10.1109/ICHI.2019.8904728}.
+
+\bibitem[Artetxe and Schwenk(2019)]{10.1162/tacl_a_00288}
+Mikel Artetxe and Holger Schwenk.
+\newblock {Massively Multilingual Sentence Embeddings for Zero-Shot
+  Cross-Lingual Transfer and Beyond}.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  7:\penalty0 597--610, 09 2019.
+\newblock ISSN 2307-387X.
+\newblock \doi{10.1162/tacl_a_00288}.
+\newblock URL \url{https://doi.org/10.1162/tacl\_a\_00288}.
 
 \bibitem[Thiolliere et~al.(2015)Thiolliere, Dunbar, Synnaeve, Versteegh, and
   Dupoux]{thiolliere2015hybrid}
@@ -1392,6 +1411,17 @@ Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume
 \newblock \doi{10.18653/v1/2020.acl-main.747}.
 \newblock URL \url{https://www.aclweb.org/anthology/2020.acl-main.747}.
 
+\bibitem[Logacheva et~al.(2016)Logacheva, Hokamp, and
+  Specia]{logacheva-etal-2016-marmot}
+Varvara Logacheva, Chris Hokamp, and Lucia Specia.
+\newblock {MARMOT}: A toolkit for translation quality estimation at the word
+  level.
+\newblock In \emph{Proceedings of the Tenth International Conference on
+  Language Resources and Evaluation ({LREC}'16)}, pages 3671--3674,
+  Portoro{\v{z}}, Slovenia, May 2016. European Language Resources Association
+  (ELRA).
+\newblock URL \url{https://www.aclweb.org/anthology/L16-1582}.
+
 \bibitem[Sun et~al.(2020{\natexlab{b}})Sun, Fomicheva, Blain, Chaudhary,
   El-Kishky, Renduchintala, Guzm{\'a}n, and Specia]{sun-etal-2020-exploratory}
 Shuo Sun, Marina Fomicheva, Fr{\'e}d{\'e}ric Blain, Vishrav Chaudhary, Ahmed
@@ -1403,16 +1433,5 @@ Shuo Sun, Marina Fomicheva, Fr{\'e}d{\'e}ric Blain, Vishrav Chaudhary, Ahmed
   366--377, Suzhou, China, December 2020{\natexlab{b}}. Association for
   Computational Linguistics.
 \newblock URL \url{https://www.aclweb.org/anthology/2020.aacl-main.39}.
-
-\bibitem[Logacheva et~al.(2016)Logacheva, Hokamp, and
-  Specia]{logacheva-etal-2016-marmot}
-Varvara Logacheva, Chris Hokamp, and Lucia Specia.
-\newblock {MARMOT}: A toolkit for translation quality estimation at the word
-  level.
-\newblock In \emph{Proceedings of the Tenth International Conference on
-  Language Resources and Evaluation ({LREC}'16)}, pages 3671--3674,
-  Portoro{\v{z}}, Slovenia, May 2016. European Language Resources Association
-  (ELRA).
-\newblock URL \url{https://www.aclweb.org/anthology/L16-1582}.
 
 \end{thebibliography}

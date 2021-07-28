@@ -20,7 +20,7 @@ The main contributions of this chapter are as follows.
 \begin{enumerate}
 	\item In the Related Work Section (Section \ref{sec:state_related}), we cover three unsupervised STS techniques to compute semantic similarity at the sentence level. 
 	
-	\item We propose an improved unsupervised STS method based on contextual word embeddings and evaluate it on three English STS datasets, two non-English STS datasets and a bio-medical STS dataset which were introduced in Chapter \ref{cha:introduction}.
+	\item We evaluate sentence en on three English STS datasets, two non-English STS datasets and a bio-medical STS dataset which were introduced in Chapter \ref{cha:sts_introduction}.
 	
 	\item The code with the experiments conducted are publicly available to the community\footnote{The public GitHub repository is available on \url{https://github.com/tharindudr/simple-sentence-similarity}}.
 	
@@ -38,7 +38,7 @@ Given that a good STS metric is required for a variety of natural language proce
 As we mentioned before, there are two main approaches which employ neural representation models: supervised and unsupervised. Unsupervised approaches use pretrained word/sentence embeddings directly for the similarity task without training a neural network model on them while supervised approaches uses a machine learning model trained to predict the similarity using word embeddings. Since this chapter focuses on unsupervised STS methods, this section would contain the previous research done on unsupervised STS methods.
 
 
-The three unsupervised STS methods explored in this paper: Cosine similarity on average vectors, Word Mover's Distance and Cosine similarity using Smooth Inverse Frequency are the most common unsupervised methods explored in STS tasks. Apart from them, cosine similarity of the output from Infersent \cite{conneau-EtAl:2017:EMNLP2017}, sent2vec \cite{pagliardini-etal-2018-unsupervised} and doc2vec \cite{10.5555/3044805.3045025} have been used to represent the similarity between two sentences which we discuss in the next chapter. 
+The three unsupervised STS methods explored in this chapter: Cosine similarity on average vectors, Word Mover's Distance and Cosine similarity using Smooth Inverse Frequency are the most common unsupervised methods explored in STS tasks. Apart from them, cosine similarity of the output from Infersent \cite{conneau-EtAl:2017:EMNLP2017}, sent2vec \cite{pagliardini-etal-2018-unsupervised} and doc2vec \cite{10.5555/3044805.3045025} have been used to represent the similarity between two sentences which we discuss in the next chapter. 
 
 
 \subsection{Cosine Similarity on Average Vectors}

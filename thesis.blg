@@ -37,10 +37,10 @@ Reallocating 'name_of_file' (item size: 1) to 57 items.
 A level-1 auxiliary file: chapters/translation_quality_estimation/introduction.aux
 Reallocating 'name_of_file' (item size: 1) to 55 items.
 A level-1 auxiliary file: chapters/translation_quality_estimation/transquest.aux
-Reallocating 'name_of_file' (item size: 1) to 57 items.
-A level-1 auxiliary file: chapters/translation_quality_estimation/multilingual.aux
 Reallocating 'name_of_file' (item size: 1) to 60 items.
 A level-1 auxiliary file: chapters/translation_quality_estimation/transquest_word.aux
+Reallocating 'name_of_file' (item size: 1) to 57 items.
+A level-1 auxiliary file: chapters/translation_quality_estimation/multilingual.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: bib.aux
 Reallocating 'name_of_file' (item size: 1) to 18 items.
@@ -69,44 +69,44 @@ Database file #10: refs/translation_quality_estimation/transquest.bib
 Database file #11: refs/translation_quality_estimation/multilingual_transquest.bib
 Database file #12: refs/translation_quality_estimation/transquest_word.bib
 Database file #13: refs/translation_quality_estimation/transquest_plus.bib
-You've used 144 entries,
+You've used 146 entries,
             2481 wiz_defined-function locations,
-            1605 strings with 48940 characters,
-and the built_in function-call counts, 78787 in all, are:
-= -- 7183
-> -- 4307
-< -- 126
-+ -- 1591
-- -- 1293
-* -- 6350
-:= -- 11968
-add.period$ -- 740
-call.type$ -- 144
-change.case$ -- 288
-chr.to.int$ -- 134
-cite$ -- 144
-duplicate$ -- 3992
-empty$ -- 6429
-format.name$ -- 1475
-if$ -- 17630
-int.to.chr$ -- 11
-int.to.str$ -- 145
-missing$ -- 143
-newline$ -- 955
-num.names$ -- 440
-pop$ -- 1243
+            1620 strings with 49351 characters,
+and the built_in function-call counts, 79846 in all, are:
+= -- 7291
+> -- 4345
+< -- 130
++ -- 1606
+- -- 1303
+* -- 6437
+:= -- 12121
+add.period$ -- 751
+call.type$ -- 146
+change.case$ -- 292
+chr.to.int$ -- 135
+cite$ -- 146
+duplicate$ -- 4045
+empty$ -- 6520
+format.name$ -- 1491
+if$ -- 17870
+int.to.chr$ -- 12
+int.to.str$ -- 147
+missing$ -- 145
+newline$ -- 969
+num.names$ -- 448
+pop$ -- 1256
 preamble$ -- 1
-purify$ -- 144
+purify$ -- 146
 quote$ -- 0
-skip$ -- 2607
+skip$ -- 2641
 stack$ -- 0
-substring$ -- 3756
-swap$ -- 1384
-text.length$ -- 101
+substring$ -- 3821
+swap$ -- 1405
+text.length$ -- 103
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1008
+type$ -- 1022
 warning$ -- 0
-while$ -- 570
+while$ -- 579
 width$ -- 0
-write$ -- 2485
+write$ -- 2522
