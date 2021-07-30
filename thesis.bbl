@@ -1,4 +1,4 @@
-\begin{thebibliography}{146}
+\begin{thebibliography}{154}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -724,16 +724,6 @@ Quoc Le and Tomas Mikolov.
   China, 22--24 Jun 2014{\natexlab{b}}. PMLR.
 \newblock URL \url{http://proceedings.mlr.press/v32/le14.html}.
 
-\bibitem[Lau and Baldwin(2016)]{lau-baldwin-2016-empirical}
-Jey~Han Lau and Timothy Baldwin.
-\newblock An empirical evaluation of doc2vec with practical insights into
-  document embedding generation.
-\newblock In \emph{Proceedings of the 1st Workshop on Representation Learning
-  for {NLP}}, pages 78--86, Berlin, Germany, August 2016. Association for
-  Computational Linguistics.
-\newblock \doi{10.18653/v1/W16-1609}.
-\newblock URL \url{https://aclanthology.org/W16-1609}.
-
 \bibitem[Hochreiter and Schmidhuber(1997)]{10.1162/neco.1997.9.8.1735}
 Sepp Hochreiter and Jürgen Schmidhuber.
 \newblock {Long Short-Term Memory}.
@@ -1369,6 +1359,31 @@ Nils Reimers and Iryna Gurevych.
 \newblock \doi{10.18653/v1/D19-1410}.
 \newblock URL \url{https://aclanthology.org/D19-1410}.
 
+\bibitem[Lan et~al.(2020)Lan, Chen, Goodman, Gimpel, Sharma, and
+  Soricut]{Lan2020ALBERT}
+Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, and
+  Radu Soricut.
+\newblock Albert: A lite bert for self-supervised learning of language
+  representations.
+\newblock In \emph{International Conference on Learning Representations}, 2020.
+\newblock URL \url{https://openreview.net/forum?id=H1eA7AEtvS}.
+
+\bibitem[Clark et~al.(2020)Clark, Luong, Le, and Manning]{Clark2020ELECTRA}
+Kevin Clark, Minh-Thang Luong, Quoc~V. Le, and Christopher~D. Manning.
+\newblock Electra: Pre-training text encoders as discriminators rather than
+  generators.
+\newblock In \emph{International Conference on Learning Representations}, 2020.
+\newblock URL \url{https://openreview.net/forum?id=r1xMH1BtvB}.
+
+\bibitem[Uria et~al.(2016)Uria, C{{\^o}}t{{\'e}}, Gregor, Murray, and
+  Larochelle]{JMLR:v17:16-272}
+Benigno Uria, Marc-Alexandre C{{\^o}}t{{\'e}}, Karol Gregor, Iain Murray, and
+  Hugo Larochelle.
+\newblock Neural autoregressive distribution estimation.
+\newblock \emph{Journal of Machine Learning Research}, 17\penalty0
+  (205):\penalty0 1--37, 2016.
+\newblock URL \url{http://jmlr.org/papers/v17/16-272.html}.
+
 \bibitem[Arthern(1979)]{Arthern1979}
 Peter~J. Arthern.
 \newblock Machine translation and computerized terminology systems: A
@@ -1377,14 +1392,14 @@ Peter~J. Arthern.
   14th November 1978. Amsterdam: North-Holland Publishing Company}, pages
   77--108, 1979.
 
-\bibitem[Ranasinghe et~al.(2020)Ranasinghe, Orasan, and
+\bibitem[Ranasinghe et~al.(2020{\natexlab{a}})Ranasinghe, Orasan, and
   Mitkov]{ranasinghe-etal-2020-intelligent}
 Tharindu Ranasinghe, Constantin Orasan, and Ruslan Mitkov.
 \newblock Intelligent translation memory matching and retrieval with sentence
   encoders.
 \newblock In \emph{Proceedings of the 22nd Annual Conference of the European
   Association for Machine Translation}, pages 175--184, Lisboa, Portugal,
-  November 2020. European Association for Machine Translation.
+  November 2020{\natexlab{a}}. European Association for Machine Translation.
 \newblock URL \url{https://www.aclweb.org/anthology/2020.eamt-1.19}.
 
 \bibitem[Kepler et~al.(2019)Kepler, Tr{\'e}nous, Treviso, Vera, and
@@ -1421,6 +1436,68 @@ Varvara Logacheva, Chris Hokamp, and Lucia Specia.
   Portoro{\v{z}}, Slovenia, May 2016. European Language Resources Association
   (ELRA).
 \newblock URL \url{https://www.aclweb.org/anthology/L16-1582}.
+
+\bibitem[Lee(2020)]{lee-2020-two}
+Dongjun Lee.
+\newblock Two-phase cross-lingual language model fine-tuning for machine
+  translation quality estimation.
+\newblock In \emph{Proceedings of the Fifth Conference on Machine Translation},
+  pages 1024--1028, Online, November 2020. Association for Computational
+  Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/2020.wmt-1.118}.
+
+\bibitem[Ranasinghe et~al.(2020{\natexlab{b}})Ranasinghe, Orasan, and
+  Mitkov]{ranasinghe-etal-2020-transquest}
+Tharindu Ranasinghe, Constantin Orasan, and Ruslan Mitkov.
+\newblock {T}rans{Q}uest: Translation quality estimation with cross-lingual
+  transformers.
+\newblock In \emph{Proceedings of the 28th International Conference on
+  Computational Linguistics}, pages 5070--5081, Barcelona, Spain (Online),
+  December 2020{\natexlab{b}}. International Committee on Computational
+  Linguistics.
+\newblock \doi{10.18653/v1/2020.coling-main.445}.
+\newblock URL \url{https://aclanthology.org/2020.coling-main.445}.
+
+\bibitem[Ranasinghe and Zampieri(2020)]{ranasinghe-zampieri-2020-multilingual}
+Tharindu Ranasinghe and Marcos Zampieri.
+\newblock Multilingual offensive language identification with cross-lingual
+  embeddings.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 5838--5844, Online, November
+  2020. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2020.emnlp-main.470}.
+\newblock URL \url{https://aclanthology.org/2020.emnlp-main.470}.
+
+\bibitem[Ranasinghe and Zampieri(2021)]{ranasinghe-zampieri-2021-mudes}
+Tharindu Ranasinghe and Marcos Zampieri.
+\newblock {MUDES}: Multilingual detection of offensive spans.
+\newblock In \emph{Proceedings of the 2021 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies: Demonstrations}, pages 144--152, Online, June 2021. Association
+  for Computational Linguistics.
+\newblock \doi{10.18653/v1/2021.naacl-demos.17}.
+\newblock URL \url{https://aclanthology.org/2021.naacl-demos.17}.
+
+\bibitem[Nguyen and Chiang(2017)]{nguyen-chiang-2017-transfer}
+Toan~Q. Nguyen and David Chiang.
+\newblock Transfer learning across low-resource, related languages for neural
+  machine translation.
+\newblock In \emph{Proceedings of the Eighth International Joint Conference on
+  Natural Language Processing (Volume 2: Short Papers)}, pages 296--301,
+  Taipei, Taiwan, November 2017. Asian Federation of Natural Language
+  Processing.
+\newblock URL \url{https://www.aclweb.org/anthology/I17-2050}.
+
+\bibitem[Aharoni et~al.(2019)Aharoni, Johnson, and
+  Firat]{aharoni-etal-2019-massively}
+Roee Aharoni, Melvin Johnson, and Orhan Firat.
+\newblock Massively multilingual neural machine translation.
+\newblock In \emph{Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers)}, pages 3874--3884,
+  Minneapolis, Minnesota, June 2019. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/N19-1388}.
+\newblock URL \url{https://www.aclweb.org/anthology/N19-1388}.
 
 \bibitem[Sun et~al.(2020{\natexlab{b}})Sun, Fomicheva, Blain, Chaudhary,
   El-Kishky, Renduchintala, Guzm{\'a}n, and Specia]{sun-etal-2020-exploratory}

@@ -26,13 +26,13 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Basic structure of the Siamese neural network}}{82}{figure.caption.60}%
 \addvspace {10\p@ }
-\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{99}{part.2}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Basic architecture for using Transformers in STS}}{102}{figure.caption.79}%
+\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{104}{part.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{107}{part.3}%
 \addvspace {10\p@ }
-\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{103}{part.3}%
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Architecture in TransQuest\relax }}{106}{figure.caption.74}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Architecture in TransQuest\relax }}{110}{figure.caption.81}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

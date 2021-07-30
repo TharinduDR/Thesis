@@ -69,44 +69,44 @@ Database file #10: refs/translation_quality_estimation/transquest.bib
 Database file #11: refs/translation_quality_estimation/multilingual_transquest.bib
 Database file #12: refs/translation_quality_estimation/transquest_word.bib
 Database file #13: refs/translation_quality_estimation/transquest_plus.bib
-You've used 146 entries,
+You've used 154 entries,
             2481 wiz_defined-function locations,
-            1620 strings with 49351 characters,
-and the built_in function-call counts, 79846 in all, are:
-= -- 7291
-> -- 4345
-< -- 130
-+ -- 1606
-- -- 1303
-* -- 6437
-:= -- 12121
-add.period$ -- 751
-call.type$ -- 146
-change.case$ -- 292
-chr.to.int$ -- 135
-cite$ -- 146
-duplicate$ -- 4045
-empty$ -- 6520
-format.name$ -- 1491
-if$ -- 17870
-int.to.chr$ -- 12
-int.to.str$ -- 147
-missing$ -- 145
-newline$ -- 969
-num.names$ -- 448
-pop$ -- 1256
+            1675 strings with 51724 characters,
+and the built_in function-call counts, 84037 in all, are:
+= -- 7697
+> -- 4523
+< -- 138
++ -- 1675
+- -- 1355
+* -- 6749
+:= -- 12727
+add.period$ -- 791
+call.type$ -- 154
+change.case$ -- 308
+chr.to.int$ -- 142
+cite$ -- 154
+duplicate$ -- 4273
+empty$ -- 6891
+format.name$ -- 1555
+if$ -- 18829
+int.to.chr$ -- 13
+int.to.str$ -- 155
+missing$ -- 153
+newline$ -- 1020
+num.names$ -- 472
+pop$ -- 1333
 preamble$ -- 1
-purify$ -- 146
+purify$ -- 154
 quote$ -- 0
-skip$ -- 2641
+skip$ -- 2788
 stack$ -- 0
-substring$ -- 3821
-swap$ -- 1405
-text.length$ -- 103
+substring$ -- 4049
+swap$ -- 1485
+text.length$ -- 108
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1022
+type$ -- 1078
 warning$ -- 0
-while$ -- 579
+while$ -- 611
 width$ -- 0
-write$ -- 2522
+write$ -- 2656

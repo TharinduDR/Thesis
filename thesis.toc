@@ -43,46 +43,51 @@
 \contentsline {section}{\numberline {4.6}Conclusions}{95}{section.1.4.6}%
 \contentsline {chapter}{\numberline {5}Adopting Transformers for STS}{98}{chapter.1.5}%
 \contentsline {section}{\numberline {5.1}Introduction}{98}{section.1.5.1}%
-\contentsline {section}{\numberline {5.2}Related Work}{98}{section.1.5.2}%
-\contentsline {section}{\numberline {5.3}Exploring Transformers in English STS}{98}{section.1.5.3}%
-\contentsline {section}{\numberline {5.4}Exploring Transformers for STS in Other Languages}{98}{section.1.5.4}%
-\contentsline {section}{\numberline {5.5}Exploring Transformers for STS in Other Domains}{98}{section.1.5.5}%
-\contentsline {section}{\numberline {5.6}Conclusions}{98}{section.1.5.6}%
-\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{99}{part.2}%
-\contentsline {chapter}{\numberline {1}Introduction}{100}{chapter.2.1}%
-\contentsline {section}{\numberline {1.1}What is Translation Memory?}{100}{section.2.1.1}%
-\contentsline {section}{\numberline {1.2}Datasets}{100}{section.2.1.2}%
-\contentsline {section}{\numberline {1.3}Related Work}{100}{section.2.1.3}%
-\contentsline {section}{\numberline {1.4}STS for Translation Memories}{100}{section.2.1.4}%
-\contentsline {chapter}{\numberline {2}Sentence Encoders for Translation Memories}{101}{chapter.2.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{101}{section.2.2.1}%
-\contentsline {section}{\numberline {2.2}Methodology}{101}{section.2.2.2}%
-\contentsline {section}{\numberline {2.3}Results and Evaluation}{101}{section.2.2.3}%
-\contentsline {chapter}{\numberline {3}Future of Translation Memories}{102}{chapter.2.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{102}{section.2.3.1}%
-\contentsline {section}{\numberline {3.2}Is Deep learning is the future for TMs?}{102}{section.2.3.2}%
-\contentsline {section}{\numberline {3.3}Future Directions}{102}{section.2.3.3}%
-\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{103}{part.3}%
-\contentsline {chapter}{\numberline {1}Introduction}{104}{chapter.3.1}%
-\contentsline {section}{\numberline {1.1}What is Translation Quality Estimation?}{104}{section.3.1.1}%
-\contentsline {section}{\numberline {1.2}Datasets}{104}{section.3.1.2}%
-\contentsline {section}{\numberline {1.3}Related Work}{104}{section.3.1.3}%
-\contentsline {section}{\numberline {1.4}STS for Translation Quality Estimation}{104}{section.3.1.4}%
-\contentsline {section}{\numberline {1.5}Conclusion}{104}{section.3.1.5}%
-\contentsline {chapter}{\numberline {2}TransQuest: STS Architectures for QE}{105}{chapter.3.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{105}{section.3.2.1}%
-\contentsline {section}{\numberline {2.2}Methodology}{105}{section.3.2.2}%
-\contentsline {section}{\numberline {2.3}Results and Evaluation}{105}{section.3.2.3}%
-\contentsline {section}{\numberline {2.4}Conclusion}{105}{section.3.2.4}%
-\contentsline {chapter}{\numberline {3}Extending TransQuest for word-level QE}{108}{chapter.3.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{108}{section.3.3.1}%
-\contentsline {section}{\numberline {3.2}Related Work}{108}{section.3.3.2}%
-\contentsline {section}{\numberline {3.3}Methodology}{108}{section.3.3.3}%
-\contentsline {section}{\numberline {3.4}Results and Evaluation}{108}{section.3.3.4}%
-\contentsline {section}{\numberline {3.5}Conclusion}{108}{section.3.3.5}%
-\contentsline {chapter}{\numberline {4}Multilingual Quality Estimation with TransQuest}{110}{chapter.3.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{110}{section.3.4.1}%
-\contentsline {section}{\numberline {4.2}Multilingual Sentence-Level QE}{110}{section.3.4.2}%
-\contentsline {section}{\numberline {4.3}Multilingual Word-Level QE}{110}{section.3.4.3}%
-\contentsline {section}{\numberline {4.4}Conclusion}{110}{section.3.4.4}%
-\contentsline {chapter}{Bibliography}{111}{section.3.4.4}%
+\contentsline {section}{\numberline {5.2}Related Work}{99}{section.1.5.2}%
+\contentsline {paragraph}{BERT}{100}{section*.74}%
+\contentsline {paragraph}{RoBERTa}{100}{section*.75}%
+\contentsline {paragraph}{ALBERT}{100}{section*.76}%
+\contentsline {paragraph}{ELECTRA}{101}{section*.77}%
+\contentsline {paragraph}{XLNET}{101}{section*.78}%
+\contentsline {section}{\numberline {5.3}Transformer Architecture for STS}{102}{section.1.5.3}%
+\contentsline {section}{\numberline {5.4}Exploring Transformers in English STS}{102}{section.1.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Impact of Transfer Learning}{103}{subsection.1.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Impact of Data Augmentation}{103}{subsection.1.5.4.2}%
+\contentsline {section}{\numberline {5.5}Portability to Other Languages}{103}{section.1.5.5}%
+\contentsline {section}{\numberline {5.6}Potability to Other Domains}{103}{section.1.5.6}%
+\contentsline {section}{\numberline {5.7}Recent Developments: Siamese Transformers}{103}{section.1.5.7}%
+\contentsline {section}{\numberline {5.8}Conclusions}{103}{section.1.5.8}%
+\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{104}{part.2}%
+\contentsline {chapter}{\numberline {1}Introduction}{105}{chapter.2.1}%
+\contentsline {section}{\numberline {1.1}What is Translation Memory?}{105}{section.2.1.1}%
+\contentsline {section}{\numberline {1.2}Datasets}{105}{section.2.1.2}%
+\contentsline {section}{\numberline {1.3}Related Work}{105}{section.2.1.3}%
+\contentsline {section}{\numberline {1.4}STS for Translation Memories}{105}{section.2.1.4}%
+\contentsline {chapter}{\numberline {2}Sentence Encoders for Translation Memories}{106}{chapter.2.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{106}{section.2.2.1}%
+\contentsline {section}{\numberline {2.2}Methodology}{106}{section.2.2.2}%
+\contentsline {section}{\numberline {2.3}Results and Evaluation}{106}{section.2.2.3}%
+\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{107}{part.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{108}{chapter.3.1}%
+\contentsline {section}{\numberline {1.1}What is Translation Quality Estimation?}{108}{section.3.1.1}%
+\contentsline {section}{\numberline {1.2}Datasets}{108}{section.3.1.2}%
+\contentsline {section}{\numberline {1.3}Related Work}{108}{section.3.1.3}%
+\contentsline {section}{\numberline {1.4}STS for Translation Quality Estimation}{108}{section.3.1.4}%
+\contentsline {section}{\numberline {1.5}Conclusion}{108}{section.3.1.5}%
+\contentsline {chapter}{\numberline {2}TransQuest: STS Architectures for QE}{109}{chapter.3.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{109}{section.3.2.1}%
+\contentsline {section}{\numberline {2.2}Methodology}{109}{section.3.2.2}%
+\contentsline {section}{\numberline {2.3}Results and Evaluation}{109}{section.3.2.3}%
+\contentsline {section}{\numberline {2.4}Conclusion}{109}{section.3.2.4}%
+\contentsline {chapter}{\numberline {3}Extending TransQuest for word-level QE}{112}{chapter.3.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{112}{section.3.3.1}%
+\contentsline {section}{\numberline {3.2}Related Work}{112}{section.3.3.2}%
+\contentsline {section}{\numberline {3.3}Methodology}{112}{section.3.3.3}%
+\contentsline {section}{\numberline {3.4}Results and Evaluation}{112}{section.3.3.4}%
+\contentsline {section}{\numberline {3.5}Conclusion}{112}{section.3.3.5}%
+\contentsline {chapter}{\numberline {4}Multilingual Quality Estimation with TransQuest}{114}{chapter.3.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{114}{section.3.4.1}%
+\contentsline {section}{\numberline {4.2}Multilingual Sentence-Level QE}{115}{section.3.4.2}%
+\contentsline {section}{\numberline {4.3}Multilingual Word-Level QE}{115}{section.3.4.3}%
+\contentsline {section}{\numberline {4.4}Conclusion}{115}{section.3.4.4}%
+\contentsline {chapter}{Bibliography}{116}{section.3.4.4}%

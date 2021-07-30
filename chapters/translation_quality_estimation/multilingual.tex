@@ -1,12 +1,19 @@
 \chapter{\label{cha:multilingual}Multilingual Quality Estimation with TransQuest}
 
 \section{Introduction}
-\cite{sun-etal-2020-exploratory}
-Machine translation quality estimation is generally framed as a supervised machine learning problem. 
-%machine learning 
-ML problem \cite{kepler-etal-2019-openkiwi,lee-2020-two} trained on data
+Machine translation quality estimation is generally framed as a supervised machine learning problem \cite{kepler-etal-2019-openkiwi,lee-2020-two} where the machine learning models are trained on language specific data for quality estimation. We refer to these models as bi-lingual QE models. This process would require having annotated QE data for all the language pairs. Furthermore, this language specific supervised machine learning process would result in each machine learning model for each language pair. 
+
+This traditional approach has obvious drawbacks. As we mentioned before this process requires training data for each language pair. However, the training data publicly available to build word-level QE models is limited to very few language pairs, which makes it difficult to build QE models for many languages. Furthermore, from an application perspective, even for the languages with resources, it is difficult to maintain separate QE models for each language 
+since the state-of-the-art neural QE models are large in size \cite{ranasinghe-etal-2020-transquest}. 
+
+To understand the scale of this, consider a real-word application where it is required to build a quality estimation solution for European Parliament. European Parliament has 24 languages which would result in 24*23 language pairs which is equal to 552 language pairs. A traditional bi-lingual QE solution would require 552 training datasets to train the models which is highly challenging and costly to collect and annotate. Furthermore, this would require having 552 machine learning models. State-of-the-art QE models like TransQuest are at least 2GB in size. Having 2GB sized 552 models in the RAM at inferencing time would not be practical. The solution to all these problems is Multilingual QE models. 
+
+Multilingual models allow training a single model to perform a task from and/or to multiple languages. Even though this has been applied to many tasks \cite{ranasinghe-zampieri-2020-multilingual,ranasinghe-zampieri-2021-mudes} including NMT \cite{nguyen-chiang-2017-transfer, aharoni-etal-2019-massively}, multilingual approaches have been rarely used in QE \cite{sun-etal-2020-exploratory}.
+
+ 
 
 \section{Multilingual Sentence-Level QE}
+
 
 \section{Multilingual Word-Level QE}
 
