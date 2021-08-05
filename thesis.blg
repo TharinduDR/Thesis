@@ -31,8 +31,6 @@ Reallocating 'name_of_file' (item size: 1) to 47 items.
 A level-1 auxiliary file: chapters/translation_memories/introduction.aux
 Reallocating 'name_of_file' (item size: 1) to 52 items.
 A level-1 auxiliary file: chapters/translation_memories/sentence_encoders.aux
-Reallocating 'name_of_file' (item size: 1) to 41 items.
-A level-1 auxiliary file: chapters/translation_memories/future.aux
 Reallocating 'name_of_file' (item size: 1) to 57 items.
 A level-1 auxiliary file: chapters/translation_quality_estimation/introduction.aux
 Reallocating 'name_of_file' (item size: 1) to 55 items.
@@ -56,6 +54,7 @@ Reallocating 'name_of_file' (item size: 1) to 47 items.
 Reallocating 'name_of_file' (item size: 1) to 60 items.
 Reallocating 'name_of_file' (item size: 1) to 52 items.
 Reallocating 'name_of_file' (item size: 1) to 52 items.
+Reallocating 'field_info' (item size: 4) to 10096 items.
 Database file #1: refs/introduction.bib
 Database file #2: refs/semantic_textual_similarity/introduction.bib
 Database file #3: refs/semantic_textual_similarity/state_of_the_art.bib
@@ -69,44 +68,44 @@ Database file #10: refs/translation_quality_estimation/transquest.bib
 Database file #11: refs/translation_quality_estimation/multilingual_transquest.bib
 Database file #12: refs/translation_quality_estimation/transquest_word.bib
 Database file #13: refs/translation_quality_estimation/transquest_plus.bib
-You've used 154 entries,
+You've used 182 entries,
             2481 wiz_defined-function locations,
-            1675 strings with 51724 characters,
-and the built_in function-call counts, 84037 in all, are:
-= -- 7697
-> -- 4523
-< -- 138
-+ -- 1675
-- -- 1355
-* -- 6749
-:= -- 12727
-add.period$ -- 791
-call.type$ -- 154
-change.case$ -- 308
-chr.to.int$ -- 142
-cite$ -- 154
-duplicate$ -- 4273
-empty$ -- 6891
-format.name$ -- 1555
-if$ -- 18829
-int.to.chr$ -- 13
-int.to.str$ -- 155
-missing$ -- 153
-newline$ -- 1020
-num.names$ -- 472
-pop$ -- 1333
+            1871 strings with 60830 characters,
+and the built_in function-call counts, 100764 in all, are:
+= -- 9158
+> -- 5584
+< -- 163
++ -- 2058
+- -- 1679
+* -- 8167
+:= -- 15333
+add.period$ -- 937
+call.type$ -- 182
+change.case$ -- 364
+chr.to.int$ -- 167
+cite$ -- 182
+duplicate$ -- 5063
+empty$ -- 8188
+format.name$ -- 1915
+if$ -- 22512
+int.to.chr$ -- 16
+int.to.str$ -- 183
+missing$ -- 181
+newline$ -- 1203
+num.names$ -- 564
+pop$ -- 1580
 preamble$ -- 1
-purify$ -- 154
+purify$ -- 182
 quote$ -- 0
-skip$ -- 2788
+skip$ -- 3294
 stack$ -- 0
-substring$ -- 4049
-swap$ -- 1485
-text.length$ -- 108
+substring$ -- 4878
+swap$ -- 1752
+text.length$ -- 128
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1078
+type$ -- 1274
 warning$ -- 0
-while$ -- 611
+while$ -- 735
 width$ -- 0
-write$ -- 2656
+write$ -- 3141
