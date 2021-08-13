@@ -1,4 +1,4 @@
-\begin{thebibliography}{182}
+\begin{thebibliography}{188}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -1602,14 +1602,15 @@ Yvette Graham, Timothy Baldwin, and Nitika Mathur.
 \newblock \doi{10.3115/v1/N15-1124}.
 \newblock URL \url{https://www.aclweb.org/anthology/N15-1124}.
 
-\bibitem[Fomicheva et~al.(2020)Fomicheva, Sun, Yankovskaya, Blain, Guzm{\'a}n,
-  Fishel, Aletras, Chaudhary, and Specia]{fomicheva-etal-2020-unsupervised}
+\bibitem[Fomicheva et~al.(2020{\natexlab{a}})Fomicheva, Sun, Yankovskaya,
+  Blain, Guzm{\'a}n, Fishel, Aletras, Chaudhary, and
+  Specia]{fomicheva-etal-2020-unsupervised}
 Marina Fomicheva, Shuo Sun, Lisa Yankovskaya, Fr{\'e}d{\'e}ric Blain, Francisco
   Guzm{\'a}n, Mark Fishel, Nikolaos Aletras, Vishrav Chaudhary, and Lucia
   Specia.
 \newblock Unsupervised quality estimation for neural machine translation.
 \newblock \emph{Transactions of the Association for Computational Linguistics},
-  8:\penalty0 539--555, 2020.
+  8:\penalty0 539--555, 2020{\natexlab{a}}.
 \newblock \doi{10.1162/tacl_a_00330}.
 \newblock URL \url{https://aclanthology.org/2020.tacl-1.35}.
 
@@ -1636,18 +1637,23 @@ Fabio Kepler, Jonay Tr{\'e}nous, Marcos Treviso, Miguel Vera, and Andr{\'e}
 \newblock \doi{10.18653/v1/P19-3020}.
 \newblock URL \url{https://www.aclweb.org/anthology/P19-3020}.
 
-\bibitem[Conneau et~al.(2020)Conneau, Khandelwal, Goyal, Chaudhary, Wenzek,
-  Guzm{\'a}n, Grave, Ott, Zettlemoyer, and
-  Stoyanov]{conneau-etal-2020-unsupervised}
-Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume
-  Wenzek, Francisco Guzm{\'a}n, Edouard Grave, Myle Ott, Luke Zettlemoyer, and
-  Veselin Stoyanov.
-\newblock Unsupervised cross-lingual representation learning at scale.
-\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
-  for Computational Linguistics}, pages 8440--8451, Online, July 2020.
+\bibitem[Kim et~al.(2017)Kim, Lee, and Na]{kim-etal-2017-predictor}
+Hyun Kim, Jong-Hyeok Lee, and Seung-Hoon Na.
+\newblock Predictor-estimator using multilevel task learning with stack
+  propagation for neural quality estimation.
+\newblock In \emph{Proceedings of the Second Conference on Machine
+  Translation}, pages 562--568, Copenhagen, Denmark, September 2017.
   Association for Computational Linguistics.
-\newblock \doi{10.18653/v1/2020.acl-main.747}.
-\newblock URL \url{https://www.aclweb.org/anthology/2020.acl-main.747}.
+\newblock \doi{10.18653/v1/W17-4763}.
+\newblock URL \url{https://aclanthology.org/W17-4763}.
+
+\bibitem[Ive et~al.(2018)Ive, Blain, and Specia]{ive-etal-2018-deepquest}
+Julia Ive, Fr{\'e}d{\'e}ric Blain, and Lucia Specia.
+\newblock deep{Q}uest: A framework for neural-based quality estimation.
+\newblock In \emph{Proceedings of the 27th International Conference on
+  Computational Linguistics}, pages 3146--3157, Santa Fe, New Mexico, USA,
+  August 2018. Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/C18-1266}.
 
 \bibitem[Lee(2020)]{lee-2020-two}
 Dongjun Lee.
@@ -1668,14 +1674,6 @@ Jiayi Wang, Kai Fan, Bo~Li, Fengming Zhou, Boxing Chen, Yangbin Shi, and Luo
   Association for Computational Linguistics.
 \newblock \doi{10.18653/v1/W18-6465}.
 \newblock URL \url{https://aclanthology.org/W18-6465}.
-
-\bibitem[Ive et~al.(2018)Ive, Blain, and Specia]{ive-etal-2018-deepquest}
-Julia Ive, Fr{\'e}d{\'e}ric Blain, and Lucia Specia.
-\newblock deep{Q}uest: A framework for neural-based quality estimation.
-\newblock In \emph{Proceedings of the 27th International Conference on
-  Computational Linguistics}, pages 3146--3157, Santa Fe, New Mexico, USA,
-  August 2018. Association for Computational Linguistics.
-\newblock URL \url{https://aclanthology.org/C18-1266}.
 
 \bibitem[Ranasinghe et~al.(2020{\natexlab{b}})Ranasinghe, Orasan, and
   Mitkov]{ranasinghe-etal-2020-transquest}
@@ -1722,6 +1720,19 @@ Karthikeyan K, Zihan Wang, Stephen Mayhew, and Dan Roth.
 \newblock In \emph{International Conference on Learning Representations}, 2020.
 \newblock URL \url{https://openreview.net/forum?id=HJeT3yrtDr}.
 
+\bibitem[Conneau et~al.(2020)Conneau, Khandelwal, Goyal, Chaudhary, Wenzek,
+  Guzm{\'a}n, Grave, Ott, Zettlemoyer, and
+  Stoyanov]{conneau-etal-2020-unsupervised}
+Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume
+  Wenzek, Francisco Guzm{\'a}n, Edouard Grave, Myle Ott, Luke Zettlemoyer, and
+  Veselin Stoyanov.
+\newblock Unsupervised cross-lingual representation learning at scale.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics}, pages 8440--8451, Online, July 2020.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2020.acl-main.747}.
+\newblock URL \url{https://www.aclweb.org/anthology/2020.acl-main.747}.
+
 \bibitem[Conneau and Lample(2019)]{lample2019cross}
 Alexis Conneau and Guillaume Lample.
 \newblock Cross-lingual language model pretraining.
@@ -1729,6 +1740,33 @@ Alexis Conneau and Guillaume Lample.
   7059--7069. Curran Associates, Inc., 2019.
 \newblock URL
   \url{http://papers.nips.cc/paper/8928-cross-lingual-language-model-pretraining.pdf}.
+
+\bibitem[Fomicheva et~al.(2020{\natexlab{b}})Fomicheva, Sun, Yankovskaya,
+  Blain, Chaudhary, Fishel, Guzm{\'a}n, and
+  Specia]{fomicheva-etal-2020-bergamot}
+Marina Fomicheva, Shuo Sun, Lisa Yankovskaya, Fr{\'e}d{\'e}ric Blain, Vishrav
+  Chaudhary, Mark Fishel, Francisco Guzm{\'a}n, and Lucia Specia.
+\newblock {BERGAMOT}-{LATTE} submissions for the {WMT}20 quality estimation
+  shared task.
+\newblock In \emph{Proceedings of the Fifth Conference on Machine Translation},
+  pages 1010--1017, Online, November 2020{\natexlab{b}}. Association for
+  Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/2020.wmt-1.116}.
+
+\bibitem[Gritta and Iacobacci(2021)]{gritta-iacobacci-2021-xeroalign}
+Milan Gritta and Ignacio Iacobacci.
+\newblock {X}ero{A}lign: Zero-shot cross-lingual transformer alignment.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL-IJCNLP 2021}, pages 371--381, Online, August 2021. Association for
+  Computational Linguistics.
+\newblock \doi{10.18653/v1/2021.findings-acl.32}.
+\newblock URL \url{https://aclanthology.org/2021.findings-acl.32}.
+
+\bibitem[Goyal et~al.(2021)Goyal, Du, Ott, Anantharaman, and
+  Conneau]{goyal2021}
+Naman Goyal, Jingfei Du, Myle Ott, Giri Anantharaman, and Alexis Conneau.
+\newblock Larger-scale transformers for multilingual masked language modeling.
+\newblock \emph{arXiv preprint arXiv:2105.00572}, 2021.
 
 \bibitem[Logacheva et~al.(2016)Logacheva, Hokamp, and
   Specia]{logacheva-etal-2016-marmot}
@@ -1740,6 +1778,26 @@ Varvara Logacheva, Chris Hokamp, and Lucia Specia.
   Portoro{\v{z}}, Slovenia, May 2016. European Language Resources Association
   (ELRA).
 \newblock URL \url{https://www.aclweb.org/anthology/L16-1582}.
+
+\bibitem[Ranasinghe et~al.(2021)Ranasinghe, Orasan, and
+  Mitkov]{ranasinghe-etal-2021-exploratory}
+Tharindu Ranasinghe, Constantin Orasan, and Ruslan Mitkov.
+\newblock An exploratory analysis of multilingual word-level quality estimation
+  with cross-lingual transformers.
+\newblock In \emph{Proceedings of the 59th Annual Meeting of the Association
+  for Computational Linguistics and the 11th International Joint Conference on
+  Natural Language Processing (Volume 2: Short Papers)}, pages 434--440,
+  Online, August 2021. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2021.acl-short.55}.
+\newblock URL \url{https://aclanthology.org/2021.acl-short.55}.
+
+\bibitem[Caruana(1997)]{Caruana1997}
+Rich Caruana.
+\newblock Multitask learning.
+\newblock \emph{Machine Learning}, 28\penalty0 (1):\penalty0 41--75, Jul 1997.
+\newblock ISSN 1573-0565.
+\newblock \doi{10.1023/A:1007379606734}.
+\newblock URL \url{https://doi.org/10.1023/A:1007379606734}.
 
 \bibitem[Ranasinghe and Zampieri(2020)]{ranasinghe-zampieri-2020-multilingual}
 Tharindu Ranasinghe and Marcos Zampieri.

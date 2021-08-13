@@ -39,6 +39,8 @@ Reallocating 'name_of_file' (item size: 1) to 60 items.
 A level-1 auxiliary file: chapters/translation_quality_estimation/transquest_word.aux
 Reallocating 'name_of_file' (item size: 1) to 57 items.
 A level-1 auxiliary file: chapters/translation_quality_estimation/multilingual.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: conclusions.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: bib.aux
 Reallocating 'name_of_file' (item size: 1) to 18 items.
@@ -54,7 +56,7 @@ Reallocating 'name_of_file' (item size: 1) to 47 items.
 Reallocating 'name_of_file' (item size: 1) to 60 items.
 Reallocating 'name_of_file' (item size: 1) to 52 items.
 Reallocating 'name_of_file' (item size: 1) to 52 items.
-Reallocating 'field_info' (item size: 4) to 10096 items.
+Reallocating 'field_info' (item size: 4) to 10264 items.
 Database file #1: refs/introduction.bib
 Database file #2: refs/semantic_textual_similarity/introduction.bib
 Database file #3: refs/semantic_textual_similarity/state_of_the_art.bib
@@ -68,44 +70,44 @@ Database file #10: refs/translation_quality_estimation/transquest.bib
 Database file #11: refs/translation_quality_estimation/multilingual_transquest.bib
 Database file #12: refs/translation_quality_estimation/transquest_word.bib
 Database file #13: refs/translation_quality_estimation/transquest_plus.bib
-You've used 182 entries,
+You've used 188 entries,
             2481 wiz_defined-function locations,
-            1871 strings with 60830 characters,
-and the built_in function-call counts, 100764 in all, are:
-= -- 9158
-> -- 5584
-< -- 163
-+ -- 2058
-- -- 1679
-* -- 8167
-:= -- 15333
-add.period$ -- 937
-call.type$ -- 182
-change.case$ -- 364
-chr.to.int$ -- 167
-cite$ -- 182
-duplicate$ -- 5063
-empty$ -- 8188
-format.name$ -- 1915
-if$ -- 22512
-int.to.chr$ -- 16
-int.to.str$ -- 183
-missing$ -- 181
-newline$ -- 1203
-num.names$ -- 564
-pop$ -- 1580
+            1912 strings with 62480 characters,
+and the built_in function-call counts, 103923 in all, are:
+= -- 9463
+> -- 5732
+< -- 169
++ -- 2115
+- -- 1723
+* -- 8417
+:= -- 15807
+add.period$ -- 969
+call.type$ -- 188
+change.case$ -- 376
+chr.to.int$ -- 172
+cite$ -- 188
+duplicate$ -- 5226
+empty$ -- 8451
+format.name$ -- 1967
+if$ -- 23223
+int.to.chr$ -- 17
+int.to.str$ -- 189
+missing$ -- 187
+newline$ -- 1243
+num.names$ -- 582
+pop$ -- 1630
 preamble$ -- 1
-purify$ -- 182
+purify$ -- 188
 quote$ -- 0
-skip$ -- 3294
+skip$ -- 3396
 stack$ -- 0
-substring$ -- 4878
-swap$ -- 1752
-text.length$ -- 128
+substring$ -- 5041
+swap$ -- 1809
+text.length$ -- 132
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1274
+type$ -- 1316
 warning$ -- 0
-while$ -- 735
+while$ -- 760
 width$ -- 0
-write$ -- 3141
+write$ -- 3246

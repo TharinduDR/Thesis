@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.8.21)  5 AUG 2021 20:31
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.8.21)  12 AUG 2021 23:22
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1161,24 +1161,24 @@ File: lstlang3.sty 2020/03/24 1.8d listings language file
 (ArabTeX) input encoding set to UTF-8 conventions
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 75.
+(hyperref)                setting the option has no effect on input line 76.
 
-Package hyperref Info: Option `unicode' set `false' on input line 75.
+Package hyperref Info: Option `unicode' set `false' on input line 76.
 
 Package hyperref Warning: XeTeX driver only supports `unicode=true'. Ignoring
-(hyperref)                option setting `unicode=false' on input line 75.
+(hyperref)                option setting `unicode=false' on input line 76.
 
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 75.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 75.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 75.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 76.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 76.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 76.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-ascii-pri
 nt.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 )
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 75.
-Package hyperref Info: Option `colorlinks' set `true' on input line 75.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 76.
+Package hyperref Info: Option `colorlinks' set `true' on input line 76.
  (thesis.aux (abstract.aux) (ack.aux) (contents.aux) (tables.aux)
 (figures.aux) (listings.aux) (introduction.aux)
 (chapters/semantic_textual_similarity/introduction.aux)
@@ -1191,65 +1191,66 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 75.
 (chapters/translation_quality_estimation/introduction.aux)
 (chapters/translation_quality_estimation/transquest.aux)
 (chapters/translation_quality_estimation/transquest_word.aux)
-(chapters/translation_quality_estimation/multilingual.aux) (bib.aux))
+(chapters/translation_quality_estimation/multilingual.aux) (conclusions.aux)
+(bib.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 77.
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 78.
 LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line
- 77.
+ 78.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
-7.
+8.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 78.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-77.
+78.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 78.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 77.
+ 78.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 78.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 77.
+e 78.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    ... okay on input line 78.
 \AtBeginShipoutBox=\box82
-Package hyperref Info: Link coloring ON on input line 77.
+Package hyperref Info: Link coloring ON on input line 78.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1263,9 +1264,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count369
 )
-LaTeX Info: Redefining \ref on input line 77.
-LaTeX Info: Redefining \pageref on input line 77.
-LaTeX Info: Redefining \nameref on input line 77.
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
+LaTeX Info: Redefining \nameref on input line 78.
  (thesis.out) (thesis.out)
 \@outlinefile=\write6
 \openout6 = `thesis.out'.
@@ -1275,7 +1276,7 @@ LaTeX Info: Redefining \nameref on input line 77.
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 77.
+loading the todonotes package. on input line 78.
 
 \c@mv@tabular=\count370
 \c@mv@boldtabular=\count371
@@ -1300,13 +1301,13 @@ Invalid UTF-8 byte or sequence at line 1300 replaced by U+FFFD.
 (ArabTeX) 3.11 local stub, 26.02.2006)
 (ArabTeX) version 3.11s (02.07.2006): second phase of patching)
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 81.
+(Font)              scaled to size 12.0pt on input line 82.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 17.28pt on input line 81.
+(Font)              scaled to size 17.28pt on input line 82.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 81.
+(Font)              scaled to size 14.4pt on input line 82.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 81.
+(Font)              scaled to size 14.4pt on input line 82.
  [1
 
 
@@ -1419,7 +1420,13 @@ Overfull \hbox (2.39142pt too wide) in paragraph at lines 56--56
 ed to pre-dict HTER. The \T1/LinuxLibertineT-TLF/b/n/12 Lan- 
  []
 
-[11])
+[11]
+Overfull \hbox (3.0888pt too wide) in paragraph at lines 68--68
+ [][] [][][]\T1/LinuxLibertineT-TLF/m/n/12 Multilingual GAP F1-Multi be-tween M
+i-cro-Tran-sQuest pre-dic-tions 
+ []
+
+)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
@@ -1450,10 +1457,17 @@ ues in QUORA train and QUORA
 ) [14]
 \openout2 = `listings.aux'.
 
- (listings.tex (thesis.lol)
-\tf@lol=\write10
-\openout10 = `thesis.lol'.
+ (listings.tex
+LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF
+ on input line 9.
 
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/libertine\ts1linuxlibert
+inet-tlf.fd
+File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
+LinuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 9.
 ) [15
 
 
@@ -1469,18 +1483,18 @@ ues in QUORA train and QUORA
 
 ] [17]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 106.
+(Font)              scaled to size 24.88pt on input line 107.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 106.
-
-[1
+(Font)              scaled to size 24.88pt on input line 107.
+ [1
 
 
 
 ]
 \openout2 = `chapters/semantic_textual_similarity/introduction.aux'.
 
- (chapters/semantic_textual_similarity/introduction.tex
+
+(chapters/semantic_textual_similarity/introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 8.
@@ -1561,16 +1575,20 @@ F/m/n/12 - The SICK data con-tains 9927 sen-tence pairs with a 5,000/4,927
  []
 
 [7] [8]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 74.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 74.
 File: figures/semantic_textual_similarity/introduction/sick_train_relatedness_h
 ist.png Graphic file (type bmp)
 <figures/semantic_textual_similarity/introduction/sick_train_relatedness_hist.p
 ng>
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 87.
 File: figures/semantic_textual_similarity/introduction/sick_test_relatedness_hi
 st.png Graphic file (type bmp)
 <figures/semantic_textual_similarity/introduction/sick_test_relatedness_hist.pn
 g>
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 96.
 File: figures/semantic_textual_similarity/introduction/sick_train_words.png Gra
 phic file (type bmp)
 <figures/semantic_textual_similarity/introduction/sick_train_words.png>
@@ -1776,6 +1794,18 @@ Overfull \hbox (11.97583pt too wide) in paragraph at lines 161--162
  [][] 
  []
 
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 162.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 162.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.1pt on input line 162.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 10.95pt on input line 162.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 8.0pt on input line 162.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
+(Font)              scaled to size 6.1pt on input line 162.
 
 Overfull \hbox (11.97583pt too wide) in paragraph at lines 209--210
  [][] 
@@ -1797,19 +1827,19 @@ Chapter 3.
 
 
 ] [65]
-Underfull \hbox (badness 8170) in paragraph at lines 27--27
+Underfull \hbox (badness 8170) in paragraph at lines 26--26
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 The pub-lic GitHub repos-i-tory is avail-a
 ble on [][]$\T1/zi4/m/n/10 https : / / github . com / tharindudr /
  []
 
 [66]
-Underfull \hbox (badness 1466) in paragraph at lines 41--41
+Underfull \hbox (badness 1466) in paragraph at lines 40--40
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 The code and the pre-trained mod-els are a
 vail-able on [][]$\T1/zi4/m/n/10 https : / / github . com / epfml /
  []
 
 [67]
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 The code and the pre-trained mod-els are a
 vail-able on [][]$\T1/zi4/m/n/10 https : / / github . com /
  []
@@ -1824,7 +1854,7 @@ ic file (type bmp)
 Missing character: There is no “ in font LinLibertineT-tlf-t1!
 Missing character: There is no ” in font LinLibertineT-tlf-t1!
  [69]
-Underfull \hbox (badness 1152) in paragraph at lines 79--79
+Underfull \hbox (badness 1152) in paragraph at lines 78--78
 \T1/zi4/m/n/10 google / universal-[]sentence-[]encoder-[]large$[][] \T1/LinuxLi
 bertineT-TLF/m/n/10 and pre-trained sen-tence en-coder for DAN
  []
@@ -1836,13 +1866,13 @@ File: figures/semantic_textual_similarity/sentence_encoders/transformer.png Gra
 phic file (type bmp)
 <figures/semantic_textual_similarity/sentence_encoders/transformer.png>
 [70] [71] [72] [73] [74] [75]
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 The pre-trained model is avail-able on [][
 ]$\T1/zi4/m/n/10 https : / / github . com / BotCenter /
  []
 
 [76] [77]
-Overfull \hbox (1.45233pt too wide) in paragraph at lines 291--292
+Overfull \hbox (1.45233pt too wide) in paragraph at lines 290--291
 []\T1/LinuxLibertineT-TLF/m/n/12 As can be ob-served in the re-sults, sen-tence
  en-coder trained on the Bio-medical
  []
@@ -1859,25 +1889,25 @@ Chapter 4.
 
 
 ]
-Overfull \hbox (1.5787pt too wide) in paragraph at lines 8--9
+Overfull \hbox (1.5787pt too wide) in paragraph at lines 7--8
 \T1/LinuxLibertineT-TLF/m/n/12 ad-van-tage in us-ing Siamese neu-ral net-works.
  As we men-tioned be-fore, in Siamese
  []
 
 [83]
-Overfull \hbox (19.08578pt too wide) in paragraph at lines 27--28
+Overfull \hbox (19.08578pt too wide) in paragraph at lines 26--27
 \T1/LinuxLibertineT-TLF/m/n/12 Siamese neu-ral net-work that out-per-forms stat
 e-of-the-art LSTM based Siamese
  []
 
 
-Underfull \hbox (badness 8170) in paragraph at lines 35--35
+Underfull \hbox (badness 8170) in paragraph at lines 34--34
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 The pub-lic GitHub repos-i-tory is avail-a
 ble on [][]$\T1/zi4/m/n/10 https : / / github . com / tharindudr /
  []
 
 [84]
-Overfull \hbox (6.66884pt too wide) in paragraph at lines 47--48
+Overfull \hbox (6.66884pt too wide) in paragraph at lines 46--47
 \T1/LinuxLibertineT-TLF/m/n/12 In au-dio and speech sig-nal pro-cess-ing field,
  Thi-ol-liere et al. [][][] merged a dynamic-
  []
@@ -1888,29 +1918,29 @@ tecture.png Graphic file (type bmp)
 <figures/semantic_textual_similarity/siamese_neural_networks/siamese_architectu
 re.png>
 
-Overfull \hbox (5.71156pt too wide) in paragraph at lines 84--86
+Overfull \hbox (5.71156pt too wide) in paragraph at lines 83--85
 []\T1/LinuxLibertineT-TLF/m/n/12 As the word em-bed-ding model we used Word2vec
  em-bed-dings [[]] pre-trained
  []
 
 [88] [89]
 
-Package hyperref Warning: Suppressing empty link on input line 179.
+Package hyperref Warning: Suppressing empty link on input line 178.
 
 [90]
-Overfull \hbox (55.79494pt too wide) in paragraph at lines 183--184
+Overfull \hbox (55.79494pt too wide) in paragraph at lines 182--183
 \T1/LinuxLibertineT-TLF/m/n/12 based Siamese neu-ral net-work ar-chi-tec-ture f
 or the smaller STS datasets and LSTM+Attention
  []
 
 [91] [92] [93]
-Overfull \hbox (2.26291pt too wide) in paragraph at lines 231--232
+Overfull \hbox (2.26291pt too wide) in paragraph at lines 230--231
 []\T1/LinuxLibertineT-TLF/m/n/12 We em-ployed thesaurus-based aug-men-ta-tion i
 n which 10,000 ad-di-tional train-
  []
 
 
-Overfull \hbox (10.78561pt too wide) in paragraph at lines 258--259
+Overfull \hbox (10.78561pt too wide) in paragraph at lines 257--258
 \T1/LinuxLibertineT-TLF/m/n/12 GRU based Siamese neu-ral net-work out-per-forme
 d LSTM + At-ten-tion based Siamese
  []
@@ -1931,13 +1961,13 @@ Chapter 5.
 
 
 ]
-Underfull \hbox (badness 8170) in paragraph at lines 30--30
+Underfull \hbox (badness 8170) in paragraph at lines 28--28
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 The pub-lic GitHub repos-i-tory is avail-a
 ble on [][]$\T1/zi4/m/n/10 https : / / github . com / tharindudr /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 The de-vel-oped python li-brary is avail-a
 ble on [][]$\T1/zi4/m/n/10 https : / / pypi . org / project /
  []
@@ -1947,18 +1977,18 @@ File: figures/semantic_textual_similarity/transformers/STSTransformers.png Grap
 hic file (type bmp)
 <figures/semantic_textual_similarity/transformers/STSTransformers.png>
 
-Overfull \hbox (6.11139pt too wide) in paragraph at lines 63--64
+Overfull \hbox (6.11139pt too wide) in paragraph at lines 61--62
 \T1/LinuxLibertineT-TLF/m/n/12 We eval-u-ated all the above trans-former vari-a
 -tions in the three En-glish STS datasets
  []
 
-[109]
-Overfull \hbox (0.3627pt too wide) in paragraph at lines 145--145
+
+Overfull \hbox (0.3627pt too wide) in paragraph at lines 143--143
 []\T1/LinuxLibertineT-TLF/b/n/17.28 Recent De-vel-op-ments: Siamese Trans-form-
 ers 
  []
 
-) [110] [111] [112
+) [109] [110] [111] [112
 
 
 
@@ -1994,72 +2024,74 @@ Chapter 1.
 
 
 
-] [117]) [118] [119]
+]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 41.
+ [117]) [118] [119]
 \openout2 = `chapters/translation_quality_estimation/transquest.aux'.
 
 
 (chapters/translation_quality_estimation/transquest.tex
 Chapter 2.
-
-Overfull \hbox (11.65784pt too wide) in paragraph at lines 10--11
-\T1/LinuxLibertineT-TLF/m/n/12 of-the-art sentence-level QE frame-works like De
-ep-Quest [[]] and OpenKiwi
- []
-
 [120
 
 
 
 
-]
-Underfull \hbox (badness 8170) in paragraph at lines 18--18
+] [121]
+Overfull \hbox (11.65784pt too wide) in paragraph at lines 24--25
+\T1/LinuxLibertineT-TLF/m/n/12 of-the-art sentence-level QE frame-works like De
+ep-Quest [[]] and OpenKiwi
+ []
+
+
+Overfull \hbox (0.28499pt too wide) in paragraph at lines 30--31
+\T1/LinuxLibertineT-TLF/m/n/12 1[][][][][] [[]] and won it in all the lan-guage
+ pairs out-per-form-ing 50 teams around
+ []
+
+
+Underfull \hbox (badness 8170) in paragraph at lines 32--32
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 The pub-lic GitHub repos-i-tory is avail-a
 ble on [][]$\T1/zi4/m/n/10 https : / / github . com / tharindudr /
  []
 
-[121] [122]
+[122] [123] [124]
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 36.
- [123]
-Overfull \hbox (0.30801pt too wide) in paragraph at lines 39--40
+(Font)              scaled to size 12.0pt on input line 52.
+ [125]
+Overfull \hbox (0.30801pt too wide) in paragraph at lines 55--56
 \T1/LinuxLibertineT-TLF/m/n/12 this pa-per re-lies on the Siamese ar-chi-tec-tu
 re de-picted in Fig-ure [][]2.1b[][] showed
  []
 
-File: figures/translation_quality_estimation/TransQuest.png Graphic file (type 
-bmp)
-<figures/translation_quality_estimation/TransQuest.png>
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 49.
-File: figures/translation_quality_estimation/SiameseTransQuest.png Graphic file
- (type bmp)
-<figures/translation_quality_estimation/SiameseTransQuest.png>
+File: figures/translation_quality_estimation/transquest/TransQuest.png Graphic 
+file (type bmp)
+<figures/translation_quality_estimation/transquest/TransQuest.png>
+File: figures/translation_quality_estimation/transquest/SiameseTransQuest.png G
+raphic file (type bmp)
+<figures/translation_quality_estimation/transquest/SiameseTransQuest.png>
 
-Overfull \hbox (56.9055pt too wide) in paragraph at lines 53--54
+Overfull \hbox (56.9055pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
-[124] [125]
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 101.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 101.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.1pt on input line 101.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
-(Font)              scaled to size 10.95pt on input line 101.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
-(Font)              scaled to size 8.0pt on input line 101.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
-(Font)              scaled to size 6.1pt on input line 101.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 101.
- [126]
+[126] [127] [128] [129]
+Overfull \hbox (0.63327pt too wide) in paragraph at lines 165--167
+\T1/LinuxLibertineT-TLF/m/n/12 still \T1/LinuxLibertineT-TLF/m/it/12 Siame-se-T
+ran-sQuest \T1/LinuxLibertineT-TLF/m/n/12 gained $\LMS/ntxsy/m/n/12 ^^Y$ \T1/Li
+nuxLibertineT-TLF/m/n/12 0.2-0.3 Pear-son cor-re-la-tion boost over OpenKiwi
+ []
 
-LaTeX Warning: Reference `tab:results:direct_assesement' on page 127 undefined 
-on input line 150.
+[130]
+Overfull \hbox (4.79799pt too wide) in paragraph at lines 169--170
+[]\T1/LinuxLibertineT-TLF/m/n/12 If you con-sider the two ar-chi-tec-tures; \T1
+/LinuxLibertineT-TLF/m/it/12 Mono-Tran-sQuest \T1/LinuxLibertineT-TLF/m/n/12 an
+d \T1/LinuxLibertineT-TLF/m/it/12 Siame-se-Tran-sQuest\T1/LinuxLibertineT-TLF/m
+/n/12 ,
+ []
 
-[127] [128]
+[131] [132] [133] [134]
 Missing character: There is no ă in font LinLibertineTI-tlf-t1!
 Missing character: There is no ă in font LinLibertineTI-tlf-t1!
 Missing character: There is no ă in font LinLibertineTI-tlf-t1!
@@ -2070,55 +2102,127 @@ Missing character: There is no ă in font LinLibertineTI-tlf-t1!
 Missing character: There is no ă in font LinLibertineTI-tlf-t1!
 Missing character: There is no ă in font LinLibertineTI-tlf-t1!
 Missing character: There is no ă in font LinLibertineTI-tlf-t1!
+ [135]
 Missing character: There is no ș in font LinLibertineTI-tlf-t1!
 Missing character: There is no ț in font LinLibertineTI-tlf-t1!
 Missing character: There is no ă in font LinLibertineTI-tlf-t1!
 Missing character: There is no ș in font LinLibertineTI-tlf-t1!
 Missing character: There is no ț in font LinLibertineTI-tlf-t1!
 Missing character: There is no ă in font LinLibertineTI-tlf-t1!
- [129]) [130] [131]
+ [136] [137]
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+[][][]\T1/LinuxLibertineT-TLF/m/n/10 WMT 2021 QE shared task is avail-able on [
+][]$\T1/zi4/m/n/10 http : / / statmt . org / wmt21 /
+ []
+
+[138]) [139]
 \openout2 = `chapters/translation_quality_estimation/transquest_word.aux'.
 
-
-(chapters/translation_quality_estimation/transquest_word.tex
+ (chapters/translation_quality_estimation/transquest_word.tex
 Chapter 3.
-) [132
+[140
 
 
 
 
-] [133]
+] [141] [142]
+Underfull \hbox (badness 2426) in paragraph at lines 31--31
+[][][]\T1/LinuxLibertineT-TLF/m/n/10 The pub-lic GitHub repos-i-tory of Tran-sQ
+uest is avail-able on [][]$\T1/zi4/m/n/10 https : / / github . com /
+ []
+
+
+Overfull \hbox (2.54958pt too wide) in paragraph at lines 31--32
+\T1/LinuxLibertineT-TLF/m/n/12 sentence-level ar-chi-tec-tures we de-scribed in
+ Chap-ter [][]2[][][][][][][]. Tran-sQuest frame-
+ []
+
+
+LaTeX Warning: Reference `sec:word_level_finetune' on page 143 undefined on inp
+ut line 35.
+
+[143] [144]
+File: figures/translation_quality_estimation/word_level/MicroTransQuest.png Gra
+phic file (type bmp)
+<figures/translation_quality_estimation/word_level/MicroTransQuest.png>
+ [145] [146] [147] [148]
+Overfull \hbox (5.44801pt too wide) in paragraph at lines 165--166
+\T1/LinuxLibertineT-TLF/m/n/12 0.05-0.2 F1-Multi score boost over best sys-tems
+. No-tably \T1/LinuxLibertineT-TLF/m/it/12 Mi-cro-Tran-sQuest \T1/LinuxLibertin
+eT-TLF/m/n/12 achieves
+ []
+
+[149] [150] [151] [152] [153]) [154]
 \openout2 = `chapters/translation_quality_estimation/multilingual.aux'.
 
- (chapters/translation_quality_estimation/multilingual.tex
+
+(chapters/translation_quality_estimation/multilingual.tex
 Chapter 4.
-[134
+[155
 
 
 
 
-]) [135]
+] [156] [157] [158] [159] [160] [161] [162] [163]
+File: figures/translation_quality_estimation/word_level/en_cs_smt_it.png Graphi
+c file (type bmp)
+<figures/translation_quality_estimation/word_level/en_cs_smt_it.png>
+File: figures/translation_quality_estimation/word_level/en_de_smt_it.png Graphi
+c file (type bmp)
+<figures/translation_quality_estimation/word_level/en_de_smt_it.png>
+File: figures/translation_quality_estimation/word_level/en_ru_nmt_it.png Graphi
+c file (type bmp)
+<figures/translation_quality_estimation/word_level/en_ru_nmt_it.png>
+File: figures/translation_quality_estimation/word_level/de_en_smt_pharm.png Gra
+phic file (type bmp)
+<figures/translation_quality_estimation/word_level/de_en_smt_pharm.png>
+File: figures/translation_quality_estimation/word_level/en_lv_nmt_pharm.png Gra
+phic file (type bmp)
+<figures/translation_quality_estimation/word_level/en_lv_nmt_pharm.png>
+File: figures/translation_quality_estimation/word_level/en_lv_smt_pharm.png Gra
+phic file (type bmp)
+<figures/translation_quality_estimation/word_level/en_lv_smt_pharm.png>
+File: figures/translation_quality_estimation/word_level/en_de_nmt_wiki.png Grap
+hic file (type bmp)
+<figures/translation_quality_estimation/word_level/en_de_nmt_wiki.png>
+File: figures/translation_quality_estimation/word_level/en_zh_nmt_wiki.png Grap
+hic file (type bmp)
+<figures/translation_quality_estimation/word_level/en_zh_nmt_wiki.png>
+
+
+LaTeX Warning: Float too large for page by 15.4706pt on input line 307.
+
+[164] [165]) [166]
+\openout2 = `conclusions.aux'.
+
+ (conclusions.tex) [167
+
+
+
+
+]
 \openout2 = `bib.aux'.
 
  (bib.tex (thesis.bbl
 Missing character: There is no – in font LinLibertineT-tlf-t1!
- [136
+ [168
 
 
 
 
-] [137]
+] [169]
 Missing character: There is no – in font LinLibertineT-tlf-t1!
- [138]
+
+[170]
 Missing character: There is no – in font LinLibertineT-tlf-t1!
 Missing character: There is no – in font LinLibertineT-tlf-t1!
- [139] [140]
+ [171] [172]
 Underfull \hbox (badness 2393) in paragraph at lines 221--230
 []\T1/LinuxLibertineT-TLF/m/n/12 Eneko Agirre, Daniel Cer, Mona Diab, and Aitor
  Gonzalez-Agirre.
  []
 
-[141] [142] [143] [144] [145]
+[173] [174] [175] [176] [177]
 Missing character: There is no ğ in font LinLibertineT-tlf-t1!
 Missing character: There is no ı in font LinLibertineT-tlf-t1!
 Missing character: There is no ğ in font LinLibertineT-tlf-t1!
@@ -2141,7 +2245,7 @@ for-mat-ics\T1/LinuxLibertineT-TLF/m/n/12 , 33(14):i49--i58, 07 2017.  ISSN 136
 7-4803.
  []
 
-[146]
+[178]
 Missing character: There is no – in font LinLibertineT-tlf-t1!
 Missing character: There is no – in font LinLibertineT-tlf-t1!
 Missing character: There is no – in font LinLibertineT-tlf-t1!
@@ -2151,13 +2255,13 @@ Underfull \hbox (badness 1237) in paragraph at lines 437--445
 zi4/m/n/12 https : / / www . aclweb . org / anthology /
  []
 
-[147]
+[179]
 Missing character: There is no – in font LinLibertineT-tlf-t1!
- [148] [149]
+ [180] [181]
 Missing character: There is no – in font LinLibertineT-tlf-t1!
- [150]
+ [182]
 Missing character: There is no – in font LinLibertineT-tlf-t1!
- [151]
+ [183]
 Underfull \hbox (badness 1199) in paragraph at lines 625--633
 \T1/LinuxLibertineT-TLF/m/it/12 Lin-guis-tics: EMNLP 2020\T1/LinuxLibertineT-TL
 F/m/n/12 , pages 2898--2904, On-line, Novem-ber 2020.
@@ -2169,15 +2273,15 @@ Underfull \hbox (badness 2334) in paragraph at lines 625--633
 cs.  doi: $10 . 18653 / v1 / 2020 .
  []
 
-[152]
+[184]
 Underfull \hbox (badness 1577) in paragraph at lines 663--672
 []\T1/LinuxLibertineT-TLF/m/n/12 Alan Ak-bik, Tanja Bergmann, Dun-can Blythe, K
 ashif Ra-sul, Ste-fan
  []
 
-[153]
+[185]
 Missing character: There is no – in font LinLibertineT-tlf-t1!
- [154] [155]
+ [186] [187]
 Underfull \hbox (badness 2591) in paragraph at lines 765--772
 []\T1/LinuxLibertineT-TLF/m/n/12 Yijia Zhang, Qingyu Chen, Zhi-hao Yang, Hongfe
 i Lin, and Zhiy-
@@ -2195,13 +2299,13 @@ Underfull \hbox (badness 2970) in paragraph at lines 765--772
  [][]$\T1/zi4/m/n/12 https : / / doi . org / 10 . 1038 /
  []
 
-[156]
+[188]
 Underfull \hbox (badness 3965) in paragraph at lines 802--811
 []\T1/LinuxLibertineT-TLF/m/n/12 Jesujoba Al-abi, Kwabena Amponsah-Kaakyire, Da
 vid Ade-lani, and
  []
 
-[157] [158] [159] [160]
+[189] [190] [191] [192]
 Missing character: There is no ğ in font LinLibertineT-tlf-t1!
 
 Underfull \hbox (badness 2020) in paragraph at lines 986--992
@@ -2221,7 +2325,7 @@ Underfull \hbox (badness 1314) in paragraph at lines 986--992
 ]$\T1/zi4/m/n/12 http : / / dx . doi . org / 10 . 21437 /
  []
 
-[161]
+[193]
 Underfull \hbox (badness 1348) in paragraph at lines 1006--1013
 \T1/LinuxLibertineT-TLF/m/n/12 dov.  Structure-preserving vi-su-al-i-sa-tion of
  high di-men-sional single-
@@ -2233,10 +2337,10 @@ Underfull \hbox (badness 1629) in paragraph at lines 1006--1013
 L [][]$\T1/zi4/m/n/12 https : / / doi . org / 10 . 1038 /
  []
 
-[162] [163] [164] [165] [166]
+[194] [195] [196] [197] [198]
 Missing character: There is no – in font LinLibertineT-tlf-t1!
 Missing character: There is no – in font LinLibertineT-tlf-t1!
- [167]
+ [199]
 Missing character: There is no “ in font LinLibertineT-tlf-t1!
 Missing character: There is no ” in font LinLibertineT-tlf-t1!
 
@@ -2245,15 +2349,15 @@ Underfull \hbox (badness 1270) in paragraph at lines 1268--1276
 l net-work.  \T1/LinuxLibertineT-TLF/m/it/12 In-ter-na-tional
  []
 
-[168] [169]
+[200] [201]
 Missing character: There is no – in font LinLibertineT-tlf-t1!
- [170] [171] [172]
+ [202] [203] [204]
 Underfull \hbox (badness 2173) in paragraph at lines 1452--1460
 \T1/LinuxLibertineT-TLF/m/it/12 ti-fi-cial In-tel-li-gence and Law\T1/LinuxLibe
 rtineT-TLF/m/n/12 , 27(2):171--198, Jun 2019.  ISSN 1572-
  []
 
-[173]
+[205]
 Underfull \hbox (badness 2941) in paragraph at lines 1499--1509
 \T1/LinuxLibertineT-TLF/m/n/12 Gre-gory Chanan, Trevor Killeen, Zem-ing Lin, Na
 -talia Gimelshein,
@@ -2271,21 +2375,27 @@ Overfull \hbox (77.78398pt too wide) in paragraph at lines 1499--1509
 deep-[]learning-[]library .
  []
 
-[174]
+[206]
 Missing character: There is no ’ in font LinLibertineT-tlf-t1!
- [175] [176]
+ [207] [208]
 Missing character: There is no – in font LinLibertineT-tlf-t1!
- [177] [178]
-Underfull \hbox (badness 1158) in paragraph at lines 1682--1691
+ [209] [210]
+Underfull \hbox (badness 1158) in paragraph at lines 1680--1689
 \T1/LinuxLibertineT-TLF/m/n/12 sQuest: Trans-la-tion qual-ity es-ti-ma-tion wit
 h cross-lingual trans-form-
  []
 
-[179] [180] [181] [182])) [183]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
- (thesis.aux (abstract.aux) (ack.aux)
-(contents.aux) (tables.aux) (figures.aux) (listings.aux) (introduction.aux)
+[211] [212]
+Underfull \hbox (badness 6268) in paragraph at lines 1747--1755
+[]\T1/LinuxLibertineT-TLF/m/n/12 Marina Fomicheva, Shuo Sun, Lisa Yankovskaya, 
+Frédéric Blain,
+ []
+
+[213] [214] [215])) [216]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
+ (thesis.aux (abstract.aux) (ack.aux) (contents.aux)
+(tables.aux) (figures.aux) (listings.aux) (introduction.aux)
 (chapters/semantic_textual_similarity/introduction.aux)
 (chapters/semantic_textual_similarity/state_of_the_art.aux)
 (chapters/semantic_textual_similarity/sentence_encoders.aux)
@@ -2296,8 +2406,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
 (chapters/translation_quality_estimation/introduction.aux)
 (chapters/translation_quality_estimation/transquest.aux)
 (chapters/translation_quality_estimation/transquest_word.aux)
-(chapters/translation_quality_estimation/multilingual.aux) (bib.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 131.
+(chapters/translation_quality_estimation/multilingual.aux) (conclusions.aux)
+(bib.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 135.
 
 
  *File List*
@@ -2468,6 +2579,7 @@ ot1linuxlibertinet-tlf.fd
   tables.tex
  figures.tex
 listings.tex
+ts1linuxlibertinet-tlf.fd
 introduction.tex
 chapters/semantic_textual_similarity/introduction.tex
    t1zi4.fd    2018/01/14 T1/zi4 (Inconsolata)
@@ -2527,17 +2639,27 @@ chapters/translation_memories/introduction.tex
 chapters/translation_memories/sentence_encoders.tex
 chapters/translation_quality_estimation/introduction.tex
 chapters/translation_quality_estimation/transquest.tex
-figures/translation_quality_estimation/TransQuest.png
-figures/translation_quality_estimation/SiameseTransQuest.png
+figures/translation_quality_estimation/transquest/TransQuest.png
+figures/translation_quality_estimation/transquest/SiameseTransQuest.png
 chapters/translation_quality_estimation/transquest_word.tex
+figures/translation_quality_estimation/word_level/MicroTransQuest.png
 chapters/translation_quality_estimation/multilingual.tex
+figures/translation_quality_estimation/word_level/en_cs_smt_it.png
+figures/translation_quality_estimation/word_level/en_de_smt_it.png
+figures/translation_quality_estimation/word_level/en_ru_nmt_it.png
+figures/translation_quality_estimation/word_level/de_en_smt_pharm.png
+figures/translation_quality_estimation/word_level/en_lv_nmt_pharm.png
+figures/translation_quality_estimation/word_level/en_lv_smt_pharm.png
+figures/translation_quality_estimation/word_level/en_de_nmt_wiki.png
+figures/translation_quality_estimation/word_level/en_zh_nmt_wiki.png
+conclusions.tex
      bib.tex
   thesis.bbl
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C2737669DC6F2C23EB2E05FC9521FDA5;6946.
+(rerunfilecheck)             Checksum: D8489F6D816276D2BABC321075A8BE75;6796.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -2547,12 +2669,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 31340 strings out of 414071
- 543710 string characters out of 2894795
- 969667 words of memory out of 3000000
- 48209 multiletter control sequences out of 15000+200000
- 718138 words of font info for 186 fonts, out of 3000000 for 9000
+ 31497 strings out of 414071
+ 549960 string characters out of 2894795
+ 1004714 words of memory out of 3000000
+ 48348 multiletter control sequences out of 15000+200000
+ 723345 words of font info for 188 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 68i,19n,96p,1847b,824s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,19n,96p,1847b,834s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on thesis.pdf (200 pages).
+Output written on thesis.pdf (233 pages).

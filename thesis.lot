@@ -35,9 +35,9 @@
 \contentsline {table}{\numberline {4.2}{\ignorespaces Results for STS 2017 with Siamese Neural Network}}{90}{table.caption.62}%
 \contentsline {table}{\numberline {4.3}{\ignorespaces Results for QUORA with Siamese Neural Network}}{90}{table.caption.63}%
 \contentsline {table}{\numberline {4.4}{\ignorespaces Results for transfer learning with Siamese Neural Network}}{92}{table.caption.64}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Results for data augmentation with Siamese Neural Network}}{95}{table.caption.65}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Results for data augmentation with Siamese Neural Network}}{94}{table.caption.65}%
 \contentsline {table}{\numberline {4.6}{\ignorespaces Results comparison for SICK with leader board results}}{95}{table.caption.66}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Results comparison for STS2017 with leader board results}}{96}{table.caption.67}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Results comparison for STS2017 with leader board results}}{95}{table.caption.67}%
 \contentsline {table}{\numberline {4.8}{\ignorespaces Results for Arabic STS with Siamese Neural Network}}{97}{table.caption.68}%
 \contentsline {table}{\numberline {4.9}{\ignorespaces Results for Spanish STS with Siamese Neural Network}}{97}{table.caption.69}%
 \contentsline {table}{\numberline {4.10}{\ignorespaces Results comparison for Arabic STS with leader board results}}{98}{table.caption.70}%
@@ -47,7 +47,7 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Results for SICK with Transformer Models}}{110}{table.caption.80}%
 \contentsline {table}{\numberline {5.2}{\ignorespaces Results for STS 2017 with Transformers}}{110}{table.caption.81}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Results for QUORA with Transformers}}{111}{table.caption.82}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Results for QUORA with Transformers}}{110}{table.caption.82}%
 \contentsline {part}{II\hspace {1em}Applications - Translation Memories}{112}{part.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -55,8 +55,15 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {1.1}{\ignorespaces Information about language pairs used to predict HTER. The \textbf {Language Pair} column shows the language pairs we used in ISO 639-1 codes\footnotemark . \textbf {Source} expresses the domain of the sentence and \textbf {MT system} is the Machine Translation system used to translate the sentences. In that column NMT indicates Neural Machine Translation and SMT indicates Statistical Machine Translation. \textbf {Competition} shows the quality estimation competition in which the data was released and the last column indicates the number of instances the train, development and test dataset had in each language pair respectively.\relax }}{117}{table.caption.83}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Pearson correlation between TransQuest algorithm predictions and human post-editing effort}}{127}{table.caption.85}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Pearson correlation ($\bm {\rho }$) between \textit {TransQuest} algorithm predictions and human DA judgments}}{128}{table.caption.86}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Pearson correlation between TransQuest algorithm predictions and human post-editing effort}}{129}{table.caption.85}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Pearson correlation ($\bm {\rho }$) between \textit {TransQuest} algorithm predictions and human DA judgments}}{130}{table.caption.86}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Target F1-Multi between the algorithm predictions and human annotations}}{133}{table.caption.87}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces F1-Multi Target between the algorithm predictions and human annotations}}{147}{table.caption.90}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces F1-Multi GAPS between the algorithm predictions and human annotations}}{148}{table.caption.91}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces F1-Multi Source between the algorithm predictions and human annotations}}{149}{table.caption.92}%
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Pearson correlation between MonoTransQuest algorithm predictions and human post-editing effort}}{159}{table.caption.93}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Pearson correlation between MonoTransQuest algorithm predictions and human DA judgments}}{160}{table.caption.94}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Multilingual Target F1-Multi between the MicroTransQuest predictions and human annotations}}{161}{table.caption.95}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Multilingual GAP F1-Multi between MicroTransQuest predictions and human annotations}}{162}{table.caption.96}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Multilingual Source F1-Multi between MicroTransQuest predictions and human annotations}}{163}{table.caption.97}%

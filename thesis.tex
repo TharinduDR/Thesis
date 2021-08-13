@@ -28,7 +28,6 @@
 }{\typeout{Success}}{\typeout{Patch failure}}
 \makeatother
 
-
 \usepackage{hyperref}
 
 \usepackage{thesis}
@@ -52,6 +51,8 @@
 \usepackage[numbers, sort, comma, square]{natbib}
 \usepackage{graphicx}
 \usepackage{caption}
+\captionsetup[figure]{font=small}
+\captionsetup[table]{font=small}
 \usepackage{subcaption}
 \usepackage{bm}
 \usepackage{booktabs}
@@ -121,8 +122,11 @@
 \include{chapters/translation_quality_estimation/multilingual}
 
 
-
+\makeatletter
+\def\toclevel@chapter{-1}
+\makeatother
 % Bibliography.
+\include{conclusions}
 \include{bib}
 
 % Appendix.
