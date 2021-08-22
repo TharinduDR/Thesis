@@ -1,98 +1,106 @@
 \contentsline {chapter}{Abstract}{ii}{Doc-Start}%
 \contentsline {chapter}{Acknowledgements}{iii}{chapter*.1}%
 \contentsline {chapter}{List of Tables}{ix}{chapter*.3}%
-\contentsline {chapter}{List of Figures}{xiii}{chapter*.4}%
-\contentsline {chapter}{List of Publications}{xv}{chapter*.5}%
-\contentsline {chapter}{Introduction}{xvi}{chapter*.6}%
+\contentsline {chapter}{List of Figures}{xiv}{chapter*.4}%
+\contentsline {chapter}{List of Publications}{xvii}{chapter*.5}%
+\contentsline {chapter}{Introduction}{xviii}{chapter*.6}%
 \contentsline {part}{I\hspace {1em}Semantic Textual Similarity}{1}{part.1}%
-\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1.1}%
-\contentsline {section}{\numberline {1.1}Datasets}{6}{section.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}English Datasets}{7}{subsection.1.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Datasets on Other Languages}{23}{subsection.1.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Datasets on Different Domains}{31}{subsection.1.1.1.3}%
-\contentsline {section}{\numberline {1.2}Evaluation Metrics}{32}{section.1.1.2}%
-\contentsline {section}{\numberline {1.3}Contributions}{37}{section.1.1.3}%
-\contentsline {section}{\numberline {1.4}Conclusion}{38}{section.1.1.4}%
-\contentsline {chapter}{\numberline {2}Improving State of the Art STS Methods}{41}{chapter.1.2}%
-\contentsline {section}{\numberline {2.1}Related Work}{43}{section.1.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Cosine Similarity on Average Vectors}{44}{subsection.1.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Word Mover's Distance}{44}{subsection.1.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Cosine Similarity Using Smooth Inverse Frequency}{44}{subsection.1.2.1.3}%
-\contentsline {section}{\numberline {2.2}Improving State of the Art STS Methods}{48}{section.1.2.2}%
-\contentsline {section}{\numberline {2.3}Portability to Other Languages}{58}{section.1.2.3}%
-\contentsline {section}{\numberline {2.4}Portability to Other Domains}{60}{section.1.2.4}%
-\contentsline {section}{\numberline {2.5}Conclusions}{61}{section.1.2.5}%
-\contentsline {chapter}{\numberline {3}Exploring STS with Sentence Encoders}{64}{chapter.1.3}%
-\contentsline {section}{\numberline {3.1}Related Work}{67}{section.1.3.1}%
-\contentsline {paragraph}{Sent2vec}{67}{section*.50}%
-\contentsline {paragraph}{Infersent}{68}{section*.51}%
-\contentsline {paragraph}{Universal Sentence Encoder}{69}{section*.53}%
-\contentsline {section}{\numberline {3.2}Exploring Sentence Encoders in English STS}{72}{section.1.3.2}%
-\contentsline {section}{\numberline {3.3}Portability to Other Languages}{75}{section.1.3.3}%
-\contentsline {section}{\numberline {3.4}Portability to Other Domains}{77}{section.1.3.4}%
-\contentsline {section}{\numberline {3.5}Conclusions}{79}{section.1.3.5}%
-\contentsline {chapter}{\numberline {4}Siamese Neural Networks for STS}{82}{chapter.1.4}%
-\contentsline {section}{\numberline {4.1}Related Work}{85}{section.1.4.1}%
-\contentsline {section}{\numberline {4.2}Exploring Siamese Neural Networks for STS}{87}{section.1.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Impact of Transfer Learning}{91}{subsection.1.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Impact of Data Augmentation}{93}{subsection.1.4.2.2}%
-\contentsline {section}{\numberline {4.3}Portability to Other Languages}{96}{section.1.4.3}%
-\contentsline {section}{\numberline {4.4}Portability to Other Domains}{99}{section.1.4.4}%
-\contentsline {section}{\numberline {4.5}Conclusions}{101}{section.1.4.5}%
-\contentsline {chapter}{\numberline {5}Adopting Transformers for STS}{104}{chapter.1.5}%
-\contentsline {section}{\numberline {5.1}Related Work}{106}{section.1.5.1}%
-\contentsline {paragraph}{BERT}{106}{section*.74}%
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Datasets}{7}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}English Datasets}{8}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Datasets on Other Languages}{23}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Datasets on Different Domains}{31}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Evaluation Metrics}{32}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Conclusion}{37}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Improving State of the Art STS Methods}{40}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Related Work}{42}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Cosine Similarity on Average Vectors}{43}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Word Mover's Distance}{43}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Cosine Similarity Using Smooth Inverse Frequency}{43}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Improving State of the Art STS Methods}{47}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Portability to Other Languages}{57}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Portability to Other Domains}{59}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Conclusions}{60}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Exploring STS with Sentence Encoders}{63}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Related Work}{66}{section.3.1}%
+\contentsline {paragraph}{Sent2vec}{66}{section*.50}%
+\contentsline {paragraph}{Infersent}{67}{section*.51}%
+\contentsline {paragraph}{Universal Sentence Encoder}{68}{section*.53}%
+\contentsline {section}{\numberline {3.2}Exploring Sentence Encoders in English STS}{71}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Portability to Other Languages}{74}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Portability to Other Domains}{76}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Conclusions}{78}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Siamese Neural Networks for STS}{81}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Related Work}{84}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Exploring Siamese Neural Networks for STS}{86}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Impact of Transfer Learning}{90}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Impact of Data Augmentation}{92}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Portability to Other Languages}{95}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Portability to Other Domains}{98}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Conclusions}{100}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Adopting Transformers for STS}{103}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Related Work}{105}{section.5.1}%
+\contentsline {paragraph}{BERT}{105}{section*.74}%
 \contentsline {paragraph}{RoBERTa}{106}{section*.75}%
-\contentsline {paragraph}{ALBERT}{107}{section*.76}%
-\contentsline {paragraph}{ELECTRA}{107}{section*.77}%
+\contentsline {paragraph}{ALBERT}{106}{section*.76}%
+\contentsline {paragraph}{ELECTRA}{106}{section*.77}%
 \contentsline {paragraph}{XLNET}{107}{section*.78}%
-\contentsline {section}{\numberline {5.2}Transformer Architecture for STS}{108}{section.1.5.2}%
-\contentsline {section}{\numberline {5.3}Exploring Transformers in English STS}{109}{section.1.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Impact of Transfer Learning}{111}{subsection.1.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Impact of Data Augmentation}{111}{subsection.1.5.3.2}%
-\contentsline {section}{\numberline {5.4}Portability to Other Languages}{111}{section.1.5.4}%
-\contentsline {section}{\numberline {5.5}Potability to Other Domains}{111}{section.1.5.5}%
-\contentsline {section}{\numberline {5.6}Recent Developments: Siamese Transformers}{111}{section.1.5.6}%
-\contentsline {section}{\numberline {5.7}Conclusions}{111}{section.1.5.7}%
-\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{112}{part.2}%
-\contentsline {chapter}{\numberline {1}Introduction}{113}{chapter.2.1}%
-\contentsline {section}{\numberline {1.1}What is Translation Memory?}{113}{section.2.1.1}%
-\contentsline {section}{\numberline {1.2}Datasets}{113}{section.2.1.2}%
-\contentsline {section}{\numberline {1.3}Related Work}{113}{section.2.1.3}%
-\contentsline {section}{\numberline {1.4}STS for Translation Memories}{113}{section.2.1.4}%
-\contentsline {chapter}{\numberline {2}Sentence Encoders for Translation Memories}{114}{chapter.2.2}%
-\contentsline {section}{\numberline {2.1}Methodology}{114}{section.2.2.1}%
-\contentsline {section}{\numberline {2.2}Results and Evaluation}{114}{section.2.2.2}%
-\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{115}{part.3}%
-\contentsline {chapter}{\numberline {1}Introduction}{116}{chapter.3.1}%
-\contentsline {section}{\numberline {1.1}What is Translation Quality Estimation?}{116}{section.3.1.1}%
-\contentsline {section}{\numberline {1.2}Datasets}{116}{section.3.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Predicting HTER}{116}{subsection.3.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Predicting DA}{117}{subsection.3.1.2.2}%
-\contentsline {section}{\numberline {1.3}Related Work}{118}{section.3.1.3}%
-\contentsline {section}{\numberline {1.4}STS for Translation Quality Estimation}{119}{section.3.1.4}%
-\contentsline {section}{\numberline {1.5}Conclusion}{119}{section.3.1.5}%
-\contentsline {chapter}{\numberline {2}TransQuest: STS Architectures for QE}{120}{chapter.3.2}%
-\contentsline {section}{\numberline {2.1}Methodology}{123}{section.3.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Experimental Setup}{127}{subsection.3.2.1.1}%
-\contentsline {section}{\numberline {2.2}Results and Discussion}{128}{section.3.2.2}%
-\contentsline {section}{\numberline {2.3}Further Fine-tuning}{132}{section.3.2.3}%
-\contentsline {paragraph}{Ensemble Learning}{133}{section*.87}%
-\contentsline {paragraph}{Data Augmentation}{133}{section*.88}%
-\contentsline {section}{\numberline {2.4}Error analysis}{135}{section.3.2.4}%
-\contentsline {section}{\numberline {2.5}Conclusion}{137}{section.3.2.5}%
-\contentsline {chapter}{\numberline {3}Extending TransQuest for Word-Level QE}{140}{chapter.3.3}%
-\contentsline {section}{\numberline {3.1}Methodology}{144}{section.3.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Experimental Setup}{145}{subsection.3.3.1.1}%
-\contentsline {section}{\numberline {3.2}Results and Evaluation}{146}{section.3.3.2}%
-\contentsline {section}{\numberline {3.3}Further Improvements}{151}{section.3.3.3}%
-\contentsline {section}{\numberline {3.4}Conclusion}{152}{section.3.3.4}%
-\contentsline {chapter}{\numberline {4}Multilingual Quality Estimation with TransQuest}{155}{chapter.3.4}%
-\contentsline {section}{\numberline {4.1}Methodology}{157}{section.3.4.1}%
-\contentsline {section}{\numberline {4.2}Results}{158}{section.3.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Multilingual QE}{159}{subsection.3.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Zero-shot QE}{162}{subsection.3.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Few-shot QE}{166}{subsection.3.4.2.3}%
-\contentsline {section}{\numberline {4.3}Conclusion}{166}{section.3.4.3}%
-\contentsline {chapter}{Conclusions}{167}{section.3.4.3}%
-\contentsline {chapter}{Bibliography}{168}{chapter*.99}%
+\contentsline {section}{\numberline {5.2}Transformer Architecture for STS}{107}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Exploring Transformers in English STS}{109}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Impact of Transfer Learning}{111}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Impact of Data Augmentation}{112}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Portability to Other Languages}{113}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Potability to Other Domains}{113}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Recent Developments: Siamese Transformers}{113}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Conclusions}{113}{section.5.7}%
+\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{116}{part.2}%
+\contentsline {chapter}{\numberline {6}Introduction to Translation Memories}{117}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Related Work}{121}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Dataset}{124}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Evaluation}{125}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Conclusions}{126}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Sentence Encoders for Translation Memories}{128}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Motivation}{131}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Methodology}{132}{section.7.2}%
+\contentsline {paragraph}{Step 1}{133}{section*.94}%
+\contentsline {paragraph}{Step 2}{133}{section*.95}%
+\contentsline {paragraph}{Step 3}{133}{section*.96}%
+\contentsline {section}{\numberline {7.3}Results and Evaluation}{136}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Error Analysis}{138}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Conclusions}{146}{section.7.5}%
+\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{148}{part.3}%
+\contentsline {chapter}{\numberline {8}Introduction to Translation Quality Estimation}{149}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Related Work}{153}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Datasets}{156}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Sentence-level QE}{156}{subsection.8.2.1}%
+\contentsline {paragraph}{Predicting HTER}{156}{section*.99}%
+\contentsline {paragraph}{Predicting DA}{157}{section*.101}%
+\contentsline {subsection}{\numberline {8.2.2}Word-level QE}{159}{subsection.8.2.2}%
+\contentsline {section}{\numberline {8.3}Evaluation}{160}{section.8.3}%
+\contentsline {paragraph}{Sentence-Level QE Evaluation}{160}{section*.102}%
+\contentsline {paragraph}{Word-level QE Evaluation}{160}{section*.103}%
+\contentsline {section}{\numberline {8.4}Conclusion}{161}{section.8.4}%
+\contentsline {chapter}{\numberline {9}TransQuest: STS Architectures for QE}{163}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Methodology}{166}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Experimental Setup}{170}{subsection.9.1.1}%
+\contentsline {section}{\numberline {9.2}Results and Discussion}{171}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Further Fine-tuning}{175}{section.9.3}%
+\contentsline {paragraph}{Ensemble Learning}{176}{section*.107}%
+\contentsline {paragraph}{Data Augmentation}{176}{section*.108}%
+\contentsline {section}{\numberline {9.4}Error analysis}{178}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Conclusion}{180}{section.9.5}%
+\contentsline {chapter}{\numberline {10}Extending TransQuest for Word-Level QE}{183}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Methodology}{187}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Experimental Setup}{189}{subsection.10.1.1}%
+\contentsline {section}{\numberline {10.2}Results and Evaluation}{189}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Further Improvements}{194}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Conclusion}{195}{section.10.4}%
+\contentsline {chapter}{\numberline {11}Multilingual Quality Estimation with TransQuest}{198}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Methodology}{201}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Results}{202}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Multilingual QE}{203}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}Zero-shot QE}{206}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.3}Few-shot QE}{210}{subsection.11.2.3}%
+\contentsline {section}{\numberline {11.3}Conclusion}{212}{section.11.3}%
+\contentsline {chapter}{Conclusions}{214}{section.11.3}%
+\contentsline {chapter}{Bibliography}{215}{chapter*.119}%

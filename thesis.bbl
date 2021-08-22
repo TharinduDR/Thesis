@@ -1,4 +1,4 @@
-\begin{thebibliography}{188}
+\begin{thebibliography}{231}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -320,14 +320,14 @@ Darnes Vilari{\~n}o, David Pinto, Sa{\'u}l Le{\'o}n, Mireya Tovar, and Beatriz
 \newblock \doi{10.3115/v1/S14-2022}.
 \newblock URL \url{https://www.aclweb.org/anthology/S14-2022}.
 
-\bibitem[Gupta et~al.(2014)Gupta, B{\'e}chara, El~Maarouf, and
+\bibitem[Gupta et~al.(2014{\natexlab{a}})Gupta, B{\'e}chara, El~Maarouf, and
   Or{\u{a}}san]{gupta-etal-2014-uow}
 Rohit Gupta, Hanna B{\'e}chara, Ismail El~Maarouf, and Constantin Or{\u{a}}san.
 \newblock {U}o{W}: {NLP} techniques developed at the {U}niversity of
   {W}olverhampton for semantic similarity and textual entailment.
 \newblock In \emph{Proceedings of the 8th International Workshop on Semantic
-  Evaluation ({S}em{E}val 2014)}, pages 785--789, Dublin, Ireland, August 2014.
-  Association for Computational Linguistics.
+  Evaluation ({S}em{E}val 2014)}, pages 785--789, Dublin, Ireland, August
+  2014{\natexlab{a}}. Association for Computational Linguistics.
 \newblock \doi{10.3115/v1/S14-2139}.
 \newblock URL \url{https://www.aclweb.org/anthology/S14-2139}.
 
@@ -1522,6 +1522,14 @@ Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue,
 \newblock \doi{10.18653/v1/2020.emnlp-demos.6}.
 \newblock URL \url{https://aclanthology.org/2020.emnlp-demos.6}.
 
+\bibitem[Simard(2020)]{Simard2020}
+Michel Simard.
+\newblock {Building and using parallel text for translation}.
+\newblock In Minako O'Hagan, editor, \emph{The Routledge Handbook of
+  Translation and Technology}, chapter~5, pages 78 ---- 90. Routledge, 2020.
+\newblock ISBN 9781315311258.
+\newblock \doi{10.4324/9781315311258-5}.
+
 \bibitem[Arthern(1979)]{Arthern1979}
 Peter~J. Arthern.
 \newblock Machine translation and computerized terminology systems: A
@@ -1529,6 +1537,181 @@ Peter~J. Arthern.
 \newblock \emph{Translating and the Computer, Proceedings of a Seminar, London
   14th November 1978. Amsterdam: North-Holland Publishing Company}, pages
   77--108, 1979.
+
+\bibitem[Zaretskaya et~al.(2018)Zaretskaya, {Corpas Pastor}, and
+  Seghiri]{zaretskaya:2018}
+Anna Zaretskaya, Gloria {Corpas Pastor}, and Miriam Seghiri.
+\newblock {User Perspective on Translation Tools: Findings of a User Survey}.
+\newblock In Gloria {Corpas Pastor} and Isabel Duran, editors, \emph{Trends in
+  E-tools and Resources for Translators and Interpreters}, pages 37 -- 56.
+  Brill, 2018.
+
+\bibitem[Macklovitch and Russell(2000)]{10.5555/648180.749379}
+Elliott Macklovitch and Graham Russell.
+\newblock What's been forgotten in translation memory.
+\newblock In \emph{Proceedings of the 4th Conference of the Association for
+  Machine Translation in the Americas on Envisioning Machine Translation in the
+  Information Future}, AMTA '00, page 137–146, Berlin, Heidelberg, 2000.
+  Springer-Verlag.
+\newblock ISBN 3540411178.
+
+\bibitem[Planas(2005)]{planas2005similis}
+Emmanuel Planas.
+\newblock Similis second-generation translation memory software.
+\newblock In \emph{27th International Conference on Translating and the
+  Computer (TC27), London, United Kingdom, ASLIB}, 2005.
+
+\bibitem[Gr{\"o}nroos and Becks(2005)]{gronroos2005bringing}
+Mickel Gr{\"o}nroos and Ari Becks.
+\newblock Bringing intelligence to translation memory technology.
+\newblock In \emph{proceedings of the International Conference Translating and
+  the Computer}, volume~27, pages 24--25, 2005.
+
+\bibitem[Hod{\'a}sz and Pohl(2005)]{hodasz2005metamorpho}
+G{\'a}bor Hod{\'a}sz and G{\'a}bor Pohl.
+\newblock Metamorpho tm: a linguistically enriched translation memory.
+\newblock In \emph{International Workshop: Modern Approaches in Translation
+  Technologies}, pages 26--30, 2005.
+
+\bibitem[Mitkov and Corpas(2008)]{mitkov2008improving}
+Ruslan Mitkov and Gloria Corpas.
+\newblock Improving third generation translation memory systems through
+  identification of rhetorical predicates.
+\newblock \emph{Proceedings of LangTech2008}, 2008.
+
+\bibitem[Pekar and Mitkov(2007)]{pekar2007new}
+Viktor Pekar and Ruslan Mitkov.
+\newblock New generation translation memory: content-sensivite matching.
+\newblock In \emph{Proceedings of the 40th anniversary congress of the swiss
+  association of translators, terminologists and interpreters}, 2007.
+
+\bibitem[Szpektor et~al.(2004)Szpektor, Tanev, Dagan, and
+  Coppola]{szpektor-etal-2004-scaling}
+Idan Szpektor, Hristo Tanev, Ido Dagan, and Bonaventura Coppola.
+\newblock Scaling web-based acquisition of entailment relations.
+\newblock In \emph{Proceedings of the 2004 Conference on Empirical Methods in
+  Natural Language Processing}, pages 41--48, Barcelona, Spain, July 2004.
+  Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/W04-3206}.
+
+\bibitem[Knight and Graehl(2005)]{10.1007/978-3-540-30586-6_1}
+Kevin Knight and Jonathan Graehl.
+\newblock An overview of probabilistic tree transducers for natural language
+  processing.
+\newblock In Alexander Gelbukh, editor, \emph{Computational Linguistics and
+  Intelligent Text Processing}, pages 1--24, Berlin, Heidelberg, 2005. Springer
+  Berlin Heidelberg.
+
+\bibitem[Vanallemeersch and Vandeghinste(2014)]{vanallemeersch2014improving}
+Tom Vanallemeersch and Vincent Vandeghinste.
+\newblock Improving fuzzy matching through syntactic knowledge.
+\newblock \emph{Translating and the Computer}, 36:\penalty0 217--227, 2014.
+
+\bibitem[Raisa~Timonera and Mitkov(2015)]{raisa-timonera-mitkov-2015-improving}
+Katerina Raisa~Timonera and Ruslan Mitkov.
+\newblock Improving translation memory matching through clause splitting.
+\newblock In \emph{Proceedings of the Workshop Natural Language Processing for
+  Translation Memories}, pages 17--23, Hissar, Bulgaria, September 2015.
+  Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/W15-5203}.
+
+\bibitem[Gupta et~al.(2016{\natexlab{a}})Gupta, Or{\u{a}}san, Zampieri, Vela,
+  van Genabith, and Mitkov]{Gupta2016}
+Rohit Gupta, Constantin Or{\u{a}}san, Marcos Zampieri, Mihaela Vela, Josef van
+  Genabith, and Ruslan Mitkov.
+\newblock Improving translation memory matching and retrieval using
+  paraphrases.
+\newblock \emph{Machine Translation}, 30\penalty0 (1):\penalty0 19--40, Jun
+  2016{\natexlab{a}}.
+\newblock ISSN 1573-0573.
+\newblock \doi{10.1007/s10590-016-9180-0}.
+\newblock URL \url{https://doi.org/10.1007/s10590-016-9180-0}.
+
+\bibitem[Ganitkevitch et~al.(2013)Ganitkevitch, Van~Durme, and
+  Callison-Burch]{ganitkevitch-etal-2013-ppdb}
+Juri Ganitkevitch, Benjamin Van~Durme, and Chris Callison-Burch.
+\newblock {PPDB}: The paraphrase database.
+\newblock In \emph{Proceedings of the 2013 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 758--764, Atlanta, Georgia, June 2013. Association for
+  Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/N13-1092}.
+
+\bibitem[Gupta et~al.(2016{\natexlab{b}})Gupta, Or{\u{a}}san, Liu, and
+  Mitkov]{10.1007/978-3-319-45510-5_30}
+Rohit Gupta, Constantin Or{\u{a}}san, Qun Liu, and Ruslan Mitkov.
+\newblock A dynamic programming approach to improving translation memory
+  matching and retrieval using paraphrases.
+\newblock In Petr Sojka, Ale{\v{s}} Hor{\'a}k, Ivan Kope{\v{c}}ek, and Karel
+  Pala, editors, \emph{Text, Speech, and Dialogue}, pages 259--269, Cham,
+  2016{\natexlab{b}}. Springer International Publishing.
+\newblock ISBN 978-3-319-45510-5.
+
+\bibitem[Gupta et~al.(2014{\natexlab{b}})Gupta, Bechara, and
+  Orasan]{gupta2014intelligent}
+Rohit Gupta, Hanna Bechara, and Constantin Orasan.
+\newblock Intelligent translation memory matching and retrieval metric
+  exploiting linguistic technology.
+\newblock \emph{Proceedings of Translating and the Computer}, 36:\penalty0
+  86--89, 2014{\natexlab{b}}.
+
+\bibitem[Steinberger et~al.(2012)Steinberger, Eisele, Klocek, Pilos, and
+  Schl{\"u}ter]{steinberger-etal-2012-dgt}
+Ralf Steinberger, Andreas Eisele, Szymon Klocek, Spyridon Pilos, and Patrick
+  Schl{\"u}ter.
+\newblock {DGT}-{TM}: A freely available translation memory in 22 languages.
+\newblock In \emph{Proceedings of the Eighth International Conference on
+  Language Resources and Evaluation ({LREC}'12)}, pages 454--459, Istanbul,
+  Turkey, May 2012. European Language Resources Association (ELRA).
+\newblock URL
+  \url{http://www.lrec-conf.org/proceedings/lrec2012/pdf/814_Paper.pdf}.
+
+\bibitem[Aker et~al.(2013)Aker, Paramita, and
+  Gaizauskas]{aker-etal-2013-extracting}
+Ahmet Aker, Monica Paramita, and Rob Gaizauskas.
+\newblock Extracting bilingual terminologies from comparable corpora.
+\newblock In \emph{Proceedings of the 51st Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 402--411,
+  Sofia, Bulgaria, August 2013. Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/P13-1040}.
+
+\bibitem[Besacier and Schwartz(2015)]{besacier-schwartz-2015-automated}
+Laurent Besacier and Lane Schwartz.
+\newblock Automated translation of a literary work: A pilot study.
+\newblock In \emph{Proceedings of the Fourth Workshop on Computational
+  Linguistics for Literature}, pages 114--122, Denver, Colorado, USA, June
+  2015. Association for Computational Linguistics.
+\newblock \doi{10.3115/v1/W15-0713}.
+\newblock URL \url{https://aclanthology.org/W15-0713}.
+
+\bibitem[Papineni et~al.(2002)Papineni, Roukos, Ward, and
+  Zhu]{papineni-etal-2002-bleu}
+Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu.
+\newblock {B}leu: a method for automatic evaluation of machine translation.
+\newblock In \emph{Proceedings of the 40th Annual Meeting of the Association
+  for Computational Linguistics}, pages 311--318, Philadelphia, Pennsylvania,
+  USA, July 2002. Association for Computational Linguistics.
+\newblock \doi{10.3115/1073083.1073135}.
+\newblock URL \url{https://aclanthology.org/P02-1040}.
+
+\bibitem[Sellam et~al.(2020)Sellam, Das, and Parikh]{sellam-etal-2020-bleurt}
+Thibault Sellam, Dipanjan Das, and Ankur Parikh.
+\newblock {BLEURT}: Learning robust metrics for text generation.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics}, pages 7881--7892, Online, July 2020.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2020.acl-main.704}.
+\newblock URL \url{https://aclanthology.org/2020.acl-main.704}.
+
+\bibitem[Banerjee and Lavie(2005)]{banerjee-lavie-2005-meteor}
+Satanjeev Banerjee and Alon Lavie.
+\newblock {METEOR}: An automatic metric for {MT} evaluation with improved
+  correlation with human judgments.
+\newblock In \emph{Proceedings of the {ACL} Workshop on Intrinsic and Extrinsic
+  Evaluation Measures for Machine Translation and/or Summarization}, pages
+  65--72, Ann Arbor, Michigan, June 2005. Association for Computational
+  Linguistics.
+\newblock URL \url{https://aclanthology.org/W05-0909}.
 
 \bibitem[Ranasinghe et~al.(2020{\natexlab{a}})Ranasinghe, Orasan, and
   Mitkov]{ranasinghe-etal-2020-intelligent}
@@ -1551,6 +1734,126 @@ Lucia Specia, Fr{\'e}d{\'e}ric Blain, Varvara Logacheva, Ram{\'o}n Astudillo,
 \newblock \doi{10.18653/v1/W18-6451}.
 \newblock URL \url{https://www.aclweb.org/anthology/W18-6451}.
 
+\bibitem[Kepler et~al.(2019)Kepler, Tr{\'e}nous, Treviso, Vera, and
+  Martins]{kepler-etal-2019-openkiwi}
+Fabio Kepler, Jonay Tr{\'e}nous, Marcos Treviso, Miguel Vera, and Andr{\'e}
+  F.~T. Martins.
+\newblock {O}pen{K}iwi: An open source framework for quality estimation.
+\newblock In \emph{Proceedings of the 57th Annual Meeting of the Association
+  for Computational Linguistics: System Demonstrations}, pages 117--122,
+  Florence, Italy, July 2019. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/P19-3020}.
+\newblock URL \url{https://www.aclweb.org/anthology/P19-3020}.
+
+\bibitem[Barrault et~al.(2020)Barrault, Biesialska, Bojar, Costa-juss{\`a},
+  Federmann, Graham, Grundkiewicz, Haddow, Huck, Joanis, Kocmi, Koehn, Lo,
+  Ljube{\v{s}}i{\'c}, Monz, Morishita, Nagata, Nakazawa, Pal, Post, and
+  Zampieri]{barrault-etal-2020-findings}
+Lo{\"\i}c Barrault, Magdalena Biesialska, Ond{\v{r}}ej Bojar, Marta~R.
+  Costa-juss{\`a}, Christian Federmann, Yvette Graham, Roman Grundkiewicz,
+  Barry Haddow, Matthias Huck, Eric Joanis, Tom Kocmi, Philipp Koehn, Chi-kiu
+  Lo, Nikola Ljube{\v{s}}i{\'c}, Christof Monz, Makoto Morishita, Masaaki
+  Nagata, Toshiaki Nakazawa, Santanu Pal, Matt Post, and Marcos Zampieri.
+\newblock Findings of the 2020 conference on machine translation ({WMT}20).
+\newblock In \emph{Proceedings of the Fifth Conference on Machine Translation},
+  pages 1--55, Online, November 2020. Association for Computational
+  Linguistics.
+\newblock URL \url{https://aclanthology.org/2020.wmt-1.1}.
+
+\bibitem[Han et~al.(2012)Han, Wong, and Chao]{han-etal-2012-lepor}
+Aaron L.~F. Han, Derek~F. Wong, and Lidia~S. Chao.
+\newblock {LEPOR}: A robust evaluation metric for machine translation with
+  augmented factors.
+\newblock In \emph{Proceedings of {COLING} 2012: Posters}, pages 441--450,
+  Mumbai, India, December 2012. The COLING 2012 Organizing Committee.
+\newblock URL \url{https://aclanthology.org/C12-2044}.
+
+\bibitem[Ive et~al.(2018)Ive, Blain, and Specia]{ive-etal-2018-deepquest}
+Julia Ive, Fr{\'e}d{\'e}ric Blain, and Lucia Specia.
+\newblock deep{Q}uest: A framework for neural-based quality estimation.
+\newblock In \emph{Proceedings of the 27th International Conference on
+  Computational Linguistics}, pages 3146--3157, Santa Fe, New Mexico, USA,
+  August 2018. Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/C18-1266}.
+
+\bibitem[Callison-Burch et~al.(2012)Callison-Burch, Koehn, Monz, Post, Soricut,
+  and Specia]{callison-burch-etal-2012-findings}
+Chris Callison-Burch, Philipp Koehn, Christof Monz, Matt Post, Radu Soricut,
+  and Lucia Specia.
+\newblock Findings of the 2012 workshop on statistical machine translation.
+\newblock In \emph{Proceedings of the Seventh Workshop on Statistical Machine
+  Translation}, pages 10--51, Montr{\'e}al, Canada, June 2012. Association for
+  Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/W12-3102}.
+
+\bibitem[Bojar et~al.(2013)Bojar, Buck, Callison-Burch, Federmann, Haddow,
+  Koehn, Monz, Post, Soricut, and Specia]{bojar-etal-2013-findings}
+Ond{\v{r}}ej Bojar, Christian Buck, Chris Callison-Burch, Christian Federmann,
+  Barry Haddow, Philipp Koehn, Christof Monz, Matt Post, Radu Soricut, and
+  Lucia Specia.
+\newblock Findings of the 2013 {W}orkshop on {S}tatistical {M}achine
+  {T}ranslation.
+\newblock In \emph{Proceedings of the Eighth Workshop on Statistical Machine
+  Translation}, pages 1--44, Sofia, Bulgaria, August 2013. Association for
+  Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/W13-2201}.
+
+\bibitem[Bojar et~al.(2014)Bojar, Buck, Federmann, Haddow, Koehn, Leveling,
+  Monz, Pecina, Post, Saint-Amand, Soricut, Specia, and
+  Tamchyna]{bojar-etal-2014-findings}
+Ond{\v{r}}ej Bojar, Christian Buck, Christian Federmann, Barry Haddow, Philipp
+  Koehn, Johannes Leveling, Christof Monz, Pavel Pecina, Matt Post, Herve
+  Saint-Amand, Radu Soricut, Lucia Specia, and Ale{\v{s}} Tamchyna.
+\newblock Findings of the 2014 workshop on statistical machine translation.
+\newblock In \emph{Proceedings of the Ninth Workshop on Statistical Machine
+  Translation}, pages 12--58, Baltimore, Maryland, USA, June 2014. Association
+  for Computational Linguistics.
+\newblock \doi{10.3115/v1/W14-3302}.
+\newblock URL \url{https://aclanthology.org/W14-3302}.
+
+\bibitem[Bojar et~al.(2015)Bojar, Chatterjee, Federmann, Haddow, Huck, Hokamp,
+  Koehn, Logacheva, Monz, Negri, Post, Scarton, Specia, and
+  Turchi]{bojar-etal-2015-findings}
+Ond{\v{r}}ej Bojar, Rajen Chatterjee, Christian Federmann, Barry Haddow,
+  Matthias Huck, Chris Hokamp, Philipp Koehn, Varvara Logacheva, Christof Monz,
+  Matteo Negri, Matt Post, Carolina Scarton, Lucia Specia, and Marco Turchi.
+\newblock Findings of the 2015 workshop on statistical machine translation.
+\newblock In \emph{Proceedings of the Tenth Workshop on Statistical Machine
+  Translation}, pages 1--46, Lisbon, Portugal, September 2015. Association for
+  Computational Linguistics.
+\newblock \doi{10.18653/v1/W15-3001}.
+\newblock URL \url{https://aclanthology.org/W15-3001}.
+
+\bibitem[Bojar et~al.(2016)Bojar, Chatterjee, Federmann, Graham, Haddow, Huck,
+  Jimeno~Yepes, Koehn, Logacheva, Monz, Negri, N{\'e}v{\'e}ol, Neves, Popel,
+  Post, Rubino, Scarton, Specia, Turchi, Verspoor, and
+  Zampieri]{bojar-etal-2016-findings}
+Ond{\v{r}}ej Bojar, Rajen Chatterjee, Christian Federmann, Yvette Graham, Barry
+  Haddow, Matthias Huck, Antonio Jimeno~Yepes, Philipp Koehn, Varvara
+  Logacheva, Christof Monz, Matteo Negri, Aur{\'e}lie N{\'e}v{\'e}ol, Mariana
+  Neves, Martin Popel, Matt Post, Raphael Rubino, Carolina Scarton, Lucia
+  Specia, Marco Turchi, Karin Verspoor, and Marcos Zampieri.
+\newblock Findings of the 2016 conference on machine translation.
+\newblock In \emph{Proceedings of the First Conference on Machine Translation:
+  Volume 2, Shared Task Papers}, pages 131--198, Berlin, Germany, August 2016.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/W16-2301}.
+\newblock URL \url{https://aclanthology.org/W16-2301}.
+
+\bibitem[Bojar et~al.(2017)Bojar, Chatterjee, Federmann, Graham, Haddow, Huang,
+  Huck, Koehn, Liu, Logacheva, Monz, Negri, Post, Rubino, Specia, and
+  Turchi]{bojar-etal-2017-findings}
+Ond{\v{r}}ej Bojar, Rajen Chatterjee, Christian Federmann, Yvette Graham, Barry
+  Haddow, Shujian Huang, Matthias Huck, Philipp Koehn, Qun Liu, Varvara
+  Logacheva, Christof Monz, Matteo Negri, Matt Post, Raphael Rubino, Lucia
+  Specia, and Marco Turchi.
+\newblock Findings of the 2017 conference on machine translation ({WMT}17).
+\newblock In \emph{Proceedings of the Second Conference on Machine
+  Translation}, pages 169--214, Copenhagen, Denmark, September 2017.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/W17-4717}.
+\newblock URL \url{https://aclanthology.org/W17-4717}.
+
 \bibitem[Fonseca et~al.(2019)Fonseca, Yankovskaya, Martins, Fishel, and
   Federmann]{fonseca-etal-2019-findings}
 Erick Fonseca, Lisa Yankovskaya, Andr{\'e} F.~T. Martins, Mark Fishel, and
@@ -1571,6 +1874,123 @@ Lucia Specia, Fr{\'e}d{\'e}ric Blain, Marina Fomicheva, Erick Fonseca, Vishrav
   pages 743--764, Online, November 2020. Association for Computational
   Linguistics.
 \newblock URL \url{https://aclanthology.org/2020.wmt-1.79}.
+
+\bibitem[Logacheva et~al.(2016)Logacheva, Hokamp, and
+  Specia]{logacheva-etal-2016-marmot}
+Varvara Logacheva, Chris Hokamp, and Lucia Specia.
+\newblock {MARMOT}: A toolkit for translation quality estimation at the word
+  level.
+\newblock In \emph{Proceedings of the Tenth International Conference on
+  Language Resources and Evaluation ({LREC}'16)}, pages 3671--3674,
+  Portoro{\v{z}}, Slovenia, May 2016. European Language Resources Association
+  (ELRA).
+\newblock URL \url{https://www.aclweb.org/anthology/L16-1582}.
+
+\bibitem[Specia et~al.(2013)Specia, Shah, de~Souza, and
+  Cohn]{specia-etal-2013-quest}
+Lucia Specia, Kashif Shah, Jose~G.C. de~Souza, and Trevor Cohn.
+\newblock {Q}u{E}st - a translation quality estimation framework.
+\newblock In \emph{Proceedings of the 51st Annual Meeting of the Association
+  for Computational Linguistics: System Demonstrations}, pages 79--84, Sofia,
+  Bulgaria, August 2013. Association for Computational Linguistics.
+\newblock URL \url{https://www.aclweb.org/anthology/P13-4014}.
+
+\bibitem[Specia et~al.(2015)Specia, Paetzold, and
+  Scarton]{specia-etal-2015-multi}
+Lucia Specia, Gustavo Paetzold, and Carolina Scarton.
+\newblock Multi-level translation quality prediction with {Q}u{E}st++.
+\newblock In \emph{Proceedings of {ACL}-{IJCNLP} 2015 System Demonstrations},
+  pages 115--120, Beijing, China, July 2015. Association for Computational
+  Linguistics and The Asian Federation of Natural Language Processing.
+\newblock \doi{10.3115/v1/P15-4020}.
+\newblock URL \url{https://www.aclweb.org/anthology/P15-4020}.
+
+\bibitem[Specia et~al.(2009)Specia, Turchi, Cancedda, Cristianini, and
+  Dymetman]{specia-etal-2009-estimating}
+Lucia Specia, Marco Turchi, Nicola Cancedda, Nello Cristianini, and Marc
+  Dymetman.
+\newblock Estimating the sentence-level quality of machine translation systems.
+\newblock In \emph{Proceedings of the 13th Annual conference of the European
+  Association for Machine Translation}, Barcelona, Spain, May 14{--}15 2009.
+  European Association for Machine Translation.
+\newblock URL \url{https://aclanthology.org/2009.eamt-1.5}.
+
+\bibitem[Kim et~al.(2017)Kim, Lee, and Na]{kim-etal-2017-predictor}
+Hyun Kim, Jong-Hyeok Lee, and Seung-Hoon Na.
+\newblock Predictor-estimator using multilevel task learning with stack
+  propagation for neural quality estimation.
+\newblock In \emph{Proceedings of the Second Conference on Machine
+  Translation}, pages 562--568, Copenhagen, Denmark, September 2017.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/W17-4763}.
+\newblock URL \url{https://aclanthology.org/W17-4763}.
+
+\bibitem[Kreutzer et~al.(2015)Kreutzer, Schamoni, and
+  Riezler]{kreutzer-etal-2015-quality}
+Julia Kreutzer, Shigehiko Schamoni, and Stefan Riezler.
+\newblock {QU}ality estimation from {S}cra{TCH} ({QUETCH}): Deep learning for
+  word-level translation quality estimation.
+\newblock In \emph{Proceedings of the Tenth Workshop on Statistical Machine
+  Translation}, pages 316--322, Lisbon, Portugal, September 2015. Association
+  for Computational Linguistics.
+\newblock \doi{10.18653/v1/W15-3037}.
+\newblock URL \url{https://www.aclweb.org/anthology/W15-3037}.
+
+\bibitem[Martins et~al.(2016)Martins, Astudillo, Hokamp, and
+  Kepler]{martins-etal-2016-unbabels}
+Andr{\'e} F.~T. Martins, Ram{\'o}n Astudillo, Chris Hokamp, and Fabio Kepler.
+\newblock Unbabel{'}s participation in the {WMT}16 word-level translation
+  quality estimation shared task.
+\newblock In \emph{Proceedings of the First Conference on Machine Translation:
+  Volume 2, Shared Task Papers}, pages 806--811, Berlin, Germany, August 2016.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/W16-2387}.
+\newblock URL \url{https://www.aclweb.org/anthology/W16-2387}.
+
+\bibitem[Specia et~al.(2011)Specia, Hajlaoui, Hallett, and
+  Aziz]{specia2011predicting}
+Lucia Specia, Najeh Hajlaoui, Catalina Hallett, and Wilker Aziz.
+\newblock Predicting machine translation adequacy.
+\newblock In \emph{Machine Translation Summit}, volume~13, pages 19--23, 2011.
+
+\bibitem[Bi{\c{c}}ici and Way(2014)]{bicici-way-2014-referential}
+Ergun Bi{\c{c}}ici and Andy Way.
+\newblock Referential translation machines for predicting translation quality.
+\newblock In \emph{Proceedings of the Ninth Workshop on Statistical Machine
+  Translation}, pages 313--321, Baltimore, Maryland, USA, June 2014.
+  Association for Computational Linguistics.
+\newblock \doi{10.3115/v1/W14-3339}.
+\newblock URL \url{https://aclanthology.org/W14-3339}.
+
+\bibitem[Kaljahi et~al.(2014)Kaljahi, Foster, and
+  Roturier]{kaljahi-etal-2014-syntax}
+Rasoul Kaljahi, Jennifer Foster, and Johann Roturier.
+\newblock Syntax and semantics in quality estimation of machine translation.
+\newblock In \emph{Proceedings of {SSST}-8, Eighth Workshop on Syntax,
+  Semantics and Structure in Statistical Translation}, pages 67--77, Doha,
+  Qatar, October 2014. Association for Computational Linguistics.
+\newblock \doi{10.3115/v1/W14-4008}.
+\newblock URL \url{https://aclanthology.org/W14-4008}.
+
+\bibitem[Camargo~de Souza et~al.(2014)Camargo~de Souza, Gonz{\'a}lez-Rubio,
+  Buck, Turchi, and Negri]{camargo-de-souza-etal-2014-fbk}
+Jos{\'e}~Guilherme Camargo~de Souza, Jes{\'u}s Gonz{\'a}lez-Rubio, Christian
+  Buck, Marco Turchi, and Matteo Negri.
+\newblock {FBK}-{UPV}-{UE}din participation in the {WMT}14 quality estimation
+  shared-task.
+\newblock In \emph{Proceedings of the Ninth Workshop on Statistical Machine
+  Translation}, pages 322--328, Baltimore, Maryland, USA, June 2014.
+  Association for Computational Linguistics.
+\newblock \doi{10.3115/v1/W14-3340}.
+\newblock URL \url{https://aclanthology.org/W14-3340}.
+
+\bibitem[Bechara et~al.(2016)Bechara, Escartin, Orasan, and
+  Specia]{bechara-etal-2016-semantic}
+Hanna Bechara, Carla~Parra Escartin, Constantin Orasan, and Lucia Specia.
+\newblock Semantic textual similarity in quality estimation.
+\newblock In \emph{Proceedings of the 19th Annual Conference of the {E}uropean
+  Association for Machine Translation}, pages 256--268, 2016.
+\newblock URL \url{https://aclanthology.org/W16-3413}.
 
 \bibitem[Graham et~al.(2016)Graham, Baldwin, Dowling, Eskevich, Lynn, and
   Tounsi]{graham-etal-2016-glitters}
@@ -1625,35 +2045,6 @@ Myle Ott, Sergey Edunov, Alexei Baevski, Angela Fan, Sam Gross, Nathan Ng,
   Computational Linguistics.
 \newblock \doi{10.18653/v1/N19-4009}.
 \newblock URL \url{https://www.aclweb.org/anthology/N19-4009}.
-
-\bibitem[Kepler et~al.(2019)Kepler, Tr{\'e}nous, Treviso, Vera, and
-  Martins]{kepler-etal-2019-openkiwi}
-Fabio Kepler, Jonay Tr{\'e}nous, Marcos Treviso, Miguel Vera, and Andr{\'e}
-  F.~T. Martins.
-\newblock {O}pen{K}iwi: An open source framework for quality estimation.
-\newblock In \emph{Proceedings of the 57th Annual Meeting of the Association
-  for Computational Linguistics: System Demonstrations}, pages 117--122,
-  Florence, Italy, July 2019. Association for Computational Linguistics.
-\newblock \doi{10.18653/v1/P19-3020}.
-\newblock URL \url{https://www.aclweb.org/anthology/P19-3020}.
-
-\bibitem[Kim et~al.(2017)Kim, Lee, and Na]{kim-etal-2017-predictor}
-Hyun Kim, Jong-Hyeok Lee, and Seung-Hoon Na.
-\newblock Predictor-estimator using multilevel task learning with stack
-  propagation for neural quality estimation.
-\newblock In \emph{Proceedings of the Second Conference on Machine
-  Translation}, pages 562--568, Copenhagen, Denmark, September 2017.
-  Association for Computational Linguistics.
-\newblock \doi{10.18653/v1/W17-4763}.
-\newblock URL \url{https://aclanthology.org/W17-4763}.
-
-\bibitem[Ive et~al.(2018)Ive, Blain, and Specia]{ive-etal-2018-deepquest}
-Julia Ive, Fr{\'e}d{\'e}ric Blain, and Lucia Specia.
-\newblock deep{Q}uest: A framework for neural-based quality estimation.
-\newblock In \emph{Proceedings of the 27th International Conference on
-  Computational Linguistics}, pages 3146--3157, Santa Fe, New Mexico, USA,
-  August 2018. Association for Computational Linguistics.
-\newblock URL \url{https://aclanthology.org/C18-1266}.
 
 \bibitem[Lee(2020)]{lee-2020-two}
 Dongjun Lee.
@@ -1768,17 +2159,6 @@ Naman Goyal, Jingfei Du, Myle Ott, Giri Anantharaman, and Alexis Conneau.
 \newblock Larger-scale transformers for multilingual masked language modeling.
 \newblock \emph{arXiv preprint arXiv:2105.00572}, 2021.
 
-\bibitem[Logacheva et~al.(2016)Logacheva, Hokamp, and
-  Specia]{logacheva-etal-2016-marmot}
-Varvara Logacheva, Chris Hokamp, and Lucia Specia.
-\newblock {MARMOT}: A toolkit for translation quality estimation at the word
-  level.
-\newblock In \emph{Proceedings of the Tenth International Conference on
-  Language Resources and Evaluation ({LREC}'16)}, pages 3671--3674,
-  Portoro{\v{z}}, Slovenia, May 2016. European Language Resources Association
-  (ELRA).
-\newblock URL \url{https://www.aclweb.org/anthology/L16-1582}.
-
 \bibitem[Ranasinghe et~al.(2021)Ranasinghe, Orasan, and
   Mitkov]{ranasinghe-etal-2021-exploratory}
 Tharindu Ranasinghe, Constantin Orasan, and Ruslan Mitkov.
@@ -1851,5 +2231,34 @@ Shuo Sun, Marina Fomicheva, Fr{\'e}d{\'e}ric Blain, Vishrav Chaudhary, Ahmed
   366--377, Suzhou, China, December 2020{\natexlab{b}}. Association for
   Computational Linguistics.
 \newblock URL \url{https://www.aclweb.org/anthology/2020.aacl-main.39}.
+
+\bibitem[Wang et~al.(2020{\natexlab{c}})Wang, Yao, Kwok, and
+  Ni]{10.1145/3386252}
+Yaqing Wang, Quanming Yao, James~T. Kwok, and Lionel~M. Ni.
+\newblock Generalizing from a few examples: A survey on few-shot learning.
+\newblock \emph{ACM Comput. Surv.}, 53\penalty0 (3), June 2020{\natexlab{c}}.
+\newblock ISSN 0360-0300.
+\newblock \doi{10.1145/3386252}.
+\newblock URL \url{https://doi.org/10.1145/3386252}.
+
+\bibitem[Chang et~al.(2008)Chang, Ratinov, Roth, and
+  Srikumar]{10.5555/1620163.1620201}
+Ming-Wei Chang, Lev Ratinov, Dan Roth, and Vivek Srikumar.
+\newblock Importance of semantic representation: Dataless classification.
+\newblock In \emph{Proceedings of the 23rd National Conference on Artificial
+  Intelligence - Volume 2}, AAAI'08, page 830–835. AAAI Press, 2008.
+\newblock ISBN 9781577353683.
+
+\bibitem[Xue et~al.(2021)Xue, Constant, Roberts, Kale, Al-Rfou, Siddhant,
+  Barua, and Raffel]{xue-etal-2021-mt5}
+Linting Xue, Noah Constant, Adam Roberts, Mihir Kale, Rami Al-Rfou, Aditya
+  Siddhant, Aditya Barua, and Colin Raffel.
+\newblock m{T}5: A massively multilingual pre-trained text-to-text transformer.
+\newblock In \emph{Proceedings of the 2021 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 483--498, Online, June 2021. Association for
+  Computational Linguistics.
+\newblock \doi{10.18653/v1/2021.naacl-main.41}.
+\newblock URL \url{https://aclanthology.org/2021.naacl-main.41}.
 
 \end{thebibliography}

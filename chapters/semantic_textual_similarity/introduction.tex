@@ -27,7 +27,19 @@ In Chapter \ref{cha:sts_siamese_neural_networks} and \ref{cha:sts_transformers} 
 
 In the final chapter of the Part I of this thesis, we explore the newly released transformers in STS tasks. Transformers have taken NLP field by storm providing very successful results in variety of NLP tasks. In Chapter \ref{cha:sts_transformers}, we bring together various transformer architectures like BERT \cite{devlin-etal-2019-bert}, XLNet \cite{yang2019xlnet}, RoBERTa \cite{liu2019roberta} etc and investigate their performance in various STS datasets. We explore the strengths and weaknesses of transformer models regarding the accuracy and efficiency and discover the possible solutions for its limitations.
 
-The remainder of this chapter is structured as follows. Section \ref{sec:sts_intro_datsets} discuss the various datasets we used in \textit{"Semantic Textual Similarity"} part of the thesis. We also briefly analyse the datasets for common properties. In Section \ref{sec:sts_intro_contribution} we discuss the main contributions we have to the community with the \textit{"Semantic Textual Similarity"} part of the thesis. Chapter concludes with the conclusions.
+The main contributions of this part of the thesis are as follows.
+
+\begin{enumerate}
+	\item In each chapter, we cover various supervised and unsupervised techniques to compute semantic similarity that can benefit a wide range of NLP application. We empirically evaluate all of them in three English datasets, two non English datasets and an out of domain dataset to explore their adaptability. 
+	
+	\item We propose a novel unsupervised STS method based on contextual word embeddings that outperforms current state-of-the-art unsupervised vector aggregation STS methods in all the English datasets, non-English datasets and datasets in other domains. 
+	
+	\item We propose a novel Siamese neural network architecture which is efficient and outperforms current state-of-the-art Siamese neural network architectures in smaller STS datasets. 
+	
+	\item We provide important resources to the community. The code of the each chapter as an open-source GitHub repository and the pre-trained STS models will be freely available to the community. The link to the GitHub repository and the models will be unveiled in the introduction section of the each chapter. 
+\end{enumerate}
+
+The remainder of this chapter is structured as follows. Section \ref{sec:sts_intro_datsets} discuss the various datasets we used in \textit{"Semantic Textual Similarity"} part of the thesis. We also briefly analyse the datasets for common properties. In Section \ref{sec:sts_evaluation} we discuss the main evaluation metrics we used in the \textit{"Semantic Textual Similarity"} part of the thesis. Chapter concludes with the conclusions.
 
 
 \section{Datasets}
@@ -805,85 +817,10 @@ In order to experiment how our STS methods can be adopted in to different domain
 	\label{fig:biosses_word_share}
 \end{figure}
 
-
-
-	
-	 
-%	\item{ \textbf{Clinical STS Dataset: MedSTS} \footnote{Clinical STS Dataset: MedSTS can be downloaded from \url{https://n2c2.dbmi.hms.harvard.edu/track1}. }}. MedSTS is another important STS benchmark dataset built on electronic clinical records (EHR). MedSTS contains 1,642 sentence pairs which were employed in Track 1 of National NLP Clinical Challenges (n2c2): Clinical Semantic Textual Similarity. Out of the 1,642 sentence pairs, 1,068 pairs were from the BioCreative/OHNLP 2018 shared task \cite{10.1145/3233547.3233672} \footnote{BioCreative/OHNLP shared task is available on \url{https://sites.google.com/view/ohnlp2018/home}} as well as 1,006 new pairs from two EHR systems, GE \footnote{GE Healthcare provides IT healthcare solutions that also includes EHR solutions and can be accessed from \url{https://www.gehealthcare.sa/products/healthcare-it/electronic-medical-records}} and Epic \footnote{Epic is a cloud-based EHR solution. More information can be viewed from their website \url{https://www.epic.com/}}. Sentence pairs for BioCreative/OHNLP 2018 shared task have been extracted from Mayo Clinic’s clinical data warehouse \cite{10.1136/amiajnl-2011-000744}. 
-%	
-%	The creators of the dataset have removed protected health information (PHI) in the sentences by employing a frequency filtering approach \cite{Wang2020}. Once the sentence pairs have been selected  two clinical experts have being asked to annotate each sentence pair on the basis of their semantic equivalence. The annotation guideline is similar to the annotation guidelines of the STS 2017 English dataset \cite{agirre-etal-2012-semeval}. Table \ref{tab:medstsdata_1} and Table \ref{tab:medstsdata_2} shows some example sentence pairs from the dataset with the gold labels and their explanations. The machine learning models require to predict a value between 0-5 which reflects the similarity of the given sentence pair.
-%	
-%	
-%	
-%	\begin{table}[ht!]
-%		\centering 	
-%		\begin{tabular}{l|c} 
-%			\hline
-%			\multicolumn{1}{c|}{\textbf{Sentence Pair}} & 
-%			\multicolumn{1}{c}{\textbf{Relatedness}}  \\
-%			\hline
-%			\makecell[l]
-%			{\textit{The two sentences are completely equivalent}  \\ \textit{as they mean the same thing.} \\
-%				1. Albuterol [PROVENTIL/VENTOLIN] 90 mcg/Act \\ HFA Aerosol 2 puffs by
-%				inhalation every 4 hours \\ as needed. \\ 
-%				2. Albuterol [PROVENTIL/VENTOLIN] 90 mcg/Act \\ HFA Aerosol 1-2 puffs by inhalation every 4 hours \\ as needed 1 each.} & 5  \\
-%			\hline
-%			\makecell[l]
-%			{\textit{The two sentences are completely equivalent}  \\ \textit{as they mean the same thing.} \\
-%				1. Discussed goals, risks, alternatives, advanced \\ directives, and the necessity of other members of \\ the surgical team participating in the procedure \\ with the patient. \\ 
-%				2. Discussed risks, goals, alternatives, advance \\ directives, and the necessity of other members of \\ the healthcare team participating in the procedure \\ with the patient
-%				and his mother.} & 4  \\
-%			\hline
-%			\makecell[l]
-%			{\textit{The two sentences are roughly equivalent, but }  \\ \textit{some important information differs/missing.} \\
-%				1. Cardiovascular assessment findings include heart \\ rate normal, Heart rhythm, atrial fibrillation with \\controlled ventricular response. \\ 
-%				2. Cardiovascular assessment findings include heart \\ rate, bradycardic, Heart rhythm, first degree AV \\ Block.} & 3  \\
-%			\hline
-%			
-%		\end{tabular}
-%		\caption[Example sentence pairs from the MedSTS dataset - Part I]{Example sentence pairs from the MedSTS dataset with their gold relatedness scores (on a 5-point rating scale) and explanations - Part I. \textbf{Sentence Pair} column shows the two sentence and \textbf{Relatedness} column denotes the annotated relatedness score.}
-%		\label{tab:medstsdata_1}
-%	\end{table} 
-%
-%
-%
-%
-%\begin{table}[ht!]
-%	\centering 	
-%	\begin{tabular}{l|c} 
-%		\hline
-%		\multicolumn{1}{c|}{\textbf{Sentence Pair}} & 
-%		\multicolumn{1}{c}{\textbf{Relatedness}}  \\
-%		\hline
-%		\makecell[l]
-%		{\textit{The two sentences are not equivalent, but share } \\
-%			\textit{some details.} \\
-%			1. Discussed risks, goals, alternatives, advance \\ directives, and the necessity of other members \\ of the healthcare team participating in the \\ procedure with (patient) (legal representative \\ and others present during the discussion). \\ 
-%			2. We discussed the low likelihood that a blood \\ transfusion would be required during the \\ postoperative period and the necessity of other \\ members of the surgical team participating \\ in the procedure.
-%} & 2  \\
-%		\hline
-%		\makecell[l]
-%		{\textit{The two sentences are not equivalent, but are } \\
-%			\textit{on the same topic.} \\
-%			1. No: typical 'cold' symptoms; fever present \\ (greater than or equal to 100.4 F or 38 C) or \\ suspected fever; rash; white patches on lips, \\ tongue or mouth (other than throat); blisters in \\ the mouth; swollen or 'bull' neck; hoarseness or \\ lost voice or ear pain. \\ 
-%			2. New wheezing or chest tightness, runny or \\ blocked nose, or discharge down the back of the \\ throat, hoarseness or lost voice.} & 1  \\
-%		\hline
-%		\makecell[l]
-%		{\textit{The two sentences are completely dissimilar} \\
-%			1. The risks and benefits of the procedure were \\ discussed, and the patient consented to this \\ procedure. \\ 
-%			2. The content of this note has been reproduced, \\ signed by an authorized } & 0  \\
-%		\hline
-%		
-%	\end{tabular}
-%	\caption[Example sentence pairs from the MedSTS dataset - Part II]{Example sentence pairs from the MedSTS dataset with their gold relatedness scores (on a 5-point rating scale) and explanations - Part II. \textbf{Sentence Pair} column shows the two sentence and \textbf{Relatedness} column denotes the annotated relatedness score.}
-%	\label{tab:medstsdata_2}
-%\end{table} 
-
-
-
 \end{enumerate}
 
 \section{Evaluation Metrics}
+\label{sec:sts_evaluation}
 While training a model is a key step, how the model generalises on unseen data is an equally important aspect that should be considered in every machine learning model. We need to know whether it actually works and, consequently, if we can trust its predictions. This is typically called as \textit{evaluation}. All of the datasets that we introduced in the previous section has what we call a \textit{test} set. The machine learning models need to provide their predictions for the test set and the predictions will be evaluated against the true values of the test set. 
 
 There are three common evaluation metrics that are employed in Semantic Textual Similarity tasks, which we explain in this section. We will be using them to evaluate our models through out the first part of our research. 
@@ -925,26 +862,6 @@ In the equations presented for each of the evaluation metrics, we represent the 
 	\end{equation}
 	
 \end{enumerate}
-%%% The following are used by emacs, and similar:
-
-%%% Local Variables: ***
-%%% TeX-master: "../thesis.tex"  ***
-%%% End: ***
-
-\section{Contributions}
-\label{sec:sts_intro_contribution}
-The main contributions of this part of the thesis are as follows.
-
-\begin{enumerate}
-	\item In each chapter, we cover various supervised and unsupervised techniques to compute semantic similarity that can benefit a wide range of NLP application. We empirically evaluate all of them in three English datasets, two non English datasets and an out of domain dataset to explore their adaptability. 
-	
-	\item We propose a novel unsupervised STS method based on contextual word embeddings that outperforms current state-of-the-art unsupervised vector aggregation STS methods in all the English datasets, non-English datasets and datasets in other domains. 
-	
-	\item We propose a novel Siamese neural network architecture which is efficient and outperforms current state-of-the-art Siamese neural network architectures in smaller STS datasets. 
-	
-	\item We provide important resources to the community. The code of the each chapter as an open-source GitHub repository and the pre-trained STS models will be freely available to the community. The link to the GitHub repository and the models will be unveiled in the introduction section of the each chapter. 
-\end{enumerate}
-
 
 \section{Conclusion}
 Calculating the STS is an important research area in NLP which plays a vital role in many applications such as question answering, document summarisation, information retrieval and information extraction. Most of the early approaches were based on traditional machine learning and involved heavy feature engineering. However these approaches are difficult to be adopted in different languages and do not provide competitive results any more. With the advances of word embeddings, and as a result of the success neural networks have achieved in other fields, most of the methods proposed in recent years rely on word vectors. These methods can be further categorised in to supervised and unsupervised methods. Analysing STS methods belong to both of these categories would be beneficial to the community. Furthermore, exploring the ability of these methods to perform in a multilingual setting and a multi-domain setting would a timely contribution to the NLP field. 
