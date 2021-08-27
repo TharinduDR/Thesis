@@ -1,82 +1,161 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {part}{I\hspace {1em}Semantic Textual Similarity}{1}{part.1}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Example sentence pairs from the SICK dataset}}{10}{table.caption.8}%
-\contentsline {table}{\numberline {1.2}{\ignorespaces Word count stats in SICK}}{11}{table.caption.11}%
-\contentsline {table}{\numberline {1.3}{\ignorespaces Information about English STS 2017 training set}}{17}{table.caption.13}%
-\contentsline {table}{\numberline {1.4}{\ignorespaces Example sentence pairs from the STS2017 English dataset}}{18}{table.caption.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.1}{\ignorespaces Example sentence pairs from the SICK dataset}}{11}{table.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.2}{\ignorespaces Word count stats in SICK}}{12}{table.caption.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.3}{\ignorespaces Information about English STS 2017 training set}}{16}{table.caption.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.4}{\ignorespaces Example sentence pairs from the STS2017 English dataset}}{17}{table.caption.14}%
+\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {1.5}{\ignorespaces Word count stats in STS 2017}}{19}{table.caption.18}%
+\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {1.6}{\ignorespaces Example question pairs from the Quora Question Pairs dataset}}{20}{table.caption.19}%
-\contentsline {table}{\numberline {1.7}{\ignorespaces Word count stats in QUORA}}{21}{table.caption.23}%
-\contentsline {table}{\numberline {1.8}{\ignorespaces Information about Arabic STS training set}}{24}{table.caption.24}%
-\contentsline {table}{\numberline {1.9}{\ignorespaces Example question pairs from the Arabic STS dataset}}{26}{table.caption.25}%
-\contentsline {table}{\numberline {1.10}{\ignorespaces Word count stats in Arabic STS}}{27}{table.caption.29}%
-\contentsline {table}{\numberline {1.11}{\ignorespaces Information about Spanish STS training set}}{28}{table.caption.30}%
-\contentsline {table}{\numberline {1.12}{\ignorespaces Example sentence pairs from the Spanish STS dataset}}{30}{table.caption.31}%
-\contentsline {table}{\numberline {1.13}{\ignorespaces Word count stats in Spanish STS}}{31}{table.caption.35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.7}{\ignorespaces Word count stats in QUORA}}{24}{table.caption.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.8}{\ignorespaces Example question pairs from the Arabic STS dataset}}{25}{table.caption.24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.9}{\ignorespaces Information about Arabic STS training set}}{26}{table.caption.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.10}{\ignorespaces Word count stats in Arabic STS}}{28}{table.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.11}{\ignorespaces Example sentence pairs from the Spanish STS dataset}}{29}{table.caption.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.12}{\ignorespaces Information about Spanish STS training set}}{30}{table.caption.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.13}{\ignorespaces Word count stats in Spanish STS}}{32}{table.caption.35}%
+\defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {1.14}{\ignorespaces Example question pairs from the BIOSSES dataset}}{34}{table.caption.36}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Results for SICK with Vector Averaging}}{50}{table.caption.41}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Results for STS 2017 with Vector Averaging}}{51}{table.caption.42}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces Results for QUORA with Vector Averaging}}{51}{table.caption.43}%
-\contentsline {table}{\numberline {2.4}{\ignorespaces Results for SICK with Word Mover's Distance}}{53}{table.caption.44}%
-\contentsline {table}{\numberline {2.5}{\ignorespaces Results for STS 2017 with Word Mover's Distance}}{53}{table.caption.45}%
-\contentsline {table}{\numberline {2.6}{\ignorespaces Results for QUORA with Word Mover's Distance}}{54}{table.caption.46}%
-\contentsline {table}{\numberline {2.7}{\ignorespaces Results for SICK with Smooth Inverse Frequency}}{54}{table.caption.47}%
-\contentsline {table}{\numberline {2.8}{\ignorespaces Results for STS 2017 with Smooth Inverse Frequency}}{55}{table.caption.48}%
-\contentsline {table}{\numberline {2.9}{\ignorespaces Results for QUORA with Smooth Inverse Frequency}}{55}{table.caption.49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.1}{\ignorespaces Results for SICK with Vector Averaging}}{53}{table.caption.41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.2}{\ignorespaces Results for STS 2017 with Vector Averaging}}{54}{table.caption.42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.3}{\ignorespaces Results for QUORA with Vector Averaging}}{54}{table.caption.43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.4}{\ignorespaces Results for SICK with Word Mover's Distance}}{56}{table.caption.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.5}{\ignorespaces Results for STS 2017 with Word Mover's Distance}}{56}{table.caption.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.6}{\ignorespaces Results for QUORA with Word Mover's Distance}}{57}{table.caption.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.7}{\ignorespaces Results for SICK with Smooth Inverse Frequency}}{57}{table.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.8}{\ignorespaces Results for STS 2017 with Smooth Inverse Frequency}}{58}{table.caption.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.9}{\ignorespaces Results for QUORA with Smooth Inverse Frequency}}{58}{table.caption.49}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Results for SICK with sentence encoders}}{72}{table.caption.55}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Results for STS 2017 with sentence encoders}}{73}{table.caption.56}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Results for QUORA with sentence encoders}}{73}{table.caption.57}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Results for Arabic and Spanish STS with Sentence Encoders}}{76}{table.caption.58}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces Results comparison for BIOSSES with different sentence encoders}}{77}{table.caption.59}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Results for SICK with sentence encoders}}{75}{table.caption.55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Results for STS 2017 with sentence encoders}}{76}{table.caption.56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.3}{\ignorespaces Results for QUORA with sentence encoders}}{76}{table.caption.57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.4}{\ignorespaces Results for Arabic and Spanish STS with Sentence Encoders}}{79}{table.caption.58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.5}{\ignorespaces Results comparison for BIOSSES with different sentence encoders}}{81}{table.caption.59}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Results for SICK with Siamese Neural Network}}{88}{table.caption.61}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Results for STS 2017 with Siamese Neural Network}}{89}{table.caption.62}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Results for QUORA with Siamese Neural Network}}{89}{table.caption.63}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Results for transfer learning with Siamese Neural Network}}{91}{table.caption.64}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Results for data augmentation with Siamese Neural Network}}{93}{table.caption.65}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Results comparison for SICK with leader board results}}{94}{table.caption.66}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Results comparison for STS2017 with leader board results}}{94}{table.caption.67}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces Results for Arabic STS with Siamese Neural Network}}{96}{table.caption.68}%
-\contentsline {table}{\numberline {4.9}{\ignorespaces Results for Spanish STS with Siamese Neural Network}}{96}{table.caption.69}%
-\contentsline {table}{\numberline {4.10}{\ignorespaces Results comparison for Arabic STS with leader board results}}{97}{table.caption.70}%
-\contentsline {table}{\numberline {4.11}{\ignorespaces Results comparison for Spanish STS with leader board results}}{97}{table.caption.71}%
-\contentsline {table}{\numberline {4.12}{\ignorespaces Results for transfer learning with Siamese Neural Network in BIOSSES dataset}}{99}{table.caption.72}%
-\contentsline {table}{\numberline {4.13}{\ignorespaces Results comparison for BIOSSES with top results}}{100}{table.caption.73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Results for SICK with Siamese Neural Network}}{92}{table.caption.61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Results for STS 2017 with Siamese Neural Network}}{92}{table.caption.62}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Results for QUORA with Siamese Neural Network}}{93}{table.caption.63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.4}{\ignorespaces Results for transfer learning with Siamese Neural Network}}{95}{table.caption.64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.5}{\ignorespaces Results for data augmentation with Siamese Neural Networks}}{97}{table.caption.65}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.6}{\ignorespaces Results comparison for SICK with leader board results in SICK}}{98}{table.caption.66}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.7}{\ignorespaces Results comparison for STS2017 with leader board results in STS2017}}{98}{table.caption.67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.8}{\ignorespaces Results for Arabic STS with Siamese Neural Network}}{100}{table.caption.68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.9}{\ignorespaces Results for Spanish STS with Siamese Neural Network}}{100}{table.caption.69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.10}{\ignorespaces Results comparison for Arabic STS with leader board results}}{101}{table.caption.70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.11}{\ignorespaces Results comparison for Spanish STS with leader board results}}{101}{table.caption.71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.12}{\ignorespaces Results for transfer learning with Siamese Neural Network in BIOSSES dataset}}{103}{table.caption.72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.13}{\ignorespaces Results comparison for BIOSSES with top results}}{104}{table.caption.73}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Results for SICK with Transformer Models}}{109}{table.caption.80}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Results for STS 2017 with Transformers}}{110}{table.caption.81}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Results for QUORA with Transformers}}{110}{table.caption.82}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Results for transfer learning with Transformers}}{112}{table.caption.83}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces Results for data augmentation with Transformers}}{112}{table.caption.84}%
-\contentsline {table}{\numberline {5.6}{\ignorespaces Results comparison for SICK with leader board results}}{113}{table.caption.85}%
-\contentsline {table}{\numberline {5.7}{\ignorespaces Results comparison for STS2017 with leader board results}}{113}{table.caption.86}%
-\contentsline {table}{\numberline {5.8}{\ignorespaces Results for Arabic STS with Transformers}}{114}{table.caption.87}%
-\contentsline {table}{\numberline {5.9}{\ignorespaces Results for Spanish STS with Transformers}}{114}{table.caption.88}%
-\contentsline {table}{\numberline {5.10}{\ignorespaces Results comparison for Arabic STS with leader board results}}{114}{table.caption.89}%
-\contentsline {table}{\numberline {5.11}{\ignorespaces Results comparison for Spanish STS with leader board results}}{115}{table.caption.90}%
-\contentsline {table}{\numberline {5.12}{\ignorespaces Results for transfer learning with Siamese Neural Network in BIOSSES dataset}}{115}{table.caption.91}%
-\contentsline {table}{\numberline {5.13}{\ignorespaces Results comparison for BIOSSES with top results}}{115}{table.caption.92}%
-\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{116}{part.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.1}{\ignorespaces Results for SICK with Transformer Models}}{115}{table.caption.80}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.2}{\ignorespaces Results for STS 2017 with Transformers}}{115}{table.caption.81}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.3}{\ignorespaces Results for QUORA with Transformers}}{116}{table.caption.82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.4}{\ignorespaces Results for transfer learning with Transformers}}{117}{table.caption.83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.5}{\ignorespaces Results for data augmentation with Transformers}}{119}{table.caption.84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.6}{\ignorespaces Results comparison for SICK with leader board results including transformers}}{119}{table.caption.85}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.7}{\ignorespaces Results comparison for STS2017 with leader board results}}{120}{table.caption.86}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.8}{\ignorespaces Results comparison for Arabic STS with leader board results}}{121}{table.caption.87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.9}{\ignorespaces Results comparison for Spanish STS with leader board results}}{122}{table.caption.88}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.10}{\ignorespaces Results for transfer learning with transformers in BIOSSES dataset}}{123}{table.caption.89}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.11}{\ignorespaces Results comparison for BIOSSES with top results and transformers}}{124}{table.caption.90}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{130}{part.2}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Examples sentence pairs where sentence encoders performed better than edit Distance in the STS task.}}{132}{table.caption.93}%
-\contentsline {table}{\numberline {7.2}{\ignorespaces Time for each step with experimented sentence encoders.}}{134}{table.caption.97}%
-\contentsline {table}{\numberline {7.3}{\ignorespaces Result comparison between Okapi and the sentence encoders}}{136}{table.caption.98}%
-\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{148}{part.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.1}{\ignorespaces Examples sentence pairs where sentence encoders performed better than edit Distance in the STS task.}}{146}{table.caption.92}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.2}{\ignorespaces Time for each step with experimented sentence encoders.}}{148}{table.caption.96}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.3}{\ignorespaces Result comparison between Okapi and the sentence encoders}}{151}{table.caption.97}%
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{163}{part.3}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Information about language pairs used to predict HTER. The \textbf {Language Pair} column shows the language pairs we used in ISO 639-1 codes\footnotemark . \textbf {Source} expresses the domain of the sentence and \textbf {MT system} is the Machine Translation system used to translate the sentences. In that column NMT indicates Neural Machine Translation and SMT indicates Statistical Machine Translation. \textbf {Competition} shows the quality estimation competition in which the data was released and the last column indicates the number of instances the train, development and test dataset had in each language pair respectively.\relax }}{157}{table.caption.100}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.1}{\ignorespaces Information about language pairs used to predict HTER. The \textbf {Language Pair} column shows the language pairs we used in ISO 639-1 codes\footnotemark . \textbf {Source} expresses the domain of the sentence and \textbf {MT system} is the Machine Translation system used to translate the sentences. In that column NMT indicates Neural Machine Translation and SMT indicates Statistical Machine Translation. \textbf {Competition} shows the quality estimation competition in which the data was released and the last column indicates the number of instances the train, development and test dataset had in each language pair respectively.\relax }}{173}{table.caption.99}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{\ignorespaces Pearson correlation between TransQuest algorithm predictions and human post-editing effort}}{172}{table.caption.105}%
-\contentsline {table}{\numberline {9.2}{\ignorespaces Pearson correlation ($\bm {\rho }$) between \textit {TransQuest} algorithm predictions and human DA judgments}}{173}{table.caption.106}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {9.1}{\ignorespaces Pearson correlation between TransQuest algorithm predictions and human post-editing effort}}{189}{table.caption.104}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {9.2}{\ignorespaces Pearson correlation ($\bm {\rho }$) between \textit {TransQuest} algorithm predictions and human DA judgments}}{190}{table.caption.105}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {10.1}{\ignorespaces F1-Multi Target between the algorithm predictions and human annotations}}{191}{table.caption.110}%
-\contentsline {table}{\numberline {10.2}{\ignorespaces F1-Multi GAPS between the algorithm predictions and human annotations}}{192}{table.caption.111}%
-\contentsline {table}{\numberline {10.3}{\ignorespaces F1-Multi Source between the algorithm predictions and human annotations}}{193}{table.caption.112}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10.1}{\ignorespaces F1-Multi Target between the algorithm predictions and human annotations}}{207}{table.caption.109}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10.2}{\ignorespaces F1-Multi GAPS between the algorithm predictions and human annotations}}{208}{table.caption.110}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10.3}{\ignorespaces F1-Multi Source between the algorithm predictions and human annotations}}{209}{table.caption.111}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {11.1}{\ignorespaces Pearson correlation between MonoTransQuest algorithm predictions and human post-editing effort}}{204}{table.caption.113}%
-\contentsline {table}{\numberline {11.2}{\ignorespaces Pearson correlation between MonoTransQuest algorithm predictions and human DA judgments}}{205}{table.caption.114}%
-\contentsline {table}{\numberline {11.3}{\ignorespaces Multilingual Target F1-Multi between the MicroTransQuest predictions and human annotations}}{206}{table.caption.115}%
-\contentsline {table}{\numberline {11.4}{\ignorespaces Multilingual GAP F1-Multi between MicroTransQuest predictions and human annotations}}{207}{table.caption.116}%
-\contentsline {table}{\numberline {11.5}{\ignorespaces Multilingual Source F1-Multi between MicroTransQuest predictions and human annotations}}{208}{table.caption.117}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {11.1}{\ignorespaces Pearson correlation between MonoTransQuest algorithm predictions and human post-editing effort}}{221}{table.caption.112}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {11.2}{\ignorespaces Pearson correlation between MonoTransQuest algorithm predictions and human DA judgments}}{222}{table.caption.113}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {11.3}{\ignorespaces Multilingual Target F1-Multi between the MicroTransQuest predictions and human annotations}}{223}{table.caption.114}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {11.4}{\ignorespaces Multilingual GAP F1-Multi between MicroTransQuest predictions and human annotations}}{224}{table.caption.115}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {11.5}{\ignorespaces Multilingual Source F1-Multi between MicroTransQuest predictions and human annotations}}{225}{table.caption.116}%

@@ -47,8 +47,8 @@
 \usepackage[libertine]{newtxmath}
 \usepackage{arabtex}
 \usepackage{utf8}
-%\usepackage[numbers, sort, comma, square]{natbib}
-\usepackage[numbers, sort, comma, square]{natbib}
+
+
 \usepackage{graphicx}
 \usepackage{caption}
 \captionsetup[figure]{font=small}
@@ -58,19 +58,33 @@
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage[inline]{enumitem}
-\usepackage{soul}
+\usepackage{soulutf8}
 \usepackage{xcolor}
-
-
+\usepackage[style=authoryear,maxcitenames=2,maxbibnames=99,dashed=false,backend=bibtex]{biblatex}
+\bibliography{
+	refs/introduction,		
+	refs/semantic_textual_similarity/introduction,
+	refs/semantic_textual_similarity/state_of_the_art,
+	refs/semantic_textual_similarity/siamese_neural_networks,
+	refs/semantic_textual_similarity/sentence_encoders,
+	refs/semantic_textual_similarity/transformers,
+	refs/translation_memories/introduction,
+	refs/translation_memories/sentence_encoders,
+	refs/translation_quality_estimation/introduction,
+	refs/translation_quality_estimation/transquest,
+	refs/translation_quality_estimation/multilingual_transquest,
+	refs/translation_quality_estimation/transquest_word}
 
 % Tango imports the listings package and defines a style for syntax
 % highlighting. We also need to tell listings which programming
 % languages to load.
 \include{tango}
-\lstloadlanguages{Python,[LaTeX]TeX}
-
-
 \setcode{utf8}
+
+\hyphenpenalty=100000
+\sloppy
+
+
 
 %%% Set up the title page of the thesis.
 
@@ -128,6 +142,7 @@
 \makeatother
 % Bibliography.
 \include{conclusions}
+
 \include{bib}
 
 % Appendix.
