@@ -94,68 +94,74 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.1}{\ignorespaces Results for SICK with Transformer Models}}{115}{table.caption.80}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Results for SICK with Transformer Models}}{116}{table.caption.80}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.2}{\ignorespaces Results for STS 2017 with Transformers}}{115}{table.caption.81}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Results for STS 2017 with Transformers}}{116}{table.caption.81}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.3}{\ignorespaces Results for QUORA with Transformers}}{116}{table.caption.82}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Results for QUORA with Transformers}}{117}{table.caption.82}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.4}{\ignorespaces Results for transfer learning with Transformers}}{117}{table.caption.83}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Results for transfer learning with Transformers}}{118}{table.caption.83}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.5}{\ignorespaces Results for data augmentation with Transformers}}{119}{table.caption.84}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Results for data augmentation with Transformers}}{120}{table.caption.84}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.6}{\ignorespaces Results comparison for SICK with leader board results including transformers}}{119}{table.caption.85}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Results comparison for SICK with leader board results including transformers}}{120}{table.caption.85}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.7}{\ignorespaces Results comparison for STS2017 with leader board results}}{120}{table.caption.86}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Results comparison for STS2017 with leader board results}}{121}{table.caption.86}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.8}{\ignorespaces Results comparison for Arabic STS with leader board results}}{121}{table.caption.87}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Results comparison for Arabic STS with leader board results}}{122}{table.caption.87}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.9}{\ignorespaces Results comparison for Spanish STS with leader board results}}{122}{table.caption.88}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Results comparison for Spanish STS with leader board results}}{123}{table.caption.88}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.10}{\ignorespaces Results for transfer learning with transformers in BIOSSES dataset}}{123}{table.caption.89}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces Results for transfer learning with transformers in the BIOSSES dataset}}{124}{table.caption.89}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.11}{\ignorespaces Results comparison for BIOSSES with top results and transformers}}{124}{table.caption.90}%
+\contentsline {table}{\numberline {5.11}{\ignorespaces Results comparison for BIOSSES with top results and transformers}}{125}{table.caption.90}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{130}{part.2}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{131}{part.2}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.1}{\ignorespaces Examples sentence pairs where sentence encoders performed better than edit Distance in the STS task.}}{146}{table.caption.92}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.2}{\ignorespaces Time for each step with experimented sentence encoders.}}{148}{table.caption.96}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Examples sentence pairs where sentence encoders performed better than edit distance in the STS task.}}{147}{table.caption.92}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.3}{\ignorespaces Result comparison between Okapi and the sentence encoders}}{151}{table.caption.97}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces Time for each step with experimented sentence encoders.}}{149}{table.caption.97}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7.3}{\ignorespaces Result comparison between Okapi and the sentence encoders}}{152}{table.caption.98}%
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{163}{part.3}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.1}{\ignorespaces Information about language pairs used to predict HTER. The \textbf {Language Pair} column shows the language pairs we used in ISO 639-1 codes\footnotemark . \textbf {Source} expresses the domain of the sentence and \textbf {MT system} is the Machine Translation system used to translate the sentences. In that column NMT indicates Neural Machine Translation and SMT indicates Statistical Machine Translation. \textbf {Competition} shows the quality estimation competition in which the data was released and the last column indicates the number of instances the train, development and test dataset had in each language pair respectively.\relax }}{173}{table.caption.99}%
+\contentsline {table}{\numberline {8.1}{\ignorespaces Information about language pairs used to predict HTER}}{173}{table.caption.100}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.2}{\ignorespaces Examples source/target pairs from WMT 2020 En-De HTER dataset.}}{174}{table.caption.101}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.3}{\ignorespaces Examples source/target pairs from WMT 2020 Ro-En DA dataset.}}{175}{table.caption.103}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.1}{\ignorespaces Pearson correlation between TransQuest algorithm predictions and human post-editing effort}}{189}{table.caption.104}%
+\contentsline {table}{\numberline {9.1}{\ignorespaces Pearson correlation between TransQuest algorithm predictions and human post-editing effort}}{190}{table.caption.107}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.2}{\ignorespaces Pearson correlation ($\bm {\rho }$) between \textit {TransQuest} algorithm predictions and human DA judgments}}{190}{table.caption.105}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10.1}{\ignorespaces F1-Multi Target between the algorithm predictions and human annotations}}{207}{table.caption.109}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10.2}{\ignorespaces F1-Multi GAPS between the algorithm predictions and human annotations}}{208}{table.caption.110}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10.3}{\ignorespaces F1-Multi Source between the algorithm predictions and human annotations}}{209}{table.caption.111}%
+\contentsline {table}{\numberline {9.2}{\ignorespaces Pearson correlation ($\bm {\rho }$) between TransQuest algorithm predictions and human DA judgments}}{191}{table.caption.108}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {11.1}{\ignorespaces Pearson correlation between MonoTransQuest algorithm predictions and human post-editing effort}}{221}{table.caption.112}%
+\contentsline {table}{\numberline {10.1}{\ignorespaces $F1_{\textit {MULTI}} \tmspace +\thickmuskip {.2777em} Target$ between the algorithm predictions and human annotations}}{209}{table.caption.112}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {11.2}{\ignorespaces Pearson correlation between MonoTransQuest algorithm predictions and human DA judgments}}{222}{table.caption.113}%
+\contentsline {table}{\numberline {10.2}{\ignorespaces $F1_{\textit {MULTI}} \tmspace +\thickmuskip {.2777em} GAPS$ between the algorithm predictions and human annotations}}{210}{table.caption.113}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {11.3}{\ignorespaces Multilingual Target F1-Multi between the MicroTransQuest predictions and human annotations}}{223}{table.caption.114}%
+\contentsline {table}{\numberline {10.3}{\ignorespaces $F1_{\textit {MULTI}} \tmspace +\thickmuskip {.2777em} Source$ between the algorithm predictions and human annotations}}{211}{table.caption.114}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {11.4}{\ignorespaces Multilingual GAP F1-Multi between MicroTransQuest predictions and human annotations}}{224}{table.caption.115}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {11.5}{\ignorespaces Multilingual Source F1-Multi between MicroTransQuest predictions and human annotations}}{225}{table.caption.116}%
+\contentsline {table}{\numberline {11.1}{\ignorespaces Pearson correlation between the MonoTransQuest predictions and human post-editing effort in multilingual experiments}}{222}{table.caption.115}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {11.2}{\ignorespaces Pearson correlation between the MonoTransQuest predictions and human DA judgments in multilingual experiments}}{223}{table.caption.116}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {11.3}{\ignorespaces $F1_{\textit {MULTI}} \tmspace +\thickmuskip {.2777em} Target$ between the MicroTransQuest predictions and human annotations in multilingual experiments}}{224}{table.caption.117}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {11.4}{\ignorespaces $F1_{\textit {MULTI}} \tmspace +\thickmuskip {.2777em} GAPS$ between MicroTransQuest predictions and human annotations in multilingual experiments}}{225}{table.caption.118}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {11.5}{\ignorespaces $F1_{\textit {MULTI}} \tmspace +\thickmuskip {.2777em} Source$ between MicroTransQuest predictions and human annotations in multilingual experiments.}}{226}{table.caption.119}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

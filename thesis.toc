@@ -10,7 +10,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Publications}{xvii}{chapter*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Introduction}{xix}{chapter*.6}%
+\contentsline {chapter}{Introduction}{xx}{chapter*.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{I\hspace {1em}Semantic Textual Similarity}{1}{part.1}%
 \defcounter {refsection}{0}\relax 
@@ -78,67 +78,67 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Portability to Other Domains}{102}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Conclusions}{104}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Conclusions}{105}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Adapting Transformers for STS}{107}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Adapting Transformers for STS}{108}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Related Work}{110}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Related Work}{111}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{BERT}{110}{section*.74}%
+\contentsline {paragraph}{BERT}{112}{section*.74}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{RoBERTa}{111}{section*.75}%
+\contentsline {paragraph}{RoBERTa}{112}{section*.75}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{ALBERT}{111}{section*.76}%
+\contentsline {paragraph}{ALBERT}{112}{section*.76}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{ELECTRA}{112}{section*.77}%
+\contentsline {paragraph}{ELECTRA}{113}{section*.77}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{XLNET}{112}{section*.78}%
+\contentsline {paragraph}{XLNET}{113}{section*.78}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Transformer Architecture for STS}{113}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Transformer Architecture for STS}{114}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Exploring Transformers in English STS}{114}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Exploring Transformers in English STS}{115}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Impact of Transfer Learning}{117}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.1}Impact of Transfer Learning}{118}{subsection.5.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Impact of Data Augmentation}{118}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.2}Impact of Data Augmentation}{119}{subsection.5.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Portability to Other Languages}{120}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Portability to Other Languages}{121}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Potability to Other Domains}{122}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Potability to Other Domains}{123}{section.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Recent Developments: Siamese Transformers}{125}{section.5.6}%
+\contentsline {section}{\numberline {5.6}Recent Developments: \\ Siamese Transformers}{126}{section.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.7}Conclusions}{127}{section.5.7}%
+\contentsline {section}{\numberline {5.7}Conclusions}{128}{section.5.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{130}{part.2}%
+\contentsline {part}{II\hspace {1em}Applications - Translation Memories}{131}{part.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Introduction to Translation Memories}{131}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Introduction to Translation Memories}{132}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Related Work}{135}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Related Work}{136}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Dataset}{138}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Dataset}{139}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Evaluation}{139}{section.6.3}%
+\contentsline {section}{\numberline {6.3}Evaluation}{140}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Conclusions}{140}{section.6.4}%
+\contentsline {section}{\numberline {6.4}Conclusions}{141}{section.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Sentence Encoders for Translation Memories}{142}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Sentence Encoders for Translation Memories}{143}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Motivation}{145}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Motivation}{146}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Methodology}{147}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Methodology}{148}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Step 1}{147}{section*.93}%
+\contentsline {paragraph}{Step 1}{148}{section*.93}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Step 2}{147}{section*.94}%
+\contentsline {paragraph}{Step 2}{148}{section*.94}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Step 3}{147}{section*.95}%
+\contentsline {paragraph}{Step 3}{148}{section*.95}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Results and Evaluation}{150}{section.7.3}%
+\contentsline {section}{\numberline {7.3}Results and Evaluation}{151}{section.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Error Analysis}{153}{section.7.4}%
+\contentsline {section}{\numberline {7.4}Error Analysis}{154}{section.7.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Conclusions}{160}{section.7.5}%
+\contentsline {section}{\numberline {7.5}Conclusions}{161}{section.7.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Applications - Translation Quality Estimation}{163}{part.3}%
 \defcounter {refsection}{0}\relax 
@@ -146,68 +146,82 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.1}Related Work}{168}{section.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Datasets}{171}{section.8.2}%
+\contentsline {section}{\numberline {8.2}Datasets}{172}{section.8.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.2.1}Sentence-level QE}{172}{subsection.8.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Predicting HTER}{172}{section*.98}%
+\contentsline {paragraph}{Predicting HTER}{172}{section*.99}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Predicting DA}{173}{section*.100}%
+\contentsline {paragraph}{Predicting DA}{173}{section*.102}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.2}Word-level QE}{174}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.2}Word-level QE}{175}{subsection.8.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Evaluation}{175}{section.8.3}%
+\contentsline {section}{\numberline {8.3}Evaluation}{177}{section.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Sentence-Level QE Evaluation}{176}{section*.101}%
+\contentsline {paragraph}{Sentence-Level QE Evaluation}{177}{section*.104}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Word-level QE Evaluation}{176}{section*.102}%
+\contentsline {paragraph}{Word-level QE Evaluation}{177}{section*.105}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Conclusion}{177}{section.8.4}%
+\contentsline {section}{\numberline {8.4}Conclusion}{178}{section.8.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}TransQuest: STS Architectures for QE}{179}{chapter.9}%
+\contentsline {chapter}{\numberline {9}TransQuest: STS Architectures for QE}{180}{chapter.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Methodology}{182}{section.9.1}%
+\contentsline {section}{\numberline {9.1}Methodology}{183}{section.9.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.1}Experimental Setup}{186}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.1}Experimental Setup}{187}{subsection.9.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Results and Discussion}{187}{section.9.2}%
+\contentsline {section}{\numberline {9.2}Results and Discussion}{188}{section.9.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Further Fine-tuning}{192}{section.9.3}%
+\contentsline {section}{\numberline {9.3}Further Fine-tuning}{193}{section.9.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Ensemble Learning}{192}{section*.106}%
+\contentsline {paragraph}{Ensemble Learning}{193}{section*.109}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Data Augmentation}{193}{section*.107}%
+\contentsline {paragraph}{Data Augmentation}{194}{section*.110}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}Error analysis}{195}{section.9.4}%
+\contentsline {section}{\numberline {9.4}Error analysis}{196}{section.9.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.5}Conclusion}{197}{section.9.5}%
+\contentsline {section}{\numberline {9.5}Conclusion}{198}{section.9.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Extending TransQuest for Word-Level QE}{200}{chapter.10}%
+\contentsline {chapter}{\numberline {10}Extending TransQuest for Word-Level QE}{201}{chapter.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Methodology}{204}{section.10.1}%
+\contentsline {section}{\numberline {10.1}Methodology}{205}{section.10.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.1}Experimental Setup}{205}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.1}Experimental Setup}{207}{subsection.10.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Results and Evaluation}{206}{section.10.2}%
+\contentsline {section}{\numberline {10.2}Results and Evaluation}{207}{section.10.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Further Improvements}{211}{section.10.3}%
+\contentsline {section}{\numberline {10.3}Further Improvements}{212}{section.10.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Conclusion}{212}{section.10.4}%
+\contentsline {section}{\numberline {10.4}Conclusion}{213}{section.10.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Multilingual Quality Estimation with TransQuest}{215}{chapter.11}%
+\contentsline {chapter}{\numberline {11}Multilingual Quality Estimation with TransQuest}{216}{chapter.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Methodology}{218}{section.11.1}%
+\contentsline {section}{\numberline {11.1}Methodology}{219}{section.11.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Results}{219}{section.11.2}%
+\contentsline {section}{\numberline {11.2}Results}{220}{section.11.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.1}Multilingual QE}{220}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.1}Multilingual QE}{221}{subsection.11.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.2}Zero-shot QE}{224}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.2}Zero-shot QE}{225}{subsection.11.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.3}Few-shot QE}{227}{subsection.11.2.3}%
+\contentsline {subsection}{\numberline {11.2.3}Few-shot QE}{228}{subsection.11.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Conclusion}{229}{section.11.3}%
+\contentsline {section}{\numberline {11.3}Conclusion}{230}{section.11.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusions}{232}{section.11.3}%
+\contentsline {chapter}{\numberline {12}Conclusions}{233}{chapter.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{233}{chapter*.118}%
+\contentsline {section}{\numberline {12.1}Research Questions}{233}{section.12.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.2}Achievements}{235}{section.12.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{The use of state-of-the-art methods}{238}{section*.121}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Multilingualism}{238}{section*.122}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Replicability, and creation of new resources in the form of code}{238}{section*.123}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Competitiveness}{239}{section*.124}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.3}Summary}{240}{section.12.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{241}{section.12.3}%

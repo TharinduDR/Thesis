@@ -2531,6 +2531,36 @@
     \field{year}{2015}
   \endentry
 
+  \entry{bowker2006lexicography}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BL}{%
+         family={Bowker},
+         familyi={B\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {University of Ottawa Press}%
+    }
+    \strng{namehash}{BL1}
+    \strng{fullhash}{BL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{isbn}{9780776616537}
+    \field{series}{Perspectives on Translation}
+    \field{title}{Lexicography, Terminology, and Translation: Text-based
+  Studies in Honour of Ingrid Meyer}
+    \verb{url}
+    \verb https://books.google.co.uk/books?id=XJ1VDwAAQBAJ
+    \endverb
+    \field{year}{2006}
+  \endentry
+
   \entry{bowman-etal-2015-large}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=BSR}{%
@@ -4974,6 +5004,59 @@
     \field{year}{2014}
   \endentry
 
+  \entry{gupta-etal-2015-machine}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=GR}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={Rohit},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Or{\u{a}}san},
+         familyi={O\bibinitperiod},
+         given={Constantin},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=vGJ}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Genabith},
+         familyi={G\bibinitperiod},
+         given={Josef},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computational Linguistics}%
+    }
+    \strng{namehash}{GR+1}
+    \strng{fullhash}{GROCGJv1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{booktitle}{Proceedings of the Tenth Workshop on Statistical Machine
+  Translation}
+    \verb{doi}
+    \verb 10.18653/v1/W15-3047
+    \endverb
+    \field{pages}{380\bibrangedash 384}
+    \field{title}{Machine Translation Evaluation using Recurrent Neural
+  Networks}
+    \verb{url}
+    \verb https://aclanthology.org/W15-3047
+    \endverb
+    \list{location}{1}{%
+      {Lisbon, Portugal}%
+    }
+    \field{month}{09}
+    \field{year}{2015}
+  \endentry
+
   \entry{10.1007/978-3-319-45510-5_30}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=GR}{%
@@ -5048,6 +5131,66 @@
       {Cham}%
     }
     \field{year}{2016}
+  \endentry
+
+  \entry{gupta-etal-2015-translation}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=GR}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={Rohit},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Orasan},
+         familyi={O\bibinitperiod},
+         given={Constantin},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zampieri},
+         familyi={Z\bibinitperiod},
+         given={Marcos},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={Vela},
+         familyi={V\bibinitperiod},
+         given={Mihaela},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=vGJ}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Genabith},
+         familyi={G\bibinitperiod},
+         given={Josef},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {European Association for Machine Translation}%
+    }
+    \strng{namehash}{GR+1}
+    \strng{fullhash}{GROCZMVMGJv1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{booktitle}{Proceedings of the 18th Annual Conference of the European
+  Association for Machine Translation}
+    \field{title}{Can Translation Memories afford not to use paraphrasing ?}
+    \verb{url}
+    \verb https://aclanthology.org/2015.eamt-1.6
+    \endverb
+    \list{location}{1}{%
+      {Antalya, Turkey}%
+    }
+    \field{year}{2015}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Gupta2016}{article}{}
@@ -9376,6 +9519,77 @@
     \field{year}{2015}
   \endentry
 
+  \entry{ranasinghe:2021}{incollection}{}
+    \name{author}{4}{}{%
+      {{hash=RT}{%
+         family={Ranasinghe},
+         familyi={R\bibinitperiod},
+         given={Tharindu},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Mitkov},
+         familyi={M\bibinitperiod},
+         given={Ruslan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Orasan},
+         familyi={O\bibinitperiod},
+         given={Constantin},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=QRC}{%
+         family={Quintana},
+         familyi={Q\bibinitperiod},
+         given={Rocío\bibnamedelima Caro},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \name{editor}{3}{}{%
+      {{hash=LLJ}{%
+         family={Lavid-López},
+         familyi={L\bibinithyphendelim L\bibinitperiod},
+         given={Julia},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MAC}{%
+         family={Maíz-Arévalo},
+         familyi={M\bibinithyphendelim A\bibinitperiod},
+         given={Carmen},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ZMJR}{%
+         family={Zamorano-Mansilla},
+         familyi={Z\bibinithyphendelim M\bibinitperiod},
+         given={Juan\bibnamedelima Rafael},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Benjamins}%
+    }
+    \keyw{mine}
+    \strng{namehash}{RT+1}
+    \strng{fullhash}{RTMROCQRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{booktitle}{Corpora in Translation and Contrastive Research in the
+  Digital Age: Recent advances and explorations}
+    \field{chapter}{4}
+    \field{title}{Semantic textual similarity based on deep learning: Can it
+  improve matching and retrieval for Translation Memory tools?}
+    \verb{url}
+    \verb https://benjamins.com/catalog/btl.158.04ran
+    \endverb
+    \field{year}{2021}
+  \endentry
+
   \entry{ranasinghe-etal-2019-enhancing}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=RT}{%
@@ -9659,6 +9873,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2021}
+    \field{extradate}{2}
     \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}

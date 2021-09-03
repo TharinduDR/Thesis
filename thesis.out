@@ -43,7 +43,7 @@
 \BOOKMARK [2][-]{subsection.5.3.2}{Impact of Data Augmentation}{section.5.3}% 43
 \BOOKMARK [1][-]{section.5.4}{Portability to Other Languages}{chapter.5}% 44
 \BOOKMARK [1][-]{section.5.5}{Potability to Other Domains}{chapter.5}% 45
-\BOOKMARK [1][-]{section.5.6}{Recent Developments: Siamese Transformers}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.6}{Recent Developments: \040Siamese Transformers}{chapter.5}% 46
 \BOOKMARK [1][-]{section.5.7}{Conclusions}{chapter.5}% 47
 \BOOKMARK [-1][-]{part.2}{II Applications - Translation Memories}{}% 48
 \BOOKMARK [0][-]{chapter.6}{Introduction to Translation Memories}{part.2}% 49
@@ -85,5 +85,8 @@
 \BOOKMARK [2][-]{subsection.11.2.2}{Zero-shot QE}{section.11.2}% 85
 \BOOKMARK [2][-]{subsection.11.2.3}{Few-shot QE}{section.11.2}% 86
 \BOOKMARK [1][-]{section.11.3}{Conclusion}{chapter.11}% 87
-\BOOKMARK [-1][-]{section.11.3}{Conclusions}{}% 88
-\BOOKMARK [-1][-]{chapter*.118}{Bibliography}{}% 89
+\BOOKMARK [-1][-]{chapter.12}{Conclusions}{}% 88
+\BOOKMARK [0][-]{section.12.1}{Research Questions}{chapter.12}% 89
+\BOOKMARK [1][-]{section.12.2}{Achievements}{section.12.1}% 90
+\BOOKMARK [1][-]{section.12.3}{Summary}{section.12.1}% 91
+\BOOKMARK [-1][-]{section.12.3}{Bibliography}{}% 92

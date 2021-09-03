@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  28 AUG 2021 00:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  3 SEP 2021 09:24
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1533,6 +1533,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'gupta-etal-2015-translation':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Gupta2016':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -1775,50 +1780,21 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
 
 
 
-] [10]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 135.
-
-Underfull \hbox (badness 2293) in paragraph at lines 135--135
- \T1/LinuxLibertineT-TLF/b/n/12 Com-pe-ti-tion \T1/LinuxLibertineT-TLF/m/n/12 s
-hows the qual-ity es-ti-ma-tion com-pe-ti-tion in 
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+] [10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
  [][] [][][]\T1/LinuxLibertineT-TLF/m/n/12 Pearson cor-re-la-tion ($\OML/nxlmi/
-b/it/12 $\T1/LinuxLibertineT-TLF/m/n/12 ) be-tween \T1/LinuxLibertineT-TLF/m/i
-t/12 Tran-sQuest \T1/LinuxLibertineT-TLF/m/n/12 al-go-rithm 
+b/it/12 $\T1/LinuxLibertineT-TLF/m/n/12 ) be-tween Tran-sQuest al-go-rithm 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
- [][] [][][]\T1/LinuxLibertineT-TLF/m/n/12 Pearson cor-re-la-tion be-tween Mono
--Tran-sQuest al-go-rithm 
- []
-
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.8pt on input line 149.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.6pt on input line 149.
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
- [][] [][][]\T1/LinuxLibertineT-TLF/m/n/12 Pearson cor-re-la-tion be-tween Mono
--Tran-sQuest al-go-rithm 
- []
-
-
-Underfull \hbox (badness 2680) in paragraph at lines 157--157
- [][] [][][]\T1/LinuxLibertineT-TLF/m/n/12 Multilingual Tar-get F1-Multi be-twe
-en the Mi-cro-Tran-sQuest 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
- [][] [][][]\T1/LinuxLibertineT-TLF/m/n/12 Multilingual GAP F1-Multi be-tween M
-i-cro-Tran-sQuest 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
- [][] [][][]\T1/LinuxLibertineT-TLF/m/n/12 Multilingual Source F1-Multi be-twee
-n Mi-cro-Tran-sQuest 
+Underfull \hbox (badness 2818) in paragraph at lines 165--165
+ [][] [][][]$\OML/nxlmi/m/it/12 F\OT1/LinuxLibertineT-TLF/m/n/12 1[] \OML/nxlmi
+/m/it/12 Source$ \T1/LinuxLibertineT-TLF/m/n/12 be-tween Mi-cro-Tran-sQuest pre
+-dic-tions and 
  []
 
 )
@@ -1833,50 +1809,26 @@ n Mi-cro-Tran-sQuest
 
 
 
-]
-Underfull \hbox (badness 4181) in paragraph at lines 83--83
- \T1/LinuxLibertineT-TLF/m/n/12 F1-Multi scores against Num-ber of train-ing in
--stances for 
- []
-
-)
+] [15])
 \tf@lof=\write10
 \openout10 = `thesis.lof'.
 
-) [15] [16]
+) [16]
 \openout2 = `publications.aux'.
 
  (publications.tex
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 4.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 9.
 
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 4.
+(Font)              scaled to size 12.0pt on input line 9.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 ``En-hanc-ing Un-su-per-vised Sen-tence Sim-i-la
 r-ity Meth-ods with Deep
- []
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 4--4
-\T1/LinuxLibertineT-TLF/m/n/12 ``In-tel-li-gent Trans-la-tion Mem-ory Match-ing
- and Re-trieval with Sen-tence
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
-\T1/LinuxLibertineT-TLF/m/n/12 ``Tran-sQuest at WMT2020: Sentence-Level Di-rect
- As-sess-ment''. In:
- []
-
-
-Underfull \hbox (badness 6741) in paragraph at lines 4--4
-\T1/LinuxLibertineT-TLF/m/it/12 Pro-ceed-ings of the Fifth Con-fer-ence on Ma-c
-hine Trans-la-tion\T1/LinuxLibertineT-TLF/m/n/12 . On-line:
  []
 
 [17
@@ -1885,38 +1837,56 @@ hine Trans-la-tion\T1/LinuxLibertineT-TLF/m/n/12 . On-line:
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
+Underfull \hbox (badness 1112) in paragraph at lines 9--9
+\T1/LinuxLibertineT-TLF/m/n/12 ``In-tel-li-gent Trans-la-tion Mem-ory Match-ing
+ and Re-trieval with Sen-tence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\T1/LinuxLibertineT-TLF/m/n/12 ``Tran-sQuest at WMT2020: Sentence-Level Di-rect
+ As-sess-ment''. In:
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 9--9
+\T1/LinuxLibertineT-TLF/m/it/12 Pro-ceed-ings of the Fifth Con-fer-ence on Ma-c
+hine Trans-la-tion\T1/LinuxLibertineT-TLF/m/n/12 . On-line:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Ranasinghe, Tharindu, Con-stantin Orasan, an
 d Rus-lan Mitkov (Dec.
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 4--4
+Underfull \hbox (badness 1603) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 2020c). ``Tran-sQuest: Trans-la-tion Qual-ity Es
 -ti-ma-tion with Cross-lingual
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 4--4
+Underfull \hbox (badness 2762) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Trans-form-ers''. In: \T1/LinuxLibertineT-TLF/m/
 it/12 Pro-ceed-ings of the 28th In-ter-na-tional Con-fer-ence on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/it/12 Com-pu-ta-tional Lin-guis-tics\T1/LinuxLibertin
 eT-TLF/m/n/12 . Barcelona, Spain (On-line): In-ter-na-tional
  []
 
-) [18]
+[18]) [19]
 \openout2 = `introduction.aux'.
 
- (introduction.tex [19
+ (introduction.tex [20
 
 
 
 
-] [20]) [21]
+] [21]) [22]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 24.88pt on input line 122.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
@@ -1984,12 +1954,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--7
 w . elastic . co / guide / en / elasticsearch / reference / current /
  []
 
-
-Underfull \hbox (badness 1281) in paragraph at lines 7--8
-\T1/LinuxLibertineT-TLF/m/n/12 ques-tion an-swer-ing ([]Mohler et al. [][]2011[
-][]), rel-e-vance feed-back ([]Wang et al.
- []
-
 [2
 
 
@@ -2034,7 +1998,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 83.
 <figures/semantic_textual_similarity/introduction/sick_train_relatedness_hist.p
-ng, id=981, 433.62pt x 289.08pt>
+ng, id=1000, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_train_relatedness_h
 ist.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_train_relatedness_hi
@@ -2043,7 +2007,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sick_
 train_relatedness_hist.png  used on input line 95.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/sick_test_relatedness_hist.pn
-g, id=983, 433.62pt x 289.08pt>
+g, id=1002, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_test_relatedness_hi
 st.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_test_relatedness_his
@@ -2054,16 +2018,16 @@ test_relatedness_hist.png  used on input line 101.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 10.95pt on input line 105.
  [11]
-<figures/semantic_textual_similarity/introduction/sick_train_words.png, id=990,
- 433.62pt x 289.08pt>
+<figures/semantic_textual_similarity/introduction/sick_train_words.png, id=1009
+, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_train_words.png Gra
 phic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_train_words.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sick_
 train_words.png  used on input line 117.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/sick_test_words.png, id=991, 
-433.62pt x 289.08pt>
+<figures/semantic_textual_similarity/introduction/sick_test_words.png, id=1010,
+ 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_test_words.png Grap
 hic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_test_words.png>
@@ -2078,7 +2042,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 _hist.png> <./figures/semantic_textual_similarity/introduction/sick_test_relate
 dness_hist.png>]
 <figures/semantic_textual_similarity/introduction/sick_train_word_share.png, id
-=1010, 433.62pt x 289.08pt>
+=1029, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_train_word_share.pn
 g Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_train_word_share.png
@@ -2087,7 +2051,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sick_
 train_word_share.png  used on input line 159.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/sick_test_word_share.png, id=
-1011, 433.62pt x 289.08pt>
+1030, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sick_test_word_share.png
  Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sick_test_word_share.png>
@@ -2102,7 +2066,7 @@ test_word_share.png  used on input line 165.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 230.
  [15] [16] [17]
-<figures/semantic_textual_similarity/introduction/sts_train.png, id=1075, 433.6
+<figures/semantic_textual_similarity/introduction/sts_train.png, id=1094, 433.6
 2pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_train.png Graphic fi
 le (type png)
@@ -2110,7 +2074,7 @@ le (type png)
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_t
 rain.png  used on input line 285.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/sts_test.png, id=1076, 433.62
+<figures/semantic_textual_similarity/introduction/sts_test.png, id=1095, 433.62
 pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_test.png Graphic fil
 e (type png)
@@ -2119,7 +2083,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_t
 est.png  used on input line 291.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/sts_2017_train_words.png, id=
-1078, 433.62pt x 289.08pt>
+1097, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_2017_train_words.png
  Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sts_2017_train_words.png>
@@ -2128,7 +2092,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_2
 017_train_words.png  used on input line 307.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/sts_2017_test_words.png, id=1
-079, 433.62pt x 289.08pt>
+098, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_2017_test_words.png 
 Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sts_2017_test_words.png>
@@ -2138,7 +2102,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_2
  [18 <./figures/semantic_textual_similarity/introduction/sts_train.png> <./figu
 res/semantic_textual_similarity/introduction/sts_test.png>]
 <figures/semantic_textual_similarity/introduction/sts_2017_train_word_share.png
-, id=1090, 433.62pt x 289.08pt>
+, id=1109, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_2017_train_word_shar
 e.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sts_2017_train_word_share
@@ -2147,7 +2111,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_2
 017_train_word_share.png  used on input line 328.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/sts_2017_test_word_share.png,
- id=1091, 433.62pt x 289.08pt>
+ id=1110, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_2017_test_word_share
 .png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sts_2017_test_word_share.
@@ -2160,7 +2124,7 @@ ng> <./figures/semantic_textual_similarity/introduction/sts_2017_test_words.png
 >] [20 <./figures/semantic_textual_similarity/introduction/sts_2017_train_word_
 share.png> <./figures/semantic_textual_similarity/introduction/sts_2017_test_wo
 rd_share.png>]
-<figures/semantic_textual_similarity/introduction/quora_train.png, id=1114, 433
+<figures/semantic_textual_similarity/introduction/quora_train.png, id=1133, 433
 .62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_train.png Graphic 
 file (type png)
@@ -2168,7 +2132,7 @@ file (type png)
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
 _train.png  used on input line 398.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/quora_test.png, id=1115, 433.
+<figures/semantic_textual_similarity/introduction/quora_test.png, id=1134, 433.
 62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_test.png Graphic f
 ile (type png)
@@ -2178,7 +2142,7 @@ _test.png  used on input line 404.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
  [21 <./figures/semantic_textual_similarity/introduction/quora_train.png> <./fi
 gures/semantic_textual_similarity/introduction/quora_test.png>]
-<figures/semantic_textual_similarity/introduction/quora_train_words.png, id=112
+<figures/semantic_textual_similarity/introduction/quora_train_words.png, id=114
 2, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_train_words.png Gr
 aphic file (type png)
@@ -2186,7 +2150,7 @@ aphic file (type png)
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
 _train_words.png  used on input line 424.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/quora_test_words.png, id=1123
+<figures/semantic_textual_similarity/introduction/quora_test_words.png, id=1143
 , 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_test_words.png Gra
 phic file (type png)
@@ -2195,7 +2159,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
 _test_words.png  used on input line 430.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/quora_train_word_share.png, i
-d=1127, 433.62pt x 289.08pt>
+d=1147, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_train_word_share.p
 ng Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/quora_train_word_share.pn
@@ -2204,7 +2168,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/quora
 _train_word_share.png  used on input line 445.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/quora_test_word_share.png, id
-=1128, 433.62pt x 289.08pt>
+=1148, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/quora_test_word_share.pn
 g Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/quora_test_word_share.png
@@ -2231,7 +2195,7 @@ Underfull \hbox (badness 1237) in paragraph at lines 531--531
  at [][]$\T1/zi4/m/n/10 http : / / alt . qcri . org / semeval2017 /
  []
 
-<figures/semantic_textual_similarity/introduction/sts_arabic_train.png, id=1149
+<figures/semantic_textual_similarity/introduction/sts_arabic_train.png, id=1168
 , 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_arabic_train.png Gra
 phic file (type png)
@@ -2239,7 +2203,7 @@ phic file (type png)
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_a
 rabic_train.png  used on input line 556.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/sts_arabic_test.png, id=1150,
+<figures/semantic_textual_similarity/introduction/sts_arabic_test.png, id=1169,
  433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_arabic_test.png Grap
 hic file (type png)
@@ -2251,7 +2215,7 @@ rabic_test.png  used on input line 562.
 ain.png> <./figures/semantic_textual_similarity/introduction/sts_arabic_test.pn
 g>]
 <figures/semantic_textual_similarity/introduction/arabic_sts_train_words.png, i
-d=1171, 433.62pt x 289.08pt>
+d=1190, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/arabic_sts_train_words.p
 ng Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/arabic_sts_train_words.pn
@@ -2260,7 +2224,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/arabi
 c_sts_train_words.png  used on input line 584.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/arabic_sts_test_words.png, id
-=1172, 433.62pt x 289.08pt>
+=1191, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/arabic_sts_test_words.pn
 g Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/arabic_sts_test_words.png
@@ -2269,7 +2233,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/arabi
 c_sts_test_words.png  used on input line 590.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/arabic_sts_train_word_share.p
-ng, id=1175, 433.62pt x 289.08pt>
+ng, id=1194, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/arabic_sts_train_word_sh
 are.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/arabic_sts_train_word_sha
@@ -2278,7 +2242,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/arabi
 c_sts_train_word_share.png  used on input line 605.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/arabic_sts_test_word_share.pn
-g, id=1176, 433.62pt x 289.08pt>
+g, id=1195, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/arabic_sts_test_word_sha
 re.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/arabic_sts_test_word_shar
@@ -2291,15 +2255,15 @@ c_sts_test_word_share.png  used on input line 611.
 .png>] [28 <./figures/semantic_textual_similarity/introduction/arabic_sts_train
 _word_share.png> <./figures/semantic_textual_similarity/introduction/arabic_sts
 _test_word_share.png>] [29]
-<figures/semantic_textual_similarity/introduction/sts_spanish_train.png, id=120
-7, 433.62pt x 289.08pt>
+<figures/semantic_textual_similarity/introduction/sts_spanish_train.png, id=122
+6, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_spanish_train.png Gr
 aphic file (type png)
 <use figures/semantic_textual_similarity/introduction/sts_spanish_train.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/introduction/sts_s
 panish_train.png  used on input line 697.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
-<figures/semantic_textual_similarity/introduction/sts_spanish_test.png, id=1208
+<figures/semantic_textual_similarity/introduction/sts_spanish_test.png, id=1227
 , 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/sts_spanish_test.png Gra
 phic file (type png)
@@ -2310,7 +2274,7 @@ panish_test.png  used on input line 703.
  [30 <./figures/semantic_textual_similarity/introduction/sts_spanish_train.png>
  <./figures/semantic_textual_similarity/introduction/sts_spanish_test.png>]
 <figures/semantic_textual_similarity/introduction/spanish_sts_train_words.png, 
-id=1216, 433.62pt x 289.08pt>
+id=1235, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/spanish_sts_train_words.
 png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/spanish_sts_train_words.p
@@ -2319,7 +2283,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/spani
 sh_sts_train_words.png  used on input line 719.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/spanish_sts_test_words.png, i
-d=1217, 433.62pt x 289.08pt>
+d=1236, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/spanish_sts_test_words.p
 ng Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/spanish_sts_test_words.pn
@@ -2328,7 +2292,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/spani
 sh_sts_test_words.png  used on input line 725.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/spanish_sts_train_word_share.
-png, id=1220, 433.62pt x 289.08pt>
+png, id=1239, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/spanish_sts_train_word_s
 hare.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/spanish_sts_train_word_sh
@@ -2337,7 +2301,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/spani
 sh_sts_train_word_share.png  used on input line 743.
 (pdftex.def)             Requested size: 195.0pt x 130.00098pt.
 <figures/semantic_textual_similarity/introduction/spanish_sts_test_word_share.p
-ng, id=1221, 433.62pt x 289.08pt>
+ng, id=1240, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/spanish_sts_test_word_sh
 are.png Graphic file (type png)
 <use figures/semantic_textual_similarity/introduction/spanish_sts_test_word_sha
@@ -2354,15 +2318,15 @@ Underfull \hbox (badness 1960) in paragraph at lines 785--786
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 785--786
-\T1/LinuxLibertineT-TLF/m/n/12 ([]So§anco§lu et al. [][]2017[][]). The dataset
- com-prises of 100 sen-tence
+Underfull \hbox (badness 2005) in paragraph at lines 785--786
+\T1/LinuxLibertineT-TLF/m/n/12 ([]So§anco§lu et al., [][]2017[][]). The datase
+t com-prises of 100 sen-tence
  []
 
 [32 <./figures/semantic_textual_similarity/introduction/spanish_sts_train_word_
 share.png> <./figures/semantic_textual_similarity/introduction/spanish_sts_test
 _word_share.png>]
-<figures/semantic_textual_similarity/introduction/biosses.png, id=1243, 433.62p
+<figures/semantic_textual_similarity/introduction/biosses.png, id=1262, 433.62p
 t x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/biosses.png Graphic file
  (type png)
@@ -2371,7 +2335,7 @@ Package pdftex.def Info: figures/semantic_textual_similarity/introduction/bioss
 es.png  used on input line 817.
 (pdftex.def)             Requested size: 312.00119pt x 208.0095pt.
  [33]
-<figures/semantic_textual_similarity/introduction/biosses_words.png, id=1255, 4
+<figures/semantic_textual_similarity/introduction/biosses_words.png, id=1275, 4
 33.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/biosses_words.png Graphi
 c file (type png)
@@ -2386,7 +2350,7 @@ l be ex-plor-ing in the
  []
 
 <figures/semantic_textual_similarity/introduction/biosses_word_share.png, id=12
-56, 433.62pt x 289.08pt>
+76, 433.62pt x 289.08pt>
 File: figures/semantic_textual_similarity/introduction/biosses_word_share.png G
 raphic file (type png)
 <use figures/semantic_textual_similarity/introduction/biosses_word_share.png>
@@ -2407,8 +2371,6 @@ Underfull \hbox (badness 2762) in paragraph at lines 853--854
 wo quan-ti-ta-tive, con-tin-u-ous
  []
 
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 859.
 [37]
 Underfull \hbox (badness 10000) in paragraph at lines 862--863
 []\T1/LinuxLibertineT-TLF/b/n/12 Spearman's Cor-re-la-tion Co-ef-fi-cient \T1/L
@@ -2474,14 +2436,14 @@ on-tains pre-vi-ous re-search on
  []
 
 [44]
-Underfull \hbox (badness 1648) in paragraph at lines 43--44
+Underfull \hbox (badness 1297) in paragraph at lines 43--44
 \T1/LinuxLibertineT-TLF/m/n/12 the re-sult-ing em-bed-dings ([]Mitchell and La-
-p-ata [][]2008[][]). This method is a
+p-ata, [][]2008[][]). This method is a
  []
 
 [45]
 <figures/semantic_textual_similarity/state_of_the_art/word_movers_distance.png,
- id=1379, 497.86pt x 255.95625pt>
+ id=1397, 497.86pt x 255.95625pt>
 File: figures/semantic_textual_similarity/state_of_the_art/word_movers_distance
 .png Graphic file (type png)
 <use figures/semantic_textual_similarity/state_of_the_art/word_movers_distance.
@@ -2489,11 +2451,6 @@ png>
 Package pdftex.def Info: figures/semantic_textual_similarity/state_of_the_art/w
 ord_movers_distance.png  used on input line 50.
 (pdftex.def)             Requested size: 199.14047pt x 102.38068pt.
-
-Underfull \hbox (badness 1112) in paragraph at lines 56--57
-\T1/LinuxLibertineT-TLF/m/n/12 sen-tence em-bed-dings us-ing Smooth In-verse Fr
-e-quency pro-posed by []Arora
- []
 
 
 Package amsmath Warning: Foreign command \over;
@@ -2513,13 +2470,13 @@ Underfull \hbox (badness 1028) in paragraph at lines 65--66
  the same unique vec-tor
  []
 
-[47]
+[47] [48]
 Underfull \hbox (badness 1033) in paragraph at lines 74--75
 \T1/LinuxLibertineT-TLF/m/n/12 layer. As a re-sult, BERT is con-sid-ered a very
  pow-er-ful em-bed-ding
  []
 
-[48]
+
 Underfull \hbox (badness 7631) in paragraph at lines 76--77
 []\T1/LinuxLibertineT-TLF/b/n/12 Flair[][][][][] \T1/LinuxLibertineT-TLF/m/n/12
  is an-other pop-u-lar con-tex-tu-alised word em-bed-ding model
@@ -2531,13 +2488,13 @@ Underfull \hbox (badness 4132) in paragraph at lines 82--83
 g mod-els have shown
  []
 
-[50] [51]
+[50] [51] [52]
 Underfull \hbox (badness 2189) in paragraph at lines 107--108
 []\T1/LinuxLibertineT-TLF/m/n/12 All the word vec-tors ex-cept the vec-tors for
  stop words were
  []
 
-[52]
+
 Overfull \hbox (11.97583pt too wide) in paragraph at lines 158--159
  [][] 
  []
@@ -2554,26 +2511,19 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
 (Font)              scaled to size 8.0pt on input line 159.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/sb/n' will be
 (Font)              scaled to size 6.1pt on input line 159.
-
+[53]
 Underfull \hbox (badness 1478) in paragraph at lines 247--248
 \T1/LinuxLibertineT-TLF/m/n/12 than 3000 di-men-sions for the word rep-re-sen-t
 a-tion, which is higher
  []
 
-[53] [54]
+[54]
 Underfull \hbox (badness 5203) in paragraph at lines 356--357
 []\T1/LinuxLibertineT-TLF/m/n/12 As de-picted in the Ta-bles [][]2.4[][], [][]2
 .5[][] and [][]2.6[][], con-tex-tu-alised word
  []
 
-[55] [56]
-Underfull \hbox (badness 1122) in paragraph at lines 440--441
-\T1/LinuxLibertineT-TLF/m/n/12 the \T1/LinuxLibertineT-TLF/m/it/12 Curse of di-
-men-sion-al-ity \T1/LinuxLibertineT-TLF/m/n/12 ([]In-dyk and Mot-wani [][]1998[
-][]) with Smooth
- []
-
-[57] [58]
+[55] [56] [57] [58]
 Underfull \hbox (badness 1024) in paragraph at lines 442--443
 []\T1/LinuxLibertineT-TLF/m/n/12 With re-gards to our \T1/LinuxLibertineT-TLF/b
 /n/12 RQ2\T1/LinuxLibertineT-TLF/m/n/12 : \T1/LinuxLibertineT-TLF/m/it/12 How w
@@ -2626,7 +2576,13 @@ Chapter 3.
 
 
 
-] [67]
+]
+Underfull \hbox (badness 1354) in paragraph at lines 10--11
+[]\T1/LinuxLibertineT-TLF/m/n/12 Once the sen-tence em-bed-dings are ob-tained 
+from a sen-tence en-coder,
+ []
+
+[67]
 Underfull \hbox (badness 8170) in paragraph at lines 27--27
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 The pub-lic GitHub repos-i-tory is avail-a
 ble on [][]$\T1/zi4/m/n/10 https : / / github . com / tharindudr /
@@ -2651,7 +2607,7 @@ vail-able on [][]$\T1/zi4/m/n/10 https : / / github . com /
  []
 
 <figures/semantic_textual_similarity/sentence_encoders/infersent_general.png, i
-d=1766, 414.04688pt x 386.94562pt>
+d=1783, 414.04688pt x 386.94562pt>
 File: figures/semantic_textual_similarity/sentence_encoders/infersent_general.p
 ng Graphic file (type png)
 <use figures/semantic_textual_similarity/sentence_encoders/infersent_general.pn
@@ -2659,7 +2615,7 @@ g>
 Package pdftex.def Info: figures/semantic_textual_similarity/sentence_encoders/
 infersent_general.png  used on input line 57.
 (pdftex.def)             Requested size: 195.0pt x 182.24234pt.
-<figures/semantic_textual_similarity/sentence_encoders/infersent.png, id=1767, 
+<figures/semantic_textual_similarity/sentence_encoders/infersent.png, id=1784, 
 329.73187pt x 392.21532pt>
 File: figures/semantic_textual_similarity/sentence_encoders/infersent.png Graph
 ic file (type png)
@@ -2675,7 +2631,7 @@ bertineT-TLF/m/n/10 and pre-trained sen-tence en-coder for DAN
  []
 
 [72]
-<figures/semantic_textual_similarity/sentence_encoders/dan.png, id=1789, 240.14
+<figures/semantic_textual_similarity/sentence_encoders/dan.png, id=1806, 240.14
 719pt x 526.96875pt>
 File: figures/semantic_textual_similarity/sentence_encoders/dan.png Graphic fil
 e (type png)
@@ -2683,7 +2639,7 @@ e (type png)
 Package pdftex.def Info: figures/semantic_textual_similarity/sentence_encoders/
 dan.png  used on input line 85.
 (pdftex.def)             Requested size: 136.50238pt x 299.53905pt.
-<figures/semantic_textual_similarity/sentence_encoders/transformer.png, id=1790
+<figures/semantic_textual_similarity/sentence_encoders/transformer.png, id=1807
 , 254.45062pt x 528.47438pt>
 File: figures/semantic_textual_similarity/sentence_encoders/transformer.png Gra
 phic file (type png)
@@ -2783,7 +2739,7 @@ icly avail-able to the
 
 [86] [87] [88] [89] [90]
 <figures/semantic_textual_similarity/siamese_neural_networks/siamese_architectu
-re.png, id=2079, 393.47pt x 333.245pt>
+re.png, id=2096, 393.47pt x 333.245pt>
 File: figures/semantic_textual_similarity/siamese_neural_networks/siamese_archi
 tecture.png Graphic file (type png)
 <use figures/semantic_textual_similarity/siamese_neural_networks/siamese_archit
@@ -2809,43 +2765,43 @@ LaTeX Warning: Reference `tab:augmentation_siamese' on page 97 undefined on inp
 ut line 252.
 
 [97]
-Underfull \hbox (badness 3118) in paragraph at lines 296--297
-[]\T1/LinuxLibertineT-TLF/m/n/12 Marelli et al. [][]2014[][]), and with the un-
-su-per-vised STS meth-ods we have
+Underfull \hbox (badness 2503) in paragraph at lines 296--297
+[]\T1/LinuxLibertineT-TLF/m/n/12 Marelli et al., [][]2014[][]), and with the un
+-su-per-vised STS meth-ods we have
  []
 
-[98] [99] [100] [101]
-Underfull \hbox (badness 2073) in paragraph at lines 459--460
+[98] [99] [100] [101] [102]
+Underfull \hbox (badness 2073) in paragraph at lines 448--449
 []\T1/LinuxLibertineT-TLF/m/n/12 As you can see in Ta-ble [][]4.12[][], Siamese
  neu-ral ar-chi-tec-tures pro-vided
  []
 
-[102] [103] [104] [105]
-Underfull \hbox (badness 2486) in paragraph at lines 491--492
+[103] [104] [105]
+Underfull \hbox (badness 2486) in paragraph at lines 480--481
 []\T1/LinuxLibertineT-TLF/m/n/12 Since word em-bed-ding mod-els are now avail-a
 ble in most lan-guages,
  []
 
-) [106]
+[106]) [107]
 \openout2 = `chapters/semantic_textual_similarity/transformers.aux'.
 
  (chapters/semantic_textual_similarity/transformers.tex
 Chapter 5.
-[107
+[108
 
 
 
 
-]
-Underfull \hbox (badness 2326) in paragraph at lines 9--10
-\T1/LinuxLibertineT-TLF/m/n/12 to-kens to ob-tain a sin-gle con-tigu-ous se-que
-nce for each in-put se-quence.
+] [109]
+Underfull \hbox (badness 2150) in paragraph at lines 16--17
+[]\T1/LinuxLibertineT-TLF/b/n/12 RQ2: \T1/LinuxLibertineT-TLF/m/n/12 Can the me
+thod im-prove with the trans-fer learn-ing and data
  []
 
-[108]
-Underfull \hbox (badness 1721) in paragraph at lines 25--26
-\T1/LinuxLibertineT-TLF/m/n/12 We com-pare the re-sults with the pre-vi-ous met
-h-ods and show that
+
+Underfull \hbox (badness 1112) in paragraph at lines 27--28
+[]\T1/LinuxLibertineT-TLF/m/n/12 We pro-pose fur-ther en-hance-ments to the ar-
+chi-tec-ture us-ing trans-fer
  []
 
 
@@ -2866,54 +2822,65 @@ Underfull \hbox (badness 2181) in paragraph at lines 31--32
 icly avail-able to the
  []
 
-[109] [110]
-Underfull \hbox (badness 1303) in paragraph at lines 45--47
- []\T1/LinuxLibertineT-TLF/b/n/12 ALBERT[] \T1/LinuxLibertineT-TLF/m/n/12 ([]La
-n et al. [][]2020[][]) pro-poses two parameter-reduction tech-niques
+[110]
+Underfull \hbox (badness 2213) in paragraph at lines 39--40
+\T1/LinuxLibertineT-TLF/m/n/12 As we men-tioned be-fore, af-ter the in-tro-duc-
+tion of BERT ([]De-vlin et al.,
  []
 
 [111] [112]
-<figures/semantic_textual_similarity/transformers/STSTransformers.png, id=2336,
+Underfull \hbox (badness 2229) in paragraph at lines 48--49
+ []\T1/LinuxLibertineT-TLF/b/n/12 ELECTRA[] \T1/LinuxLibertineT-TLF/m/n/12 Com-
+pared to BERT, ELEC-TRA ([]Clark et al., [][]2020[][]) pro-poses
+ []
+
+[113]
+<figures/semantic_textual_similarity/transformers/STSTransformers.png, id=2355,
  936.49875pt x 452.69125pt>
 File: figures/semantic_textual_similarity/transformers/STSTransformers.png Grap
 hic file (type png)
 <use figures/semantic_textual_similarity/transformers/STSTransformers.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/transformers/STSTr
-ansformers.png  used on input line 62.
+ansformers.png  used on input line 61.
 (pdftex.def)             Requested size: 374.59286pt x 181.07329pt.
- [113] [114 <./figures/semantic_textual_similarity/transformers/STSTransformers
-.png>] [115]
-Underfull \hbox (badness 1112) in paragraph at lines 154--155
-\T1/LinuxLibertineT-TLF/m/n/12 mod-els. Fur-ther-more, we rec-om-mend to con-du
-ct more ex-per-i-ments with
+ [114] [115 <./figures/semantic_textual_similarity/transformers/STSTransformers
+.png>] [116]
+Underfull \hbox (badness 1158) in paragraph at lines 153--154
+\T1/LinuxLibertineT-TLF/m/n/12 mod-els. Fur-ther-more, we rec-om-mend con-duct-
+ing more ex-per-i-ments with
  []
 
-[116] [117]
-Underfull \hbox (badness 3068) in paragraph at lines 193--194
-[]\T1/LinuxLibertineT-TLF/m/n/12 We can con-clude that trans-fer learn-ing can 
-im-prove the re-sults for
+[117] [118] [119] [120] [121] [122] [123]
+Underfull \hbox (badness 7433) in paragraph at lines 329--330
+[]\T1/LinuxLibertineT-TLF/m/n/12 For this trans-fer learn-ing strat-egy, we con
+-sid-ered two pre-trained
  []
 
-[118] [119] [120] [121] [122] [123] [124]
-Underfull \hbox (badness 10000) in paragraph at lines 379--379
-[]\T1/LinuxLibertineT-TLF/b/n/17.28 Recent De-vel-op-ments: Siamese
+[124] [125]
+Underfull \hbox (badness 1189) in paragraph at lines 377--378
+\T1/LinuxLibertineT-TLF/m/it/12 trans-former mod-els per-form in a dif-fer-ent 
+do-main?\T1/LinuxLibertineT-TLF/m/n/12 . The trans-form-ers can
  []
 
-<figures/semantic_textual_similarity/transformers/sentence-bert.png, id=2475, 9
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 381.
+
+<figures/semantic_textual_similarity/transformers/sentence-bert.png, id=2495, 9
 91.705pt x 633.36626pt>
 File: figures/semantic_textual_similarity/transformers/sentence-bert.png Graphi
 c file (type png)
 <use figures/semantic_textual_similarity/transformers/sentence-bert.png>
 Package pdftex.def Info: figures/semantic_textual_similarity/transformers/sente
-nce-bert.png  used on input line 384.
+nce-bert.png  used on input line 386.
 (pdftex.def)             Requested size: 347.10196pt x 221.6815pt.
-[125 <./figures/semantic_textual_similarity/transformers/sentence-bert.png>]
-Underfull \hbox (badness 1371) in paragraph at lines 392--393
-\T1/LinuxLibertineT-TLF/m/n/12 by sen-tence en-coders that used tra-di-tional w
-ord em-bed-dings. There-fore,
+[126 <./figures/semantic_textual_similarity/transformers/sentence-bert.png>]
+Underfull \hbox (badness 1248) in paragraph at lines 395--396
+\T1/LinuxLibertineT-TLF/m/n/12 neu-ral net-work ar-chi-tec-tures ex-per-i-mente
+d in Chap-ter [][]4[][]. There-fore, this
  []
 
-[126] [127] [128]) [129] [130
+[127] [128] [129]) [130] [131
 
 
 
@@ -2922,141 +2889,168 @@ ord em-bed-dings. There-fore,
 
  (chapters/translation_memories/introduction.tex
 Chapter 6.
-[131
+[132
 
 
 
-] [132] [133]
-Underfull \hbox (badness 1062) in paragraph at lines 20--21
-[]\T1/LinuxLibertineT-TLF/m/n/12 Utilising deep learn-ing in TM match-ing meth-
-ods would bring ob-vi-ous
+] [133]
+Underfull \hbox (badness 3088) in paragraph at lines 19--20
+[]\T1/LinuxLibertineT-TLF/m/n/12 Researchers ad-dress this short-com-ing of the
+ edit dis-tance met-ric by
  []
 
-
-Underfull \hbox (badness 2486) in paragraph at lines 32--33
-\T1/LinuxLibertineT-TLF/m/n/12 trans-la-tion in-dus-try, these tools are far fr
-om be-ing per-fect. A se-ri-ous
- []
-
-[134] [135]
-Underfull \hbox (badness 1168) in paragraph at lines 37--38
-[][]\T1/LinuxLibertineT-TLF/m/n/12 2005[][]) fol-lowed by lex-i-cosyn-tac-tic n
-or-mal-i-sa-tion. Then sim-i-lar-ity be-tween
- []
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 39--40
+[134] [135] [136]
+Underfull \hbox (badness 1424) in paragraph at lines 40--41
 \T1/LinuxLibertineT-TLF/m/n/12 ex-per-i-mented with clause split-ting and para-
 phras-ing, seek-ing to es-tab-lish
  []
 
-[136] [137]
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+
+Underfull \hbox (badness 1122) in paragraph at lines 40--41
+[]\T1/LinuxLibertineT-TLF/m/n/12 Gupta et al. ([][]2014a[][]) de-vel-oped a ma-
+chine learn-ing ap-proach for se-man-tic
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 40--41
+\T1/LinuxLibertineT-TLF/m/n/12 sim-i-lar-ity and tex-tual en-tail-ment based on
+ fea-tures ex-tracted us-ing typed
+ []
+
+[137]
+Underfull \hbox (badness 1052) in paragraph at lines 42--43
+[]\T1/LinuxLibertineT-TLF/m/n/12 With this anal-y-sis, we iden-ti-fied two key 
+lim-i-ta-tions in cur-rent third-
+ []
+
+[138]
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 DGT-TM is avail-able to down-load at [][]$
 \T1/zi4/m/n/10 https : / / ec . europa . eu / jrc / en /
  []
 
-[138] [139]
-Underfull \hbox (badness 1092) in paragraph at lines 61--62
-\T1/LinuxLibertineT-TLF/m/n/12 trans-la-tors and the last three decades have se
-en dra-matic changes in the
+[139] [140] [141]
+Underfull \hbox (badness 3168) in paragraph at lines 67--68
+[]\T1/LinuxLibertineT-TLF/m/n/12 As a so-lu-tion to these lim-i-ta-tions, the s
+econd-generation and third-
  []
 
-[140]) [141]
+
+Underfull \hbox (badness 1005) in paragraph at lines 67--68
+\T1/LinuxLibertineT-TLF/m/n/12 generation TM sys-tems are pro-posed. How-ever, 
+they are far from be-ing
+ []
+
+) [142]
 \openout2 = `chapters/translation_memories/sentence_encoders.aux'.
 
  (chapters/translation_memories/sentence_encoders.tex
 Chapter 7.
-[142
+[143
 
 
 
 
-] [143]
-Underfull \hbox (badness 1087) in paragraph at lines 21--22
-\T1/LinuxLibertineT-TLF/m/n/12 and we show that in cer-tain fuzzy match ranges 
-sen-tence en-coders
- []
-
-
-Underfull \hbox (badness 8170) in paragraph at lines 25--25
+] [144]
+Underfull \hbox (badness 8170) in paragraph at lines 26--26
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 The pub-lic GitHub repos-i-tory is avail-a
 ble on [][]$\T1/zi4/m/n/10 https : / / github . com / tharindudr /
  []
 
-[144] [145]
-Underfull \hbox (badness 2856) in paragraph at lines 54--54
+[145] [146]
+Underfull \hbox (badness 2856) in paragraph at lines 55--55
 []|\T1/LinuxLibertineT-TLF/m/n/12 Israel widens set-tle-ment
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 54--54
+Underfull \hbox (badness 1728) in paragraph at lines 55--55
 []|\T1/LinuxLibertineT-TLF/m/n/12 A man plays the gui-tar
  []
 
 
-Underfull \hbox (badness 6428) in paragraph at lines 54--54
+Underfull \hbox (badness 6428) in paragraph at lines 55--55
 []|\T1/LinuxLibertineT-TLF/m/n/12 A man is singing and
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 54--54
+Underfull \hbox (badness 1297) in paragraph at lines 55--55
 []|\T1/LinuxLibertineT-TLF/m/n/12 A man with no shirt is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 \T1/LinuxLibertineT-TLF/m/n/12 to the con-fer-ence but
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 \T1/LinuxLibertineT-TLF/m/n/12 can-celed be-cause the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 \T1/LinuxLibertineT-TLF/m/n/12 union is clos-ing talks
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 \T1/LinuxLibertineT-TLF/m/n/12 on agri-cul-tural re-form,
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 54--54
+Underfull \hbox (badness 3098) in paragraph at lines 55--55
 \T1/LinuxLibertineT-TLF/m/n/12 said Gerry Kiely, a EU
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 []|\T1/LinuxLibertineT-TLF/m/n/12 Gerry Kiely, a EU
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 54--54
+Underfull \hbox (badness 1946) in paragraph at lines 55--55
 \T1/LinuxLibertineT-TLF/m/n/12 in Wash-ing-ton, said EU
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 \T1/LinuxLibertineT-TLF/m/n/12 min-is-ters were in-vited
  []
 
-[146]
-Underfull \hbox (badness 1762) in paragraph at lines 69--70
+[147]
+Underfull \hbox (badness 1762) in paragraph at lines 70--71
  []\T1/LinuxLibertineT-TLF/b/n/12 Step 1[] \T1/LinuxLibertineT-TLF/m/n/12 : Cal
 -cu-lated the sen-tence em-bed-dings for each seg-ment in the
  []
 
-[147] [148] [149] [150] [151] [152] [153] [154]
-Underfull \hbox (badness 1454) in paragraph at lines 179--180
+<figures/translation_memories/sentence_encoders/TM.png, id=2726, 533.995pt x 21
+9.82124pt>
+File: figures/translation_memories/sentence_encoders/TM.png Graphic file (type 
+png)
+<use figures/translation_memories/sentence_encoders/TM.png>
+Package pdftex.def Info: figures/translation_memories/sentence_encoders/TM.png 
+ used on input line 81.
+(pdftex.def)             Requested size: 320.39948pt x 131.89375pt.
+[148] [149 <./figures/translation_memories/sentence_encoders/TM.png>] [150]
+[151] [152]
+Underfull \hbox (badness 1292) in paragraph at lines 148--149
+\T1/LinuxLibertineT-TLF/m/n/12 im-prove TM match-ing and re-trieval, es-pe-cial
+ly in the lower fuzzy match
+ []
+
+[153] [154] [155]
+Underfull \hbox (badness 1454) in paragraph at lines 186--187
 []\T1/LinuxLibertineT-TLF/m/n/12 In gen-eral, and on a num-ber of oc-ca-sions, 
 Okapi omits some of the
  []
 
-[155] [156] [157] [158] [159] [160] [161]) [162] [163
+[156] [157] [158]
+Underfull \hbox (badness 3148) in paragraph at lines 221--222
+[]\T1/LinuxLibertineT-TLF/m/n/12 There are sev-eral cases where Okapi re-turns 
+a com-pletely in-cor-rect
+ []
+
+[159] [160] [161]) [162] [163
 
 
 
@@ -3071,69 +3065,194 @@ Chapter 8.
 
 
 ]
-Underfull \hbox (badness 1990) in paragraph at lines 17--18
+Underfull \hbox (badness 1990) in paragraph at lines 21--22
 []\T1/LinuxLibertineT-TLF/m/n/12 The es-ti-ma-tion of trans-la-tion qual-ity ca
 n be done at dif-fer-ent lev-els:
  []
 
-[165] [166]
-Underfull \hbox (badness 3965) in paragraph at lines 39--40
+[165]
+Underfull \hbox (badness 1038) in paragraph at lines 25--26
+\T1/LinuxLibertineT-TLF/m/n/12 and re-quire resource-intensive train-ing. This 
+resource-intensive na-ture of
+ []
+
+[166]
+Underfull \hbox (badness 3965) in paragraph at lines 43--44
 []\T1/LinuxLibertineT-TLF/m/n/12 We in-tro-duce a sim-ple ar-chi-tec-ture to pe
 r-form word-level qual-ity
  []
 
-[167] [168]
-Underfull \hbox (badness 1102) in paragraph at lines 55--56
+[167]
+Underfull \hbox (badness 3000) in paragraph at lines 56--58
+\T1/LinuxLibertineT-TLF/m/n/12 Before the neu-ral net-work era, most of the qua
+l-ity es-ti-ma-tion sys-tems
+ []
+
+[168]
+Underfull \hbox (badness 1127) in paragraph at lines 59--60
 \T1/LinuxLibertineT-TLF/m/n/12 neu-ral net-works based on word em-bed-dings got
- pop-u-lar in QE field too.
+ pop-u-lar in the QE field.
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 55--56
+Underfull \hbox (badness 1270) in paragraph at lines 59--60
 \T1/LinuxLibertineT-TLF/m/n/12 QE was \T1/LinuxLibertineT-TLF/m/sc/12 POSTECH\T
 1/LinuxLibertineT-TLF/m/n/12 , which is purely neu-ral and does not rely on fea
 -ture
  []
 
-[169]
-Underfull \hbox (badness 2293) in paragraph at lines 57--58
-[]\T1/LinuxLibertineT-TLF/m/n/12 OpenKiwi ([]Ke-pler et al. [][]2019[][]) is an
--other open-source QE frame-work
- []
-
-[170] [171]
-Underfull \hbox (badness 2626) in paragraph at lines 69--70
+[169] [170] [171]
+Underfull \hbox (badness 2671) in paragraph at lines 73--74
 \T1/LinuxLibertineT-TLF/m/n/12 Sentence-level QE datasets that we used in this 
-Part of the the-sis can
+part of the the-sis can
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 69--70
-\T1/LinuxLibertineT-TLF/m/n/12 be cat-e-gorised in to two main ar-eas de-pend-i
-ng on the as-pect they have
+Underfull \hbox (badness 2181) in paragraph at lines 73--74
+\T1/LinuxLibertineT-TLF/m/n/12 be cat-e-gorised into two main ar-eas de-pend-in
+g on the as-pect they have
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 73--74
-\T1/LinuxLibertineT-TLF/m/n/12 cap-tures the dis-tance be-tween the au-to-matic
- trans-la-tion and a ref-er-ence
+Underfull \hbox (badness 3861) in paragraph at lines 77--78
+ []\T1/LinuxLibertineT-TLF/b/n/12 Predicting HTER[] \T1/LinuxLibertineT-TLF/m/n
+/12 The per-for-mance of sentence-level QE sys-tems has
  []
 
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 103.
+
+Underfull \hbox (badness 1117) in paragraph at lines 77--78
+\T1/LinuxLibertineT-TLF/m/n/12 typ-i-cally been as-sessed us-ing the semi-au-to
+-matic HTER. HTER is an edit-
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 77--78
+\T1/LinuxLibertineT-TLF/m/n/12 distance-based mea-sure that cap-tures the dis-t
+ance be-tween the au-to-matic
+ []
+
 [172]
-Underfull \hbox (badness 1354) in paragraph at lines 112--113
-\T1/LinuxLibertineT-TLF/m/n/12 et al. [][]2020[][]). The dataset is com-posed o
-f data ex-tracted from Wikipedia
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 107.
+
+Underfull \hbox (badness 3780) in paragraph at lines 130--130
+[]|\T1/LinuxLibertineT-TLF/m/n/12 José Or-tega y Gas-set vis-ited
  []
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 112--113
+Underfull \hbox (badness 3323) in paragraph at lines 130--130
+[]|\T1/LinuxLibertineT-TLF/m/n/12 1934 be-suchte José Or-tega y
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 130--130
+[]|\T1/LinuxLibertineT-TLF/m/n/12 eine ent-täuschende Ne-unte in
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 130--130
+[]|\T1/LinuxLibertineT-TLF/m/n/12 " Re-nais-sance Hu-man-ism and
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 130--130
+[]|\T1/LinuxLibertineT-TLF/m/n/12 " Re-nais-sance Hu-man-ism and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+[]|\T1/LinuxLibertineT-TLF/m/n/12 sophomore Ja-cory Har-ris
+ []
+
+[173]
+Underfull \hbox (badness 1072) in paragraph at lines 141--142
+\T1/LinuxLibertineT-TLF/m/n/12 et al., [][]2020[][]). The dataset is com-posed 
+of data ex-tracted from Wikipedia
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 141--142
 \T1/LinuxLibertineT-TLF/m/n/12 and English-Chinese (En-Zh), medium-resource Rom
 anian-English (Ro-En)
  []
 
-[173] [174] [175] [176] [177]) [178]
+[174]
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\T1/LinuxLibertineT-TLF/m/n/12 Tratatul de Ader-are fus-ese
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\T1/LinuxLibertineT-TLF/m/n/12 Are o in-dus-trie tur-is-tic 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\T1/LinuxLibertineT-TLF/m/n/12 bine dez-voltat , fi-ind o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\T1/LinuxLibertineT-TLF/m/n/12 destina[]ie pop-u-lar  printre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\T1/LinuxLibertineT-TLF/m/n/12 It has a well-developed
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 160--160
+\T1/LinuxLibertineT-TLF/m/n/12 tourist in-dus-try as a pop-u-lar
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 160--160
+[]|\T1/LinuxLibertineT-TLF/m/n/12 Num rul mare de avioane de
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 160--160
+\T1/LinuxLibertineT-TLF/m/n/12 vân -toare trim-ise în mi-s-i-uni
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\T1/LinuxLibertineT-TLF/m/n/12 îm-potriva avioanelor de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\T1/LinuxLibertineT-TLF/m/n/12 recunoa[]tere nu a fost o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\T1/LinuxLibertineT-TLF/m/n/12 There was no mis-take in
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 160--160
+\T1/LinuxLibertineT-TLF/m/n/12 the large num-ber of hunt-ing
+ []
+
+
+Underfull \hbox (badness 7832) in paragraph at lines 160--160
+[]|\T1/LinuxLibertineT-TLF/m/n/12 Ar fi fost inu-til s  încerce
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+\T1/LinuxLibertineT-TLF/m/n/12 ob[]inerea unei o cat-e-dre
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 167--168
+\T1/LinuxLibertineT-TLF/m/n/12 Word-level QE an-no-ta-tions are not straight-fo
+r-ward as sentence-level QE
+ []
+
+[175] [176] [177] [178]) [179]
 \openout2 = `chapters/translation_quality_estimation/transquest.aux'.
 
 
@@ -3145,394 +3264,366 @@ Underfull \hbox (badness 1178) in paragraph at lines 5--6
  re-sults in QE, these neu-ral
  []
 
-[179
+[180
 
 
 
 
-] [180]
-Underfull \hbox (badness 1442) in paragraph at lines 30--31
-\T1/LinuxLibertineT-TLF/m/n/12 frame-work; \T1/LinuxLibertineT-TLF/m/it/12 Tran
--sQuest\T1/LinuxLibertineT-TLF/m/n/12 . Tran-sQuest par-tic-i-pated in WMT 2020
- QE
- []
-
-
-Underfull \hbox (badness 8170) in paragraph at lines 32--32
+] [181]
+Underfull \hbox (badness 8170) in paragraph at lines 30--30
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 The pub-lic GitHub repos-i-tory is avail-a
 ble on [][]$\T1/zi4/m/n/10 https : / / github . com / tharindudr /
  []
 
-[181] [182] [183]
-Underfull \hbox (badness 2707) in paragraph at lines 48--49
+[182]
+Underfull \hbox (badness 1442) in paragraph at lines 38--39
+\T1/LinuxLibertineT-TLF/m/n/12 As men-tioned be-fore, we con-sid-ered sentence-
+level QE as a cross-lingual
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 40--41
+[]\T1/LinuxLibertineT-TLF/m/n/12 Although there are sev-eral mul-ti-lin-gual tr
+ans-former mod-els in-clud-ing
+ []
+
+[183] [184]
+Underfull \hbox (badness 2707) in paragraph at lines 46--47
 []\T1/LinuxLibertineT-TLF/m/n/12 There are two pre-trained XLM-R mod-els re-lea
 sed by Hug-ging-Face's
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 51--53
+Underfull \hbox (badness 1248) in paragraph at lines 50--52
 \T1/LinuxLibertineT-TLF/m/n/12 ar-chi-tec-ture pro-duced the best re-sults for 
 mono-lin-gual STS tasks in
  []
 
-[184] [185]
-<figures/translation_quality_estimation/transquest/TransQuest.png, id=3156, 357
+[185] [186]
+<figures/translation_quality_estimation/transquest/TransQuest.png, id=3194, 357
 .7365pt x 325.9377pt>
 File: figures/translation_quality_estimation/transquest/TransQuest.png Graphic 
 file (type png)
 <use figures/translation_quality_estimation/transquest/TransQuest.png>
 Package pdftex.def Info: figures/translation_quality_estimation/transquest/Tran
-sQuest.png  used on input line 64.
+sQuest.png  used on input line 63.
 (pdftex.def)             Requested size: 227.62204pt x 207.3859pt.
 <figures/translation_quality_estimation/transquest/SiameseTransQuest.png, id=31
-57, 714.0276pt x 456.0237pt>
+95, 714.0276pt x 456.0237pt>
 File: figures/translation_quality_estimation/transquest/SiameseTransQuest.png G
 raphic file (type png)
 <use figures/translation_quality_estimation/transquest/SiameseTransQuest.png>
 Package pdftex.def Info: figures/translation_quality_estimation/transquest/Siam
-eseTransQuest.png  used on input line 69.
+eseTransQuest.png  used on input line 68.
 (pdftex.def)             Requested size: 341.43306pt x 218.0678pt.
 
-Overfull \hbox (56.9055pt too wide) in paragraph at lines 69--70
+Overfull \hbox (56.9055pt too wide) in paragraph at lines 68--69
  [][] 
  []
 
-[186] [187 <./figures/translation_quality_estimation/transquest/TransQuest.png>
+[187] [188 <./figures/translation_quality_estimation/transquest/TransQuest.png>
  <./figures/translation_quality_estimation/transquest/SiameseTransQuest.png>]
-Underfull \hbox (badness 1097) in paragraph at lines 162--163
-\T1/LinuxLibertineT-TLF/m/n/12 ex-cept En-De SMT. This shows that sim-ple STS m
-od-els with crosslin-gual
- []
-
-
-Underfull \hbox (badness 7203) in paragraph at lines 165--167
+Underfull \hbox (badness 7203) in paragraph at lines 164--166
 []\T1/LinuxLibertineT-TLF/m/n/12 As shown in Ta-ble [][]9.2[][], in the DA as-p
 ect of qual-ity es-ti-ma-tion,
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 165--167
+Underfull \hbox (badness 2237) in paragraph at lines 164--166
 \T1/LinuxLibertineT-TLF/m/n/12 in all the lan-guage pairs. Ad-di-tion-ally, \T1
 /LinuxLibertineT-TLF/m/it/12 Mono-Tran-sQuest \T1/LinuxLibertineT-TLF/m/n/12 ac
 hieves $\LMS/ntxsy/m/n/12 $ \T1/LinuxLibertineT-TLF/m/n/12 0.4
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 165--167
+Underfull \hbox (badness 4181) in paragraph at lines 164--166
 \T1/LinuxLibertineT-TLF/m/n/12 Pear-son cor-re-la-tion boost over OpenKiwi in t
 he low-resource lan-guage
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 165--167
-\T1/LinuxLibertineT-TLF/m/n/12 pair Ne-En. Sim-i-lar to HTER, in DA too \T1/Lin
-uxLibertineT-TLF/m/it/12 Siame-se-Tran-sQuest \T1/LinuxLibertineT-TLF/m/n/12 fa
-ll be-hind
+Underfull \hbox (badness 4819) in paragraph at lines 164--166
+\T1/LinuxLibertineT-TLF/m/n/12 pair Ne-En. Sim-i-lar to HTER, in DA \T1/LinuxLi
+bertineT-TLF/m/it/12 Siame-se-Tran-sQuest \T1/LinuxLibertineT-TLF/m/n/12 falls 
+be-hind
  []
 
-[188] [189]
-Underfull \hbox (badness 1072) in paragraph at lines 169--169
+[189]
+Underfull \hbox (badness 1072) in paragraph at lines 168--168
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 Several work-shops like $\OML/nxlmi/m/it/1
 0 EMC[]$ \T1/LinuxLibertineT-TLF/m/n/10 (Work-shop on En-ergy Ef-fi-cient Ma-ch
 ine Learn-ing and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
-[]\T1/LinuxLibertineT-TLF/m/n/12 If you con-sider the two ar-chi-tec-tures; \T1
-/LinuxLibertineT-TLF/m/it/12 Mono-Tran-sQuest \T1/LinuxLibertineT-TLF/m/n/12 an
-d
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+[]\T1/LinuxLibertineT-TLF/m/n/12 If we con-sider the two ar-chi-tec-tures; \T1/
+LinuxLibertineT-TLF/m/it/12 Mono-Tran-sQuest \T1/LinuxLibertineT-TLF/m/n/12 and
+
  []
 
 
-Underfull \hbox (badness 6141) in paragraph at lines 169--170
+Underfull \hbox (badness 6141) in paragraph at lines 168--169
 \T1/LinuxLibertineT-TLF/m/it/12 Siame-se-Tran-sQuest\T1/LinuxLibertineT-TLF/m/n
 /12 , \T1/LinuxLibertineT-TLF/m/it/12 Mono-Tran-sQuest \T1/LinuxLibertineT-TLF/
 m/n/12 out-per-formed the \T1/LinuxLibertineT-TLF/m/it/12 Siame-seArchi-tec-tur
 e
  []
 
-[190]
-Underfull \hbox (badness 1237) in paragraph at lines 171--172
-\T1/LinuxLibertineT-TLF/m/n/12 show that state-of-the-art STS meth-ods based on
- crosslin-gual trans-former
- []
-
-
-Underfull \hbox (badness 3492) in paragraph at lines 174--175
+[190] [191]
+Underfull \hbox (badness 3492) in paragraph at lines 173--174
 []\T1/LinuxLibertineT-TLF/m/n/12 Additionally, Row VI in both Ta-bles [][]9.1[]
 [] and [][]9.2[][] shows the re-sults
  []
 
-[191]
-Underfull \hbox (badness 1521) in paragraph at lines 176--177
-\T1/LinuxLibertineT-TLF/m/n/12 STS ar-chi-tec-ture proved ad-van-ta-geous rathe
-r than us-ing just mul-ti-lin-gual
+
+Underfull \hbox (badness 1742) in paragraph at lines 173--174
+\T1/LinuxLibertineT-TLF/m/n/12 of mul-ti-lin-gual BERT (mBERT) in \T1/LinuxLibe
+rtineT-TLF/m/it/12 Mono-Tran-sQuest \T1/LinuxLibertineT-TLF/m/n/12 and \T1/Linu
+xLibertineT-TLF/m/it/12 Siame-se-Tran-sQuest
  []
 
-
-Underfull \hbox (badness 2359) in paragraph at lines 183--184
- []\T1/LinuxLibertineT-TLF/b/n/12 Ensemble Learn-ing[] \T1/LinuxLibertineT-TLF/
-m/n/12 uses mul-ti-ple learn-ing al-go-rithms to ob-tain bet-ter
- []
-
-[192]
-Underfull \hbox (badness 1895) in paragraph at lines 187--188
+[192] [193]
+Underfull \hbox (badness 1895) in paragraph at lines 186--187
  []\T1/LinuxLibertineT-TLF/b/n/12 Data Aug-men-ta-tion[] \T1/LinuxLibertineT-TL
 F/m/n/12 adds ad-di-tional train-ing in-stances for the train-ing
  []
 
-[193]
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+Underfull \hbox (badness 1057) in paragraph at lines 186--187
+\T1/LinuxLibertineT-TLF/m/n/12 There-fore, to ex-per-i-ment with how Tran-sQues
+t per-forms with more data,
+ []
+
+[194]
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 []\T1/LinuxLibertineT-TLF/m/n/12 Finally, we sub-mit-ted the best re-sult we ha
 d with Tran-sQuest
  []
 
-[194] [195]
-Underfull \hbox (badness 1460) in paragraph at lines 208--210
+[195]
+Underfull \hbox (badness 1424) in paragraph at lines 202--204
+\T1/LinuxLibertineT-TLF/m/n/12 sen-tences are usu-ally syn-tac-ti-cally cor-rec
+t but se-man-ti-cally odd. Typ-i-cal
+ []
+
+[196]
+Underfull \hbox (badness 1253) in paragraph at lines 207--209
+[]\T1/LinuxLibertineT-TLF/m/n/12 Similar to Ro-En, in Si-En, most prob-lems see
+m to be caused by the
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 207--209
 \T1/LinuxLibertineT-TLF/m/n/12 0.2999) and \T1/LinuxLibertineT-TLF/m/it/12 The 
 War-rior Falls are stone's, halt-ing, her-aldry and stonework
  []
 
-[196] [197]
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
+[197]
+Underfull \hbox (badness 1087) in paragraph at lines 213--214
+\T1/LinuxLibertineT-TLF/m/n/12 In this chap-ter, we in-tro-duced \T1/LinuxLiber
+tineT-TLF/m/it/12 Tran-sQuest\T1/LinuxLibertineT-TLF/m/n/12 , a new open-source
+ frame-work
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 213--214
+\T1/LinuxLibertineT-TLF/m/n/12 for qual-ity es-ti-ma-tion based on cross-lingua
+l trans-form-ers. \T1/LinuxLibertineT-TLF/m/it/12 Tran-sQuest \T1/LinuxLibertin
+eT-TLF/m/n/12 is
+ []
+
+[198]
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 [][][]\T1/LinuxLibertineT-TLF/m/n/10 WMT 2021 QE shared task is avail-able on [
 ][]$\T1/zi4/m/n/10 http : / / statmt . org / wmt21 /
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 219--220
-\T1/LinuxLibertineT-TLF/m/n/12 Qual-ity Es-ti-ma-tion shared task on the sec-on
-d work-shop on Eval-u-a-tion &
+Underfull \hbox (badness 1418) in paragraph at lines 218--219
+\T1/LinuxLibertineT-TLF/m/it/12 Qual-ity Es-ti-ma-tion shared task \T1/LinuxLib
+ertineT-TLF/m/n/12 on the sec-ond work-shop on Eval-u-a-tion &
  []
 
-[198]
-Underfull \hbox (badness 1107) in paragraph at lines 223--224
-\T1/LinuxLibertineT-TLF/m/n/12 crosslin-gual pre-trained trans-form-ers which w
-ould be in-ter-est-ing to ap-ply
- []
-
-) [199]
+[199]) [200]
 \openout2 = `chapters/translation_quality_estimation/transquest_word.aux'.
 
  (chapters/translation_quality_estimation/transquest_word.tex
 Chapter 10.
-[200
-
-
-
-
-] [201]
-Underfull \hbox (badness 3965) in paragraph at lines 23--24
-[]\T1/LinuxLibertineT-TLF/m/n/12 We in-tro-duce a sim-ple ar-chi-tec-ture to pe
-r-form word-level qual-ity
- []
-
-[202]
-Underfull \hbox (badness 1226) in paragraph at lines 25--26
-\T1/LinuxLibertineT-TLF/m/n/12 QE data was avail-able and we show that the pro-
-posed ar-chi-tec-ture
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 31--31
-[][][]\T1/LinuxLibertineT-TLF/m/n/10 The pub-lic GitHub repos-i-tory of Tran-sQ
-uest is avail-able on [][]$\T1/zi4/m/n/10 https : / / github . com /
- []
-
-[203]
-Underfull \hbox (badness 2368) in paragraph at lines 39--40
-\T1/LinuxLibertineT-TLF/m/n/12 The pro-posed ar-chi-tec-ture for the word-level
- QE is very sim-i-lar to the
- []
-
-[204]
-Underfull \hbox (badness 3724) in paragraph at lines 44--45
-[]\T1/LinuxLibertineT-TLF/m/n/12 Similar to the sentence-level QE ar-chi-tec-tu
-res, we used crosslin-gual
- []
-
-<figures/translation_quality_estimation/word_level/MicroTransQuest.png, id=3330
-, 522.5121pt x 278.2395pt>
-File: figures/translation_quality_estimation/word_level/MicroTransQuest.png Gra
-phic file (type png)
-<use figures/translation_quality_estimation/word_level/MicroTransQuest.png>
-Package pdftex.def Info: figures/translation_quality_estimation/word_level/Micr
-oTransQuest.png  used on input line 48.
-(pdftex.def)             Requested size: 365.75597pt x 194.76631pt.
-[205 <./figures/translation_quality_estimation/word_level/MicroTransQuest.png>]
-[206]
-
-LaTeX Warning: Reference `sec:word_level_further' on page 207 undefined on inpu
-t line 92.
-
-
-LaTeX Warning: Reference `sec:word_level_further' on page 207 undefined on inpu
-t line 92.
-
-
-LaTeX Warning: Reference `sec:word_level_further' on page 207 undefined on inpu
-t line 124.
-
-
-LaTeX Warning: Reference `sec:word_level_further' on page 207 undefined on inpu
-t line 124.
-
-
-LaTeX Warning: Reference `sec:word_level_further' on page 207 undefined on inpu
-t line 157.
-
-
-LaTeX Warning: Reference `sec:word_level_further' on page 207 undefined on inpu
-t line 157.
-
-[207] [208]
-Underfull \hbox (badness 1062) in paragraph at lines 165--166
-\T1/LinuxLibertineT-TLF/m/n/12 achieves $\LMS/ntxsy/m/n/12 $ \T1/LinuxLibertin
-eT-TLF/m/n/12 0.2 F1-Multi score boost over the best sys-tem in En-De SMT.
- []
-
-[209]
-Underfull \hbox (badness 2261) in paragraph at lines 167--168
-[]\T1/LinuxLibertineT-TLF/m/n/12 Finally in F1-Multi Source eval-u-a-tion met-r
-ic too, as shown in Ta-ble
- []
-
-
-Underfull \hbox (badness 1342) in paragraph at lines 167--168
-[][]\T1/LinuxLibertineT-TLF/m/n/12 10.3[][] \T1/LinuxLibertineT-TLF/m/it/12 Mi-
-cro-Tran-sQuest \T1/LinuxLibertineT-TLF/m/n/12 out-per-forms OpenKiwi in all th
-e lan-guage pairs we
- []
-
-[210]
-Underfull \hbox (badness 1521) in paragraph at lines 173--174
-\T1/LinuxLibertineT-TLF/m/n/12 STS ar-chi-tec-ture proved ad-van-ta-geous rathe
-r than us-ing just mul-ti-lin-gual
- []
-
-[211]
-Underfull \hbox (badness 1043) in paragraph at lines 183--184
-\T1/LinuxLibertineT-TLF/m/n/12 a new ar-chi-tec-ture based on trans-form-ers to
- per-form word-level QE. The
- []
-
-[212] [213]) [214]
-\openout2 = `chapters/translation_quality_estimation/multilingual.aux'.
-
- (chapters/translation_quality_estimation/multilingual.tex
-Chapter 11.
-
-Underfull \hbox (badness 1688) in paragraph at lines 9--10
-\T1/LinuxLibertineT-TLF/m/n/12 would re-quire 552 train-ing datasets to train t
-he mod-els which is highly
- []
-
-[215
+[201
 
 
 
 
 ]
-Underfull \hbox (badness 2027) in paragraph at lines 11--12
-[]\T1/LinuxLibertineT-TLF/m/n/12 Multilingual mod-els al-low train-ing a sin-gl
-e model to per-form a task
+Underfull \hbox (badness 1400) in paragraph at lines 9--10
+\T1/LinuxLibertineT-TLF/m/n/12 a state-of-the-art STS method. We only change th
+e out-put layer of the
+ []
+
+[202] [203]
+Underfull \hbox (badness 3965) in paragraph at lines 23--24
+[]\T1/LinuxLibertineT-TLF/m/n/12 We in-tro-duce a sim-ple ar-chi-tec-ture to pe
+r-form word-level qual-ity
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 11--12
-\T1/LinuxLibertineT-TLF/m/n/12 Zampieri [][]2021[][]) in-clud-ing NMT ([]Nguyen
- and Chi-ang [][]2017[][]; []Aha-roni et al.
- []
-
-[216] [217] [218] [219]
-Underfull \hbox (badness 4181) in paragraph at lines 168--168
-[]\T1/LinuxLibertineT-TLF/m/n/10.95 Table 11.3: |Tar-get F1-Multi be-tween Mi-c
-ro-Tran-sQuest pre-dic-tions and hu-man
+Underfull \hbox (badness 2426) in paragraph at lines 29--29
+[][][]\T1/LinuxLibertineT-TLF/m/n/10 The pub-lic GitHub repos-i-tory of Tran-sQ
+uest is avail-able on [][]$\T1/zi4/m/n/10 https : / / github . com /
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 252--252
-[]\T1/LinuxLibertineT-TLF/m/n/10.95 Table 11.5: |SOURCE F1-Multi be-tween Mi-cr
-o-Tran-sQuest pre-dic-tions and hu-man
+Underfull \hbox (badness 1400) in paragraph at lines 29--30
+[]\T1/LinuxLibertineT-TLF/m/n/12 We in-te-grated the ar-chi-tec-ture with Tran-
+sQuest, which al-ready had
  []
 
-[220] [221] [222]
-Underfull \hbox (badness 1132) in paragraph at lines 268--269
-\T1/LinuxLibertineT-TLF/m/n/12 gen-er-alised to other lan-guage pairs, dif-fer-
-ent do-mains and MT types, we
+[204]
+Underfull \hbox (badness 2368) in paragraph at lines 37--38
+\T1/LinuxLibertineT-TLF/m/n/12 The pro-posed ar-chi-tec-ture for the word-level
+ QE is very sim-i-lar to the
  []
 
-[223] [224] [225] [226]
-<figures/translation_quality_estimation/word_level/en_cs_smt_it.png, id=3552, 3
+[205]
+Underfull \hbox (badness 2726) in paragraph at lines 42--43
+[]\T1/LinuxLibertineT-TLF/m/n/12 Similar to the sentence-level QE ar-chi-tec-tu
+res, we used cross-lingual
+ []
+
+<figures/translation_quality_estimation/word_level/MicroTransQuest.png, id=3367
+, 522.5121pt x 278.2395pt>
+File: figures/translation_quality_estimation/word_level/MicroTransQuest.png Gra
+phic file (type png)
+<use figures/translation_quality_estimation/word_level/MicroTransQuest.png>
+Package pdftex.def Info: figures/translation_quality_estimation/word_level/Micr
+oTransQuest.png  used on input line 46.
+(pdftex.def)             Requested size: 365.75597pt x 194.76631pt.
+[206 <./figures/translation_quality_estimation/word_level/MicroTransQuest.png>]
+[207]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.1pt on input line 90.
+ [208] [209]
+Underfull \hbox (badness 6428) in paragraph at lines 165--166
+[]\T1/LinuxLibertineT-TLF/m/n/12 Finally, in $\OML/nxlmi/m/it/12 F\OT1/LinuxLib
+ertineT-TLF/m/n/12 1[] \OML/nxlmi/m/it/12 Source$ \T1/LinuxLibertineT-TLF/m/n/1
+2 eval-u-a-tion met-ric, as shown in Ta-ble
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 165--166
+[][]\T1/LinuxLibertineT-TLF/m/n/12 10.3[][] \T1/LinuxLibertineT-TLF/m/it/12 Mi-
+cro-Tran-sQuest \T1/LinuxLibertineT-TLF/m/n/12 out-per-forms OpenKiwi in all th
+e lan-guage pairs we
+ []
+
+[210] [211] [212]
+Underfull \hbox (badness 1043) in paragraph at lines 181--182
+\T1/LinuxLibertineT-TLF/m/n/12 a new ar-chi-tec-ture based on trans-form-ers to
+ per-form word-level QE. The
+ []
+
+[213] [214]) [215]
+\openout2 = `chapters/translation_quality_estimation/multilingual.aux'.
+
+ (chapters/translation_quality_estimation/multilingual.tex
+Chapter 11.
+[216
+
+
+
+
+]
+Underfull \hbox (badness 1895) in paragraph at lines 11--12
+\T1/LinuxLibertineT-TLF/m/n/12 ap-plied to many tasks ([]Ranas-inghe and Zampie
+ri, [][]2020[][]; []Ranas-inghe and
+ []
+
+[217] [218]
+Underfull \hbox (badness 1430) in paragraph at lines 43--44
+\T1/LinuxLibertineT-TLF/m/n/12 we used the \T1/LinuxLibertineT-TLF/m/it/12 Mono
+-Tran-sQuest \T1/LinuxLibertineT-TLF/m/n/12 ar-chi-tec-ture in-tro-duced in Cha
+p-ter [][]9[][] which
+ []
+
+[219] [220]
+Underfull \hbox (badness 4217) in paragraph at lines 253--253
+[]\T1/LinuxLibertineT-TLF/m/n/10.95 Table 11.5: |$\OML/nxlmi/m/it/10.95 F\OT1/L
+inuxLibertineT-TLF/m/n/10.95 1[] \OML/nxlmi/m/it/10.95 Source$ \T1/LinuxLiberti
+neT-TLF/m/n/10.95 be-tween \T1/LinuxLibertineT-TLF/m/it/10.95 Mi-cro-Tran-sQues
+t \T1/LinuxLibertineT-TLF/m/n/10.95 pre-dic-tions and hu-man
+ []
+
+[221] [222] [223] [224] [225] [226] [227]
+<figures/translation_quality_estimation/word_level/en_cs_smt_it.png, id=3595, 3
 90.45876pt x 279.0425pt>
 File: figures/translation_quality_estimation/word_level/en_cs_smt_it.png Graphi
 c file (type png)
 <use figures/translation_quality_estimation/word_level/en_cs_smt_it.png>
 Package pdftex.def Info: figures/translation_quality_estimation/word_level/en_c
-s_smt_it.png  used on input line 282.
+s_smt_it.png  used on input line 283.
 (pdftex.def)             Requested size: 170.71652pt x 122.00414pt.
-<figures/translation_quality_estimation/word_level/en_de_smt_it.png, id=3553, 3
+<figures/translation_quality_estimation/word_level/en_de_smt_it.png, id=3596, 3
 90.45876pt x 279.0425pt>
 File: figures/translation_quality_estimation/word_level/en_de_smt_it.png Graphi
 c file (type png)
 <use figures/translation_quality_estimation/word_level/en_de_smt_it.png>
 Package pdftex.def Info: figures/translation_quality_estimation/word_level/en_d
-e_smt_it.png  used on input line 287.
+e_smt_it.png  used on input line 288.
 (pdftex.def)             Requested size: 170.71652pt x 122.00414pt.
-<figures/translation_quality_estimation/word_level/en_ru_nmt_it.png, id=3554, 3
+<figures/translation_quality_estimation/word_level/en_ru_nmt_it.png, id=3597, 3
 90.45876pt x 279.0425pt>
 File: figures/translation_quality_estimation/word_level/en_ru_nmt_it.png Graphi
 c file (type png)
 <use figures/translation_quality_estimation/word_level/en_ru_nmt_it.png>
 Package pdftex.def Info: figures/translation_quality_estimation/word_level/en_r
-u_nmt_it.png  used on input line 292.
+u_nmt_it.png  used on input line 293.
 (pdftex.def)             Requested size: 170.71652pt x 122.00414pt.
-<figures/translation_quality_estimation/word_level/de_en_smt_pharm.png, id=3555
+<figures/translation_quality_estimation/word_level/de_en_smt_pharm.png, id=3598
 , 390.45876pt x 279.0425pt>
 File: figures/translation_quality_estimation/word_level/de_en_smt_pharm.png Gra
 phic file (type png)
 <use figures/translation_quality_estimation/word_level/de_en_smt_pharm.png>
 Package pdftex.def Info: figures/translation_quality_estimation/word_level/de_e
-n_smt_pharm.png  used on input line 297.
+n_smt_pharm.png  used on input line 298.
 (pdftex.def)             Requested size: 170.71652pt x 122.00414pt.
-<figures/translation_quality_estimation/word_level/en_lv_nmt_pharm.png, id=3556
+<figures/translation_quality_estimation/word_level/en_lv_nmt_pharm.png, id=3599
 , 390.45876pt x 279.0425pt>
 File: figures/translation_quality_estimation/word_level/en_lv_nmt_pharm.png Gra
 phic file (type png)
 <use figures/translation_quality_estimation/word_level/en_lv_nmt_pharm.png>
 Package pdftex.def Info: figures/translation_quality_estimation/word_level/en_l
-v_nmt_pharm.png  used on input line 302.
+v_nmt_pharm.png  used on input line 303.
 (pdftex.def)             Requested size: 170.71652pt x 122.00414pt.
-<figures/translation_quality_estimation/word_level/en_lv_smt_pharm.png, id=3557
+<figures/translation_quality_estimation/word_level/en_lv_smt_pharm.png, id=3600
 , 390.45876pt x 279.0425pt>
 File: figures/translation_quality_estimation/word_level/en_lv_smt_pharm.png Gra
 phic file (type png)
 <use figures/translation_quality_estimation/word_level/en_lv_smt_pharm.png>
 Package pdftex.def Info: figures/translation_quality_estimation/word_level/en_l
-v_smt_pharm.png  used on input line 307.
+v_smt_pharm.png  used on input line 308.
 (pdftex.def)             Requested size: 170.71652pt x 122.00414pt.
-<figures/translation_quality_estimation/word_level/en_de_nmt_wiki.png, id=3558,
+<figures/translation_quality_estimation/word_level/en_de_nmt_wiki.png, id=3601,
  390.45876pt x 279.0425pt>
 File: figures/translation_quality_estimation/word_level/en_de_nmt_wiki.png Grap
 hic file (type png)
 <use figures/translation_quality_estimation/word_level/en_de_nmt_wiki.png>
 Package pdftex.def Info: figures/translation_quality_estimation/word_level/en_d
-e_nmt_wiki.png  used on input line 312.
+e_nmt_wiki.png  used on input line 313.
 (pdftex.def)             Requested size: 170.71652pt x 122.00414pt.
-<figures/translation_quality_estimation/word_level/en_zh_nmt_wiki.png, id=3559,
+<figures/translation_quality_estimation/word_level/en_zh_nmt_wiki.png, id=3602,
  390.45876pt x 279.0425pt>
 File: figures/translation_quality_estimation/word_level/en_zh_nmt_wiki.png Grap
 hic file (type png)
 <use figures/translation_quality_estimation/word_level/en_zh_nmt_wiki.png>
 Package pdftex.def Info: figures/translation_quality_estimation/word_level/en_z
-h_nmt_wiki.png  used on input line 317.
+h_nmt_wiki.png  used on input line 318.
 (pdftex.def)             Requested size: 170.71652pt x 122.00414pt.
 
 
-LaTeX Warning: Float too large for page by 8.21654pt on input line 323.
+LaTeX Warning: Float too large for page by 8.21654pt on input line 324.
 
-[227] [228 <./figures/translation_quality_estimation/word_level/en_cs_smt_it.pn
+[228] [229 <./figures/translation_quality_estimation/word_level/en_cs_smt_it.pn
 g> <./figures/translation_quality_estimation/word_level/en_de_smt_it.png> <./fi
 gures/translation_quality_estimation/word_level/en_ru_nmt_it.png> <./figures/tr
 anslation_quality_estimation/word_level/de_en_smt_pharm.png> <./figures/transla
@@ -3540,26 +3631,50 @@ tion_quality_estimation/word_level/en_lv_nmt_pharm.png> <./figures/translation_
 quality_estimation/word_level/en_lv_smt_pharm.png> <./figures/translation_quali
 ty_estimation/word_level/en_de_nmt_wiki.png> <./figures/translation_quality_est
 imation/word_level/en_zh_nmt_wiki.png>]
-Underfull \hbox (badness 1472) in paragraph at lines 334--335
+Underfull \hbox (badness 1472) in paragraph at lines 335--336
 []\T1/LinuxLibertineT-TLF/m/n/12 In our ex-per-i-ments, we ob-served that mul-t
 i-lin-gual QE mod-els de-liver
  []
 
-[229]
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
-[]\T1/LinuxLibertineT-TLF/m/n/12 Pre-trained mul-ti-lin-gual trans-former mod-e
-ls are rapidly in-creas-ing
+
+Underfull \hbox (badness 1365) in paragraph at lines 335--336
+\T1/LinuxLibertineT-TLF/m/n/12 pair. Fur-ther-more, mul-ti-lin-gual mod-els per
+-form very well with few-shot
  []
 
-) [230] [231]
+[230]
+Underfull \hbox (badness 2913) in paragraph at lines 339--340
+[]\T1/LinuxLibertineT-TLF/m/n/12 Pre-trained mul-ti-lin-gual trans-former mod-e
+ls are rapidly in-creas-ing in
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 339--340
+\T1/LinuxLibertineT-TLF/m/n/12 pop-u-lar-ity in the NLP com-mu-nity. From them,
+ one no-table mul-ti-lin-gual
+ []
+
+[231]) [232]
 \openout2 = `conclusions.aux'.
 
- (conclusions.tex) [232
+ (conclusions.tex
+Chapter 12.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 6.
+
+[233
 
 
 
 
-]
+] [234]
+Underfull \hbox (badness 1527) in paragraph at lines 28--29
+\T1/LinuxLibertineT-TLF/m/n/12 of trans-la-tion tech-nol-ogy. First, we stud-ie
+d and em-ployed dif-fer-ent STS
+ []
+
+[235] [236] [237] [238]) [239] [240]
 \openout2 = `bib.aux'.
 
  (bib.tex
@@ -3604,7 +3719,7 @@ Underfull \hbox (badness 1584) in paragraph at lines 9--9
 ce Wiebe (June 2016).
  []
 
-[233
+[241
 
 
 
@@ -3657,7 +3772,7 @@ Underfull \hbox (badness 1448) in paragraph at lines 9--9
 In: \T1/LinuxLibertineT-TLF/m/it/12 Pro-ceed-ings of the 27th
  []
 
-[234]
+[242]
 Underfull \hbox (badness 1596) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 España-Bonet (May 2020). ``Mas-sive vs. Cu-rated
  Em-bed-dings for Low-
@@ -3681,7 +3796,7 @@ Underfull \hbox (badness 5893) in paragraph at lines 9--9
 May 2020). ``AraBERT:
  []
 
-[235]
+[243]
 Underfull \hbox (badness 7433) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Metathe-saurus: the MetaMap pro-gram''. eng. In:
  \T1/LinuxLibertineT-TLF/m/it/12 Pro-ceed-ings. AMIA
@@ -3749,7 +3864,7 @@ cs, pp. 155. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12
  : [][]$\T1/zi4/m/n/12 https : / /
  []
 
-[236]
+[244]
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/it/12 (SemEval-2017)\T1/LinuxLibertineT-TLF/m/n/12 . 
 Van-cou-ver, Canada: As-so-ci-a-tion for Com-pu-ta-tional
@@ -3779,7 +3894,7 @@ Underfull \hbox (badness 1112) in paragraph at lines 9--9
 ean As-so-ci-a-tion for Ma-chine
  []
 
-[237]
+[245]
 Underfull \hbox (badness 5036) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 data''. In: \T1/LinuxLibertineT-TLF/m/it/12 In-t
 er-na-tional Jour-nal of Dis-tributed Sen-sor Net-works \T1/LinuxLibertineT-TLF
@@ -3804,7 +3919,7 @@ Underfull \hbox (badness 2980) in paragraph at lines 9--9
  Com-pu-ta-tional Lin-guis-tics,
  []
 
-[238]
+[246]
 Underfull \hbox (badness 3009) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Mat-teo Ne-gri, Matt Post, Car-olina Scar-ton, L
 u-cia Spe-cia, and Marco
@@ -3835,7 +3950,7 @@ Underfull \hbox (badness 1210) in paragraph at lines 9--9
 m/n/12 https : / / doi . org / 10 . 1142 /
  []
 
-[239]
+[247]
 Underfull \hbox (badness 2027) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/it/12 Ma-chine Trans-la-tion\T1/LinuxLibertineT-TLF/m
 /n/12 . Mon-tréal, Canada: As-so-ci-a-tion for Com-pu-ta-tional
@@ -3865,7 +3980,7 @@ Underfull \hbox (badness 6063) in paragraph at lines 9--9
  Data-less Clas-si-fi-ca-tion''. In:
  []
 
-
+[248]
 Underfull \hbox (badness 5359) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Mul-ti-lin-gual Sys-tem for Mea-sur-ing Se-man-t
 ic Tex-tual Sim-i-lar-ity''. In:
@@ -3877,7 +3992,7 @@ Underfull \hbox (badness 3168) in paragraph at lines 9--9
 shop on Se-man-tic Eval-u-a-tion
  []
 
-[240]
+
 Underfull \hbox (badness 1117) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Che, Wanx-i-ang, Yi-jia Liu, Yux-uan Wang, B
 o Zheng, and Ting Liu (2018).
@@ -3901,13 +4016,13 @@ Underfull \hbox (badness 1584) in paragraph at lines 9--9
  In: \T1/LinuxLibertineT-TLF/m/it/12 2019 IEEE In-ter-na-tional
  []
 
-
+[249]
 Underfull \hbox (badness 1173) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Conneau, Alexis, Kar-tikay Khan-del-wal, Na-
 man Goyal, Vishrav Chaud-hary,
  []
 
-[241]
+
 Underfull \hbox (badness 1406) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Pre-train-ing''. In: \T1/LinuxLibertineT-TLF/m/i
 t/12 Ad-vances in Neu-ral In-for-ma-tion Pro-cess-ing Sys-tems 32\T1/LinuxLiber
@@ -3932,13 +4047,13 @@ Underfull \hbox (badness 1454) in paragraph at lines 9--9
 nini (2006). ``The PAS-CAL
  []
 
-
+[250]
 Underfull \hbox (badness 2865) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/it/12 Lin-guis-tics (Vol-ume 1: Long Pa-pers)\T1/Linu
 xLibertineT-TLF/m/n/12 . Berlin, Ger-many: As-so-ci-a-tion for
  []
 
-[242]
+
 Underfull \hbox (badness 3471) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Fares, Murhaf, An-drey Ku-tu-zov, Stephan Oe
 pen, and Erik Vell-dal (May
@@ -3981,7 +4096,7 @@ n-guis-tics, pp. 10101017. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLiberti
 neT-TLF/m/n/12 :
  []
 
-[243]
+[251]
 Underfull \hbox (badness 1048) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Guzmán, Mark Fishel, Niko-laos Ale-tras, Vishrav
  Chaud-hary, and Lu-cia
@@ -4017,13 +4132,13 @@ Underfull \hbox (badness 3635) in paragraph at lines 9--9
 nando García-Granada, Emilio
  []
 
-
+[252]
 Underfull \hbox (badness 3713) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 (2021). ``Larger-Scale Trans-form-ers for Mul-ti
 -lin-gual Masked Lan-guage
  []
 
-[244]
+
 Underfull \hbox (badness 1789) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Lynn, and Lamia Tounsi (Dec. 2016). ``Is all tha
 t Glit-ters in Ma-chine
@@ -4102,7 +4217,7 @@ Underfull \hbox (badness 1412) in paragraph at lines 9--9
 et-ric ex-ploit-ing lin-guis-tic
  []
 
-[245]
+[253]
 Underfull \hbox (badness 3690) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Gupta, Ro-hit, Con-stantin Or san, Qun Liu, 
 and Rus-lan Mitkov (2016a).
@@ -4126,7 +4241,7 @@ Underfull \hbox (badness 1303) in paragraph at lines 9--9
 atch-ing''. In: \T1/LinuxLibertineT-TLF/m/it/12 Pat-tern
  []
 
-
+[254]
 Underfull \hbox (badness 4967) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Hassan, Basma, Samir Ab-del-Rah-man, Reem Ba
 h-gat, and Ibrahim Farag
@@ -4156,7 +4271,7 @@ Underfull \hbox (badness 2368) in paragraph at lines 9--9
  Li (2018). ``Match-ing of
  []
 
-[246]
+
 Underfull \hbox (badness 6412) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/it/12 Work-shop on Se-man-tic Eval-u-a-tion\T1/LinuxL
 ibertineT-TLF/m/n/12 . Barcelona, Spain: As-so-ci-a-tion for
@@ -4180,7 +4295,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 LibertineT-TLF/m/it/12 In-ter-na-tional Work-shop: Mod-ern
  []
 
-
+[255]
 Underfull \hbox (badness 1210) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 of Ma-chine Learn-ing Re-search. PMLR, pp. 2790
 2799. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : [][]$
@@ -4193,7 +4308,7 @@ Underfull \hbox (badness 1320) in paragraph at lines 9--9
 of Com-put-ing\T1/LinuxLibertineT-TLF/m/n/12 . STOC '98.
  []
 
-[247]
+
 Underfull \hbox (badness 2027) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/it/12 Con-fer-ence on Com-pu-ta-tional Lin-guis-tics\
 T1/LinuxLibertineT-TLF/m/n/12 . Santa Fe, New Mex-ico, USA:
@@ -4229,7 +4344,7 @@ Underfull \hbox (badness 1917) in paragraph at lines 9--9
 TLF/m/n/12 . Min-neapo-lis, Min-nesota, USA: As-so-ci-a-tion for
  []
 
-
+[256]
 Underfull \hbox (badness 2213) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 2014). ``UNAL-NLP: Com-bin-ing Soft Car-di-nal-i
 ty Fea-tures for Se-man-tic
@@ -4241,7 +4356,7 @@ Underfull \hbox (badness 1735) in paragraph at lines 9--9
 -a-tion (Se-mEval 2014)\T1/LinuxLibertineT-TLF/m/n/12 . Dublin,
  []
 
-[248]
+
 Underfull \hbox (badness 3525) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Bhat-tacharyya, Mitesh M. Khapra, and Pratyush K
 u-mar (Nov. 2020).
@@ -4265,7 +4380,7 @@ Underfull \hbox (badness 1571) in paragraph at lines 9--9
 d El-Sana (2017). ``Align-ment of
  []
 
-
+[257]
 Underfull \hbox (badness 1264) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Kepler, Fabio, Jonay Tré-nous, Mar-cos Tre-v
 iso, Miguel Vera, and An-dré F.
@@ -4289,7 +4404,7 @@ Underfull \hbox (badness 2435) in paragraph at lines 9--9
 h Stack Prop-a-ga-tion for
  []
 
-[249]
+
 Underfull \hbox (badness 4378) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Su-per-vised and Un-su-per-vised En-sem-ble''. I
 n: \T1/LinuxLibertineT-TLF/m/it/12 Pro-ceed-ings of the 11th
@@ -4338,7 +4453,7 @@ Underfull \hbox (badness 7081) in paragraph at lines 9--9
 uxLibertineT-TLF/m/n/12 . Lis-bon, Por-tu-gal: As-so-ci-a-tion for
  []
 
-
+[258]
 Underfull \hbox (badness 1297) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 (May 2020a). ````A Pas-sage to In-dia'': Pre-tra
 ined Word Em-bed-dings for
@@ -4368,7 +4483,7 @@ Underfull \hbox (badness 3568) in paragraph at lines 9--9
  Re-trieval\T1/LinuxLibertineT-TLF/m/n/12 . SI-GIR '18. Ann
  []
 
-[250]
+
 Underfull \hbox (badness 1558) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Kumar, Varun, Ashutosh Choud-hary, and Eu-na
 h Cho (Dec. 2020b). ``Data
@@ -4392,13 +4507,13 @@ Underfull \hbox (badness 4291) in paragraph at lines 9--9
 n\T1/LinuxLibertineT-TLF/m/n/12 . On-line: As-so-ci-a-tion for
  []
 
-
+[259]
 Underfull \hbox (badness 1824) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Chan Ho So, and Jae-woo Kang (Sept. 2019). ``Bio
 BERT: a pre-trained
  []
 
-[251]
+
 Underfull \hbox (badness 1226) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 for Text Clas-si-fi-ca-tion''. In: \T1/LinuxLibe
 rtineT-TLF/m/it/12 In-tel-li-gent Data En-gi-neer-ing and Au-to-mated
@@ -4410,7 +4525,7 @@ Underfull \hbox (badness 1596) in paragraph at lines 9--9
 u (2021). ``ALBERT-Based Self-
  []
 
-[252]
+[260]
 Underfull \hbox (badness 1436) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Lynum, An-dré, Partha Pakray, Björn Gam-bäck
 , and Ser-gio Jimenez (Aug.
@@ -4453,13 +4568,13 @@ Underfull \hbox (badness 1314) in paragraph at lines 9--9
  Em-bed-dings and Gaus-sian
  []
 
-
+[261]
 Underfull \hbox (badness 2529) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Manocha, Pranay, Ro-han Bad-lani, Anurag Ku-
 mar, Ankit Shah, Ben-jamin
  []
 
-[253]
+
 Underfull \hbox (badness 4108) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Menini, and Roberto Zam-par-elli (Aug. 2014). ``
 SemEval-2014 Task 1:
@@ -4489,13 +4604,13 @@ Underfull \hbox (badness 1708) in paragraph at lines 9--9
 is Hokamp, and Fabio Ke-pler
  []
 
-
+[262]
 Underfull \hbox (badness 1546) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 (2013b). ``Dis-tributed Rep-re-sen-ta-tions of W
 ords and Phrases and Their
  []
 
-[254]
+
 Underfull \hbox (badness 4279) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Mitkov, Rus-lan and Glo-ria Cor-pas (2008). 
 ``Im-prov-ing Third Gen-er-a-tion
@@ -4513,13 +4628,13 @@ Underfull \hbox (badness 7576) in paragraph at lines 9--9
 Port-land, Ore-gon, USA: As-so-ci-a-tion for Com-pu-ta-tional
  []
 
-
+[263]
 Underfull \hbox (badness 1642) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Ara-bic Sen-tences with Vec-tors Weight-ing''. I
 n: \T1/LinuxLibertineT-TLF/m/it/12 Pro-ceed-ings of the 11th
  []
 
-[255]
+
 Underfull \hbox (badness 1259) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Low-Resource, Re-lated Lan-guages for Neu-ral Ma
 -chine Trans-la-tion''. In:
@@ -4543,7 +4658,7 @@ Underfull \hbox (badness 4144) in paragraph at lines 9--9
 is-tics\T1/LinuxLibertineT-TLF/m/n/12 . On-line: As-so-ci-a-tion for
  []
 
-
+[264]
 Underfull \hbox (badness 2065) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 In: \T1/LinuxLibertineT-TLF/m/it/12 Pro-ceed-ing
 s of the 2018 Con-fer-ence of the North Amer-i-can Chap-ter
@@ -4555,13 +4670,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 -guis-tics: Hu-man Lan-guage
  []
 
-[256]
+
 Underfull \hbox (badness 1048) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Paszke, Adam, Sam Gross, Fran-cisco Massa, A
 dam Lerer, James Brad-bury,
  []
 
-[257]
+[265]
 Underfull \hbox (badness 1721) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Planas, Em-manuel (2005). ``SIM-ILIS Second-
 generation trans-la-tion mem-ory
@@ -4579,7 +4694,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 r-ity Meth-ods with Deep
  []
 
-
+[266]
 Underfull \hbox (badness 1112) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 ``In-tel-li-gent Trans-la-tion Mem-ory Match-ing
  and Re-trieval with Sen-tence
@@ -4597,7 +4712,7 @@ Underfull \hbox (badness 6741) in paragraph at lines 9--9
 hine Trans-la-tion\T1/LinuxLibertineT-TLF/m/n/12 . On-line:
  []
 
-[258]
+
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Ranasinghe, Tharindu, Con-stantin Orasan, an
 d Rus-lan Mitkov (Dec.
@@ -4621,7 +4736,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 eT-TLF/m/n/12 . Barcelona, Spain (On-line): In-ter-na-tional
  []
 
-
+[267]
 Underfull \hbox (badness 2088) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/it/12 Hu-man Lan-guage Tech-nolo-gies: Demon-stra-tio
 ns\T1/LinuxLibertineT-TLF/m/n/12 . On-line: As-so-ci-a-tion for
@@ -4640,7 +4755,7 @@ In: \T1/LinuxLibertineT-TLF/m/it/12 CEUR Work-shop Pro-ceed-ings\T1/LinuxLibert
 ineT-TLF/m/n/12 .
  []
 
-[259]
+
 Underfull \hbox (badness 1603) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Reimers, Nils and Iryna Gurevych (Nov. 2019)
 . ``Sentence-BERT: Sen-tence
@@ -4652,7 +4767,7 @@ Underfull \hbox (badness 2564) in paragraph at lines 9--9
 ha Swayamdipta, and Thomas
  []
 
-
+[268]
 Underfull \hbox (badness 1460) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Ed. by I. Guyon, U. V. Luxburg, S. Ben-gio, H. W
 al-lach, R. Fer-gus, S.
@@ -4671,7 +4786,7 @@ Underfull \hbox (badness 2726) in paragraph at lines 9--9
 e /
  []
 
-[260]
+
 Underfull \hbox (badness 1565) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Sellam, Thibault, Di-pan-jan Das, and Ankur 
 Parikh (July 2020). ``BLEURT:
@@ -4689,7 +4804,7 @@ Underfull \hbox (badness 3713) in paragraph at lines 9--9
 ca-tion us-ing deep Siamese
  []
 
-
+[269]
 Underfull \hbox (badness 1009) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Rout-ledge. Chap. 5, pp. 78 90. \T1/LinuxLibert
 ineT-TLF/m/sc/12 isbn\T1/LinuxLibertineT-TLF/m/n/12 : 9781315311258. \T1/LinuxL
@@ -4711,7 +4826,7 @@ Underfull \hbox (badness 1077) in paragraph at lines 9--9
 int: [][]$\T1/zi4/m/n/12 https : / / academic . oup . com /
  []
 
-[261]
+
 Underfull \hbox (badness 3219) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Specia, Lu-cia, Frédéric Blain, Ma-rina Fomi
 cheva, Er-ick Fon-seca, Vishrav
@@ -4741,7 +4856,7 @@ Underfull \hbox (badness 2781) in paragraph at lines 9--9
 12 . Bel-gium, Brus-sels: As-so-ci-a-tion for Com-pu-ta-tional
  []
 
-
+[270]
 Underfull \hbox (badness 3312) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Specia, Lu-cia, Na-jeh Ha-jlaoui, Catalina H
 al-lett, and Wilker Aziz (2011).
@@ -4759,7 +4874,7 @@ Underfull \hbox (badness 2050) in paragraph at lines 9--9
 evel Qual-ity of Ma-chine
  []
 
-[262]
+
 Underfull \hbox (badness 7151) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Srivastava, Saurabh, Pre-rna Khu-rana, and V
 ar-tika Tewari (Aug. 2018).
@@ -4771,7 +4886,7 @@ Underfull \hbox (badness 1675) in paragraph at lines 9--9
 us-ter-ing and In-for-ma-tion
  []
 
-
+[271]
 Underfull \hbox (badness 1137) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Sun, Zhiyu, Yusen He, An-drey Grit-senko, Am
 aury Lendasse, and Stephen
@@ -4783,7 +4898,7 @@ Underfull \hbox (badness 1097) in paragraph at lines 9--9
 ip-tors: learn-ing the point-
  []
 
-[263]
+
 Underfull \hbox (badness 1320) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Tai, Kai Sheng, Richard Socher, and Christo-
 pher D. Man-ning (July 2015).
@@ -4813,7 +4928,7 @@ Underfull \hbox (badness 1533) in paragraph at lines 9--9
 -tal re-sults''. In: \T1/LinuxLibertineT-TLF/m/it/12 Jour-nal of
  []
 
-
+[272]
 Underfull \hbox (badness 2173) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 Cross-lingual Se-man-tic Tex-tual Sim-i-lar-ity'
 '. In: \T1/LinuxLibertineT-TLF/m/it/12 Pro-ceed-ings of the 11th
@@ -4825,7 +4940,7 @@ Underfull \hbox (badness 2781) in paragraph at lines 9--9
 is-tri-bu-tion Es-ti-ma-tion''. In:
  []
 
-[264]
+
 Underfull \hbox (badness 1009) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 for in-tel-li-gent in-for-ma-tion se-cu-rity con
 -trol in multi-robot sys-tems''. In:
@@ -4855,7 +4970,7 @@ Underfull \hbox (badness 4556) in paragraph at lines 9--9
 a-tion Re-trieval on the
  []
 
-[265]
+[273] [274]
 Underfull \hbox (badness 1199) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Wang, Yuxia, Fei Liu, Karin Ver-spoor, and T
 im-o-thy Bald-win (July 2020c).
@@ -4867,7 +4982,7 @@ Underfull \hbox (badness 3525) in paragraph at lines 9--9
 g\T1/LinuxLibertineT-TLF/m/n/12 . On-line: As-so-ci-a-tion for
  []
 
-[266]
+
 Underfull \hbox (badness 2762) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Wolf, Thomas, Lysan-dre De-but, Vic-tor Sanh
 , Julien Chau-mond, Clement
@@ -4897,7 +5012,7 @@ Underfull \hbox (badness 3907) in paragraph at lines 9--9
 2017)\T1/LinuxLibertineT-TLF/m/n/12 . Van-cou-ver, Canada:
  []
 
-
+[275]
 Underfull \hbox (badness 3158) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Xia, Con-gy-ing, Chen-wei Zhang, Xi-ao-hui Y
 an, Yi Chang, and Philip Yu
@@ -4927,13 +5042,13 @@ Underfull \hbox (badness 2042) in paragraph at lines 9--9
 , Luchen Tan, Kun Xiong,
  []
 
-[267]
+
 Underfull \hbox (badness 1259) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 and Quoc V Le (2019b). ``Xl-net: Gen-er-al-ized 
 au-tore-gres-sive pre-train-ing
  []
 
-
+[276]
 Underfull \hbox (badness 1442) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/n/12 ``Learn-ing Dis-crim-i-na-tive Pro-jec-tions for
  Text Sim-i-lar-ity Mea-sures''. In:
@@ -4959,19 +5074,19 @@ ertineT-TLF/m/sc/12 doi\T1/LinuxLibertineT-TLF/m/n/12 : [][]$\T1/zi4/m/n/12 10
 . 21437 /
  []
 
-[268]
+
 Underfull \hbox (badness 1533) in paragraph at lines 9--9
 \T1/LinuxLibertineT-TLF/m/it/12 2018 IEEE In-ter-na-tional Con-fer-ence on Robo
 tics and Au-toma-tion (ICRA)\T1/LinuxLibertineT-TLF/m/n/12 ,
  []
 
-
+[277]
 Underfull \hbox (badness 2020) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Zhang, Tianyi, Fe-lix Wu, Ar-zoo Kati-yar, K
 il-ian Q Wein-berger, and Yoav
  []
 
-[269]
+
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Zhang, Xi-ang, Junbo Zhao, and Yann Le-Cun (
 2015). ``Character-Level
@@ -5001,7 +5116,7 @@ Underfull \hbox (badness 1178) in paragraph at lines 9--9
  2014). ``ECNU: One Stone
  []
 
-
+[278]
 Underfull \hbox (badness 3536) in paragraph at lines 9--9
 [][]\T1/LinuxLibertineT-TLF/m/n/12 Zheng, Wei, Le Yang, Robert J Genco, Jean Wa
 ctawski-Wende, Michael
@@ -5013,7 +5128,7 @@ Underfull \hbox (badness 1052) in paragraph at lines 9--9
 se neu-ral net-work for
  []
 
-[270]) [271]
+) [279]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (thesis.aux (abstract.aux) (ack.aux) (contents.aux) (tables.aux)
@@ -5264,6 +5379,7 @@ figures/semantic_textual_similarity/transformers/STSTransformers.png
 figures/semantic_textual_similarity/transformers/sentence-bert.png
 chapters/translation_memories/introduction.tex
 chapters/translation_memories/sentence_encoders.tex
+figures/translation_memories/sentence_encoders/TM.png
 chapters/translation_quality_estimation/introduction.tex
 chapters/translation_quality_estimation/transquest.tex
 figures/translation_quality_estimation/transquest/TransQuest.png
@@ -5285,7 +5401,7 @@ conclusions.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 66CCC80070FD069151FB95603F49D35F;6083.
+(rerunfilecheck)             Checksum: A828DC6EB43DC031A4927DF01DBD0860;6273.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -5298,41 +5414,38 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36197 strings out of 480790
- 704256 string characters out of 2897770
- 1422196 words of memory out of 3000000
- 50309 multiletter control sequences out of 15000+200000
- 749379 words of font info for 240 fonts, out of 3000000 for 9000
+ 36280 strings out of 480790
+ 706166 string characters out of 2897770
+ 1426539 words of memory out of 3000000
+ 50366 multiletter control sequences out of 15000+200000
+ 766034 words of font info for 248 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,19n,96p,1894b,2534s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
-st, replaced by a fixed one
-
-{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_fyg
-cup.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/
-lbtn_oexx6f.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/in
-consolata/i4-t1-4.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dv
-ips/libertine/lbtn_7grukw.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/font
-s/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/ASUS/AppData/Local/Programs/MiK
-TeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/ASUS/AppData/Local/Prog
-rams/MiKTeX/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}<C:/Users/ASUS/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Use
-rs/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/LibertineMathBMI
-.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/Libe
-rtineMathMI.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/libertine/LinLibertineT.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/libertine/LinLibertineTB.pfb><C:/Users/ASUS/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/ASUS/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTZ.pfb><C:/User
-s/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/U
-sers/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/
-Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C
-:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><
-C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.p
-fb>
-Output written on thesis.pdf (292 pages, 3209627 bytes).
+{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_f
+ygcup.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsol
+ata/i4-t1-4.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/li
+bertine/lbtn_7grukw.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/
+dvips/libertine/lbtn_oexx6f.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fo
+nts/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/ASUS/AppData/Local/Programs/M
+iKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/ASUS/AppData/Local/Pr
+ograms/MiKTeX/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}<C:/Users/ASUS/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/U
+sers/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/LibertineMathB
+MI.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/Li
+bertineMathMI.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/libertine/LinLibertineT.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/ASUS/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/ASUS/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTZ.pfb><C:/Us
+ers/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:
+/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C
+:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb>
+<C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb
+><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14
+.pfb>
+Output written on thesis.pdf (301 pages, 3274535 bytes).
 PDF statistics:
- 4559 PDF objects out of 5155 (max. 8388607)
- 962 named destinations out of 1000 (max. 500000)
- 1081 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4669 PDF objects out of 5155 (max. 8388607)
+ 981 named destinations out of 1000 (max. 500000)
+ 1110 words of extra memory for PDF output out of 10000 (max. 10000000)
 

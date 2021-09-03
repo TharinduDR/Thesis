@@ -249,7 +249,7 @@ We employed thesaurus-based augmentation in which 10,000 additional training exa
 	\caption[Results for data augmentation with Siamese Neural Networks]{Results for data augmentation with different variants of Siamese neural networks. For each data augmentation experiment, we show the difference between performing the data augmentation and without performing data augmentation. For ease of visualisation we only report the Pearson correlation ($\bm{\rho}$).} 
 	\end{table*}
 	
-As can be seen in the Table \ref{tab:augmentation_siamese}, data augmentation improved the results of all the experiments. However, even with the additional 10,000 training instances, the GRU based Siamese neural network outperformed the LSTM + Attention based Siamese neural network. We can conclude that simple data augmentation techniques improve the performance of Siamese neural networks in STS tasks. From the Siamese neural network experiments we conducted, our best results for both the STS2017 and SICK datasets were provided by GRU based Siamese neural network when combined with transfer learning and data augmentation.
+As can be seen in Table \ref{tab:augmentation_siamese}, data augmentation improved the results of all the experiments. However, even with the additional 10,000 training instances, the GRU based Siamese neural network outperformed the LSTM + Attention based Siamese neural network. We can conclude that simple data augmentation techniques improve the performance of Siamese neural networks in STS tasks. From the Siamese neural network experiments we conducted, our best results for both the STS2017 and SICK datasets were provided by GRU based Siamese neural network when combined with transfer learning and data augmentation.
 	
 These observations answer our \textit{RQ2} in this Chapter; we can use transfer learning and simple data augmentation techniques to improve the results of Siamese neural networks in STS. 
 	
@@ -261,9 +261,9 @@ These observations answer our \textit{RQ2} in this Chapter; we can use transfer 
 				\hline
 				\textbf{Model} & $\bm{\rho}$      
 				\\ \hline
-				\cite{jimenez-etal-2014-unal} & 0.807 \\
-				\cite{bjerva-etal-2014-meaning} & 0.827 \\
-				\cite{zhao-etal-2014-ecnu-one} & 0.841 \\
+				\textcite{jimenez-etal-2014-unal} & 0.807 \\
+				\textcite{bjerva-etal-2014-meaning} & 0.827 \\
+				\textcite{zhao-etal-2014-ecnu-one} & 0.841 \\
 				\textit{Siamese LSTM} & 0.863  \\
 				\textit{Siamese GRU} & 0.882  \\
 				\hline
@@ -281,10 +281,10 @@ These observations answer our \textit{RQ2} in this Chapter; we can use transfer 
 				\hline
 				\textbf{Model} & $\bm{\rho}$      
 				\\ \hline
-				\cite{tian-etal-2017-ecnu} & 0.851 \\
+				\textcite{tian-etal-2017-ecnu} & 0.851 \\
 				\textit{Siamese LSTM} & 0.852  \\
-				\cite{maharjan-etal-2017-dt} & 0.854 \\
-				\cite{cer-etal-2017-semeval}  & 0.855   \\
+				\textcite{maharjan-etal-2017-dt} & 0.854 \\
+				\textcite{cer-etal-2017-semeval}  & 0.855   \\
 				\textit{Siamese GRU} & 0.862  \\
 				\hline
 			\end{tabular}
@@ -294,17 +294,6 @@ These observations answer our \textit{RQ2} in this Chapter; we can use transfer 
 	\end{table*}
 	
 Furthermore, we compared the results of the best Siamese neural network variant with the best results submitted to the competitions \autocite{cer-etal-2017-semeval, marelli-etal-2014-semeval}, and with the unsupervised STS methods we have experimented with so far in the thesis. As can be seen in Tables \ref{tab:sick_siamese_all} and \ref{tab:sts_siamese_all}, the GRU based Siamese neural network architecture outperforms the best systems submitted to both competitions. It also outperforms the unsupervised STS methods we have explored so far in the thesis. Therefore, we can conclude that Siamese architecture is currently the best system we have experimented with for English STS.
-
-
-
-
-
-
-
-
-
-
-
 
 
 \section{Portability to Other Languages}
@@ -385,10 +374,10 @@ Furthermore, we compared the results of the best Siamese neural network variant 
 			\hline
 			\textbf{Model} & $\bm{\rho}$      
 			\\ \hline
-			\cite{tian-etal-2017-ecnu} & 0.744 \\
-			\cite{nagoudi-etal-2017-lim} & 0.746 \\
+			\textcite{tian-etal-2017-ecnu} & 0.744 \\
+			\textcite{nagoudi-etal-2017-lim} & 0.746 \\
 			\textit{Siamese LSTM} & 0.746  \\
-			\cite{wu-etal-2017-bit}  & 0.754   \\
+			\textcite{wu-etal-2017-bit}  & 0.754   \\
 			\textit{Siamese GRU} & 0.763  \\
 			\hline
 		\end{tabular}
@@ -407,9 +396,9 @@ Furthermore, we compared the results of the best Siamese neural network variant 
 			\textbf{Model} & $\bm{\rho}$   \\  
 			\hline
 			\textit{Siamese LSTM} & 0.842  \\
-			\cite{hassan-etal-2017-fcicu} & 0.848 \\
-			\cite{wu-etal-2017-bit} &  0.850 \\
-			\cite{tian-etal-2017-ecnu} & 0.855 \\
+			\textcite{hassan-etal-2017-fcicu} & 0.848 \\
+			\textcite{wu-etal-2017-bit} &  0.850 \\
+			\textcite{tian-etal-2017-ecnu} & 0.855 \\
 			\textit{Siamese GRU} & 0.863  \\
 			\hline
 		\end{tabular}
@@ -418,7 +407,7 @@ Furthermore, we compared the results of the best Siamese neural network variant 
 	\label{tab:spanish_siamese_all}
 \end{table*}
 
-As can be seen in Tables \ref{tab:arabic_siamese_all} and \ref{tab:spanish_siamese_all}, the Siamese neural network based on GRU outperforms the top three systems from the competition in both languages. Furthermore, it outperforms the unsupervised STS methods we have experimented with so far in the Thesis. Therefore, we can conclude that the Siamese neural network based on GRU is currently the best system we have experimented with for both Arabic and Spanish. 
+As can be seen in the results, transformer-based STS methods outperformed all the other supervised and unsupervised STS models in both languages. They outperformed the top systems from the competition in both languages. From the experimented pre-trained transformer models, language-specific models such as BETO and AraBERT outperformed the general multilingual models.  With these observations, we can conclude that transformers are currently state-of-the-art in Arabic and Spanish STS. Furthermore, it should be noted that it is straightforward to adapt transformers to a different language. We only changed the pre-trained model to the new language and performed the training. 
 
 These observations answer our \textbf{RQ3}; the Siamese architectures that we propose in this chapter can be successfully adapted in different languages by changing the word embeddings and the training dataset.
 
@@ -426,7 +415,7 @@ These observations answer our \textbf{RQ3}; the Siamese architectures that we pr
 \label{sec:siamese_domains}
 To answer our \textit{RQ4}; how well the proposed Siamese neural network architecture can be applied in different domains, we evaluated our method on the Bio-medical STS dataset explained in Chapter \ref{cha:sts_introduction} (BIOSSES). As we mentioned previously, the Bio-medical STS dataset does not have a training set. Therefore, we had to follow a transfer learning strategy to evaluate Siamese neural networks on the Bio-medical STS dataset. We used the pre-trained English STS models and performed inference on the Bio-medical STS dataset. We can refer to this as a \textit{"zero-shot transfer learning"} since the pre-trained English STS models did not see any Bio-medical data.
 
-For this transfer learning strategy, we considered two word embedding models; the general Word2vec model we used before \cite{DBLP:journals/corr/abs-1301-3781} that was pre-trained on Google news corpus, and BioWordVec \cite{Zhang2019}, which has trained Word2vec on a combination of PubMed and PMC texts\footnote{The model is availble on \url{https://bio.nlplab.org/}}. With each word embedding model, we trained a Siamese neural network based on GRU and a Siamese neural network based on LSTM + Attention (the two best models we had from the English STS experiments) and evaluated them on the BIOSSES dataset.
+For this transfer learning strategy, we considered two word embedding models; the general Word2vec model we used before \textcite{DBLP:journals/corr/abs-1301-3781} that was pre-trained on Google news corpus, and BioWordVec \textcite{Zhang2019}, which has trained Word2vec on a combination of PubMed and PMC texts\footnote{The model is availble on \url{https://bio.nlplab.org/}}. With each word embedding model, we trained a Siamese neural network based on GRU and a Siamese neural network based on LSTM + Attention (the two best models we had from the English STS experiments) and evaluated them on the BIOSSES dataset.
 
 
 \begin{table*}[htb]
@@ -470,8 +459,8 @@ As you can see in Table \ref{tab:transfer_siamese_biosses}, Siamese neural archi
 			\hline
 			\textit{ELMo $\bigoplus$ BERT}  &  0.708 \\
 			\textit{Siamese GRU$_{STS2017}$} & 0.719 \\
-			\cite{10.1093/bioinformatics/btx238} & 0.754 \\
-			\textit{BioSentVec} \cite{8904728} & 0.810  \\
+			\textcite{10.1093/bioinformatics/btx238} & 0.754 \\
+			\textit{BioSentVec} \textcite{8904728} & 0.810  \\
 			\hline
 		\end{tabular}
 	}
