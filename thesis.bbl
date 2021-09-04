@@ -6002,6 +6002,61 @@
     \field{year}{2019}
   \endentry
 
+  \entry{jia-etal-2020-entity}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=JC}{%
+         family={Jia},
+         familyi={J\bibinitperiod},
+         given={Chen},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Yuefeng},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=YQ}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Qinrong},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yue},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computational Linguistics}%
+    }
+    \strng{namehash}{JC+1}
+    \strng{fullhash}{JCSYYQZY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{booktitle}{Proceedings of the 2020 Conference on Empirical Methods
+  in Natural Language Processing (EMNLP)}
+    \verb{doi}
+    \verb 10.18653/v1/2020.emnlp-main.518
+    \endverb
+    \field{pages}{6384\bibrangedash 6396}
+    \field{title}{Entity Enhanced {BERT} Pre-training for {C}hinese {NER}}
+    \verb{url}
+    \verb https://aclanthology.org/2020.emnlp-main.518
+    \endverb
+    \list{location}{1}{%
+      {Online}%
+    }
+    \field{month}{11}
+    \field{year}{2020}
+  \endentry
+
   \entry{jiang-etal-2019-team}{inproceedings}{}
     \name{author}{5}{}{%
       {{hash=JY}{%
@@ -9519,6 +9574,47 @@
     \field{year}{2015}
   \endentry
 
+  \entry{ranasinghe-hettiarachchi-2020-brums}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=RT}{%
+         family={Ranasinghe},
+         familyi={R\bibinitperiod},
+         given={Tharindu},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HH}{%
+         family={Hettiarachchi},
+         familyi={H\bibinitperiod},
+         given={Hansi},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {International Committee for Computational Linguistics}%
+    }
+    \strng{namehash}{RTHH1}
+    \strng{fullhash}{RTHH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{booktitle}{Proceedings of the Fourteenth Workshop on Semantic
+  Evaluation}
+    \field{pages}{1906\bibrangedash 1915}
+    \field{title}{{BRUMS} at {S}em{E}val-2020 Task 12: Transformer Based
+  Multilingual Offensive Language Identification in Social Media}
+    \verb{url}
+    \verb https://aclanthology.org/2020.semeval-1.251
+    \endverb
+    \list{location}{1}{%
+      {Barcelona (online)}%
+    }
+    \field{month}{12}
+    \field{year}{2020}
+  \endentry
+
   \entry{ranasinghe:2021}{incollection}{}
     \name{author}{4}{}{%
       {{hash=RT}{%
@@ -9888,6 +9984,63 @@
   Estimation with Cross-Lingual Transformers}
     \verb{url}
     \verb https://aclanthology.org/2021.acl-short.55
+    \endverb
+    \list{location}{1}{%
+      {Online}%
+    }
+    \field{month}{08}
+    \field{year}{2021}
+  \endentry
+
+  \entry{ranasinghe-etal-2021-wlv}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=RT}{%
+         family={Ranasinghe},
+         familyi={R\bibinitperiod},
+         given={Tharindu},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Sarkar},
+         familyi={S\bibinitperiod},
+         given={Diptanu},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zampieri},
+         familyi={Z\bibinitperiod},
+         given={Marcos},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=OA}{%
+         family={Ororbia},
+         familyi={O\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computational Linguistics}%
+    }
+    \strng{namehash}{RT+1}
+    \strng{fullhash}{RTSDZMOA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{extradate}{3}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{booktitle}{Proceedings of the 15th International Workshop on
+  Semantic Evaluation (SemEval-2021)}
+    \verb{doi}
+    \verb 10.18653/v1/2021.semeval-1.111
+    \endverb
+    \field{pages}{833\bibrangedash 840}
+    \field{title}{{WLV}-{RIT} at {S}em{E}val-2021 Task 5: A Neural Transformer
+  Framework for Detecting Toxic Spans}
+    \verb{url}
+    \verb https://aclanthology.org/2021.semeval-1.111
     \endverb
     \list{location}{1}{%
       {Online}%
@@ -11251,6 +11404,86 @@
     \field{year}{2010}
   \endentry
 
+  \entry{10.1007/978-3-030-32381-3_16}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=SC}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Chi},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=QX}{%
+         family={Qiu},
+         familyi={Q\bibinitperiod},
+         given={Xipeng},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=XY}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Yige},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HX}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Xuanjing},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \name{editor}{5}{}{%
+      {{hash=SM}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Maosong},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HX}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Xuanjing},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=JH}{%
+         family={Ji},
+         familyi={J\bibinitperiod},
+         given={Heng},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Zhiyuan},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer International Publishing}%
+    }
+    \strng{namehash}{SC+1}
+    \strng{fullhash}{SCQXXYHX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{Chinese Computational Linguistics}
+    \field{isbn}{978-3-030-32381-3}
+    \field{pages}{194\bibrangedash 206}
+    \field{title}{How to Fine-Tune BERT for Text Classification?}
+    \list{location}{1}{%
+      {Cham}%
+    }
+    \field{year}{2019}
+  \endentry
+
   \entry{sun-etal-2020-exploratory}{inproceedings}{}
     \name{author}{8}{}{%
       {{hash=SS}{%
@@ -11553,6 +11786,54 @@
     \endverb
     \field{volume}{9}
     \field{journaltitle}{Scientific Reports}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{taher-etal-2019-beheshti}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=TE}{%
+         family={Taher},
+         familyi={T\bibinitperiod},
+         given={Ehsan},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HSA}{%
+         family={Hoseini},
+         familyi={H\bibinitperiod},
+         given={Seyed\bibnamedelima Abbas},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Shamsfard},
+         familyi={S\bibinitperiod},
+         given={Mehrnoush},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computational Linguistics}%
+    }
+    \strng{namehash}{TE+1}
+    \strng{fullhash}{TEHSASM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{booktitle}{Proceedings of The First International Workshop on NLP
+  Solutions for Under Resourced Languages (NSURL 2019) co-located with ICNLSP
+  2019 - Short Papers}
+    \field{pages}{37\bibrangedash 42}
+    \field{title}{Beheshti-{NER}: {P}ersian named entity recognition Using
+  {BERT}}
+    \verb{url}
+    \verb https://aclanthology.org/2019.nsurl-1.6
+    \endverb
+    \list{location}{1}{%
+      {Trento, Italy}%
+    }
     \field{year}{2019}
     \warn{\item Invalid format of field 'month'}
   \endentry

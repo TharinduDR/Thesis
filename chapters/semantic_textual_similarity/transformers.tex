@@ -6,7 +6,7 @@ Transformers can be considered as the most significant revolution that happened 
 Transformers were first introduced in \textcite{10.5555/3295222.3295349}, where the authors used a transformer architecture for the sequence to sequence tasks such as machine translation. They show that an architecture with only attention mechanisms and without any RNNs can improve the results in the sequence to sequence tasks. The first notable research in using transformers for language modelling was OpenAI GPT \autocite{radford2018improving}. OpenAI GPT adapts a pre-training followed by a fine-tuning scheme which means that once pre-trained, it can be fine-tuned to a large number of downstream NLP tasks such as text classification, named entity recognition etc. However, the first breakthrough in using transformer models for language modelling happened with the introduction of BERT \autocite{devlin-etal-2019-bert}. As we explain in Section \ref{sec:transformers_related}, BERT employs a masked language modelling (MLM) objective, which brings improvements over OpenAI GPT. Later, different variants of BERT were proposed by the NLP community. We explain some of these models that we used in this chapter in Section \ref{sec:transformers_related}. All of these transformer models follow the same fine-tuning scheme of BERT.
 
 
-Transformer models, which we have experimented with in this chapter, use special tokens to obtain a single contiguous sequence for each input sequence. Specifically, the first token is always a special classification token (\textsc{[CLS]}), and sentence pairs are separated using a special token (\textsc{[SEP]}). The final hidden state of \textsc{[CLS]}  is used for the sentence-level fine-tuning tasks such as text classification, and the final hidden state of each token is used for the token-level fine-tuning tasks such as named entity recognition. The fine-tuning scheme in transformers is usually simple. For example, transformer models can be adapted to text classification tasks by adding a softmax layer on top of \textsc{[CLS]} token. Furthermore, the fine-tuning scheme is very efficient as the parameters in the transformer model are already optimised in the pre-training process. Therefore, transformer models have been prevalent and successful in many NLP tasks \autocite{devlin-etal-2019-bert}. 
+Transformer models, which we have experimented with in this chapter, use special tokens to obtain a single contiguous sequence for each input sequence. Specifically, the first token is always a special classification token (\textsc{[CLS]}), and sentence pairs are separated using a special token (\textsc{[SEP]}). The final hidden state of \textsc{[CLS]}  is used for the sentence-level fine-tuning tasks such as text classification \autocite{10.1007/978-3-030-32381-3_16, ranasinghe-hettiarachchi-2020-brums}, and the final hidden state of each token is used for the token-level fine-tuning tasks such as named entity recognition \autocite{taher-etal-2019-beheshti, ranasinghe-etal-2021-wlv,jia-etal-2020-entity}. The fine-tuning scheme in transformers is usually simple. For example, transformer models can be adapted to text classification tasks by adding a softmax layer on top of \textsc{[CLS]} token. Furthermore, the fine-tuning scheme is very efficient as the parameters in the transformer model are already optimised in the pre-training process. Therefore, transformer models have been prevalent and successful in many NLP tasks \autocite{devlin-etal-2019-bert}. 
 
 In this chapter, we experiment with different transformers models in a variety of STS datasets. 
 We address four research questions in this chapter:
@@ -28,7 +28,7 @@ The main contributions of this chapter are as follows.
 
 \item We evaluate how well the transformer models perform on STS datasets in different languages and domains. 
 
-\item The code and the pre-trained models are publicly available to the community\footnote{The public GitHub repository is available on \url{https://github.com/tharindudr/STS-Transformers}.}. We have published the code as a python library \footnote{The developed python library is available on \url{https://pypi.org/project/ststransformers/}.} and by the time of writing this chapter, it has more than 3,000 downloads from the community. 
+\item The code and the pre-trained models are publicly available to the community\footnote{The public GitHub repository is available on \url{https://github.com/tharindudr/STS-Transformers}.}. We have published the code as a Python library \footnote{The developed python library is available on \url{https://pypi.org/project/ststransformers/}.} and by the time of writing this chapter, it has more than 3,000 downloads from the community. 
 
 \end{enumerate}
 
@@ -38,7 +38,7 @@ The rest of this chapter is organised as follows. Section \ref{sec:transformers_
 \label{sec:transformers_related}
 As we mentioned before, after the introduction of BERT \autocite{devlin-etal-2019-bert}, many variants of different transformer models have been proposed by adding minor modifications to the original BERT transformer. Usually, these modifications have resulted in improvements in the fine-tuning scheme for the downstream NLP tasks. Expecting a similar behaviour for the STS task, we evaluated the following transformer models for the experiments in this chapter.
 
-\paragraph{BERT} \autocite{devlin-etal-2019-bert} proposes an MLM objective, where some of the tokens of the input sequence are randomly masked, and the objective is to predict these masked positions, taking the corrupted sequence as input. BERT applies a Transformer encoder to attend to bi-directional contexts during pre-training. In addition, BERT uses a next-sentence-prediction (NSP) objective. Given two input sentences, NSP predicts whether the second sentence is the next sentence of the first sentence. The NSP objective aims to improve the tasks, such as question answering and natural language inference, which require reasoning over sentence pairs. 
+\paragraph{BERT} \autocite{devlin-etal-2019-bert} proposes an MLM objective, where some of the tokens of the input sequence are randomly masked, and the objective is to predict these masked positions, taking the corrupted sequence as input. BERT applies a Transformer encoder to attend to bi-directional contexts during pre-training. In addition, BERT uses a next-sentence-prediction (NSP) objective. Given two input sentences, NSP predicts whether the second sentence is the next sentence of the first sentence. The NSP objective aims to improve the tasks which require reasoning over sentence pairs, such as question answering and natural language inference. 
 
 \paragraph{RoBERTa} \autocite{liu2019roberta} makes a few changes to the BERT architecture and achieves substantial improvements. These changes include: (1) Training the model longer with larger batches and more data; (2) Removing the NSP objective; (3) Training on longer sequences; (4) Dynamically changing the masked positions during pre-training. The authors show that these changes lead to significant improvements in the downstream NLP tasks.
 
@@ -47,14 +47,12 @@ As we mentioned before, after the introduction of BERT \autocite{devlin-etal-201
 
 \paragraph{ELECTRA} Compared to BERT, ELECTRA \autocite{Clark2020ELECTRA} proposes an effective pre-training method. Instead of corrupting some positions of inputs with [MASK], ELECTRA replaces some tokens of the inputs with their plausible alternatives sampled from a small generator network. ELECTRA trains a discriminator to predict whether the generator replaced each token in the corrupted input or not. The pre-trained discriminator can then be used in downstream tasks for fine-tuning, improving upon the pre-trained representation learned by the generator.ed in downstream tasks for fine-tuning, improving upon the pre-trained representation learned by the generator.
 
-\paragraph{XLNET} \autocite{yang2019xlnet} identifies a key weakness in BERT pre-training. \textcite{yang2019xlnet} show that the symbols such as \textsc{[MASK]} that BERT introduces during pre-training cause a discrepancy between pre-training and fine-tuning as they never occur in real data. Therefore, XLNET proposes a new auto-regressive method based on permutation language modelling (PLM) \autocite{JMLR:v17:16-272} without introducing new symbols. 
+\paragraph{XLNET} \autocite{yang2019xlnet} addresses a key weakness in BERT pre-training. \textcite{yang2019xlnet} show that the symbols such as \textsc{[MASK]} that BERT introduces during pre-training cause a discrepancy between pre-training and fine-tuning as they never occur in real data. Therefore, XLNET proposes a new auto-regressive method based on permutation language modelling (PLM) \autocite{JMLR:v17:16-272} without introducing new symbols. 
 
 Upon the introduction, these transformer models are evaluated in many downstream NLP tasks, including STS. However, there is no comprehensive study on STS using the transformers in large and small STS datasets, transfer learning, data augmentation, multilingual STS, etc., which we do in this chapter.
 
 \section{Transformer Architecture for STS}
 \label{sec:transformer_method}
-
-The transformer architecture for STS is shown in Figure \ref{fig:sts_transformers}. The input of this model is a concatenation of the two sentences, separated by the \textsc{[SEP]} token. Then the output of the \textsc{[CLS]} token is used as the input of a softmax layer that predicts the similarity of the two sentences. We used the mean-squared-error loss as the objective function. For the configurations, we used a batch-size of eight, Adam optimiser with a learning rate $2\mathrm{e}^{-5}$, and a linear learning rate warm-up over 10\% of the training data. During the training process, the parameters of the transformer and the parameters of the subsequent layers were updated. The models were trained using only training data. Furthermore, they were evaluated while training after every 100 batches, using an evaluation set that had one-fifth of the instances in training data. We performed early stopping if the evaluation loss did not improve over ten evaluation steps. All the models were trained for three epochs. As these transformer models are computationally expensive, we used an Nvidia Tesla T4 GPU for the training process. We have kept these configurations the same for all the experiments to ensure consistency between all the experiments. The implementation is based on PyTorch \autocite{NEURIPS2019_9015} and HuggingFace \autocite{wolf-etal-2020-transformers}.
 
 \begin{figure}[ht]
 	\centering
@@ -62,6 +60,9 @@ The transformer architecture for STS is shown in Figure \ref{fig:sts_transformer
 	\caption[Architecture for using Transformers in STS]{Architecture for using Transformers in STS.}
 	\label{fig:sts_transformers}
 \end{figure}
+
+The transformer architecture for STS is shown in Figure \ref{fig:sts_transformers}. The input of this model is a concatenation of the two sentences, separated by the \textsc{[SEP]} token. Then the output of the \textsc{[CLS]} token is used as the input of a softmax layer that predicts the similarity of the two sentences. We used the mean-squared-error loss as the objective function. For the configurations, we used a batch-size of eight, Adam optimiser with a learning rate $2\mathrm{e}^{-5}$, and a linear learning rate warm-up over 10\% of the training data. During the training process, the parameters of the transformer and the parameters of the subsequent layers were updated. The models were trained using only training data. Furthermore, they were evaluated while training after every 100 batches, using an evaluation set that had one-fifth of the instances in training data. We performed early stopping if the evaluation loss did not improve over ten evaluation steps. All the models were trained for three epochs. As these transformer models are computationally expensive, we used an Nvidia Tesla T4 GPU for the training process. We have kept these configurations the same for all the experiments to ensure consistency between all the experiments. The implementation is based on PyTorch \autocite{NEURIPS2019_9015} and HuggingFace \autocite{wolf-etal-2020-transformers}.
+
 
 \section{Exploring Transformers in English STS}
 \label{sec:transformer_english}
@@ -146,7 +147,7 @@ We trained the transformer models on the training sets of these datasets and eva
 	\label{tab:quora_transformers}
 \end{table*}
 
-As can be seen in Tables \ref{tab:sick_transformers} and \ref{tab:sts_transformers}, for the SICK and STS 2017 datasets, RoBERTa outperformed other transformer models. Since SICK and STS 2017 are smaller datasets, the optimised nature of RoBERTa is beneficial. The QUORA dataset, which is larger than the SICK and STS 2017, \textit{XLNET}  outperforms other transformer models. However, from the results, there is no clear indication that which transformer model would perform best in a particular dataset other than the fact that the \textit{RoBERTa} performs slightly better in smaller datasets. It should be noted that all of the transformers perform on par with each other. 
+As can be seen in Tables \ref{tab:sick_transformers} and \ref{tab:sts_transformers}, for the SICK and STS 2017 datasets, RoBERTa outperformed other transformer models. Since SICK and STS 2017 are smaller datasets, the optimised nature of RoBERTa is beneficial. The QUORA dataset, which is larger than the SICK and STS 2017, \textit{XLNET}  outperforms other transformer models. However, from the results, there is no clear indication of which transformer model would perform best in a particular dataset other than the fact that the \textit{RoBERTa} performs slightly better in smaller datasets. It should be noted that all of the transformers perform on par with each other. 
 
 In the initial experiments, we noticed that the transformer models are susceptible to the random seed\footnote{A random seed is used to configure the starting weights in a neural network. Keeping the random seed constant in the experiments removes the variation due to this randomness, making it easier to interpret the effects of other design changes such as hyperparameter values.} of the experiments \autocite{zhang2021revisiting}. Changing the random seed led to different results. To minimise this effect from the random seed, we conducted experiments for five different random seeds. We took the mean of these experiments as the final results, which is the value reported in Tables \ref{tab:sick_transformers}, \ref{tab:sts_transformers} and \ref{tab:quora_transformers}. We noticed that doing many experiments with different random seeds reduced the variance of the final result. 
 
@@ -288,7 +289,7 @@ The results are shown in Tables \ref{tab:arabic_transformers_all} and \ref{tab:s
 			\textit{Siamese GRU} & 0.763  \\
 			\textit{mBERT} & 0.778\\
 			\textit{AraElectra} & 0.791\\
-			\textit{AraBERT} & 0.794 \\
+			\textit{AraBERT} & \textbf{0.794} \\
 			\hline
 		\end{tabular}
 	}
@@ -310,7 +311,7 @@ The results are shown in Tables \ref{tab:arabic_transformers_all} and \ref{tab:s
 			\textcite{tian-etal-2017-ecnu} & 0.855 \\
 			\textit{Siamese GRU} & 0.863  \\
 			\textit{mBERT} & 0.884  \\
-			\textit{BETO} & 0.890  \\
+			\textit{BETO} & \textbf{0.890}  \\
 			\hline
 		\end{tabular}
 	}
@@ -324,9 +325,9 @@ This answers our \textbf{RQ3:}, the transformers can be successfully adapted in 
 
 \section{Potability to Other Domains}
 \label{sec:transformer_domain}
-To answer our \textit{RQ4}; how well the proposed transformer models can be applied in STS tasks in different domains, we evaluated our method on the Bio-medical STS dataset explained in Chapter \ref{cha:sts_introduction} (BIOSSES). As we mentioned previously, the Bio-medical STS dataset does not have a training set. Therefore, we had to follow a transfer learning strategy to evaluate transformers on the Bio-medical STS dataset. Similar to \textit{Siamese neural network} experiments in Chapter \ref{cha:sts_siamese_neural_networks}, we used the pre-trained English STS transformer models and performed inference on the Bio-medical STS dataset. 
+To answer our \textbf{RQ4}; how well the proposed transformer models can be applied in STS tasks in different domains, we evaluated our method on the Bio-medical STS dataset explained in Chapter \ref{cha:sts_introduction} (BIOSSES). As we mentioned previously, the Bio-medical STS dataset does not have a training set. Therefore, we had to follow a transfer learning strategy to evaluate transformers on the Bio-medical STS dataset. Similar to \textit{Siamese neural network} experiments in Chapter \ref{cha:sts_siamese_neural_networks}, we used the pre-trained English STS transformer models and performed inference on the Bio-medical STS dataset. 
 
-For this transfer learning strategy, we considered two pre-trained transformer models; \textit{bert-large-cased} \autocite{devlin-etal-2019-bert} (We refer to this as \textit{BERT}) which we used in the English STS experiments and, BioBERT \autocite{10.1093/bioinformatics/btz682} which has trained BERT on PubMed abstracts\footnote{More details and the model are available on \url{https://github.com/dmis-lab/biobert}}.
+For this transfer learning strategy, we considered two pre-trained transformer models; \textit{bert-large-cased} \autocite{devlin-etal-2019-bert} (\textit{BERT}) which we used in the English STS experiments and, BioBERT \autocite{10.1093/bioinformatics/btz682} which has trained BERT on PubMed abstracts\footnote{More details and the model are available on \url{https://github.com/dmis-lab/biobert}}.
 
 \begin{table*}[htb]
 	%\footnotesize
