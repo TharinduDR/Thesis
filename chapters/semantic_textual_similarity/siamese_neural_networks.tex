@@ -246,12 +246,14 @@ We employed thesaurus-based augmentation in which 10,000 additional training exa
 			\hline
 		\end{tabular}
 	}
+	
 	\caption[Results for data augmentation with Siamese Neural Networks]{Results for data augmentation with different variants of Siamese neural networks. For each data augmentation experiment, we show the difference between performing the data augmentation and without performing data augmentation. For ease of visualisation we only report the Pearson correlation ($\bm{\rho}$).} 
+	\label{tab:augmentation_siamese}
 	\end{table*}
 	
 As can be seen in Table \ref{tab:augmentation_siamese}, data augmentation improved the results of all the experiments. However, even with the additional 10,000 training instances, the GRU based Siamese neural network outperformed the LSTM + Attention based Siamese neural network. We can conclude that simple data augmentation techniques improve the performance of Siamese neural networks in STS tasks. From the Siamese neural network experiments we conducted, our best results for both the STS2017 and SICK datasets were provided by GRU based Siamese neural network when combined with transfer learning and data augmentation.
 	
-These observations answer our \textit{RQ2} in this Chapter; we can use transfer learning and simple data augmentation techniques to improve the results of Siamese neural networks in STS. 
+These observations answer our \textbf{RQ2} in this Chapter; we can use transfer learning and simple data augmentation techniques to improve the results of Siamese neural networks in STS. 
 	
 	\begin{table*}[htb]
 		%\footnotesize
@@ -298,7 +300,7 @@ Furthermore, we compared the results of the best Siamese neural network variant 
 
 \section{Portability to Other Languages}
 \label{sec:siamese_languages}
-Our \textit{RQ3} targets the multilingual aspect of the proposed approach; \textit{Can the proposed Siamese neural network be easily adopted into different languages?}. To answer this, we evaluated our method in the Arabic STS and Spanish STS datasets that were introduced in Chapter \ref{cha:sts_introduction}. Our approach has the advantage that it does not rely on language-dependent features.  As a result, the approach is easily portable to other languages, given the availability of pre-trained word embedding models in that particular language. The word embedding models, we used are AraVec \autocite{SOLIMAN2017256} \footnote{AraVec has been trained on Arabic Wikipedia articles. The models are available on \url{https://github.com/bakrianoo/aravec}} for Arabic and Spanish 3B words Word2Vec Embeddings \autocite{doi:10.1177/1550147718811827}\footnote{Spanish 3B words Word2Vec Embeddings have been trained on Spanish news articles, Wikipedia articles and Spanish Boletín Oficial del Estado (BOE; English: Official State Gazette). The model is available on \url{https://github.com/aitoralmeida/spanish_word2vec}} for Spanish.
+Our \textbf{RQ3} targets the multilingual aspect of the proposed approach; \textit{Can the proposed Siamese neural network be easily adopted into different languages?}. To answer this, we evaluated our method in the Arabic STS and Spanish STS datasets that were introduced in Chapter \ref{cha:sts_introduction}. Our approach has the advantage that it does not rely on language-dependent features.  As a result, the approach is easily portable to other languages, given the availability of pre-trained word embedding models in that particular language. The word embedding models, we used are AraVec \autocite{SOLIMAN2017256} \footnote{AraVec has been trained on Arabic Wikipedia articles. The models are available on \url{https://github.com/bakrianoo/aravec}} for Arabic and Spanish 3B words Word2Vec Embeddings \autocite{doi:10.1177/1550147718811827}\footnote{Spanish 3B words Word2Vec Embeddings have been trained on Spanish news articles, Wikipedia articles and Spanish Boletín Oficial del Estado (BOE; English: Official State Gazette). The model is available on \url{https://github.com/aitoralmeida/spanish_word2vec}} for Spanish.
 
 
 \begin{table*}[htb]

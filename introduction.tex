@@ -4,15 +4,15 @@
 \label{cha:introduction}
 
 
-Semantic textual similarity (STS) is a natural language processing (NLP) task which assesses the semantic similarity between two text snippets quantitatively. STS is a fundamental NLP task for many text-related applications, including text de-duplication, paraphrase detection, semantic searching, and question answering. Measuring STS is a machine learning (ML) problem, where an ML model predicts a value that represents the similarity of the two input texts. These machine learning models can be categorised into two main areas: supervised and unsupervised. Supervised STS ML models have been trained on an annotated STS dataset, while unsupervised models predict STS without trained on annotated STS data. This thesis presents research in the area of semantic text similarity and how it can be used for translation related tasks. It is split into three parts.
+Semantic textual similarity (STS) is a natural language processing (NLP) task which quantitatively assesses the semantic similarity between two text snippets. STS is a fundamental NLP task for many text-related applications, including text de-duplication, paraphrase detection, semantic searching, and question answering. Measuring STS is a machine learning (ML) problem, where an ML model predicts a value that represents the similarity of the two input texts. These machine learning models can be categorised into two main areas: supervised and unsupervised. Supervised STS ML models have been trained on an annotated STS dataset, while unsupervised models predict STS without being trained on annotated STS data. This thesis presents research in the area of semantic text similarity and ways in which it can be used for translation related tasks. This thesis has three parts.
 
-In \textbf{Part I}, we explore supervised and unsupervised ML models in STS. We explore embedding aggregation based STS methods, sentence encoders, Siamese neural networks and transformers in STS. Furthermore, for each STS method, we analyse the ability of the model to perform in a multilingual and multi-domain setting. In the process, we introduce a new state-of-the-art unsupervised vector aggregation based STS method developed on contextual word embeddings and a new state-of-the-art supervised STS method based on Siamese neural networks and classical word embedding models. 
+In \textbf{Part I}, we explore supervised and unsupervised ML models in STS. We explore embedding aggregation based STS methods, sentence encoders, Siamese neural networks and transformers in STS. Furthermore, for each STS method, we analyse the ability of the model to perform in a multilingual and multi-domain setting. In the process, we propose a new state-of-the-art unsupervised vector aggregation based STS method developed using contextual word embeddings and a new state-of-the-art supervised STS method based on Siamese neural networks and classical word embedding models. 
 
-The second and third parts of the thesis focus on applying the developed STS methods in the applications of translation technology; translation memories (TM) and translation quality estimation (QE). In \textbf{Part II}, we identify that the edit distance based matching and retrieval algorithms in TMs are unable to capture the similarity between segments and as a result even if the TM contains a semantically similar segment, the retrieval algorithm will not be able to identify it. To overcome this, we propose semantically powerful algorithms for TM matching and retrieval. Considering the efficiency, we employ a TM matching and retrieval algorithm based on sentence encoders we experimented with in Part I of the thesis. We show that this algorithm outperforms edit distance-based matching algorithms paving a new direction for TMs.
+The second and third parts of the thesis focus on applying the developed STS methods in the applications of translation technology, translation memories (TM) and translation quality estimation (QE). In \textbf{Part II}, we identify that the edit distance based matching and retrieval algorithms in TMs are unable to capture the similarity between segments and as a result, even if the TM contains a semantically similar segment, the retrieval algorithm will not be able to identify it. To overcome this, we propose semantically powerful algorithms for TM matching and retrieval. Considering the efficiency, we employ a TM matching and retrieval algorithm based on the sentence encoders we experimented with in Part I of the thesis. We show that this algorithm outperforms edit distance-based matching algorithms, paving a new direction for TMs.
 
-As the next application, we utilise the STS architectures we developed in Part I of the thesis in translation quality estimation. We identify that the current state-of-the-art neural QE models are very complex and require a lot of computing resources. To overcome this, we remodel the QE task as a cross-lingual STS task.  We show that the STS architectures can be successfully applied in QE by changing the input embeddings into cross-lingual embeddings, and they are very simple and efficient compared to the current state-of-the-art QE models. Based on that, we develop TransQuest - a new state-of-the-art QE framework that won the WMT 2020 QE shared task. TransQuest supports both word-level and sentence-level QE and has been evaluated on more than 15 language pairs. Furthermore, for the first time, we explore multilingual QE models with TransQuest, focussing on low resource languages. We release TransQuest as an open-source QE framework, and by the time of writing this, TransQuest has more than 9,000 downloads from the community. 
+As the next application, we utilise the STS architectures we developed in Part I of the thesis in translation quality estimation. We identify that the current state-of-the-art neural QE models are very complex and require a lot of computing resources. To overcome this, we remodel the QE task as a cross-lingual STS task.  We show that the STS architectures can be successfully applied in QE by changing the input embeddings into cross-lingual embeddings, and they are very simple and efficient compared to the current state-of-the-art QE models. Based on that, we develop TransQuest - a new state-of-the-art QE framework that won the WMT 2020 QE shared task. TransQuest supports both word-level and sentence-level QE and has been evaluated on more than 15 language pairs. Furthermore, for the first time, we explore multilingual QE models with TransQuest, focusing on low resource languages. We release TransQuest as an open-source QE framework, and at the time of writing this, TransQuest has more than 9,000 downloads from the community. 
 
-The research questions in this work can be summarised as the following. Each part of the thesis will address these research questions separately.
+The research questions addressed in this work are: 
 
 \textbf{RQ-A} What are the available supervised and unsupervised STS methods, and how do they perform in multilingual and multi-domain settings? 
 
@@ -20,32 +20,33 @@ The research questions in this work can be summarised as the following. Each par
 
 \textbf{RQ-C} Can the state-of-the-art STS methods be adapted in the QE task? Can these simple STS architectures outperform current complex QE methods? 
 
-Each chapter of the thesis has its own contributions to the main study. In the following list, we present the key contributions of the whole study.
+Each part of the thesis will address these research questions separately. Each chapter of the thesis has its own original contributions to the main study. In the following list, we present the key contributions of the whole study.
 
 \begin{itemize}
 	\item \textbf{Part I} - Semantic Textual Similarity
 	\begin{enumerate}
-		\item We propose a novel unsupervised STS method based on contextual word embeddings that outperforms current state-of-the-art unsupervised vector aggregation STS methods in all the English datasets, non-English datasets, and datasets in other domains.
+		\item We proposed a novel unsupervised STS method based on contextual word embeddings which outperforms the current state-of-the-art unsupervised vector aggregation STS methods in all the English datasets, non-English datasets, and datasets in other domains.
 		
-		\item We propose a novel Siamese neural network architecture that is efficient and outperforms current state-of-the-art Siamese neural network architectures in smaller STS datasets.  
+		\item We proposed a novel Siamese neural network architecture that is efficient and outperforms current state-of-the-art Siamese neural network architectures in smaller STS datasets.  
 		
-		\item We release the transformer-based STS method as an open-source Python package, and currently, it has more than 3,000 downloads.
 	\end{enumerate}
+
+\vspace{2mm}
 	
 	\item \textbf{Part II} - Translation Memories
 	\begin{enumerate}
-		\item We propose a novel TM matching and retrieval algorithm based on deep learning and evaluate it on a real-world TM using English-Spanish pairs. We show that our approach improves the TM matching and retrieving process when compared to existing TM systems.
+		\item We proposed a novel TM matching and retrieval algorithm based on deep learning and evaluated it on a real-world TM using English-Spanish pairs. To the best of our knowledge, it is the first TM approach based on deep learning techniques and our evaluation results showed that our approach improves the TM matching and retrieving process when compared to existing TM systems.
 	\end{enumerate}
 	
 	\item \textbf{Part III} - Translation Quality Estimation
 	\begin{enumerate}
-		\item  We propose two STS architectures based on transformers to perform sentence-level QE. We evaluate the proposed architectures in 15 language pairs and show that the two architectures outperform the current state-of-the-art sentence-level QE frameworks.
+		\item  We proposed two STS architectures based on transformers to perform sentence-level QE. We evaluated the proposed architectures in 15 language pairs and showed that the two architectures outperform the current state-of-the-art sentence-level QE frameworks.
 		
-		\item We introduce a simple architecture to perform word-level QE. We evaluate it on eight different language pairs and who that the proposed architecture outperform the current state-of-the-art word-level QE frameworks.
+		\item We introduced a simple new architecture to perform word-level QE. We evaluated it on eight different language pairs and the proposed architecture outperforms the current state-of-the-art word-level QE frameworks.
 		
-		\item For the first time, we introduce multilingual QE models. We show that low-resource languages can benefit from multilingual learning.
+		\item We are the first to introduce multilingual QE models. We showed that low-resource languages can benefit from multilingual learning.
 		
-		\item We develop a QE framework based on the proposed architectures. We release it as an open-source Python package, and currently, it has more than 9,000 downloads from the community. We also release the pre-trained QE models on 15 different language pairs, and they have more than 12,000 downloads collectively from the community.
+		\item We developed a novel QE framework based on the proposed architectures. We released it as an open-source Python package, which was downloaded more than 9,000 times in a 12 months period.
 	\end{enumerate}
 \end{itemize}
 
