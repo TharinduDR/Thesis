@@ -1,0 +1,132 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+Reallocating 'name_of_file' (item size: 1) to 46 items.
+Reallocating 'name_of_file' (item size: 1) to 50 items.
+Reallocating 'name_of_file' (item size: 1) to 57 items.
+Reallocating 'name_of_file' (item size: 1) to 51 items.
+Reallocating 'name_of_file' (item size: 1) to 46 items.
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+Reallocating 'name_of_file' (item size: 1) to 44 items.
+Reallocating 'name_of_file' (item size: 1) to 49 items.
+Reallocating 'name_of_file' (item size: 1) to 47 items.
+Reallocating 'name_of_file' (item size: 1) to 60 items.
+Reallocating 'name_of_file' (item size: 1) to 52 items.
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+A level-1 auxiliary file: ack.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: contents.aux
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+A level-1 auxiliary file: tables.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+A level-1 auxiliary file: figures.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: publications.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 54 items.
+A level-1 auxiliary file: chapters/semantic_textual_similarity/introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 58 items.
+A level-1 auxiliary file: chapters/semantic_textual_similarity/state_of_the_art.aux
+Reallocating 'name_of_file' (item size: 1) to 59 items.
+A level-1 auxiliary file: chapters/semantic_textual_similarity/sentence_encoders.aux
+Reallocating 'name_of_file' (item size: 1) to 65 items.
+A level-1 auxiliary file: chapters/semantic_textual_similarity/siamese_neural_networks.aux
+Reallocating 'name_of_file' (item size: 1) to 54 items.
+A level-1 auxiliary file: chapters/semantic_textual_similarity/transformers.aux
+Reallocating 'name_of_file' (item size: 1) to 47 items.
+A level-1 auxiliary file: chapters/translation_memories/introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 52 items.
+A level-1 auxiliary file: chapters/translation_memories/sentence_encoders.aux
+Reallocating 'name_of_file' (item size: 1) to 57 items.
+A level-1 auxiliary file: chapters/translation_quality_estimation/introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 55 items.
+A level-1 auxiliary file: chapters/translation_quality_estimation/transquest.aux
+Reallocating 'name_of_file' (item size: 1) to 60 items.
+A level-1 auxiliary file: chapters/translation_quality_estimation/transquest_word.aux
+Reallocating 'name_of_file' (item size: 1) to 57 items.
+A level-1 auxiliary file: chapters/translation_quality_estimation/multilingual.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: conclusions.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+A level-1 auxiliary file: bib.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'field_info' (item size: 4) to 41418 items.
+Database file #1: thesis-blx.bib
+Database file #2: refs/introduction.bib
+Database file #3: refs/semantic_textual_similarity/introduction.bib
+Database file #4: refs/semantic_textual_similarity/state_of_the_art.bib
+Database file #5: refs/semantic_textual_similarity/siamese_neural_networks.bib
+Database file #6: refs/semantic_textual_similarity/sentence_encoders.bib
+Database file #7: refs/semantic_textual_similarity/transformers.bib
+Reallocating 'str_pool' (item size: 1) to 130000 items.
+Database file #8: refs/translation_memories/introduction.bib
+Database file #9: refs/translation_memories/sentence_encoders.bib
+Database file #10: refs/translation_quality_estimation/introduction.bib
+Database file #11: refs/translation_quality_estimation/transquest.bib
+Database file #12: refs/translation_quality_estimation/multilingual_transquest.bib
+Database file #13: refs/translation_quality_estimation/transquest_word.bib
+Biblatex version: 3.13
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 262 entries,
+            6365 wiz_defined-function locations,
+            3079 strings with 90849 characters,
+and the built_in function-call counts, 2678507 in all, are:
+= -- 207187
+> -- 49962
+< -- 18707
++ -- 75949
+- -- 19481
+* -- 204846
+:= -- 289008
+add.period$ -- 0
+call.type$ -- 262
+change.case$ -- 11507
+chr.to.int$ -- 870
+cite$ -- 522
+duplicate$ -- 281295
+empty$ -- 217502
+format.name$ -- 27060
+if$ -- 550928
+int.to.chr$ -- 0
+int.to.str$ -- 970
+missing$ -- 0
+newline$ -- 14289
+num.names$ -- 20467
+pop$ -- 100536
+preamble$ -- 1
+purify$ -- 13939
+quote$ -- 0
+skip$ -- 79156
+stack$ -- 0
+substring$ -- 354028
+swap$ -- 65418
+text.length$ -- 10888
+text.prefix$ -- 262
+top$ -- 1
+type$ -- 8896
+warning$ -- 0
+while$ -- 40542
+width$ -- 0
+write$ -- 14028
