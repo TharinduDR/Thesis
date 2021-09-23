@@ -52,7 +52,7 @@ EAMT 2020<br>
 <td>
 <strong>Semantic textual similarity based on deep learning: Can it improve matching and retrieval for Translation Memory tools?</strong><br>
 Tharindu Ranasinghe, Ruslan Mitkov, Constantin Orasan, and Rocío Caro Quintana<br>
-Corpora in Translation and Contrastive Research in the Digital Age: Recent advances and explorations; John Benjamins<br>
+Corpora in Translation and Contrastive Research in the Digital Age: Recent advances and explorations<br> John Benjamins<br>
 <a href="https://benjamins.com/catalog/btl.158.04ran"><img alt="Paper" src="https://img.shields.io/badge/-Paper-gray"></a>
 <a href="https://github.com/TharinduDR/Intelligent-Translation-Memories"><img alt="Code" src="https://img.shields.io/badge/-Code-gray" ></a>
 </td>
