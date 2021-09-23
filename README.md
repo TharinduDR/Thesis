@@ -1,4 +1,4 @@
-# Deep learning based Semantic Textual Similarity Metric for Applications in Translation Technology
+# Deep Learning based Semantic Textual Similarity Metric for Applications in Translation Technology
 
 This repository contains the LaTeX source for the PhD thesis written by [Tharindu Ranasinghe](https://tharindu.co.uk/). Code for running the experiments presented in the thesis can be found in each respective chapter. 
 Parts of this thesis appeared in the following peer-reviewed papers. For many of the topics discussed in both, the thesis provides more extensive coverage with more datasets. Code for running the experiments presented in these publications can be found in each respective publication's repository, linked below.
