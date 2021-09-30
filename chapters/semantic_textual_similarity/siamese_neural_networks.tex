@@ -53,7 +53,7 @@ The basic structure of the Siamese neural network architecture used in our exper
 
 
 \begin{enumerate}
-	\item LSTM - Block A in Figure \ref{fig:siamese} contains a single LSTM cell. This is the architecture suggested by \textcite{Mueller_Thyagarajan_2016} 
+	\item LSTM - Block A in Figure \ref{fig:siamese} contains a single LSTM cell. This is the architecture suggested by \textcite{Mueller_Thyagarajan_2016}. 
 	
 	\item Bi-directional LSTM - Block A in Figure \ref{fig:siamese} contains a single Bi-directional LSTM cell. Bi-directional LSTM tends to understand the context better than Unidirectional LSTM \autocite{650093}.
 	
@@ -462,7 +462,7 @@ As you can see in Table \ref{tab:transfer_siamese_biosses}, Siamese neural archi
 			\textit{ELMo $\bigoplus$ BERT}  &  0.708 \\
 			\textit{Siamese GRU$_{STS2017}$} & 0.719 \\
 			\textcite{10.1093/bioinformatics/btx238} & 0.754 \\
-			\textit{BioSentVec} \textcite{8904728} & 0.810  \\
+			\textit{BioSentVec} \autocite{8904728} & 0.810  \\
 			\hline
 		\end{tabular}
 	}
@@ -475,7 +475,7 @@ Furthermore, we compared our results with the best results reported for the data
 
 \section{Conclusions}
 \label{sec:siamese_conclusions}
-This chapter experimented with using Siamese neural networks for calculating semantic similarity between pairs of texts and compared them with other unsupervised/ supervised approaches. We used an existing Siamese neural network as the baseline; MALSTM \autocite{Mueller_Thyagarajan_2016} and explored six different variants of Siamese neural networks. We experimented with three English STS datasets, SICK, STS2017 and QUORA. For the smaller STS datasets; SICK and STS2017, we show that the Siamese neural network based on GRU outperforms the baseline. For the larger STS dataset; QUORA, we show that Siamese neural network with LSTM and Attention outperforms the baseline. Also, we show that we can further improve the results with transfer learning and data augmentation techniques. However, we experienced that performing transfer learning from a bigger dataset does not always improve the results. The quality of the dataset which was used for transfer learning also matters. We show that Siamese neural network based on GRU outperforms the top submissions in both \textit{SemEval 2017 task 1} \autocite{cer-etal-2017-semeval} and  \textit{SemEval 2014 task 1} \autocite{marelli-etal-2014-semeval}. The data augmentation techniques we used in this chapter are language-dependent as they rely on WordNet \autocite{10.1145/219717.219748}. However, as future work, we can experiment with data augmentation techniques that are not language dependant and relies on word embeddings \autocite{kumar-etal-2020-data}. 
+This chapter experimented with using Siamese neural networks for calculating semantic similarity between pairs of texts and compared them with other unsupervised/ supervised approaches. We used an existing Siamese neural network as the baseline; MALSTM \autocite{Mueller_Thyagarajan_2016} and explored seven different variants of Siamese neural networks. We experimented with three English STS datasets, SICK, STS2017 and QUORA. For the smaller STS datasets; SICK and STS2017, we show that the Siamese neural network based on GRU outperforms the baseline. For the larger STS dataset; QUORA, we show that Siamese neural network with LSTM and Attention outperforms the baseline. Also, we show that we can further improve the results with transfer learning and data augmentation techniques. However, we experienced that performing transfer learning from a bigger dataset does not always improve the results. The quality of the dataset which was used for transfer learning also matters. We show that Siamese neural network based on GRU outperforms the top submissions in both \textit{SemEval 2017 task 1} \autocite{cer-etal-2017-semeval} and  \textit{SemEval 2014 task 1} \autocite{marelli-etal-2014-semeval}. The data augmentation techniques we used in this chapter are language-dependent as they rely on WordNet \autocite{10.1145/219717.219748}. However, as future work, we can experiment with data augmentation techniques that are not language dependant and relies on word embeddings \autocite{kumar-etal-2020-data}. 
 
 We extended the experiments with the Siamese neural network architectures to the Arabic and Spanish STS datasets \autocite{cer-etal-2017-semeval}. In these experiments, the GRU based Siamese neural network architecture again outperformed all the systems submitted to the shared task and outperformed all of the STS methods we have experimented with so far in this part of the thesis. This proves that the Siamese neural network that we propose in this study, can be adapted to different languages. Furthermore, we performed experiments with the BIOSSES dataset. However, since the BIOSSES dataset does not have a training set, we used transfer learning based zero-shot learning when Siamese neural networks are applied. Even though they provided satisfactory results, Siamese neural networks could not outperform the sentence encoder based method we explored in Chapter \ref{cha:sts_sentence_encoders}. We can conclude that even though the Siamese neural networks can be adapted into different domains by changing the word embedding model, they do not provide strong results without a proper training set. 
 
