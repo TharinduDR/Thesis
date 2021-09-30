@@ -1,3 +1,5 @@
+
+<a href="https://github.com/TharinduDR/Thesis/releases/download/v0.3.0/thesis.pdf"><img alt="PDF" height="24" src="https://img.shields.io/github/downloads/TharinduDR/Thesis/total?label=PDF"></a>
 # Deep Learning based Semantic Textual Similarity Metric for Applications in Translation Technology
 
 This repository contains the LaTeX source for the PhD thesis written by [Tharindu Ranasinghe](https://tharindu.co.uk/). Code for running the experiments presented in the thesis can be found in each respective chapter. 
