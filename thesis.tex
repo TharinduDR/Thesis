@@ -4,32 +4,6 @@
 \makeatletter
 
 
-\xpatchcmd{\@part}{%
-	\markboth{}{}% Find a hook in order to append content. 
-}{%
-	\markboth{}{}%
-	\ifnum\c@secnumdepth>-2\relax
-	\addcontentsline{lof}{part}{\thepart\hspace{1em}#1}%
-	\else
-	\addcontentsline{lof}{part}{#1}%
-	\fi
-}{\typeout{Success}}{\typeout{Patch failure}}
-
-
-\xpatchcmd{\@part}{%
-	\markboth{}{}% Find a hook in order to append content. 
-}{%
-	\markboth{}{}%
-	\ifnum\c@secnumdepth>-2\relax
-	\addcontentsline{lot}{part}{\thepart\hspace{1em}#1}%
-	\else
-	\addcontentsline{lot}{part}{#1}%
-	\fi
-}{\typeout{Success}}{\typeout{Patch failure}}
-\makeatother
-
-\usepackage{hyperref}
-
 \usepackage{thesis}
 
 \usepackage{url}
@@ -75,15 +49,19 @@
 	refs/translation_quality_estimation/multilingual_transquest,
 	refs/translation_quality_estimation/transquest_word}
 
+
+
 % Tango imports the listings package and defines a style for syntax
 % highlighting. We also need to tell listings which programming
 % languages to load.
 \include{tango}
 \setcode{utf8}
 
+
+
+
 \hyphenpenalty=100000
 \sloppy
-
 
 
 %%% Set up the title page of the thesis.
@@ -99,14 +77,10 @@
 %%% End of preamble.
 
 
-
-
-
 % Thesis abstract.
 \include{abstract}
 
-% Acknowledgements.
-\include{ack}
+
 
 % Automatically generated tables.
 \include{contents}
@@ -114,10 +88,15 @@
 \include{figures}
 \include{publications}
 
+% Acknowledgements.
+\include{ack}
+
 \include{introduction}
 
 \pagenumbering{arabic}\setcounter{page}{1}
 \pagestyle{fancy}
+
+
 
 
 % Your own thesis chapters go here.
@@ -149,7 +128,5 @@
 
 \include{bib}
 
-% Appendix.
-\appendix
 
 \end{document}

@@ -243,9 +243,9 @@ On the other hand, a fresh test set of 250 sentence pairs was provided by SemEva
  			2. Birdie is washing itself in the water basin.} & 5  \\
  		\hline
  		\makecell[l]
- 		{\textit{The two sentences are completely equivalent}  \\ \textit{as they mean the same thing.} \\
- 			1. The bird is bathing in the sink. \\ 
- 			2. Birdie is washing itself in the water basin.} & 4  \\
+ 		{\textit{The two sentences are mostly equivalent, but}  \\ \textit{some unimportant details differ.} \\
+ 			1. Two boys on a couch are playing video games. \\ 
+ 			2. Two boys are playing a video game.} & 4  \\
  		\hline
  		\makecell[l]
  		{\textit{The two sentences are roughly equivalent, but }  \\ \textit{some important information differs/missing.} \\
@@ -784,7 +784,7 @@ The violin plot between the word share against the relatedness bin in Spanish ST
 To experiment with how our STS methods can be adopted into different domains, we also used a dataset from a different discipline which we introduce in this section. 
 \begin{enumerate}
 	
-	\item{ \textbf{Bio-medical STS Dataset: BIOSSES}\footnote{Bio-medical STS Dataset: BIOSSES  can be downloaded from \url{https://tabilab.cmpe.boun.edu.tr/BIOSSES/DataSet.html} }} - BIOSSES is the first and only benchmark dataset for biomedical sentence similarity estimation \autocite{10.1093/bioinformatics/btx238}. The dataset comprises of 100 sentence pairs, in which each sentence has been selected from the TAC (Text Analysis Conference) Biomedical Summarisation Track - training dataset containing articles from the biomedical domain \footnote{Biomedical Summarisation Track is a shared task organised in TAC 2014 - \url{https://tac.nist.gov/2014/BiomedSumm/}}. The sentence pairs have been evaluated by five different human experts that judged the similarity and gave scores ranging from 0 (no relation) to 4 (equivalent). The score range described was based on the guidelines of SemEval 2012 Task 6 on STS \autocite{agirre-etal-2012-semeval}. Besides the annotation instructions, example sentences from the bio-medical literature have also been provided to the annotators for each similarity degree. To represent the similarity between two sentences, we took the average of the scores provided by the five human experts. Table \ref{tab:biomeddata} shows a few examples from the dataset. The machine learning models require to predict a value between 0-4, which reflects the similarity of the given biomedical sentence pair.
+	\item{ \textbf{Biomedical STS Dataset: BIOSSES}\footnote{Biomedical STS Dataset: BIOSSES  can be downloaded from \url{https://tabilab.cmpe.boun.edu.tr/BIOSSES/DataSet.html} }} - BIOSSES is the first and only benchmark dataset for biomedical sentence similarity estimation \autocite{10.1093/bioinformatics/btx238}. The dataset comprises of 100 sentence pairs, in which each sentence has been selected from the TAC (Text Analysis Conference) Biomedical Summarisation Track - training dataset containing articles from the biomedical domain \footnote{Biomedical Summarisation Track is a shared task organised in TAC 2014 - \url{https://tac.nist.gov/2014/BiomedSumm/}}. The sentence pairs have been evaluated by five different human experts that judged the similarity and gave scores ranging from 0 (no relation) to 4 (equivalent). The score range described was based on the guidelines of SemEval 2012 Task 6 on STS \autocite{agirre-etal-2012-semeval}. Besides the annotation instructions, example sentences from the biomedical literature have also been provided to the annotators for each similarity degree. To represent the similarity between two sentences, we took the average of the scores provided by the five human experts. Table \ref{tab:biomeddata} shows a few examples from the dataset. The machine learning models require to predict a value between 0-4, which reflects the similarity of the given biomedical sentence pair.
 	
 
 	
